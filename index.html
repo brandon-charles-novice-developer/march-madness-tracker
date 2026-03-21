@@ -132,35 +132,40 @@ header h1 .title-rest { color: var(--text-dark); }
 .standings-table .rank-num { font-weight: 800; color: var(--pink-deep); }
 .standings-table .pts-val { font-weight: 800; color: var(--purple-pts); }
 
-/* Highlights */
-.highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
-@media (max-width: 600px) { .highlights { grid-template-columns: 1fr; } }
+/* Tournament Leaders */
+.highlights { margin-bottom: 32px; }
 .highlight-card {
-  background: var(--pink-base); border-radius: 16px; padding: 16px;
+  background: var(--pink-base); border-radius: 16px; padding: 16px 20px;
   box-shadow: var(--neu-raised); transition: all 0.3s ease;
   border: var(--lavender-border);
 }
 .highlight-card:hover { box-shadow: 10px 10px 20px var(--shadow-dark), -10px -10px 20px var(--shadow-light); }
-.highlight-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; font-weight: 800; }
+.highlight-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; font-weight: 800; }
 .highlight-card h3.hot {
   background: var(--pride-gradient-bold); -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 1px 1px rgba(45, 15, 38, 0.2));
 }
-.highlight-card h3.bust { color: #b71c1c; }
+.leaders-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+@media (max-width: 600px) { .leaders-grid { grid-template-columns: 1fr; } }
 .hot-row {
-  display: flex; justify-content: space-between; padding: 6px 0; font-size: 0.85rem;
-  box-shadow: 0 1px 0 rgba(180, 130, 155, 0.15);
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 7px 10px; font-size: 0.85rem;
+  border-bottom: 1px solid rgba(180, 130, 155, 0.12);
 }
-.hot-row:last-child { box-shadow: none; }
-.hot-row .pts { color: var(--purple-pts); font-weight: 700; }
-.hot-row .mgr { color: var(--text-muted); font-size: 0.75rem; }
-.bust-name { font-size: 1.1rem; font-weight: 800; color: #b71c1c; }
-.bust-detail { font-size: 0.8rem; color: var(--text-muted); margin-top: 4px; }
-.bust-quote {
-  font-style: italic; color: var(--text-muted); margin-top: 10px; font-size: 0.8rem;
-  padding-left: 10px; border-left: 3px solid; border-image: var(--pride-gradient-bold) 1; line-height: 1.6;
+.hot-row:last-child { border-bottom: none; }
+.hot-row .rank-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: 50%; font-size: 0.7rem; font-weight: 800;
+  margin-right: 8px; flex-shrink: 0;
 }
+.hot-row .rank-badge.top3 { background: var(--purple-pts); color: #fff; }
+.hot-row .rank-badge.rest { background: rgba(200, 162, 200, 0.25); color: var(--purple-pts); }
+.hot-row .player-info { flex: 1; min-width: 0; }
+.hot-row .player-name { font-weight: 600; }
+.hot-row .player-team { font-size: 0.72rem; color: var(--text-muted); }
+.hot-row .pts { color: var(--purple-pts); font-weight: 800; white-space: nowrap; }
+.hot-row .mgr { color: var(--text-muted); font-size: 0.7rem; margin-left: 4px; }
 
 /* Manager Cards */
 .manager-cards { display: flex; flex-direction: column; gap: 12px; }
@@ -615,37 +620,27 @@ function renderHighlights(standings, currentRound, commentary) {
   standings.forEach(function(s) {
     s.players.forEach(function(p) { allPlayers.push(Object.assign({}, p, { manager: s.manager })); });
   });
-  var roundScorers = allPlayers
-    .filter(function(p) { return (p.round_scores[currentRound] || 0) > 0 && p.status === 'active'; })
-    .sort(function(a, b) { return (b.round_scores[currentRound] || 0) - (a.round_scores[currentRound] || 0); });
-  var top5 = roundScorers.slice(0, 5);
 
-  var played = allPlayers.filter(function(p) { return p.ppg_season > 0; });
-  var busts = played.filter(function(p) { return p.ppg_season >= 15; }).sort(function(a, b) {
-    return ((a.round_scores[currentRound] || 0) / a.ppg_season) - ((b.round_scores[currentRound] || 0) / b.ppg_season);
-  });
-  var bust = busts[0];
+  // Tournament scoring leaders — aggregated total points, active players only
+  var leaders = allPlayers
+    .filter(function(p) { return p.total_points > 0 && p.status === 'active'; })
+    .sort(function(a, b) { return b.total_points - a.total_points; });
+  var top10 = leaders.slice(0, 10);
 
-  var hotHtml = '<div class="highlight-card"><h3 class="hot">🔥 Hot Players — ' + (ROUND_LABELS[currentRound] || currentRound) + '</h3>';
-  top5.forEach(function(p, i) {
-    var pts = p.round_scores[currentRound] || 0;
+  var html = '<div class="highlight-card">';
+  html += '<h3 class="hot">🏆 Tournament Scoring Leaders</h3>';
+  html += '<div class="leaders-grid">';
+  top10.forEach(function(p, i) {
     var initials = p.manager.split(' ').map(function(w) { return w[0]; }).join('');
-    hotHtml += '<div class="hot-row"><span>' + (i + 1) + '. ' + p.name + '</span><span class="pts">' + pts + ' <span class="mgr">(' + initials + ')</span></span></div>';
+    var badgeClass = i < 3 ? 'top3' : 'rest';
+    html += '<div class="hot-row">';
+    html += '<span class="rank-badge ' + badgeClass + '">' + (i + 1) + '</span>';
+    html += '<span class="player-info"><span class="player-name">' + p.name + '</span><br><span class="player-team">' + p.team + ' (' + p.seed + ')</span></span>';
+    html += '<span class="pts">' + p.total_points + '<span class="mgr"> ' + initials + '</span></span>';
+    html += '</div>';
   });
-  hotHtml += '</div>';
-
-  var bustHtml = '<div class="highlight-card"><h3 class="bust">💀 Biggest Bust</h3>';
-  if (bust) {
-    var bustPts = bust.round_scores[currentRound] || 0;
-    bustHtml += '<div class="bust-name">' + bust.name + '</div>';
-    bustHtml += '<div class="bust-detail">' + bust.team + ' (' + bust.seed + '-seed) · Season PPG: ' + bust.ppg_season + ' · Actual: ' + bustPts + ' pts</div>';
-    bustHtml += '<div class="bust-detail">Status: ' + bust.status.toUpperCase() + ' · Owner: ' + bust.manager + '</div>';
-    if (commentary && commentary.bust_roast) {
-      bustHtml += '<div class="bust-quote">' + escapeHtml(commentary.bust_roast) + '</div>';
-    }
-  }
-  bustHtml += '</div>';
-  el.innerHTML = hotHtml + bustHtml;
+  html += '</div></div>';
+  el.innerHTML = html;
 }
 
 function renderManagerCards(standings, rounds, commentary) {
