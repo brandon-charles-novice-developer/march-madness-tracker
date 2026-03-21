@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T22:42:36.372443+00:00",
+  "last_updated": "2026-03-21T22:55:12.663247+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -281,12 +281,12 @@
     {
       "rank": 3,
       "manager": "Jake Pollack",
-      "total_points": 157,
+      "total_points": 161,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 128,
-        "R32": 29,
+        "R32": 33,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -309,6 +309,21 @@
           "ppg_season": 11.6
         },
         {
+          "name": "Emanuel Sharp",
+          "team": "Houston",
+          "seed": 2,
+          "region": "South",
+          "pick": 11,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 28,
+          "round_scores": {
+            "R64": 16,
+            "R32": 12
+          },
+          "ppg_season": 15.3
+        },
+        {
           "name": "Nick Boyd",
           "team": "Wisconsin",
           "seed": 5,
@@ -321,21 +336,6 @@
             "R64": 27
           },
           "ppg_season": 20.6
-        },
-        {
-          "name": "Emanuel Sharp",
-          "team": "Houston",
-          "seed": 2,
-          "region": "South",
-          "pick": 11,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 24,
-          "round_scores": {
-            "R64": 16,
-            "R32": 8
-          },
-          "ppg_season": 15.3
         },
         {
           "name": "Christian Anderson",
@@ -543,12 +543,12 @@
     {
       "rank": 5,
       "manager": "Brandon Nye",
-      "total_points": 135,
+      "total_points": 137,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 131,
-        "R32": 4,
+        "R32": 6,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -577,10 +577,10 @@
           "pick": 9,
           "draft_round": 1,
           "status": "active",
-          "total_points": 22,
+          "total_points": 24,
           "round_scores": {
             "R64": 18,
-            "R32": 4
+            "R32": 6
           },
           "ppg_season": 16.4
         },
