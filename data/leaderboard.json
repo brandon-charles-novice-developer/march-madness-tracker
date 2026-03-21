@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T21:49:02.988363+00:00",
+  "last_updated": "2026-03-21T21:58:58.420773+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -150,12 +150,12 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 162,
+      "total_points": 170,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 18,
+        "R32": 26,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -192,6 +192,21 @@
           "ppg_season": 13.4
         },
         {
+          "name": "Isaiah Evans",
+          "team": "Duke",
+          "seed": 1,
+          "region": "East",
+          "pick": 8,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 16,
+            "R32": 11
+          },
+          "ppg_season": 14.9
+        },
+        {
           "name": "Dailyn Swain",
           "team": "Texas",
           "seed": 11,
@@ -218,21 +233,6 @@
             "R64": 25
           },
           "ppg_season": 13.4
-        },
-        {
-          "name": "Isaiah Evans",
-          "team": "Duke",
-          "seed": 1,
-          "region": "East",
-          "pick": 8,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 19,
-          "round_scores": {
-            "R64": 16,
-            "R32": 3
-          },
-          "ppg_season": 14.9
         },
         {
           "name": "Boogie Fland",
