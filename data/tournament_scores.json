@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T23:41:59.044260+00:00",
+  "last_updated": "2026-03-21T23:47:04.181190+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -140,7 +140,7 @@
     },
     "Milos Uzan": {
       "R64": 12,
-      "R32": 9
+      "R32": 12
     },
     "Graham Ike": {
       "R64": 19,
@@ -354,7 +354,7 @@
   ],
   "live_scores": {
     "6534635:Emanuel Sharp": 17,
-    "6534635:Milos Uzan": 9,
+    "6534635:Milos Uzan": 12,
     "6534635:Kingston Flemings": 9,
     "6534638:Graham Ike": 11,
     "6534638:Dailyn Swain": 5
