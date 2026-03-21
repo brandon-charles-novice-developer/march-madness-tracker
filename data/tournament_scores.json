@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T21:58:58.403098+00:00",
+  "last_updated": "2026-03-21T22:10:51.260358+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "Isaiah Evans": {
       "R64": 16,
-      "R32": 11
+      "R32": 13
     },
     "Duke Miles": {
       "R64": 13
@@ -262,7 +262,7 @@
       "R64": 31
     },
     "Patrick Ngongba II": {
-      "R32": 2
+      "R32": 4
     }
   },
   "eliminated_teams": [
@@ -347,8 +347,8 @@
   ],
   "live_scores": {
     "6534628:Cayden Boozer": 2,
-    "6534628:Patrick Ngongba II": 2,
+    "6534628:Patrick Ngongba II": 4,
     "6534628:David Punch": 2,
-    "6534628:Isaiah Evans": 11
+    "6534628:Isaiah Evans": 13
   }
 }
