@@ -352,7 +352,8 @@ function renderStandingsTable(rest) {
 function renderHighlights(standings, currentRound, commentary) {
   const el = document.getElementById('highlights');
   const allPlayers = standings.flatMap(s => s.players.map(p => ({ ...p, manager: s.manager })));
-  const roundScorers = allPlayers.filter(p => (p.round_scores[currentRound] || 0) > 0)
+  const roundScorers = allPlayers
+    .filter(p => (p.round_scores[currentRound] || 0) > 0 && p.status === 'active')
     .sort((a, b) => (b.round_scores[currentRound] || 0) - (a.round_scores[currentRound] || 0));
   const top5 = roundScorers.slice(0, 5);
 
