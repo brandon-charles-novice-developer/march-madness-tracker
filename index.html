@@ -24,6 +24,7 @@
   --shadow-dark: rgba(180, 130, 155, 0.5);
   --shadow-light: rgba(255, 240, 248, 0.9);
   --pride-gradient: linear-gradient(135deg, #ff6b6b, #ffa94d, #ffd43b, #69db7c, #4dabf7, #da77f2);
+  --pride-gradient-bold: linear-gradient(135deg, #c0392b, #d35400, #b8860b, #1a7a3a, #2471a3, #8e44ad);
   --neu-raised: 8px 8px 16px var(--shadow-dark), -8px -8px 16px var(--shadow-light);
   --neu-inset: inset 4px 4px 8px rgba(180, 130, 155, 0.4), inset -4px -4px 8px rgba(255, 240, 248, 0.7);
   --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
@@ -36,17 +37,18 @@ body { background: var(--pink-base); color: var(--text-dark); font-family: var(-
 header { text-align: center; padding: 32px 16px 8px; }
 header h1 { font-size: 1.6rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 800; margin-bottom: 4px; }
 header h1 .gaygent-text {
-  background: var(--pride-gradient);
+  background: var(--pride-gradient-bold);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shimmer 4s ease infinite;
+  filter: drop-shadow(0 1px 1px rgba(45, 15, 38, 0.3));
 }
 @keyframes shimmer { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
 header h1 .title-rest { color: var(--text-dark); }
 .subtitle { color: var(--text-muted); font-size: 0.85rem; font-style: italic; margin-bottom: 16px; }
-.rainbow-divider { height: 2px; background: var(--pride-gradient); border-radius: 999px; margin: 12px 0 16px; }
+.rainbow-divider { height: 3px; background: var(--pride-gradient-bold); border-radius: 999px; margin: 12px 0 16px; }
 .meta-bar {
   display: inline-flex; justify-content: center; gap: 16px; flex-wrap: wrap;
   font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px;
@@ -77,8 +79,9 @@ header h1 .title-rest { color: var(--text-dark); }
   border: var(--lavender-border);
 }
 .round-pill.current {
-  background: var(--pride-gradient); color: #fff; font-weight: 800;
-  box-shadow: 0 0 12px rgba(255, 77, 141, 0.4), var(--neu-raised);
+  background: var(--purple-pts); color: #fff; font-weight: 800;
+  box-shadow: 0 0 12px rgba(92, 26, 110, 0.5), var(--neu-raised);
+  border-color: var(--purple-pts);
 }
 .round-pill.completed {
   background: var(--pink-base); color: var(--pink-deep); box-shadow: var(--neu-inset);
@@ -98,7 +101,7 @@ header h1 .title-rest { color: var(--text-dark); }
 }
 .podium-card.first::before {
   content: ''; display: block; height: 3px; border-radius: 999px;
-  background: var(--pride-gradient); margin: -12px -16px 12px;
+  background: var(--pride-gradient-bold); margin: -12px -16px 12px;
 }
 .podium-card.second { order: 1; animation-delay: 0.25s; }
 .podium-card.third { order: 3; animation-delay: 0.4s; }
@@ -139,8 +142,9 @@ header h1 .title-rest { color: var(--text-dark); }
 .highlight-card:hover { box-shadow: 10px 10px 20px var(--shadow-dark), -10px -10px 20px var(--shadow-light); }
 .highlight-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; font-weight: 800; }
 .highlight-card h3.hot {
-  background: var(--pride-gradient); -webkit-background-clip: text; background-clip: text;
+  background: var(--pride-gradient-bold); -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 1px rgba(45, 15, 38, 0.2));
 }
 .highlight-card h3.bust { color: #b71c1c; }
 .hot-row {
@@ -154,7 +158,7 @@ header h1 .title-rest { color: var(--text-dark); }
 .bust-detail { font-size: 0.8rem; color: var(--text-muted); margin-top: 4px; }
 .bust-quote {
   font-style: italic; color: var(--text-muted); margin-top: 10px; font-size: 0.8rem;
-  padding-left: 10px; border-left: 3px solid; border-image: var(--pride-gradient) 1; line-height: 1.6;
+  padding-left: 10px; border-left: 3px solid; border-image: var(--pride-gradient-bold) 1; line-height: 1.6;
 }
 
 /* Manager Cards */
@@ -190,7 +194,7 @@ summary .m-badge.partial { background: rgba(255, 107, 107, 0.15); color: var(--r
   padding: 10px 14px; margin-bottom: 12px; line-height: 1.6;
   background: rgba(200, 162, 200, 0.12); border-radius: 12px;
   border: var(--lavender-border);
-  border-left: 3px solid var(--lavender);
+  border-left: 3px solid var(--purple-pts);
 }
 .player-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
 .player-table th {
