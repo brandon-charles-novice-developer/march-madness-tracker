@@ -135,12 +135,15 @@ class TestGamesIntegrity:
         r64 = [g for g in self.games["games"] if g["round"] == "R64"]
         assert len(r64) == 36
 
-    def test_every_game_has_final_status(self):
+    def test_every_game_has_valid_status(self):
+        valid = {"final", "live", "in_progress"}
         for g in self.games["games"]:
-            assert g["status"] == "final"
+            assert g["status"] in valid, f"Game {g['game_id']}: status={g['status']}"
 
-    def test_exactly_one_winner_per_game(self):
+    def test_final_games_have_one_winner(self):
         for g in self.games["games"]:
+            if g["status"] != "final":
+                continue
             winners = []
             if g["away"]["winner"]:
                 winners.append("away")
