@@ -1,9 +1,9 @@
 name: Sync Tournament Scores
 
 on:
-  # Every 5 minutes — the job itself checks if we're in a game window
+  # Every minute — the job itself checks if we're in a game window
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
   # Manual trigger for testing
   workflow_dispatch:
 
