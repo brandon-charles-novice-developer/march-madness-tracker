@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T23:08:43.495460+00:00",
+  "last_updated": "2026-03-21T23:23:11.707771+00:00",
   "games": [
     {
       "game_id": "6534640",
@@ -54,6 +54,50 @@
           "ft": "1/2",
           "rebounds": 1,
           "assists": 1
+        }
+      ]
+    },
+    {
+      "game_id": "6534638",
+      "round": "R32",
+      "date": "2026-03-21",
+      "status": "live",
+      "away": {
+        "name": "Texas",
+        "seed": 11,
+        "score": 6,
+        "winner": false
+      },
+      "home": {
+        "name": "Gonzaga",
+        "seed": 3,
+        "score": 10,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Graham Ike",
+          "team": "Gonzaga",
+          "manager": "Mike Haughey",
+          "points": 2,
+          "minutes": "6",
+          "fg": "1/2",
+          "three": "0/1",
+          "ft": "0/0",
+          "rebounds": 1,
+          "assists": 1
+        },
+        {
+          "name": "Dailyn Swain",
+          "team": "Texas",
+          "manager": "Alex Magged",
+          "points": 0,
+          "minutes": "6",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 1,
+          "assists": 2
         }
       ]
     },

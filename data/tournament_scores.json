@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T23:08:43.450672+00:00",
+  "last_updated": "2026-03-21T23:23:11.666011+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -56,7 +56,7 @@
     },
     "Cayden Boozer": {
       "R64": 19,
-      "R32": 5
+      "R32": 7
     },
     "Isaiah Evans": {
       "R64": 16,
@@ -142,7 +142,8 @@
       "R32": 9
     },
     "Graham Ike": {
-      "R64": 19
+      "R64": 19,
+      "R32": 2
     },
     "Otega Oweh": {
       "R64": 35
@@ -349,12 +350,13 @@
     "6534630"
   ],
   "live_scores": {
-    "6534628:Cayden Boozer": 5,
+    "6534628:Cayden Boozer": 7,
     "6534628:Patrick Ngongba II": 4,
     "6534628:David Punch": 2,
     "6534628:Isaiah Evans": 15,
     "6534635:Emanuel Sharp": 14,
     "6534635:Milos Uzan": 9,
-    "6534635:Kingston Flemings": 6
+    "6534635:Kingston Flemings": 6,
+    "6534638:Graham Ike": 2
   }
 }
