@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T21:36:58.290761+00:00",
+  "last_updated": "2026-03-21T21:49:02.970631+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -59,7 +59,8 @@
       "R32": 2
     },
     "Isaiah Evans": {
-      "R64": 16
+      "R64": 16,
+      "R32": 3
     },
     "Duke Miles": {
       "R64": 13
@@ -347,6 +348,7 @@
   "live_scores": {
     "6534628:Cayden Boozer": 2,
     "6534628:Patrick Ngongba II": 2,
-    "6534628:David Punch": 2
+    "6534628:David Punch": 2,
+    "6534628:Isaiah Evans": 3
   }
 }
