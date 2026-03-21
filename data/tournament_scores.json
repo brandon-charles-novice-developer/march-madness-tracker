@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T23:36:53.843341+00:00",
+  "last_updated": "2026-03-21T23:41:59.044260+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -57,7 +57,7 @@
     },
     "Cayden Boozer": {
       "R64": 19,
-      "R32": 7
+      "R32": 9
     },
     "Isaiah Evans": {
       "R64": 16,
@@ -144,7 +144,7 @@
     },
     "Graham Ike": {
       "R64": 19,
-      "R32": 9
+      "R32": 11
     },
     "Otega Oweh": {
       "R64": 35
@@ -301,6 +301,7 @@
     "Santa Clara",
     "Siena",
     "South Fla.",
+    "TCU",
     "Tennessee St.",
     "Troy",
     "UCF",
@@ -348,17 +349,14 @@
     "6534618",
     "6534603",
     "6534640",
-    "6534630"
+    "6534630",
+    "6534628"
   ],
   "live_scores": {
-    "6534628:Cayden Boozer": 7,
-    "6534628:Patrick Ngongba II": 4,
-    "6534628:David Punch": 4,
-    "6534628:Isaiah Evans": 17,
     "6534635:Emanuel Sharp": 17,
     "6534635:Milos Uzan": 9,
     "6534635:Kingston Flemings": 9,
-    "6534638:Graham Ike": 9,
+    "6534638:Graham Ike": 11,
     "6534638:Dailyn Swain": 5
   }
 }

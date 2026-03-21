@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T23:36:53.851797+00:00",
+  "last_updated": "2026-03-21T23:41:59.052888+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -20,7 +20,7 @@
       "rank": 1,
       "manager": "AJ Spile",
       "total_points": 198,
-      "active_players": 4,
+      "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
@@ -95,7 +95,7 @@
           "region": "East",
           "pick": 75,
           "draft_round": 8,
-          "status": "active",
+          "status": "eliminated",
           "total_points": 20,
           "round_scores": {
             "R64": 16,
@@ -413,12 +413,12 @@
     {
       "rank": 4,
       "manager": "Mark Weiner",
-      "total_points": 152,
+      "total_points": 154,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 129,
-        "R32": 23,
+        "R32": 25,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -448,10 +448,10 @@
           "pick": 23,
           "draft_round": 3,
           "status": "active",
-          "total_points": 26,
+          "total_points": 28,
           "round_scores": {
             "R64": 19,
-            "R32": 7
+            "R32": 9
           },
           "ppg_season": 7.1
         },
@@ -932,12 +932,12 @@
     {
       "rank": 8,
       "manager": "Mike Haughey",
-      "total_points": 115,
+      "total_points": 117,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 94,
-        "R32": 21,
+        "R32": 23,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -952,10 +952,10 @@
           "pick": 7,
           "draft_round": 1,
           "status": "active",
-          "total_points": 28,
+          "total_points": 30,
           "round_scores": {
             "R64": 19,
-            "R32": 9
+            "R32": 11
           },
           "ppg_season": 19.7
         },
