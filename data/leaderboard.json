@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T18:04:22.637984+00:00",
+  "last_updated": "2026-03-21T18:05:15.329092+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -148,12 +148,12 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 158,
+      "total_points": 159,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 14,
+        "R32": 15,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -168,10 +168,10 @@
           "pick": 13,
           "draft_round": 2,
           "status": "active",
-          "total_points": 35,
+          "total_points": 36,
           "round_scores": {
             "R64": 21,
-            "R32": 14
+            "R32": 15
           },
           "ppg_season": 13.3
         },
@@ -666,12 +666,12 @@
     {
       "rank": 6,
       "manager": "Josh Ehrlich",
-      "total_points": 116,
+      "total_points": 121,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 20,
+        "R32": 25,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -686,10 +686,10 @@
           "pick": 1,
           "draft_round": 1,
           "status": "active",
-          "total_points": 29,
+          "total_points": 34,
           "round_scores": {
             "R64": 9,
-            "R32": 20
+            "R32": 25
           },
           "ppg_season": 14.4
         },
