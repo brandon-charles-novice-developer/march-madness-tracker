@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T17:41:48.313132+00:00",
+  "last_updated": "2026-03-21T17:46:26.742020+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -666,18 +666,33 @@
     {
       "rank": 6,
       "manager": "Josh Ehrlich",
-      "total_points": 111,
+      "total_points": 114,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 15,
+        "R32": 18,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 1,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 9,
+            "R32": 18
+          },
+          "ppg_season": 14.4
+        },
         {
           "name": "Braden Smith",
           "team": "Purdue",
@@ -691,21 +706,6 @@
             "R64": 26
           },
           "ppg_season": 14.0
-        },
-        {
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 1,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 24,
-          "round_scores": {
-            "R64": 9,
-            "R32": 15
-          },
-          "ppg_season": 14.4
         },
         {
           "name": "Trevon Brazile",
