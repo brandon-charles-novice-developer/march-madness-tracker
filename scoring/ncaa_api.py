@@ -154,7 +154,12 @@ def fetch_round_games(round_name: str) -> list[dict]:
         print(f"    Found {len(round_games)} {round_name} games")
 
         for game in round_games:
-            print(f"    Fetching box score: {game['away']['name']} vs {game['home']['name']}...")
+            # Skip games that haven't started — no box score available
+            if game["status"] == "pre":
+                continue
+
+            status_tag = "LIVE" if game["status"] != "final" else "FINAL"
+            print(f"    [{status_tag}] {game['away']['name']} vs {game['home']['name']}...")
             boxscore = fetch_boxscore(game["game_id"])
             game["player_stats"] = []
 

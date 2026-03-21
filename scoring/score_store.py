@@ -68,25 +68,28 @@ def merge_round_scores(
 ) -> dict:
     """Merge API game data into scores. Returns new dict (immutable).
 
-    Matches API player names to drafted players, accumulates points,
-    and detects team eliminations from game results.
+    Handles both live and final games:
+    - Live/in-progress: overwrites scores each sync (latest snapshot)
+    - Final: locks in the final score and marks game as processed
+    - Already processed (final): skipped entirely (idempotent)
     """
-    # Build set of drafted player names for quick lookup
     drafted_names = {pick["player"] for pick in draft_picks}
 
     new_player_scores = dict(scores.get("scores", {}))
-    new_games = list(scores.get("games_processed", []))
+    new_games_final = list(scores.get("games_processed", []))
+    new_live_scores = dict(scores.get("live_scores", {}))
     new_eliminated = list(scores.get("eliminated_teams", []))
 
     for game in api_games:
         game_id = game["game_id"]
-        if game_id in new_games:
-            continue  # already processed (idempotent)
+        is_final = game["status"] == "final"
 
-        if game["status"] != "final":
-            continue  # skip in-progress games
+        # Already locked in as final — skip entirely
+        if game_id in new_games_final:
+            continue
 
-        # Process player stats
+        # Extract scores from this game's box score
+        game_player_scores: dict[str, int] = {}
         for player_stat in game.get("player_stats", []):
             first = player_stat.get("first_name", "")
             last = player_stat.get("last_name", "")
@@ -96,29 +99,53 @@ def merge_round_scores(
             matched_name = match_player(
                 first, last, api_team, players_db, drafted_names
             )
-            if not matched_name:
-                continue
+            if matched_name:
+                game_player_scores[matched_name] = points
 
-            # Update player's round score
-            existing = new_player_scores.get(matched_name, {})
-            existing_round = existing.get(round_name, 0)
-            new_player_scores[matched_name] = {
-                **existing,
-                round_name: existing_round + points,
-            }
+        if is_final:
+            # Final game: lock in scores, remove any live tracking
+            for player_name, points in game_player_scores.items():
+                # Remove this game's live contribution first
+                prev_live = new_live_scores.pop(
+                    f"{game_id}:{player_name}", 0
+                )
+                existing = new_player_scores.get(player_name, {})
+                current_round = existing.get(round_name, 0)
+                # Subtract old live score, add final score
+                new_player_scores[player_name] = {
+                    **existing,
+                    round_name: current_round - prev_live + points,
+                }
 
-        # Detect eliminations
-        eliminated_team = _get_eliminated_team(game)
-        if eliminated_team and eliminated_team not in new_eliminated:
-            new_eliminated.append(eliminated_team)
-            print(f"    Eliminated: {eliminated_team}")
+            # Detect eliminations
+            eliminated_team = _get_eliminated_team(game)
+            if eliminated_team and eliminated_team not in new_eliminated:
+                new_eliminated.append(eliminated_team)
+                print(f"    Eliminated: {eliminated_team}")
 
-        new_games.append(game_id)
+            new_games_final.append(game_id)
+            print(f"    FINAL: {game['away']['name']} vs {game['home']['name']}")
+        else:
+            # Live game: overwrite with latest snapshot
+            for player_name, points in game_player_scores.items():
+                live_key = f"{game_id}:{player_name}"
+                prev_live = new_live_scores.get(live_key, 0)
+                delta = points - prev_live
+
+                if delta != 0:
+                    existing = new_player_scores.get(player_name, {})
+                    current_round = existing.get(round_name, 0)
+                    new_player_scores[player_name] = {
+                        **existing,
+                        round_name: current_round + delta,
+                    }
+                    new_live_scores[live_key] = points
 
     return {
         **scores,
         "scores": new_player_scores,
-        "games_processed": new_games,
+        "games_processed": new_games_final,
+        "live_scores": new_live_scores,
         "eliminated_teams": sorted(new_eliminated),
     }
 
@@ -223,4 +250,5 @@ def _empty_scores() -> dict:
         "scores": {},
         "eliminated_teams": [],
         "games_processed": [],
+        "live_scores": {},
     }
