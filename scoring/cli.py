@@ -157,18 +157,28 @@ def _print_standings(
 def _played_rounds(scores: dict) -> list[str]:
     """Determine which rounds to sync based on tournament dates.
 
-    Returns rounds that have game dates on or before today.
+    Only returns rounds that have game dates on or before today
+    AND are not fully complete (still have live or unprocessed games).
+    A round is considered complete when all its game dates have passed
+    and the last date was more than 1 day ago.
     """
-    from datetime import date
+    from datetime import date, timedelta
 
     from scoring.models import ROUND_DATES
 
-    today = date.today().isoformat()
+    today = date.today()
+    today_str = today.isoformat()
+    yesterday = (today - timedelta(days=1)).isoformat()
     rounds = []
     for round_name in ROUND_ORDER:
         dates = ROUND_DATES.get(round_name, [])
-        if dates and dates[0] <= today:
-            rounds.append(round_name)
+        if not dates or dates[0] > today_str:
+            continue
+        # Skip rounds where ALL dates are before yesterday (fully done)
+        last_date = dates[-1]
+        if last_date <= yesterday:
+            continue
+        rounds.append(round_name)
     return rounds
 
 

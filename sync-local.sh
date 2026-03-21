@@ -37,6 +37,21 @@ if [ -f "$LOG" ] && [ "$(wc -l < "$LOG")" -gt 500 ]; then
 fi
 
 cd "$REPO" || exit 1
+
+# Lock file — prevent overlapping syncs
+LOCKFILE="$REPO/.sync.lock"
+if [ -f "$LOCKFILE" ]; then
+  # Check if lock is stale (older than 3 minutes)
+  if [ "$(find "$LOCKFILE" -mmin +3 2>/dev/null)" ]; then
+    rm -f "$LOCKFILE"
+  else
+    echo "$(date): Skipping — previous sync still running" >> "$LOG"
+    exit 0
+  fi
+fi
+trap 'rm -f "$LOCKFILE"' EXIT
+touch "$LOCKFILE"
+
 git pull --rebase --quiet 2>/dev/null
 
 echo "$(date): Syncing..." >> "$LOG"
