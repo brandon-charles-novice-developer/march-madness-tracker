@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Gaygent's March Madness Surveillance Board</title>
+<style>
+:root {
+  --pink-base: #f0d4e0;
+  --pink-deep: #a83260;
+  --pink-hot: #d6246a;
+  --pink-blush: #ffb6c1;
+  --lavender: #c8a2c8;
+  --lavender-border: 2px solid rgba(200, 162, 200, 0.6);
+  --purple-pts: #5c1a6e;
+  --rainbow-red: #ff6b6b;
+  --rainbow-orange: #ffa94d;
+  --rainbow-yellow: #ffd43b;
+  --rainbow-green: #69db7c;
+  --rainbow-blue: #4dabf7;
+  --rainbow-purple: #da77f2;
+  --text-dark: #2d0f26;
+  --text-muted: #5e3350;
+  --shadow-dark: rgba(180, 130, 155, 0.5);
+  --shadow-light: rgba(255, 240, 248, 0.9);
+  --pride-gradient: linear-gradient(135deg, #ff6b6b, #ffa94d, #ffd43b, #69db7c, #4dabf7, #da77f2);
+  --neu-raised: 8px 8px 16px var(--shadow-dark), -8px -8px 16px var(--shadow-light);
+  --neu-inset: inset 4px 4px 8px rgba(180, 130, 155, 0.4), inset -4px -4px 8px rgba(255, 240, 248, 0.7);
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--pink-base); color: var(--text-dark); font-family: var(--font); line-height: 1.5; font-weight: 500; }
+.container { max-width: 900px; margin: 0 auto; padding: 16px; }
+
+/* Header */
+header { text-align: center; padding: 32px 16px 8px; }
+header h1 { font-size: 1.6rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 800; margin-bottom: 4px; }
+header h1 .gaygent-text {
+  background: var(--pride-gradient);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s ease infinite;
+}
+@keyframes shimmer { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+header h1 .title-rest { color: var(--text-dark); }
+.subtitle { color: var(--text-muted); font-size: 0.85rem; font-style: italic; margin-bottom: 16px; }
+.rainbow-divider { height: 2px; background: var(--pride-gradient); border-radius: 999px; margin: 12px 0 16px; }
+.meta-bar {
+  display: inline-flex; justify-content: center; gap: 16px; flex-wrap: wrap;
+  font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px;
+  padding: 8px 20px; border-radius: 999px;
+  background: var(--pink-base); box-shadow: var(--neu-inset);
+  border: var(--lavender-border);
+}
+.meta-bar .live-dot {
+  width: 8px; height: 8px; border-radius: 50%; display: inline-block;
+  animation: pride-pulse 3s linear infinite;
+}
+@keyframes pride-pulse {
+  0%   { background: #ff6b6b; box-shadow: 0 0 8px #ff6b6b; }
+  16%  { background: #ffa94d; box-shadow: 0 0 8px #ffa94d; }
+  33%  { background: #ffd43b; box-shadow: 0 0 8px #ffd43b; }
+  50%  { background: #69db7c; box-shadow: 0 0 8px #69db7c; }
+  66%  { background: #4dabf7; box-shadow: 0 0 8px #4dabf7; }
+  83%  { background: #da77f2; box-shadow: 0 0 8px #da77f2; }
+  100% { background: #ff6b6b; box-shadow: 0 0 8px #ff6b6b; }
+}
+
+/* Round Progress */
+.rounds { display: flex; justify-content: center; gap: 8px; margin-bottom: 28px; flex-wrap: wrap; }
+.round-pill {
+  padding: 6px 14px; border-radius: 999px; font-size: 0.75rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.05em; transition: all 0.3s ease;
+  background: var(--pink-base); color: var(--text-muted); box-shadow: var(--neu-raised);
+  border: var(--lavender-border);
+}
+.round-pill.current {
+  background: var(--pride-gradient); color: #fff; font-weight: 800;
+  box-shadow: 0 0 12px rgba(255, 77, 141, 0.4), var(--neu-raised);
+}
+.round-pill.completed {
+  background: var(--pink-base); color: var(--pink-deep); box-shadow: var(--neu-inset);
+}
+
+/* Podium */
+.podium { display: flex; justify-content: center; align-items: flex-end; gap: 16px; margin-bottom: 32px; }
+.podium-card {
+  background: var(--pink-base); border-radius: 24px; padding: 16px 20px; text-align: center;
+  box-shadow: var(--neu-raised); transition: all 0.3s ease; min-width: 140px;
+  border: var(--lavender-border); animation: podium-in 0.5s ease both;
+}
+.podium-card.first {
+  order: 2; padding: 24px 28px; transform: translateY(-16px);
+  background: linear-gradient(145deg, #f5dce8, #eacad6);
+  animation-delay: 0.1s;
+}
+.podium-card.first::before {
+  content: ''; display: block; height: 3px; border-radius: 999px;
+  background: var(--pride-gradient); margin: -12px -16px 12px;
+}
+.podium-card.second { order: 1; animation-delay: 0.25s; }
+.podium-card.third { order: 3; animation-delay: 0.4s; }
+@keyframes podium-in { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; } }
+.podium-card.first { animation: podium-in-first 0.5s ease 0.1s both; }
+@keyframes podium-in-first { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(-16px); } }
+.podium-medal { font-size: 2rem; filter: drop-shadow(0 2px 4px rgba(180, 130, 155, 0.4)); }
+.podium-rank { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); font-weight: 600; }
+.podium-name { font-size: 1.1rem; font-weight: 800; margin: 4px 0; color: var(--text-dark); }
+.podium-pts { font-size: 1.6rem; font-weight: 800; color: var(--purple-pts); }
+.podium-stats { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; }
+
+/* Standings Table (4-10) */
+.standings-table { width: 100%; border-collapse: separate; border-spacing: 0 4px; margin-bottom: 28px; font-size: 0.85rem; }
+.standings-table th {
+  text-align: left; color: var(--text-muted); font-weight: 600; font-size: 0.7rem;
+  text-transform: uppercase; letter-spacing: 0.05em; padding: 8px 12px;
+}
+.standings-table td { padding: 10px 12px; background: var(--pink-base); transition: all 0.3s ease; }
+.standings-table tr td:first-child { border-radius: 12px 0 0 12px; }
+.standings-table tr td:last-child { border-radius: 0 12px 12px 0; }
+.standings-table tr { box-shadow: var(--neu-raised); border-radius: 12px; }
+.standings-table td { border-top: 1px solid rgba(200, 162, 200, 0.35); border-bottom: 1px solid rgba(200, 162, 200, 0.35); }
+.standings-table tr td:first-child { border-left: 2px solid rgba(200, 162, 200, 0.6); }
+.standings-table tr td:last-child { border-right: 2px solid rgba(200, 162, 200, 0.6); }
+.standings-table tr:hover td { box-shadow: var(--neu-inset); }
+.standings-table .rank-num { font-weight: 800; color: var(--pink-deep); }
+.standings-table .pts-val { font-weight: 800; color: var(--purple-pts); }
+
+/* Highlights */
+.highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
+@media (max-width: 600px) { .highlights { grid-template-columns: 1fr; } }
+.highlight-card {
+  background: var(--pink-base); border-radius: 16px; padding: 16px;
+  box-shadow: var(--neu-raised); transition: all 0.3s ease;
+  border: var(--lavender-border);
+}
+.highlight-card:hover { box-shadow: 10px 10px 20px var(--shadow-dark), -10px -10px 20px var(--shadow-light); }
+.highlight-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; font-weight: 800; }
+.highlight-card h3.hot {
+  background: var(--pride-gradient); -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.highlight-card h3.bust { color: #b71c1c; }
+.hot-row {
+  display: flex; justify-content: space-between; padding: 6px 0; font-size: 0.85rem;
+  box-shadow: 0 1px 0 rgba(180, 130, 155, 0.15);
+}
+.hot-row:last-child { box-shadow: none; }
+.hot-row .pts { color: var(--purple-pts); font-weight: 700; }
+.hot-row .mgr { color: var(--text-muted); font-size: 0.75rem; }
+.bust-name { font-size: 1.1rem; font-weight: 800; color: #b71c1c; }
+.bust-detail { font-size: 0.8rem; color: var(--text-muted); margin-top: 4px; }
+.bust-quote {
+  font-style: italic; color: var(--text-muted); margin-top: 10px; font-size: 0.8rem;
+  padding-left: 10px; border-left: 3px solid; border-image: var(--pride-gradient) 1; line-height: 1.6;
+}
+
+/* Manager Cards */
+.manager-cards { display: flex; flex-direction: column; gap: 12px; }
+details.manager-card {
+  background: var(--pink-base); border-radius: 16px; overflow: hidden;
+  box-shadow: var(--neu-raised); transition: all 0.3s ease;
+  border: var(--lavender-border);
+}
+details.manager-card[open] { box-shadow: var(--neu-inset); border-color: var(--lavender); }
+details.manager-card:hover { box-shadow: 10px 10px 20px var(--shadow-dark), -10px -10px 20px var(--shadow-light); }
+details.manager-card[open]:hover { box-shadow: var(--neu-inset); }
+summary.manager-summary {
+  padding: 14px 18px; cursor: pointer; display: flex; align-items: center;
+  gap: 12px; font-size: 0.9rem; list-style: none; transition: all 0.3s ease;
+}
+summary.manager-summary::-webkit-details-marker { display: none; }
+summary.manager-summary::before { content: '💅'; font-size: 1rem; transition: all 0.2s ease; }
+details.manager-card[open] summary.manager-summary::before { content: '✨'; }
+summary .m-rank { font-weight: 800; color: var(--purple-pts); min-width: 28px; }
+summary .m-name { font-weight: 700; flex: 1; color: var(--text-dark); }
+summary .m-pts {
+  font-weight: 800; color: var(--purple-pts); font-size: 0.82rem;
+  background: rgba(200, 162, 200, 0.25); padding: 3px 10px; border-radius: 999px;
+  border: var(--lavender-border);
+}
+summary .m-badge { font-size: 0.75rem; padding: 2px 10px; border-radius: 999px; font-weight: 600; }
+summary .m-badge.full { background: rgba(105, 219, 124, 0.2); color: #1a6b2d; border: 1px solid rgba(105, 219, 124, 0.4); }
+summary .m-badge.partial { background: rgba(255, 107, 107, 0.15); color: var(--rainbow-red); border: 1px solid rgba(255, 107, 107, 0.3); }
+.card-body { padding: 0 18px 18px; }
+.card-commentary {
+  font-size: 0.82rem; color: var(--text-muted); font-style: italic;
+  padding: 10px 14px; margin-bottom: 12px; line-height: 1.6;
+  background: rgba(200, 162, 200, 0.12); border-radius: 12px;
+  border: var(--lavender-border);
+  border-left: 3px solid var(--lavender);
+}
+.player-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+.player-table th {
+  text-align: left; color: var(--text-muted); font-weight: 600; font-size: 0.7rem;
+  text-transform: uppercase; padding: 6px 8px;
+  background: rgba(180, 130, 155, 0.08); box-shadow: var(--neu-inset);
+}
+.player-table th:first-child { border-radius: 8px 0 0 8px; }
+.player-table th:last-child { border-radius: 0 8px 8px 0; }
+.player-table td { padding: 7px 8px; }
+.player-table tbody tr { transition: all 0.2s ease; }
+.player-table tbody tr:nth-child(even) td { background: rgba(212, 87, 122, 0.04); }
+.player-table tr.eliminated td { opacity: 0.4; }
+.player-table tr.eliminated .team-cell { text-decoration: line-through; }
+.player-table .pts-cell { font-weight: 700; text-align: right; }
+.player-table .total-cell { color: var(--purple-pts); font-weight: 800; text-align: right; }
+.status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+.status-dot.active { background: var(--rainbow-green); animation: pride-pulse 3s linear infinite; }
+.status-dot.elim { background: #cba4b5; }
+.card-metrics { display: flex; gap: 16px; margin-bottom: 10px; font-size: 0.75rem; color: var(--text-muted); }
+.metric-label { text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+.metric-val { font-weight: 800; color: var(--purple-pts); }
+
+/* Footer */
+footer { text-align: center; padding: 32px 16px; color: var(--text-muted); font-size: 0.75rem; }
+footer span { transition: all 0.3s ease; }
+footer span:hover { background: var(--pride-gradient); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+
+/* Mobile */
+@media (max-width: 500px) {
+  :root {
+    --neu-raised: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
+    --neu-inset: inset 3px 3px 6px rgba(180, 130, 155, 0.4), inset -3px -3px 6px rgba(255, 240, 248, 0.7);
+  }
+  .podium { gap: 8px; }
+  .podium-card { min-width: 95px; padding: 10px 12px; border-radius: 16px; }
+  .podium-card.first { padding: 14px 16px; }
+  .podium-pts { font-size: 1.2rem; }
+  .player-table { font-size: 0.72rem; }
+  .player-table th, .player-table td { padding: 4px 4px; }
+  header h1 { font-size: 1.2rem; }
+  summary.manager-summary { padding: 10px 12px; font-size: 0.82rem; gap: 8px; }
+  .card-commentary { font-size: 0.76rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1><span class="gaygent-text">The Gaygent's</span> <span class="title-rest">March Madness Surveillance Board</span></h1>
+  <div class="subtitle" id="gaygent-header"></div>
+  <div class="rainbow-divider"></div>
+  <div style="text-align:center">
+    <div class="meta-bar">
+      <span id="last-updated"></span>
+      <span id="live-indicator"></span>
+      <span>1st: $450 · 2nd: $50 · Buy-in: $50</span>
+    </div>
+  </div>
+  <div class="rounds" id="rounds"></div>
+</header>
+
+<div class="podium" id="podium"></div>
+
+<table class="standings-table" id="standings-table">
+  <thead>
+    <tr><th>#</th><th>Manager</th><th>Pts</th><th>Active</th><th>Survival</th><th>Live %</th></tr>
+  </thead>
+  <tbody id="standings-body"></tbody>
+</table>
+
+<div class="highlights" id="highlights"></div>
+
+<div class="manager-cards" id="manager-cards"></div>
+
+<footer>
+  <span>Powered by The Gaygent's Surveillance Network · NCAA API · Built with Pride 🏳️‍🌈</span>
+</footer>
+
+</div>
+
+<script>
+const ROUND_LABELS = { R64: 'R64', R32: 'R32', S16: 'Sweet 16', E8: 'Elite 8', F4: 'Final 4', Championship: 'Championship' };
+
+async function init() {
+  const [lb, meta, commentary] = await Promise.all([
+    fetch('./data/leaderboard.json').then(r => r.json()),
+    fetch('./data/meta.json').then(r => r.json()),
+    fetch('./data/commentary.json').then(r => r.json()).catch(() => null),
+  ]);
+  renderHeader(lb, meta, commentary);
+  renderRounds(lb.rounds, lb.current_round);
+  renderPodium(lb.standings.slice(0, 3));
+  renderStandingsTable(lb.standings.slice(3));
+  renderHighlights(lb.standings, lb.current_round, commentary);
+  renderManagerCards(lb.standings, lb.rounds, commentary);
+  scheduleRefresh(meta.tournament_dates);
+}
+
+function renderHeader(lb, meta, commentary) {
+  const d = new Date(lb.last_updated);
+  document.getElementById('last-updated').textContent = 'Updated: ' + d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+  if (commentary) document.getElementById('gaygent-header').textContent = commentary.gaygent_header || '';
+}
+
+function renderRounds(rounds, current) {
+  const el = document.getElementById('rounds');
+  const idx = rounds.indexOf(current);
+  el.innerHTML = rounds.map((r, i) => {
+    const cls = i < idx ? 'completed' : i === idx ? 'current' : '';
+    const icon = i < idx ? '✓ ' : '';
+    return `<span class="round-pill ${cls}">${icon}${ROUND_LABELS[r] || r}</span>`;
+  }).join('');
+}
+
+function renderPodium(top3) {
+  const medals = ['🥇', '🥈', '🥉'];
+  const classes = ['first', 'second', 'third'];
+  const el = document.getElementById('podium');
+  el.innerHTML = top3.map((s, i) => {
+    const surv = Math.round(s.active_players / s.total_players * 100);
+    const livePts = s.players.filter(p => p.status === 'active').reduce((a, p) => a + p.total_points, 0);
+    const livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
+    return `<div class="podium-card ${classes[i]}">
+      <div class="podium-medal">${medals[i]}</div>
+      <div class="podium-rank">#${s.rank}</div>
+      <div class="podium-name">${s.manager}</div>
+      <div class="podium-pts">${s.total_points}</div>
+      <div class="podium-stats">${s.active_players}/${s.total_players} alive · ${surv}% · ${livePct}% live</div>
+    </div>`;
+  }).join('');
+}
+
+function renderStandingsTable(rest) {
+  const tbody = document.getElementById('standings-body');
+  tbody.innerHTML = rest.map(s => {
+    const surv = Math.round(s.active_players / s.total_players * 100);
+    const livePts = s.players.filter(p => p.status === 'active').reduce((a, p) => a + p.total_points, 0);
+    const livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
+    const activeColor = s.active_players === s.total_players ? 'color:#1a6b2d' : 'color:#c0392b';
+    return `<tr>
+      <td class="rank-num">${s.rank}</td>
+      <td style="font-weight:700">${s.manager}</td>
+      <td class="pts-val">${s.total_points}</td>
+      <td style="${activeColor};font-weight:600">${s.active_players}/${s.total_players}</td>
+      <td>${surv}%</td>
+      <td>${livePct}%</td>
+    </tr>`;
+  }).join('');
+}
+
+function renderHighlights(standings, currentRound, commentary) {
+  const el = document.getElementById('highlights');
+  const allPlayers = standings.flatMap(s => s.players.map(p => ({ ...p, manager: s.manager })));
+  const roundScorers = allPlayers.filter(p => (p.round_scores[currentRound] || 0) > 0)
+    .sort((a, b) => (b.round_scores[currentRound] || 0) - (a.round_scores[currentRound] || 0));
+  const top5 = roundScorers.slice(0, 5);
+
+  const played = allPlayers.filter(p => p.ppg_season > 0 && (p.round_scores[currentRound] || 0) >= 0);
+  const busts = played.filter(p => p.ppg_season >= 15).sort((a, b) => {
+    const ratioA = (a.round_scores[currentRound] || 0) / a.ppg_season;
+    const ratioB = (b.round_scores[currentRound] || 0) / b.ppg_season;
+    return ratioA - ratioB;
+  });
+  const bust = busts[0];
+
+  let hotHtml = '<div class="highlight-card"><h3 class="hot">🔥 Hot Players — ' + (ROUND_LABELS[currentRound] || currentRound) + '</h3>';
+  top5.forEach((p, i) => {
+    const pts = p.round_scores[currentRound] || 0;
+    hotHtml += `<div class="hot-row"><span>${i + 1}. ${p.name}</span><span class="pts">${pts} <span class="mgr">(${p.manager.split(' ').map(w => w[0]).join('')})</span></span></div>`;
+  });
+  hotHtml += '</div>';
+
+  let bustHtml = '<div class="highlight-card"><h3 class="bust">💀 Biggest Bust</h3>';
+  if (bust) {
+    const bustPts = bust.round_scores[currentRound] || 0;
+    bustHtml += `<div class="bust-name">${bust.name}</div>`;
+    bustHtml += `<div class="bust-detail">${bust.team} (${bust.seed}-seed) · Season PPG: ${bust.ppg_season} · Actual: ${bustPts} pts</div>`;
+    bustHtml += `<div class="bust-detail">Status: ${bust.status.toUpperCase()} · Owner: ${bust.manager}</div>`;
+    if (commentary && commentary.bust_roast) {
+      bustHtml += `<div class="bust-quote">${commentary.bust_roast}</div>`;
+    }
+  }
+  bustHtml += '</div>';
+
+  el.innerHTML = hotHtml + bustHtml;
+}
+
+function renderManagerCards(standings, rounds, commentary) {
+  const el = document.getElementById('manager-cards');
+  el.innerHTML = standings.map(s => {
+    const surv = Math.round(s.active_players / s.total_players * 100);
+    const livePts = s.players.filter(p => p.status === 'active').reduce((a, p) => a + p.total_points, 0);
+    const livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
+    const badgeClass = s.active_players === s.total_players ? 'full' : 'partial';
+    const blurb = commentary && commentary.managers ? (commentary.managers[s.manager] || '') : '';
+
+    let tableRows = '';
+    s.players.forEach(p => {
+      const rowClass = p.status === 'eliminated' ? 'eliminated' : '';
+      const dot = p.status === 'active' ? '<span class="status-dot active"></span>' : '<span class="status-dot elim"></span>';
+      let roundCells = '';
+      rounds.forEach(r => {
+        const val = p.round_scores[r];
+        roundCells += `<td class="pts-cell">${val !== undefined ? val : '—'}</td>`;
+      });
+      tableRows += `<tr class="${rowClass}">
+        <td>${dot}${p.name}</td>
+        <td class="team-cell">${p.team} (${p.seed})</td>
+        ${roundCells}
+        <td class="total-cell">${p.total_points}</td>
+      </tr>`;
+    });
+
+    const roundHeaders = rounds.map(r => `<th>${r}</th>`).join('');
+
+    return `<details class="manager-card">
+      <summary class="manager-summary">
+        <span class="m-rank">#${s.rank}</span>
+        <span class="m-name">${s.manager}</span>
+        <span class="m-pts">${s.total_points} pts</span>
+        <span class="m-badge ${badgeClass}">${s.active_players}/${s.total_players}</span>
+      </summary>
+      <div class="card-body">
+        <div class="card-metrics">
+          <span><span class="metric-label">Survival: </span><span class="metric-val">${surv}%</span></span>
+          <span><span class="metric-label">Live Portfolio: </span><span class="metric-val">${livePct}%</span></span>
+        </div>
+        ${blurb ? `<div class="card-commentary">${blurb}</div>` : ''}
+        <table class="player-table">
+          <thead><tr><th>Player</th><th>Team</th>${roundHeaders}<th>Total</th></tr></thead>
+          <tbody>${tableRows}</tbody>
+        </table>
+      </div>
+    </details>`;
+  }).join('');
+}
+
+function scheduleRefresh(tournamentDates) {
+  const allDates = Object.values(tournamentDates).flat();
+  const now = new Date();
+  const todayStr = now.toISOString().slice(0, 10);
+  const isGameDay = allDates.includes(todayStr);
+  const hour = now.getHours();
+  const inGameWindow = isGameDay && hour >= 11 && hour <= 25;
+
+  if (inGameWindow) {
+    document.getElementById('live-indicator').innerHTML = '<span class="live-dot"></span> LIVE';
+    setInterval(() => location.reload(), 5 * 60 * 1000);
+  }
+}
+
+init();
+</script>
+</body>
+</html>

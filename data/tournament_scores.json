@@ -1,0 +1,319 @@
+{
+  "last_updated": "2026-03-21T05:39:52.056961+00:00",
+  "round_dates": {
+    "R64": [
+      "2026-03-19",
+      "2026-03-20"
+    ],
+    "R32": [
+      "2026-03-21",
+      "2026-03-22"
+    ],
+    "S16": [
+      "2026-03-27",
+      "2026-03-28"
+    ],
+    "E8": [
+      "2026-03-29",
+      "2026-03-30"
+    ],
+    "F4": [
+      "2026-04-04"
+    ],
+    "Championship": [
+      "2026-04-06"
+    ]
+  },
+  "scores": {
+    "Bruce Thornton": {
+      "R64": 10
+    },
+    "David Punch": {
+      "R64": 16
+    },
+    "Pryce Sandfort": {
+      "R64": 23
+    },
+    "Ryan Conwell": {
+      "R64": 18
+    },
+    "John Blackwell": {
+      "R64": 22
+    },
+    "Nick Boyd": {
+      "R64": 27
+    },
+    "Nolan Winter": {
+      "R64": 8
+    },
+    "Cayden Boozer": {
+      "R64": 19
+    },
+    "Isaiah Evans": {
+      "R64": 16
+    },
+    "Duke Miles": {
+      "R64": 13
+    },
+    "Tyler Tanner": {
+      "R64": 26
+    },
+    "Coen Carr": {
+      "R64": 17
+    },
+    "Jeremy Fears Jr": {
+      "R64": 7
+    },
+    "Jaxon Kohler": {
+      "R64": 12
+    },
+    "Darius Acuff Jr": {
+      "R64": 24
+    },
+    "Trevon Brazile": {
+      "R64": 19
+    },
+    "Billy Richmond III": {
+      "R64": 10
+    },
+    "Meleek Thomas": {
+      "R64": 21
+    },
+    "Elliot Cadeau": {
+      "R64": 5
+    },
+    "Morez Johnson Jr": {
+      "R64": 21
+    },
+    "Yaxel Lendeborg": {
+      "R64": 9
+    },
+    "Aday Mara": {
+      "R64": 19
+    },
+    "Paulius Murauskas": {
+      "R64": 4
+    },
+    "AJ Dybantsa": {
+      "R64": 35
+    },
+    "Robert Wright III": {
+      "R64": 14
+    },
+    "Dailyn Swain": {
+      "R64": 14
+    },
+    "David Mirkovic": {
+      "R64": 29
+    },
+    "Andrej Stojakovic": {
+      "R64": 9
+    },
+    "Keaton Wagler": {
+      "R64": 18
+    },
+    "TJ Power": {
+      "R64": 6
+    },
+    "Kingston Flemings": {
+      "R64": 18
+    },
+    "Emanuel Sharp": {
+      "R64": 16
+    },
+    "Milos Uzan": {
+      "R64": 12
+    },
+    "Graham Ike": {
+      "R64": 19
+    },
+    "Otega Oweh": {
+      "R64": 35
+    },
+    "Christian Anderson": {
+      "R64": 18
+    },
+    "Tavari Johnson": {
+      "R64": 4
+    },
+    "Amani Lyles": {
+      "R64": 26
+    },
+    "Jaden Bradley": {
+      "R64": 7
+    },
+    "Brayden Burries": {
+      "R64": 18
+    },
+    "Ivan Kharchenkov": {
+      "R64": 14
+    },
+    "Motiejus Krivas": {
+      "R64": 9
+    },
+    "Koa Peat": {
+      "R64": 15
+    },
+    "Thijs De Ridder": {
+      "R64": 10
+    },
+    "Sam Lewis": {
+      "R64": 12
+    },
+    "Malik Thomas": {
+      "R64": 11
+    },
+    "Joshua Jefferson": {
+      "R64": 2
+    },
+    "Tamin Lipsey": {
+      "R64": 3
+    },
+    "Milan Momcilovic": {
+      "R64": 17
+    },
+    "Labaron Philon Jr": {
+      "R64": 29
+    },
+    "Nate Ament": {
+      "R64": 0
+    },
+    "Ja'Kobi Gillespie": {
+      "R64": 29
+    },
+    "Bennett Stirtz": {
+      "R64": 16
+    },
+    "Zuby Ejiofor": {
+      "R64": 14
+    },
+    "Bryce Hopkins": {
+      "R64": 13
+    },
+    "Oziyah Sellers": {
+      "R64": 11
+    },
+    "Tyler Bilodeau": {
+      "R64": 0
+    },
+    "Trey Kaufman-Renn": {
+      "R64": 25
+    },
+    "Fletcher Loyer": {
+      "R64": 14
+    },
+    "Braden Smith": {
+      "R64": 26
+    },
+    "Rueben Chinyelu": {
+      "R64": 14
+    },
+    "Alex Condon": {
+      "R64": 13
+    },
+    "Boogie Fland": {
+      "R64": 16
+    },
+    "Thomas Haugh": {
+      "R64": 14
+    },
+    "Urban Klavzar": {
+      "R64": 11
+    },
+    "Xaivian Lee": {
+      "R64": 10
+    },
+    "Flory Bidunga": {
+      "R64": 6
+    },
+    "Darryn Peterson": {
+      "R64": 28
+    },
+    "Tre White": {
+      "R64": 12
+    },
+    "Malik Reneau": {
+      "R64": 24
+    },
+    "Mark Mitchell": {
+      "R64": 19
+    },
+    "Solo Ball": {
+      "R64": 9
+    },
+    "Alex Karaban": {
+      "R64": 22
+    },
+    "Tarris Reed Jr": {
+      "R64": 31
+    }
+  },
+  "eliminated_teams": [
+    "Akron",
+    "BYU",
+    "California Baptist",
+    "Clemson",
+    "Furman",
+    "Georgia",
+    "Hawaii",
+    "Hofstra",
+    "Howard",
+    "Idaho",
+    "Kennesaw St.",
+    "LIU",
+    "McNeese",
+    "Miami (OH)",
+    "Missouri",
+    "North Carolina",
+    "North Dakota St.",
+    "Ohio St.",
+    "Penn",
+    "Prairie View",
+    "Queens (NC)",
+    "Saint Mary's (CA)",
+    "Santa Clara",
+    "Siena",
+    "South Fla.",
+    "Tennessee St.",
+    "Troy",
+    "UCF",
+    "UNI",
+    "Villanova",
+    "Wisconsin",
+    "Wright St."
+  ],
+  "games_processed": [
+    "6534597",
+    "6534607",
+    "6534600",
+    "6534614",
+    "6534596",
+    "6534606",
+    "6534601",
+    "6534615",
+    "6534608",
+    "6534620",
+    "6534610",
+    "6534616",
+    "6534609",
+    "6534621",
+    "6534611",
+    "6534617",
+    "6534626",
+    "6534622",
+    "6534612",
+    "6534625",
+    "6534627",
+    "6534623",
+    "6534613",
+    "6534624",
+    "6534605",
+    "6534598",
+    "6534602",
+    "6534619",
+    "6534604",
+    "6534599",
+    "6534618",
+    "6534603"
+  ]
+}

@@ -1,0 +1,1481 @@
+{
+  "last_updated": "2026-03-21T05:39:52.068745+00:00",
+  "games": [
+    {
+      "game_id": "6534627",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Tennessee St.",
+        "seed": 15,
+        "score": 74,
+        "winner": false
+      },
+      "home": {
+        "name": "Iowa St.",
+        "seed": 2,
+        "score": 108,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Joshua Jefferson",
+          "team": "Iowa St.",
+          "manager": "Jordan Mackler",
+          "points": 2,
+          "minutes": "2",
+          "fg": "1/1",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 1,
+          "assists": 0
+        },
+        {
+          "name": "Tamin Lipsey",
+          "team": "Iowa St.",
+          "manager": "Schaf Chulay",
+          "points": 3,
+          "minutes": "17",
+          "fg": "1/6",
+          "three": "0/1",
+          "ft": "1/2",
+          "rebounds": 2,
+          "assists": 2
+        },
+        {
+          "name": "Milan Momcilovic",
+          "team": "Iowa St.",
+          "manager": "AJ Spile",
+          "points": 17,
+          "minutes": "34",
+          "fg": "6/11",
+          "three": "3/7",
+          "ft": "2/2",
+          "rebounds": 4,
+          "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534626",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Santa Clara",
+        "seed": 10,
+        "score": 84,
+        "winner": false
+      },
+      "home": {
+        "name": "Kentucky",
+        "seed": 7,
+        "score": 89,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Otega Oweh",
+          "team": "Kentucky",
+          "manager": "Jordan Mackler",
+          "points": 35,
+          "minutes": "42",
+          "fg": "11/24",
+          "three": "3/8",
+          "ft": "10/12",
+          "rebounds": 8,
+          "assists": 7
+        }
+      ]
+    },
+    {
+      "game_id": "6534625",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Wright St.",
+        "seed": 14,
+        "score": 73,
+        "winner": false
+      },
+      "home": {
+        "name": "Virginia",
+        "seed": 3,
+        "score": 82,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Thijs De Ridder",
+          "team": "Virginia",
+          "manager": "Jake Pollack",
+          "points": 10,
+          "minutes": "29",
+          "fg": "3/8",
+          "three": "1/3",
+          "ft": "3/4",
+          "rebounds": 6,
+          "assists": 2
+        },
+        {
+          "name": "Sam Lewis",
+          "team": "Virginia",
+          "manager": "Josh Ehrlich",
+          "points": 12,
+          "minutes": "28",
+          "fg": "4/9",
+          "three": "2/4",
+          "ft": "2/2",
+          "rebounds": 4,
+          "assists": 2
+        },
+        {
+          "name": "Malik Thomas",
+          "team": "Virginia",
+          "manager": "Schaf Chulay",
+          "points": 11,
+          "minutes": "21",
+          "fg": "4/10",
+          "three": "3/6",
+          "ft": "0/0",
+          "rebounds": 3,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "game_id": "6534624",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Miami (OH)",
+        "seed": 11,
+        "score": 56,
+        "winner": false
+      },
+      "home": {
+        "name": "Tennessee",
+        "seed": 6,
+        "score": 78,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Nate Ament",
+          "team": "Tennessee",
+          "manager": "Alex Magged",
+          "points": 0,
+          "minutes": "18",
+          "fg": "0/3",
+          "three": "0/1",
+          "ft": "0/0",
+          "rebounds": 3,
+          "assists": 1
+        },
+        {
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee",
+          "manager": "AJ Spile",
+          "points": 29,
+          "minutes": "36",
+          "fg": "11/21",
+          "three": "6/11",
+          "ft": "1/1",
+          "rebounds": 3,
+          "assists": 9
+        }
+      ]
+    },
+    {
+      "game_id": "6534623",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Hofstra",
+        "seed": 13,
+        "score": 70,
+        "winner": false
+      },
+      "home": {
+        "name": "Alabama",
+        "seed": 4,
+        "score": 90,
+        "winner": true
+      },
+      "drafted_players": []
+    },
+    {
+      "game_id": "6534622",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Akron",
+        "seed": 12,
+        "score": 71,
+        "winner": false
+      },
+      "home": {
+        "name": "Texas Tech",
+        "seed": 5,
+        "score": 91,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Christian Anderson",
+          "team": "Texas Tech",
+          "manager": "Jake Pollack",
+          "points": 18,
+          "minutes": "39",
+          "fg": "6/12",
+          "three": "2/6",
+          "ft": "4/4",
+          "rebounds": 4,
+          "assists": 5
+        },
+        {
+          "name": "Tavari Johnson",
+          "team": "Akron",
+          "manager": "Brandon Nye",
+          "points": 4,
+          "minutes": "30",
+          "fg": "2/10",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 1,
+          "assists": 6
+        },
+        {
+          "name": "Amani Lyles",
+          "team": "Akron",
+          "manager": "Nick Reskin",
+          "points": 26,
+          "minutes": "32",
+          "fg": "8/14",
+          "three": "2/6",
+          "ft": "8/10",
+          "rebounds": 3,
+          "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534619",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Queens (NC)",
+        "seed": 15,
+        "score": 71,
+        "winner": false
+      },
+      "home": {
+        "name": "Purdue",
+        "seed": 2,
+        "score": 104,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue",
+          "manager": "Alex Magged",
+          "points": 25,
+          "minutes": "25",
+          "fg": "12/18",
+          "three": "0/0",
+          "ft": "1/3",
+          "rebounds": 9,
+          "assists": 3
+        },
+        {
+          "name": "Fletcher Loyer",
+          "team": "Purdue",
+          "manager": "Nick Reskin",
+          "points": 14,
+          "minutes": "25",
+          "fg": "5/9",
+          "three": "4/8",
+          "ft": "0/0",
+          "rebounds": 2,
+          "assists": 1
+        },
+        {
+          "name": "Braden Smith",
+          "team": "Purdue",
+          "manager": "Josh Ehrlich",
+          "points": 26,
+          "minutes": "32",
+          "fg": "10/15",
+          "three": "4/6",
+          "ft": "2/2",
+          "rebounds": 3,
+          "assists": 8
+        }
+      ]
+    },
+    {
+      "game_id": "6534618",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Missouri",
+        "seed": 10,
+        "score": 66,
+        "winner": false
+      },
+      "home": {
+        "name": "Miami (FL)",
+        "seed": 7,
+        "score": 80,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Malik Reneau",
+          "team": "Miami (FL)",
+          "manager": "Mark Weiner",
+          "points": 24,
+          "minutes": "36",
+          "fg": "7/16",
+          "three": "2/4",
+          "ft": "8/11",
+          "rebounds": 6,
+          "assists": 3
+        },
+        {
+          "name": "Mark Mitchell",
+          "team": "Missouri",
+          "manager": "AJ Spile",
+          "points": 19,
+          "minutes": "36",
+          "fg": "4/10",
+          "three": "3/4",
+          "ft": "8/10",
+          "rebounds": 3,
+          "assists": 5
+        }
+      ]
+    },
+    {
+      "game_id": "6534613",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Utah St.",
+        "seed": 9,
+        "score": 86,
+        "winner": true
+      },
+      "home": {
+        "name": "Villanova",
+        "seed": 8,
+        "score": 76,
+        "winner": false
+      },
+      "drafted_players": []
+    },
+    {
+      "game_id": "6534612",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "LIU",
+        "seed": 16,
+        "score": 58,
+        "winner": false
+      },
+      "home": {
+        "name": "Arizona",
+        "seed": 1,
+        "score": 92,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Jaden Bradley",
+          "team": "Arizona",
+          "manager": "Josh Ehrlich",
+          "points": 7,
+          "minutes": "23",
+          "fg": "3/5",
+          "three": "1/2",
+          "ft": "0/0",
+          "rebounds": 5,
+          "assists": 4
+        },
+        {
+          "name": "Brayden Burries",
+          "team": "Arizona",
+          "manager": "Schaf Chulay",
+          "points": 18,
+          "minutes": "27",
+          "fg": "6/10",
+          "three": "4/5",
+          "ft": "2/2",
+          "rebounds": 5,
+          "assists": 2
+        },
+        {
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona",
+          "manager": "Jordan Mackler",
+          "points": 14,
+          "minutes": "26",
+          "fg": "5/7",
+          "three": "1/2",
+          "ft": "3/6",
+          "rebounds": 10,
+          "assists": 2
+        },
+        {
+          "name": "Motiejus Krivas",
+          "team": "Arizona",
+          "manager": "Mike Haughey",
+          "points": 9,
+          "minutes": "21",
+          "fg": "2/3",
+          "three": "0/0",
+          "ft": "5/8",
+          "rebounds": 7,
+          "assists": 2
+        },
+        {
+          "name": "Koa Peat",
+          "team": "Arizona",
+          "manager": "Mike Haughey",
+          "points": 15,
+          "minutes": "28",
+          "fg": "5/12",
+          "three": "0/0",
+          "ft": "5/6",
+          "rebounds": 7,
+          "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534605",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Iowa",
+        "seed": 9,
+        "score": 67,
+        "winner": true
+      },
+      "home": {
+        "name": "Clemson",
+        "seed": 8,
+        "score": 61,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Bennett Stirtz",
+          "team": "Iowa",
+          "manager": "Brandon Nye",
+          "points": 16,
+          "minutes": "39",
+          "fg": "4/17",
+          "three": "3/10",
+          "ft": "5/6",
+          "rebounds": 5,
+          "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534604",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Prairie View",
+        "seed": 16,
+        "score": 55,
+        "winner": false
+      },
+      "home": {
+        "name": "Florida",
+        "seed": 1,
+        "score": 114,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Rueben Chinyelu",
+          "team": "Florida",
+          "manager": "Josh Ehrlich",
+          "points": 14,
+          "minutes": "19",
+          "fg": "6/9",
+          "three": "0/0",
+          "ft": "2/2",
+          "rebounds": 13,
+          "assists": 1
+        },
+        {
+          "name": "Alex Condon",
+          "team": "Florida",
+          "manager": "Jake Pollack",
+          "points": 13,
+          "minutes": "24",
+          "fg": "5/6",
+          "three": "0/0",
+          "ft": "3/3",
+          "rebounds": 3,
+          "assists": 5
+        },
+        {
+          "name": "Boogie Fland",
+          "team": "Florida",
+          "manager": "Alex Magged",
+          "points": 16,
+          "minutes": "24",
+          "fg": "6/6",
+          "three": "2/2",
+          "ft": "2/2",
+          "rebounds": 1,
+          "assists": 4
+        },
+        {
+          "name": "Thomas Haugh",
+          "team": "Florida",
+          "manager": "Mark Weiner",
+          "points": 14,
+          "minutes": "22",
+          "fg": "6/9",
+          "three": "0/1",
+          "ft": "2/3",
+          "rebounds": 4,
+          "assists": 7
+        },
+        {
+          "name": "Urban Klavzar",
+          "team": "Florida",
+          "manager": "Mike Haughey",
+          "points": 11,
+          "minutes": "16",
+          "fg": "4/6",
+          "three": "2/4",
+          "ft": "1/2",
+          "rebounds": 3,
+          "assists": 2
+        },
+        {
+          "name": "Xaivian Lee",
+          "team": "Florida",
+          "manager": "Mike Haughey",
+          "points": 10,
+          "minutes": "23",
+          "fg": "3/8",
+          "three": "3/8",
+          "ft": "1/2",
+          "rebounds": 1,
+          "assists": 5
+        }
+      ]
+    },
+    {
+      "game_id": "6534603",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "Furman",
+        "seed": 15,
+        "score": 71,
+        "winner": false
+      },
+      "home": {
+        "name": "UConn",
+        "seed": 2,
+        "score": 82,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Solo Ball",
+          "team": "UConn",
+          "manager": "Schaf Chulay",
+          "points": 9,
+          "minutes": "24",
+          "fg": "3/12",
+          "three": "1/6",
+          "ft": "2/2",
+          "rebounds": 5,
+          "assists": 1
+        },
+        {
+          "name": "Alex Karaban",
+          "team": "UConn",
+          "manager": "Mark Weiner",
+          "points": 22,
+          "minutes": "37",
+          "fg": "9/16",
+          "three": "4/9",
+          "ft": "0/0",
+          "rebounds": 3,
+          "assists": 3
+        }
+      ]
+    },
+    {
+      "game_id": "6534602",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "UCF",
+        "seed": 10,
+        "score": 71,
+        "winner": false
+      },
+      "home": {
+        "name": "UCLA",
+        "seed": 7,
+        "score": 75,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Tyler Bilodeau",
+          "team": "UCLA",
+          "manager": "Josh Ehrlich",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "game_id": "6534599",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "California Baptist",
+        "seed": 13,
+        "score": 60,
+        "winner": false
+      },
+      "home": {
+        "name": "Kansas",
+        "seed": 4,
+        "score": 68,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Flory Bidunga",
+          "team": "Kansas",
+          "manager": "Schaf Chulay",
+          "points": 6,
+          "minutes": "30",
+          "fg": "2/6",
+          "three": "0/0",
+          "ft": "2/4",
+          "rebounds": 7,
+          "assists": 0
+        },
+        {
+          "name": "Darryn Peterson",
+          "team": "Kansas",
+          "manager": "Schaf Chulay",
+          "points": 28,
+          "minutes": "36",
+          "fg": "11/24",
+          "three": "4/11",
+          "ft": "2/2",
+          "rebounds": 1,
+          "assists": 1
+        },
+        {
+          "name": "Tre White",
+          "team": "Kansas",
+          "manager": "Jake Pollack",
+          "points": 12,
+          "minutes": "31",
+          "fg": "3/10",
+          "three": "0/4",
+          "ft": "6/6",
+          "rebounds": 7,
+          "assists": 1
+        }
+      ]
+    },
+    {
+      "game_id": "6534598",
+      "round": "R64",
+      "date": "2026-03-20",
+      "status": "final",
+      "away": {
+        "name": "UNI",
+        "seed": 12,
+        "score": 53,
+        "winner": false
+      },
+      "home": {
+        "name": "St. John's (NY)",
+        "seed": 5,
+        "score": 79,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Zuby Ejiofor",
+          "team": "St. John's (NY)",
+          "manager": "Mike Haughey",
+          "points": 14,
+          "minutes": "27",
+          "fg": "4/10",
+          "three": "1/3",
+          "ft": "5/6",
+          "rebounds": 11,
+          "assists": 2
+        },
+        {
+          "name": "Bryce Hopkins",
+          "team": "St. John's (NY)",
+          "manager": "Brandon Nye",
+          "points": 13,
+          "minutes": "34",
+          "fg": "5/9",
+          "three": "2/3",
+          "ft": "1/2",
+          "rebounds": 6,
+          "assists": 0
+        },
+        {
+          "name": "Oziyah Sellers",
+          "team": "St. John's (NY)",
+          "manager": "Mike Haughey",
+          "points": 11,
+          "minutes": "25",
+          "fg": "4/11",
+          "three": "3/9",
+          "ft": "0/0",
+          "rebounds": 3,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "game_id": "6534621",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Saint Louis",
+        "seed": 9,
+        "score": 102,
+        "winner": true
+      },
+      "home": {
+        "name": "Georgia",
+        "seed": 8,
+        "score": 77,
+        "winner": false
+      },
+      "drafted_players": []
+    },
+    {
+      "game_id": "6534620",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Howard",
+        "seed": 16,
+        "score": 80,
+        "winner": false
+      },
+      "home": {
+        "name": "Michigan",
+        "seed": 1,
+        "score": 101,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Elliot Cadeau",
+          "team": "Michigan",
+          "manager": "Mike Haughey",
+          "points": 5,
+          "minutes": "26",
+          "fg": "1/5",
+          "three": "1/5",
+          "ft": "2/2",
+          "rebounds": 2,
+          "assists": 9
+        },
+        {
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan",
+          "manager": "Josh Ehrlich",
+          "points": 9,
+          "minutes": "26",
+          "fg": "2/5",
+          "three": "1/3",
+          "ft": "4/4",
+          "rebounds": 4,
+          "assists": 4
+        },
+        {
+          "name": "Aday Mara",
+          "team": "Michigan",
+          "manager": "Mark Weiner",
+          "points": 19,
+          "minutes": "20",
+          "fg": "8/10",
+          "three": "0/0",
+          "ft": "3/4",
+          "rebounds": 7,
+          "assists": 6
+        }
+      ]
+    },
+    {
+      "game_id": "6534617",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Kennesaw St.",
+        "seed": 14,
+        "score": 64,
+        "winner": false
+      },
+      "home": {
+        "name": "Gonzaga",
+        "seed": 3,
+        "score": 73,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Graham Ike",
+          "team": "Gonzaga",
+          "manager": "Mike Haughey",
+          "points": 19,
+          "minutes": "35",
+          "fg": "6/13",
+          "three": "0/1",
+          "ft": "7/8",
+          "rebounds": 8,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "game_id": "6534616",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Texas",
+        "seed": 11,
+        "score": 79,
+        "winner": true
+      },
+      "home": {
+        "name": "BYU",
+        "seed": 6,
+        "score": 71,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "AJ Dybantsa",
+          "team": "BYU",
+          "manager": "AJ Spile",
+          "points": 35,
+          "minutes": "39",
+          "fg": "11/25",
+          "three": "1/7",
+          "ft": "12/12",
+          "rebounds": 10,
+          "assists": 1
+        },
+        {
+          "name": "Robert Wright III",
+          "team": "BYU",
+          "manager": "Brandon Nye",
+          "points": 14,
+          "minutes": "36",
+          "fg": "7/17",
+          "three": "0/4",
+          "ft": "0/1",
+          "rebounds": 2,
+          "assists": 3
+        },
+        {
+          "name": "Dailyn Swain",
+          "team": "Texas",
+          "manager": "Alex Magged",
+          "points": 14,
+          "minutes": "36",
+          "fg": "6/12",
+          "three": "1/3",
+          "ft": "1/1",
+          "rebounds": 5,
+          "assists": 6
+        }
+      ]
+    },
+    {
+      "game_id": "6534615",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Hawaii",
+        "seed": 13,
+        "score": 78,
+        "winner": false
+      },
+      "home": {
+        "name": "Arkansas",
+        "seed": 4,
+        "score": 97,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Trevon Brazile",
+          "team": "Arkansas",
+          "manager": "Josh Ehrlich",
+          "points": 19,
+          "minutes": "35",
+          "fg": "8/17",
+          "three": "1/7",
+          "ft": "2/3",
+          "rebounds": 6,
+          "assists": 1
+        },
+        {
+          "name": "Billy Richmond III",
+          "team": "Arkansas",
+          "manager": "Alex Magged",
+          "points": 10,
+          "minutes": "31",
+          "fg": "5/8",
+          "three": "0/2",
+          "ft": "0/0",
+          "rebounds": 7,
+          "assists": 3
+        },
+        {
+          "name": "Meleek Thomas",
+          "team": "Arkansas",
+          "manager": "Mark Weiner",
+          "points": 21,
+          "minutes": "34",
+          "fg": "9/16",
+          "three": "1/5",
+          "ft": "2/2",
+          "rebounds": 8,
+          "assists": 5
+        }
+      ]
+    },
+    {
+      "game_id": "6534614",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "High Point",
+        "seed": 12,
+        "score": 83,
+        "winner": true
+      },
+      "home": {
+        "name": "Wisconsin",
+        "seed": 5,
+        "score": 82,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "John Blackwell",
+          "team": "Wisconsin",
+          "manager": "Brandon Nye",
+          "points": 22,
+          "minutes": "36",
+          "fg": "8/16",
+          "three": "3/5",
+          "ft": "3/4",
+          "rebounds": 10,
+          "assists": 2
+        },
+        {
+          "name": "Nick Boyd",
+          "team": "Wisconsin",
+          "manager": "Jake Pollack",
+          "points": 27,
+          "minutes": "35",
+          "fg": "10/20",
+          "three": "1/2",
+          "ft": "6/6",
+          "rebounds": 5,
+          "assists": 6
+        },
+        {
+          "name": "Nolan Winter",
+          "team": "Wisconsin",
+          "manager": "Schaf Chulay",
+          "points": 8,
+          "minutes": "20",
+          "fg": "4/7",
+          "three": "0/2",
+          "ft": "0/0",
+          "rebounds": 4,
+          "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534611",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Idaho",
+        "seed": 15,
+        "score": 47,
+        "winner": false
+      },
+      "home": {
+        "name": "Houston",
+        "seed": 2,
+        "score": 78,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Kingston Flemings",
+          "team": "Houston",
+          "manager": "Brandon Nye",
+          "points": 18,
+          "minutes": "27",
+          "fg": "8/12",
+          "three": "0/0",
+          "ft": "2/2",
+          "rebounds": 6,
+          "assists": 4
+        },
+        {
+          "name": "Emanuel Sharp",
+          "team": "Houston",
+          "manager": "Jake Pollack",
+          "points": 16,
+          "minutes": "21",
+          "fg": "6/7",
+          "three": "3/3",
+          "ft": "1/1",
+          "rebounds": 4,
+          "assists": 2
+        },
+        {
+          "name": "Milos Uzan",
+          "team": "Houston",
+          "manager": "Schaf Chulay",
+          "points": 12,
+          "minutes": "32",
+          "fg": "5/13",
+          "three": "2/6",
+          "ft": "0/0",
+          "rebounds": 3,
+          "assists": 3
+        }
+      ]
+    },
+    {
+      "game_id": "6534610",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Texas A&M",
+        "seed": 10,
+        "score": 63,
+        "winner": true
+      },
+      "home": {
+        "name": "Saint Mary's (CA)",
+        "seed": 7,
+        "score": 50,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Paulius Murauskas",
+          "team": "Saint Mary's (CA)",
+          "manager": "Mark Weiner",
+          "points": 4,
+          "minutes": "22",
+          "fg": "1/6",
+          "three": "0/1",
+          "ft": "2/2",
+          "rebounds": 3,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "game_id": "6534609",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Penn",
+        "seed": 14,
+        "score": 70,
+        "winner": false
+      },
+      "home": {
+        "name": "Illinois",
+        "seed": 3,
+        "score": 105,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "David Mirkovic",
+          "team": "Illinois",
+          "manager": "Alex Magged",
+          "points": 29,
+          "minutes": "28",
+          "fg": "11/17",
+          "three": "4/7",
+          "ft": "3/4",
+          "rebounds": 17,
+          "assists": 3
+        },
+        {
+          "name": "Andrej Stojakovic",
+          "team": "Illinois",
+          "manager": "Josh Ehrlich",
+          "points": 9,
+          "minutes": "20",
+          "fg": "3/8",
+          "three": "1/2",
+          "ft": "2/3",
+          "rebounds": 3,
+          "assists": 1
+        },
+        {
+          "name": "Keaton Wagler",
+          "team": "Illinois",
+          "manager": "Brandon Nye",
+          "points": 18,
+          "minutes": "31",
+          "fg": "7/14",
+          "three": "4/7",
+          "ft": "0/0",
+          "rebounds": 7,
+          "assists": 7
+        },
+        {
+          "name": "TJ Power",
+          "team": "Penn",
+          "manager": "Mark Weiner",
+          "points": 6,
+          "minutes": "29",
+          "fg": "2/8",
+          "three": "2/5",
+          "ft": "0/0",
+          "rebounds": 1,
+          "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534608",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "VCU",
+        "seed": 11,
+        "score": 82,
+        "winner": true
+      },
+      "home": {
+        "name": "North Carolina",
+        "seed": 6,
+        "score": 78,
+        "winner": false
+      },
+      "drafted_players": []
+    },
+    {
+      "game_id": "6534607",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Troy",
+        "seed": 13,
+        "score": 47,
+        "winner": false
+      },
+      "home": {
+        "name": "Nebraska",
+        "seed": 4,
+        "score": 76,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Pryce Sandfort",
+          "team": "Nebraska",
+          "manager": "Jordan Mackler",
+          "points": 23,
+          "minutes": "37",
+          "fg": "7/13",
+          "three": "7/12",
+          "ft": "2/2",
+          "rebounds": 5,
+          "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534606",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "McNeese",
+        "seed": 12,
+        "score": 68,
+        "winner": false
+      },
+      "home": {
+        "name": "Vanderbilt",
+        "seed": 5,
+        "score": 78,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Duke Miles",
+          "team": "Vanderbilt",
+          "manager": "Nick Reskin",
+          "points": 13,
+          "minutes": "28",
+          "fg": "4/9",
+          "three": "1/5",
+          "ft": "4/4",
+          "rebounds": 1,
+          "assists": 3
+        },
+        {
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt",
+          "manager": "Brandon Nye",
+          "points": 26,
+          "minutes": "36",
+          "fg": "7/16",
+          "three": "3/8",
+          "ft": "9/10",
+          "rebounds": 7,
+          "assists": 5
+        }
+      ]
+    },
+    {
+      "game_id": "6534601",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "North Dakota St.",
+        "seed": 14,
+        "score": 67,
+        "winner": false
+      },
+      "home": {
+        "name": "Michigan St.",
+        "seed": 3,
+        "score": 92,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Coen Carr",
+          "team": "Michigan St.",
+          "manager": "Jake Pollack",
+          "points": 17,
+          "minutes": "28",
+          "fg": "6/8",
+          "three": "1/2",
+          "ft": "4/4",
+          "rebounds": 4,
+          "assists": 2
+        },
+        {
+          "name": "Jaxon Kohler",
+          "team": "Michigan St.",
+          "manager": "Nick Reskin",
+          "points": 12,
+          "minutes": "26",
+          "fg": "4/9",
+          "three": "3/6",
+          "ft": "1/2",
+          "rebounds": 9,
+          "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534600",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "South Fla.",
+        "seed": 11,
+        "score": 79,
+        "winner": false
+      },
+      "home": {
+        "name": "Louisville",
+        "seed": 6,
+        "score": 83,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Ryan Conwell",
+          "team": "Louisville",
+          "manager": "AJ Spile",
+          "points": 18,
+          "minutes": "36",
+          "fg": "5/14",
+          "three": "2/7",
+          "ft": "6/9",
+          "rebounds": 4,
+          "assists": 6
+        }
+      ]
+    },
+    {
+      "game_id": "6534597",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "TCU",
+        "seed": 9,
+        "score": 66,
+        "winner": true
+      },
+      "home": {
+        "name": "Ohio St.",
+        "seed": 8,
+        "score": 64,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Bruce Thornton",
+          "team": "Ohio St.",
+          "manager": "AJ Spile",
+          "points": 10,
+          "minutes": "39",
+          "fg": "3/9",
+          "three": "2/5",
+          "ft": "2/2",
+          "rebounds": 4,
+          "assists": 4
+        },
+        {
+          "name": "David Punch",
+          "team": "TCU",
+          "manager": "AJ Spile",
+          "points": 16,
+          "minutes": "28",
+          "fg": "6/12",
+          "three": "0/1",
+          "ft": "4/6",
+          "rebounds": 13,
+          "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534596",
+      "round": "R64",
+      "date": "2026-03-19",
+      "status": "final",
+      "away": {
+        "name": "Siena",
+        "seed": 16,
+        "score": 65,
+        "winner": false
+      },
+      "home": {
+        "name": "Duke",
+        "seed": 1,
+        "score": 71,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Cayden Boozer",
+          "team": "Duke",
+          "manager": "Mark Weiner",
+          "points": 22,
+          "minutes": "38",
+          "fg": "4/11",
+          "three": "1/5",
+          "ft": "13/14",
+          "rebounds": 13,
+          "assists": 3
+        },
+        {
+          "name": "Cayden Boozer",
+          "team": "Duke",
+          "manager": "Mark Weiner",
+          "points": 19,
+          "minutes": "38",
+          "fg": "9/16",
+          "three": "1/4",
+          "ft": "0/0",
+          "rebounds": 2,
+          "assists": 5
+        },
+        {
+          "name": "Isaiah Evans",
+          "team": "Duke",
+          "manager": "Alex Magged",
+          "points": 16,
+          "minutes": "32",
+          "fg": "6/14",
+          "three": "2/8",
+          "ft": "2/3",
+          "rebounds": 10,
+          "assists": 1
+        }
+      ]
+    }
+  ]
+}

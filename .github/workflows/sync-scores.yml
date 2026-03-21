@@ -1,0 +1,92 @@
+name: Sync Tournament Scores
+
+on:
+  # Every 5 minutes — the job itself checks if we're in a game window
+  schedule:
+    - cron: '*/5 * * * *'
+  # Manual trigger for testing
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check game window
+        id: window
+        run: |
+          # All times in PST (UTC-8 in March = PST, but March 21-22 2026 is after
+          # spring forward so PDT = UTC-7)
+          NOW_UTC=$(date -u +%s)
+
+          # === ROUND OF 32 SCHEDULE ===
+          # Saturday March 21: 9:10 AM - 6:45 PM PDT, final pull 8:00 PM PDT
+          SAT_START=$(date -u -d "2026-03-21 16:10:00" +%s)    # 9:10 AM PDT
+          SAT_END=$(date -u -d "2026-03-22 01:45:00" +%s)      # 6:45 PM PDT
+          SAT_FINAL=$(date -u -d "2026-03-22 03:00:00" +%s)    # 8:00 PM PDT
+
+          # Sunday March 22: 9:10 AM - 6:45 PM PDT, final pull 8:00 PM PDT
+          SUN_START=$(date -u -d "2026-03-22 16:10:00" +%s)    # 9:10 AM PDT
+          SUN_END=$(date -u -d "2026-03-23 01:45:00" +%s)      # 6:45 PM PDT
+          SUN_FINAL=$(date -u -d "2026-03-23 03:00:00" +%s)    # 8:00 PM PDT
+
+          IN_WINDOW=false
+
+          # Saturday window (9:10 AM - 6:45 PM PDT)
+          if [ "$NOW_UTC" -ge "$SAT_START" ] && [ "$NOW_UTC" -le "$SAT_END" ]; then
+            IN_WINDOW=true
+          fi
+
+          # Saturday final pull (8:00 PM PDT ± 3 min)
+          SAT_FINAL_LOW=$((SAT_FINAL - 180))
+          SAT_FINAL_HIGH=$((SAT_FINAL + 180))
+          if [ "$NOW_UTC" -ge "$SAT_FINAL_LOW" ] && [ "$NOW_UTC" -le "$SAT_FINAL_HIGH" ]; then
+            IN_WINDOW=true
+          fi
+
+          # Sunday window (9:10 AM - 6:45 PM PDT)
+          if [ "$NOW_UTC" -ge "$SUN_START" ] && [ "$NOW_UTC" -le "$SUN_END" ]; then
+            IN_WINDOW=true
+          fi
+
+          # Sunday final pull (8:00 PM PDT ± 3 min)
+          SUN_FINAL_LOW=$((SUN_FINAL - 180))
+          SUN_FINAL_HIGH=$((SUN_FINAL + 180))
+          if [ "$NOW_UTC" -ge "$SUN_FINAL_LOW" ] && [ "$NOW_UTC" -le "$SUN_FINAL_HIGH" ]; then
+            IN_WINDOW=true
+          fi
+
+          echo "in_window=$IN_WINDOW" >> $GITHUB_OUTPUT
+          echo "Current UTC: $(date -u)"
+          echo "In game window: $IN_WINDOW"
+
+      - name: Checkout
+        if: steps.window.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.window.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sync scores from NCAA API
+        if: steps.window.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          PYTHONPATH=. python -m scoring sync
+
+      - name: Commit and push updated data
+        if: steps.window.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "The Gaygent"
+          git config user.email "gaygent@surveillance.board"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No score changes detected"
+          else
+            ROUND=$(python -c "import json; print(json.load(open('data/leaderboard.json'))['current_round'])")
+            git commit -m "chore: sync $ROUND scores — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
