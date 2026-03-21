@@ -1,10 +1,9 @@
 name: Sync Tournament Scores
 
 on:
-  # Every minute — the job itself checks if we're in a game window
-  schedule:
-    - cron: '* * * * *'
-  # Manual trigger for testing
+  # Disabled — local LaunchAgent handles syncing every 5 min
+  # schedule:
+  #   - cron: '* * * * *'
   workflow_dispatch:
 
 permissions:

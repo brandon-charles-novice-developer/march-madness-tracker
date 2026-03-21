@@ -410,3 +410,42 @@ Rank  Manager               Total   Active
 
 Eliminated teams (37): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
 Sat Mar 21 11:20:24 PDT 2026: Pushed (R32)
+Sat Mar 21 16:36:22 PDT 2026: Syncing...
+
+=== Syncing R32 ===
+  Fetching scoreboard for 2026-03-21...
+    Found 8 R32 games
+    [FINAL] Saint Louis vs Michigan...
+    [FINAL] Louisville vs Michigan St....
+    [LIVE] TCU vs Duke...
+    [LIVE] Texas A&M vs Houston...
+    [LIVE] Texas vs Gonzaga...
+  Fetching scoreboard for 2026-03-22...
+    Found 8 R32 games
+  Processed 2 final games
+  Saved scores to tournament_scores.json
+  Saved 41 games to tournament_games.json
+
+Building feeds...
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/games.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
+
+============================================================
+  MARCH MADNESS 2026 — R32
+============================================================
+Rank  Manager               Total   Active
+----- -------------------- ------ --------
+1     AJ Spile                198      4/8
+2     Alex Magged             181      8/8
+3     Jake Pollack            166      6/8
+4     Mark Weiner             152      6/8
+5     Brandon Nye             140      5/8
+6     Josh Ehrlich            121      8/8
+7     Jordan Mackler          121      8/8
+8     Mike Haughey            115      8/8
+9     Nick Reskin             106      7/8
+10    Schaf Chulay            104      7/8
+
+Eliminated teams (38): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
+Sat Mar 21 16:36:27 PDT 2026: Pushed (R32)

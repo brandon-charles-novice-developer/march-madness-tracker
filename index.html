@@ -582,7 +582,7 @@ function updateTimestamp() {
   else if (secs < 3600) ago = Math.floor(secs / 60) + 'm ago';
   else ago = Math.floor(secs / 3600) + 'h ' + Math.floor((secs % 3600) / 60) + 'm ago';
   var timeStr = d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
-  document.getElementById('last-updated').textContent = 'Last sync: ' + timeStr + ' (' + ago + ') · refreshes every 60s';
+  document.getElementById('last-updated').textContent = 'Last sync: ' + timeStr + ' (' + ago + ') · refreshes every 5 min';
 }
 
 function renderRounds(rounds, current) {
