@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Gaygent's March Madness Surveillance Board</title>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 <style>
 :root {
   --pink-base: #f0d4e0;
@@ -183,7 +184,7 @@ summary .m-name { font-weight: 700; flex: 1; color: var(--text-dark); }
 summary .m-pts {
   font-weight: 800; color: var(--purple-pts); font-size: 0.82rem;
   background: rgba(200, 162, 200, 0.25); padding: 3px 10px; border-radius: 999px;
-  border: var(--lavender-border);
+  border: var(--lavender-border); position: relative;
 }
 summary .m-badge { font-size: 0.75rem; padding: 2px 10px; border-radius: 999px; font-weight: 600; }
 summary .m-badge.full { background: rgba(105, 219, 124, 0.2); color: #1a6b2d; border: 1px solid rgba(105, 219, 124, 0.4); }
@@ -204,7 +205,7 @@ summary .m-badge.partial { background: rgba(255, 107, 107, 0.15); color: var(--r
 }
 .player-table th:first-child { border-radius: 8px 0 0 8px; }
 .player-table th:last-child { border-radius: 0 8px 8px 0; }
-.player-table td { padding: 7px 8px; }
+.player-table td { padding: 7px 8px; position: relative; }
 .player-table tbody tr { transition: all 0.2s ease; }
 .player-table tbody tr:nth-child(even) td { background: rgba(212, 87, 122, 0.04); }
 .player-table tr.eliminated td { opacity: 0.4; }
@@ -217,6 +218,43 @@ summary .m-badge.partial { background: rgba(255, 107, 107, 0.15); color: var(--r
 .card-metrics { display: flex; gap: 16px; margin-bottom: 10px; font-size: 0.75rem; color: var(--text-muted); }
 .metric-label { text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
 .metric-val { font-weight: 800; color: var(--purple-pts); }
+
+/* === LIVE ANIMATION STYLES === */
+@keyframes score-flash {
+  0%   { background: rgba(92, 26, 110, 0.0); box-shadow: none; }
+  15%  { background: rgba(218, 119, 242, 0.35); box-shadow: 0 0 16px rgba(218, 119, 242, 0.5); }
+  100% { background: rgba(92, 26, 110, 0.0); box-shadow: none; }
+}
+.score-changed { animation: score-flash 2s ease-out; border-radius: 6px; }
+
+@keyframes elimination-flash {
+  0%   { background: rgba(183, 28, 28, 0.5); }
+  40%  { background: rgba(183, 28, 28, 0.2); }
+  100% { background: transparent; }
+}
+.just-eliminated { animation: elimination-flash 2.5s ease-out forwards; }
+.just-eliminated td { opacity: 0.4 !important; }
+.just-eliminated .team-cell { text-decoration: line-through !important; }
+
+@keyframes float-up {
+  0%   { opacity: 1; transform: translateY(0) scale(1); }
+  50%  { opacity: 1; transform: translateY(-12px) scale(1.1); }
+  100% { opacity: 0; transform: translateY(-24px) scale(0.9); }
+}
+.delta-badge {
+  position: absolute; right: -4px; top: -8px;
+  color: #1a7a3a; font-weight: 800; font-size: 0.7rem;
+  animation: float-up 2s ease-out forwards;
+  pointer-events: none; white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.8);
+}
+
+@keyframes rank-glow {
+  0%   { box-shadow: var(--neu-raised); }
+  30%  { box-shadow: 0 0 20px rgba(142, 68, 173, 0.4), var(--neu-raised); }
+  100% { box-shadow: var(--neu-raised); }
+}
+.rank-changed { animation: rank-glow 2s ease-out; }
 
 /* Footer */
 footer { text-align: center; padding: 32px 16px; color: var(--text-muted); font-size: 0.75rem; }
@@ -285,173 +323,416 @@ footer span:hover { background: var(--pride-gradient); -webkit-background-clip: 
 
 <script>
 const ROUND_LABELS = { R64: 'R64', R32: 'R32', S16: 'Sweet 16', E8: 'Elite 8', F4: 'Final 4', Championship: 'Championship' };
+let _prevData = null;
+let _commentary = null;
+let _meta = null;
+
+// === ANIMATION HELPERS ===
+
+function animateCount(el, from, to, duration) {
+  duration = duration || 1200;
+  if (from === to) return;
+  const start = performance.now();
+  const update = (now) => {
+    const progress = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    el.textContent = Math.round(from + (to - from) * eased);
+    if (progress < 1) requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+}
+
+function showDelta(el, delta) {
+  if (delta <= 0) return;
+  const badge = document.createElement('span');
+  badge.className = 'delta-badge';
+  badge.textContent = '+' + delta;
+  el.style.position = 'relative';
+  el.appendChild(badge);
+  setTimeout(() => badge.remove(), 2200);
+}
+
+function flashElement(el, className, duration) {
+  el.classList.remove(className);
+  void el.offsetWidth; // force reflow to restart animation
+  el.classList.add(className);
+  setTimeout(() => el.classList.remove(className), duration || 2500);
+}
+
+function prideConfetti() {
+  if (typeof confetti === 'undefined') return;
+  confetti({ particleCount: 120, spread: 80, origin: { y: 0.35 },
+    colors: ['#c0392b', '#d35400', '#b8860b', '#1a7a3a', '#2471a3', '#8e44ad'] });
+}
+
+function emojiConfetti() {
+  if (typeof confetti === 'undefined') return;
+  var scalar = 2;
+  var shapes = ['💅', '✨', '🏳️‍🌈'].map(function(t) {
+    return confetti.shapeFromText({ text: t, scalar: scalar });
+  });
+  confetti({ shapes: shapes, scalar: scalar, particleCount: 30, spread: 60, origin: { y: 0.4 } });
+}
+
+// === DIFF ENGINE ===
+
+function diffStandings(prev, fresh) {
+  var changes = { pointChanges: [], rankSwaps: [], newEliminations: [], milestones: [] };
+
+  prev.standings.forEach(function(oldS) {
+    var newS = fresh.standings.find(function(s) { return s.manager === oldS.manager; });
+    if (!newS) return;
+
+    if (newS.total_points !== oldS.total_points) {
+      changes.pointChanges.push({ manager: newS.manager, player: null,
+        oldPts: oldS.total_points, newPts: newS.total_points });
+    }
+
+    if (newS.rank !== oldS.rank) {
+      changes.rankSwaps.push({ manager: newS.manager, oldRank: oldS.rank, newRank: newS.rank });
+    }
+
+    oldS.players.forEach(function(oldP) {
+      var newP = newS.players.find(function(p) { return p.name === oldP.name; });
+      if (!newP) return;
+
+      if (newP.total_points !== oldP.total_points) {
+        changes.pointChanges.push({ manager: newS.manager, player: newP.name,
+          oldPts: oldP.total_points, newPts: newP.total_points });
+      }
+      // Per-round diffs
+      Object.keys(newP.round_scores).forEach(function(r) {
+        var oldVal = (oldP.round_scores && oldP.round_scores[r]) || 0;
+        var newVal = newP.round_scores[r] || 0;
+        if (newVal !== oldVal) {
+          changes.pointChanges.push({ manager: newS.manager, player: newP.name,
+            round: r, oldPts: oldVal, newPts: newVal });
+        }
+      });
+
+      if (oldP.status === 'active' && newP.status === 'eliminated') {
+        changes.newEliminations.push({ manager: newS.manager, player: newP.name, team: newP.team });
+      }
+    });
+
+    // Milestones
+    if (newS.rank === 1 && oldS.rank !== 1) {
+      changes.milestones.push({ type: 'lead_change', manager: newS.manager });
+    }
+    [200, 300, 400].forEach(function(m) {
+      if (newS.total_points >= m && oldS.total_points < m) {
+        changes.milestones.push({ type: 'score_milestone', manager: newS.manager, value: m });
+      }
+    });
+  });
+
+  return changes;
+}
+
+// === APPLY CHANGES WITH ANIMATIONS ===
+
+function applyChanges(changes, fresh) {
+  // 1. Animate point changes
+  changes.pointChanges.forEach(function(c) {
+    if (!c.player && !c.round) {
+      // Manager total — podium or standings
+      var podiumEl = document.querySelector('[data-mgr-pts="' + c.manager + '"]');
+      if (podiumEl) {
+        animateCount(podiumEl, c.oldPts, c.newPts);
+        showDelta(podiumEl.parentElement, c.newPts - c.oldPts);
+        flashElement(podiumEl, 'score-changed');
+      }
+      var tableEl = document.querySelector('[data-mgr-table-pts="' + c.manager + '"]');
+      if (tableEl) {
+        animateCount(tableEl, c.oldPts, c.newPts);
+        flashElement(tableEl, 'score-changed');
+      }
+      var cardEl = document.querySelector('[data-mgr-card-pts="' + c.manager + '"]');
+      if (cardEl) {
+        animateCount(cardEl, c.oldPts, c.newPts);
+        flashElement(cardEl, 'score-changed');
+      }
+    }
+    if (c.player && c.round) {
+      // Player round score
+      var cellEl = document.querySelector('[data-player-round="' + c.player + ':' + c.round + '"]');
+      if (cellEl) {
+        animateCount(cellEl, c.oldPts, c.newPts);
+        showDelta(cellEl, c.newPts - c.oldPts);
+        flashElement(cellEl, 'score-changed');
+      }
+    }
+    if (c.player && !c.round) {
+      // Player total
+      var totalEl = document.querySelector('[data-player-total="' + c.player + '"]');
+      if (totalEl) {
+        animateCount(totalEl, c.oldPts, c.newPts);
+        flashElement(totalEl, 'score-changed');
+      }
+    }
+  });
+
+  // 2. Rank swap animations
+  if (changes.rankSwaps.length > 0) {
+    // FLIP on standings table
+    var tbody = document.getElementById('standings-body');
+    if (tbody) {
+      var rows = Array.from(tbody.querySelectorAll('tr'));
+      var firstRects = rows.map(function(r) { return r.getBoundingClientRect(); });
+
+      renderStandingsTable(fresh.standings.slice(3));
+
+      var newRows = Array.from(tbody.querySelectorAll('tr'));
+      newRows.forEach(function(el, i) {
+        if (i < firstRects.length) {
+          var dy = firstRects[i].top - el.getBoundingClientRect().top;
+          if (Math.abs(dy) > 2) {
+            el.animate([
+              { transform: 'translateY(' + dy + 'px)' },
+              { transform: 'translateY(0)' }
+            ], { duration: 600, easing: 'cubic-bezier(0.4, 0, 0.2, 1)' });
+            flashElement(el, 'rank-changed', 2000);
+          }
+        }
+      });
+    }
+    // Re-render podium with fresh data
+    renderPodium(fresh.standings.slice(0, 3));
+
+    // Re-render manager cards order
+    renderManagerCards(fresh.standings, fresh.rounds, _commentary);
+  } else {
+    // No rank change — update inline values only (already done above via animateCount)
+  }
+
+  // 3. Eliminations
+  changes.newEliminations.forEach(function(e) {
+    var row = document.querySelector('[data-player-row="' + e.player + '"]');
+    if (row) {
+      row.classList.remove('eliminated');
+      flashElement(row, 'just-eliminated', 2500);
+      setTimeout(function() { row.classList.add('eliminated'); }, 2500);
+    }
+  });
+
+  // 4. Milestones — confetti!
+  if (changes.milestones.length > 0) {
+    prideConfetti();
+    setTimeout(emojiConfetti, 800);
+  }
+
+  // 5. Update header timestamp + highlights
+  renderHeader(fresh, _meta, _commentary);
+  renderHighlights(fresh.standings, fresh.current_round, _commentary);
+}
+
+// === RENDER FUNCTIONS (with data attributes) ===
 
 async function init() {
-  const [lb, meta, commentary] = await Promise.all([
-    fetch('./data/leaderboard.json').then(r => r.json()),
-    fetch('./data/meta.json').then(r => r.json()),
-    fetch('./data/commentary.json').then(r => r.json()).catch(() => null),
+  var results = await Promise.all([
+    fetch('./data/leaderboard.json').then(function(r) { return r.json(); }),
+    fetch('./data/meta.json').then(function(r) { return r.json(); }),
+    fetch('./data/commentary.json').then(function(r) { return r.json(); }).catch(function() { return null; }),
   ]);
-  renderHeader(lb, meta, commentary);
+  var lb = results[0]; _meta = results[1]; _commentary = results[2];
+
+  renderHeader(lb, _meta, _commentary);
   renderRounds(lb.rounds, lb.current_round);
   renderPodium(lb.standings.slice(0, 3));
   renderStandingsTable(lb.standings.slice(3));
-  renderHighlights(lb.standings, lb.current_round, commentary);
-  renderManagerCards(lb.standings, lb.rounds, commentary);
-  scheduleRefresh(meta.tournament_dates);
+  renderHighlights(lb.standings, lb.current_round, _commentary);
+  renderManagerCards(lb.standings, lb.rounds, _commentary);
+
+  _prevData = lb;
+  scheduleRefresh(_meta.tournament_dates);
 }
 
 function renderHeader(lb, meta, commentary) {
-  const d = new Date(lb.last_updated);
+  var d = new Date(lb.last_updated);
   document.getElementById('last-updated').textContent = 'Updated: ' + d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
   if (commentary) document.getElementById('gaygent-header').textContent = commentary.gaygent_header || '';
 }
 
 function renderRounds(rounds, current) {
-  const el = document.getElementById('rounds');
-  const idx = rounds.indexOf(current);
-  el.innerHTML = rounds.map((r, i) => {
-    const cls = i < idx ? 'completed' : i === idx ? 'current' : '';
-    const icon = i < idx ? '✓ ' : '';
-    return `<span class="round-pill ${cls}">${icon}${ROUND_LABELS[r] || r}</span>`;
+  var el = document.getElementById('rounds');
+  var idx = rounds.indexOf(current);
+  el.innerHTML = rounds.map(function(r, i) {
+    var cls = i < idx ? 'completed' : i === idx ? 'current' : '';
+    var icon = i < idx ? '✓ ' : '';
+    return '<span class="round-pill ' + cls + '">' + icon + (ROUND_LABELS[r] || r) + '</span>';
   }).join('');
 }
 
 function renderPodium(top3) {
-  const medals = ['🥇', '🥈', '🥉'];
-  const classes = ['first', 'second', 'third'];
-  const el = document.getElementById('podium');
-  el.innerHTML = top3.map((s, i) => {
-    const surv = Math.round(s.active_players / s.total_players * 100);
-    const livePts = s.players.filter(p => p.status === 'active').reduce((a, p) => a + p.total_points, 0);
-    const livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
-    return `<div class="podium-card ${classes[i]}">
-      <div class="podium-medal">${medals[i]}</div>
-      <div class="podium-rank">#${s.rank}</div>
-      <div class="podium-name">${s.manager}</div>
-      <div class="podium-pts">${s.total_points}</div>
-      <div class="podium-stats">${s.active_players}/${s.total_players} alive · ${surv}% · ${livePct}% live</div>
-    </div>`;
+  var medals = ['🥇', '🥈', '🥉'];
+  var classes = ['first', 'second', 'third'];
+  var el = document.getElementById('podium');
+  el.innerHTML = top3.map(function(s, i) {
+    var surv = Math.round(s.active_players / s.total_players * 100);
+    var livePts = s.players.filter(function(p) { return p.status === 'active'; }).reduce(function(a, p) { return a + p.total_points; }, 0);
+    var livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
+    return '<div class="podium-card ' + classes[i] + '" data-manager="' + s.manager + '">' +
+      '<div class="podium-medal">' + medals[i] + '</div>' +
+      '<div class="podium-rank">#' + s.rank + '</div>' +
+      '<div class="podium-name">' + s.manager + '</div>' +
+      '<div class="podium-pts" data-mgr-pts="' + s.manager + '">' + s.total_points + '</div>' +
+      '<div class="podium-stats">' + s.active_players + '/' + s.total_players + ' alive · ' + surv + '% · ' + livePct + '% live</div>' +
+    '</div>';
   }).join('');
 }
 
 function renderStandingsTable(rest) {
-  const tbody = document.getElementById('standings-body');
-  tbody.innerHTML = rest.map(s => {
-    const surv = Math.round(s.active_players / s.total_players * 100);
-    const livePts = s.players.filter(p => p.status === 'active').reduce((a, p) => a + p.total_points, 0);
-    const livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
-    const activeColor = s.active_players === s.total_players ? 'color:#1a6b2d' : 'color:#c0392b';
-    return `<tr>
-      <td class="rank-num">${s.rank}</td>
-      <td style="font-weight:700">${s.manager}</td>
-      <td class="pts-val">${s.total_points}</td>
-      <td style="${activeColor};font-weight:600">${s.active_players}/${s.total_players}</td>
-      <td>${surv}%</td>
-      <td>${livePct}%</td>
-    </tr>`;
+  var tbody = document.getElementById('standings-body');
+  tbody.innerHTML = rest.map(function(s) {
+    var surv = Math.round(s.active_players / s.total_players * 100);
+    var livePts = s.players.filter(function(p) { return p.status === 'active'; }).reduce(function(a, p) { return a + p.total_points; }, 0);
+    var livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
+    var activeColor = s.active_players === s.total_players ? 'color:#1a6b2d' : 'color:#c0392b';
+    return '<tr data-manager="' + s.manager + '">' +
+      '<td class="rank-num">' + s.rank + '</td>' +
+      '<td style="font-weight:700">' + s.manager + '</td>' +
+      '<td class="pts-val" data-mgr-table-pts="' + s.manager + '">' + s.total_points + '</td>' +
+      '<td style="' + activeColor + ';font-weight:600">' + s.active_players + '/' + s.total_players + '</td>' +
+      '<td>' + surv + '%</td>' +
+      '<td>' + livePct + '%</td>' +
+    '</tr>';
   }).join('');
 }
 
 function renderHighlights(standings, currentRound, commentary) {
-  const el = document.getElementById('highlights');
-  const allPlayers = standings.flatMap(s => s.players.map(p => ({ ...p, manager: s.manager })));
-  const roundScorers = allPlayers
-    .filter(p => (p.round_scores[currentRound] || 0) > 0 && p.status === 'active')
-    .sort((a, b) => (b.round_scores[currentRound] || 0) - (a.round_scores[currentRound] || 0));
-  const top5 = roundScorers.slice(0, 5);
-
-  const played = allPlayers.filter(p => p.ppg_season > 0 && (p.round_scores[currentRound] || 0) >= 0);
-  const busts = played.filter(p => p.ppg_season >= 15).sort((a, b) => {
-    const ratioA = (a.round_scores[currentRound] || 0) / a.ppg_season;
-    const ratioB = (b.round_scores[currentRound] || 0) / b.ppg_season;
-    return ratioA - ratioB;
+  var el = document.getElementById('highlights');
+  var allPlayers = [];
+  standings.forEach(function(s) {
+    s.players.forEach(function(p) { allPlayers.push(Object.assign({}, p, { manager: s.manager })); });
   });
-  const bust = busts[0];
+  var roundScorers = allPlayers
+    .filter(function(p) { return (p.round_scores[currentRound] || 0) > 0 && p.status === 'active'; })
+    .sort(function(a, b) { return (b.round_scores[currentRound] || 0) - (a.round_scores[currentRound] || 0); });
+  var top5 = roundScorers.slice(0, 5);
 
-  let hotHtml = '<div class="highlight-card"><h3 class="hot">🔥 Hot Players — ' + (ROUND_LABELS[currentRound] || currentRound) + '</h3>';
-  top5.forEach((p, i) => {
-    const pts = p.round_scores[currentRound] || 0;
-    hotHtml += `<div class="hot-row"><span>${i + 1}. ${p.name}</span><span class="pts">${pts} <span class="mgr">(${p.manager.split(' ').map(w => w[0]).join('')})</span></span></div>`;
+  var played = allPlayers.filter(function(p) { return p.ppg_season > 0; });
+  var busts = played.filter(function(p) { return p.ppg_season >= 15; }).sort(function(a, b) {
+    return ((a.round_scores[currentRound] || 0) / a.ppg_season) - ((b.round_scores[currentRound] || 0) / b.ppg_season);
+  });
+  var bust = busts[0];
+
+  var hotHtml = '<div class="highlight-card"><h3 class="hot">🔥 Hot Players — ' + (ROUND_LABELS[currentRound] || currentRound) + '</h3>';
+  top5.forEach(function(p, i) {
+    var pts = p.round_scores[currentRound] || 0;
+    var initials = p.manager.split(' ').map(function(w) { return w[0]; }).join('');
+    hotHtml += '<div class="hot-row"><span>' + (i + 1) + '. ' + p.name + '</span><span class="pts">' + pts + ' <span class="mgr">(' + initials + ')</span></span></div>';
   });
   hotHtml += '</div>';
 
-  let bustHtml = '<div class="highlight-card"><h3 class="bust">💀 Biggest Bust</h3>';
+  var bustHtml = '<div class="highlight-card"><h3 class="bust">💀 Biggest Bust</h3>';
   if (bust) {
-    const bustPts = bust.round_scores[currentRound] || 0;
-    bustHtml += `<div class="bust-name">${bust.name}</div>`;
-    bustHtml += `<div class="bust-detail">${bust.team} (${bust.seed}-seed) · Season PPG: ${bust.ppg_season} · Actual: ${bustPts} pts</div>`;
-    bustHtml += `<div class="bust-detail">Status: ${bust.status.toUpperCase()} · Owner: ${bust.manager}</div>`;
+    var bustPts = bust.round_scores[currentRound] || 0;
+    bustHtml += '<div class="bust-name">' + bust.name + '</div>';
+    bustHtml += '<div class="bust-detail">' + bust.team + ' (' + bust.seed + '-seed) · Season PPG: ' + bust.ppg_season + ' · Actual: ' + bustPts + ' pts</div>';
+    bustHtml += '<div class="bust-detail">Status: ' + bust.status.toUpperCase() + ' · Owner: ' + bust.manager + '</div>';
     if (commentary && commentary.bust_roast) {
-      bustHtml += `<div class="bust-quote">${commentary.bust_roast}</div>`;
+      bustHtml += '<div class="bust-quote">' + commentary.bust_roast + '</div>';
     }
   }
   bustHtml += '</div>';
-
   el.innerHTML = hotHtml + bustHtml;
 }
 
 function renderManagerCards(standings, rounds, commentary) {
-  const el = document.getElementById('manager-cards');
-  el.innerHTML = standings.map(s => {
-    const surv = Math.round(s.active_players / s.total_players * 100);
-    const livePts = s.players.filter(p => p.status === 'active').reduce((a, p) => a + p.total_points, 0);
-    const livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
-    const badgeClass = s.active_players === s.total_players ? 'full' : 'partial';
-    const blurb = commentary && commentary.managers ? (commentary.managers[s.manager] || '') : '';
+  var el = document.getElementById('manager-cards');
+  el.innerHTML = standings.map(function(s) {
+    var surv = Math.round(s.active_players / s.total_players * 100);
+    var livePts = s.players.filter(function(p) { return p.status === 'active'; }).reduce(function(a, p) { return a + p.total_points; }, 0);
+    var livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
+    var badgeClass = s.active_players === s.total_players ? 'full' : 'partial';
+    var blurb = commentary && commentary.managers ? (commentary.managers[s.manager] || '') : '';
 
-    let tableRows = '';
-    s.players.forEach(p => {
-      const rowClass = p.status === 'eliminated' ? 'eliminated' : '';
-      const dot = p.status === 'active' ? '<span class="status-dot active"></span>' : '<span class="status-dot elim"></span>';
-      let roundCells = '';
-      rounds.forEach(r => {
-        const val = p.round_scores[r];
-        roundCells += `<td class="pts-cell">${val !== undefined ? val : '—'}</td>`;
+    var tableRows = '';
+    s.players.forEach(function(p) {
+      var rowClass = p.status === 'eliminated' ? 'eliminated' : '';
+      var dot = p.status === 'active' ? '<span class="status-dot active"></span>' : '<span class="status-dot elim"></span>';
+      var roundCells = '';
+      rounds.forEach(function(r) {
+        var val = p.round_scores[r];
+        var attr = ' data-player-round="' + p.name + ':' + r + '"';
+        roundCells += '<td class="pts-cell"' + attr + '>' + (val !== undefined ? val : '—') + '</td>';
       });
-      tableRows += `<tr class="${rowClass}">
-        <td>${dot}${p.name}</td>
-        <td class="team-cell">${p.team} (${p.seed})</td>
-        ${roundCells}
-        <td class="total-cell">${p.total_points}</td>
-      </tr>`;
+      tableRows += '<tr class="' + rowClass + '" data-player-row="' + p.name + '">' +
+        '<td>' + dot + p.name + '</td>' +
+        '<td class="team-cell">' + p.team + ' (' + p.seed + ')</td>' +
+        roundCells +
+        '<td class="total-cell" data-player-total="' + p.name + '">' + p.total_points + '</td>' +
+      '</tr>';
     });
 
-    const roundHeaders = rounds.map(r => `<th>${r}</th>`).join('');
+    var roundHeaders = rounds.map(function(r) { return '<th>' + r + '</th>'; }).join('');
 
-    return `<details class="manager-card">
-      <summary class="manager-summary">
-        <span class="m-rank">#${s.rank}</span>
-        <span class="m-name">${s.manager}</span>
-        <span class="m-pts">${s.total_points} pts</span>
-        <span class="m-badge ${badgeClass}">${s.active_players}/${s.total_players}</span>
-      </summary>
-      <div class="card-body">
-        <div class="card-metrics">
-          <span><span class="metric-label">Survival: </span><span class="metric-val">${surv}%</span></span>
-          <span><span class="metric-label">Live Portfolio: </span><span class="metric-val">${livePct}%</span></span>
-        </div>
-        ${blurb ? `<div class="card-commentary">${blurb}</div>` : ''}
-        <table class="player-table">
-          <thead><tr><th>Player</th><th>Team</th>${roundHeaders}<th>Total</th></tr></thead>
-          <tbody>${tableRows}</tbody>
-        </table>
-      </div>
-    </details>`;
+    return '<details class="manager-card" data-manager="' + s.manager + '">' +
+      '<summary class="manager-summary">' +
+        '<span class="m-rank">#' + s.rank + '</span>' +
+        '<span class="m-name">' + s.manager + '</span>' +
+        '<span class="m-pts" data-mgr-card-pts="' + s.manager + '">' + s.total_points + ' pts</span>' +
+        '<span class="m-badge ' + badgeClass + '">' + s.active_players + '/' + s.total_players + '</span>' +
+      '</summary>' +
+      '<div class="card-body">' +
+        '<div class="card-metrics">' +
+          '<span><span class="metric-label">Survival: </span><span class="metric-val">' + surv + '%</span></span>' +
+          '<span><span class="metric-label">Live Portfolio: </span><span class="metric-val">' + livePct + '%</span></span>' +
+        '</div>' +
+        (blurb ? '<div class="card-commentary">' + blurb + '</div>' : '') +
+        '<table class="player-table">' +
+          '<thead><tr><th>Player</th><th>Team</th>' + roundHeaders + '<th>Total</th></tr></thead>' +
+          '<tbody>' + tableRows + '</tbody>' +
+        '</table>' +
+      '</div>' +
+    '</details>';
   }).join('');
 }
 
+// === LIVE UPDATE (replaces location.reload) ===
+
+async function liveUpdate() {
+  try {
+    var fresh = await fetch('./data/leaderboard.json?t=' + Date.now()).then(function(r) { return r.json(); });
+
+    if (!_prevData) { _prevData = fresh; return; }
+
+    // Check if data actually changed
+    if (fresh.last_updated === _prevData.last_updated) return;
+
+    var changes = diffStandings(_prevData, fresh);
+
+    var hasChanges = changes.pointChanges.length > 0 ||
+      changes.rankSwaps.length > 0 ||
+      changes.newEliminations.length > 0;
+
+    if (hasChanges) {
+      applyChanges(changes, fresh);
+    } else {
+      // Just update timestamp
+      renderHeader(fresh, _meta, _commentary);
+    }
+
+    _prevData = fresh;
+  } catch (e) {
+    // Network error — skip this cycle silently
+  }
+}
+
 function scheduleRefresh(tournamentDates) {
-  const allDates = Object.values(tournamentDates).flat();
-  const now = new Date();
-  const todayStr = now.toISOString().slice(0, 10);
-  const isGameDay = allDates.includes(todayStr);
-  const hour = now.getHours();
-  const inGameWindow = isGameDay && hour >= 11 && hour <= 25;
+  var allDates = [];
+  Object.values(tournamentDates).forEach(function(dates) {
+    dates.forEach(function(d) { allDates.push(d); });
+  });
+  var now = new Date();
+  var todayStr = now.toISOString().slice(0, 10);
+  var isGameDay = allDates.indexOf(todayStr) >= 0;
+  var hour = now.getHours();
+  var inGameWindow = isGameDay && hour >= 9 && hour <= 23;
 
   if (inGameWindow) {
     document.getElementById('live-indicator').innerHTML = '<span class="live-dot"></span> LIVE';
-    setInterval(() => location.reload(), 60 * 1000);
+    setInterval(liveUpdate, 60 * 1000);
   }
 }
 
