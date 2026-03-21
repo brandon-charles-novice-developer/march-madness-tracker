@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T17:10:42.914512+00:00",
+  "last_updated": "2026-03-21T17:34:38.576150+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -148,18 +148,33 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 148,
+      "total_points": 152,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 4,
+        "R32": 8,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Morez Johnson Jr",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 13,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 29,
+          "round_scores": {
+            "R64": 21,
+            "R32": 8
+          },
+          "ppg_season": 13.3
+        },
         {
           "name": "David Mirkovic",
           "team": "Illinois",
@@ -187,21 +202,6 @@
             "R64": 27
           },
           "ppg_season": 17.8
-        },
-        {
-          "name": "Morez Johnson Jr",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 13,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 25,
-          "round_scores": {
-            "R64": 21,
-            "R32": 4
-          },
-          "ppg_season": 13.3
         },
         {
           "name": "Trey Kaufman-Renn",
@@ -278,12 +278,12 @@
     {
       "rank": 3,
       "manager": "Mark Weiner",
-      "total_points": 139,
+      "total_points": 143,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 129,
-        "R32": 10,
+        "R32": 14,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -298,10 +298,10 @@
           "pick": 18,
           "draft_round": 2,
           "status": "active",
-          "total_points": 29,
+          "total_points": 33,
           "round_scores": {
             "R64": 19,
-            "R32": 10
+            "R32": 14
           },
           "ppg_season": 11.6
         },
@@ -665,6 +665,136 @@
     },
     {
       "rank": 6,
+      "manager": "Josh Ehrlich",
+      "total_points": 109,
+      "active_players": 8,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 96,
+        "R32": 13,
+        "S16": 0,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Braden Smith",
+          "team": "Purdue",
+          "seed": 2,
+          "region": "West",
+          "pick": 21,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 26,
+          "round_scores": {
+            "R64": 26
+          },
+          "ppg_season": 14.0
+        },
+        {
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 1,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 22,
+          "round_scores": {
+            "R64": 9,
+            "R32": 13
+          },
+          "ppg_season": 14.4
+        },
+        {
+          "name": "Trevon Brazile",
+          "team": "Arkansas",
+          "seed": 4,
+          "region": "West",
+          "pick": 60,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 19,
+          "round_scores": {
+            "R64": 19
+          },
+          "ppg_season": 13.1
+        },
+        {
+          "name": "Rueben Chinyelu",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 41,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 14,
+          "round_scores": {
+            "R64": 14
+          },
+          "ppg_season": 11.2
+        },
+        {
+          "name": "Sam Lewis",
+          "team": "Virginia",
+          "seed": 3,
+          "region": "Midwest",
+          "pick": 80,
+          "draft_round": 8,
+          "status": "active",
+          "total_points": 12,
+          "round_scores": {
+            "R64": 12
+          },
+          "ppg_season": 10.8
+        },
+        {
+          "name": "Andrej Stojakovic",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 40,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 9,
+          "round_scores": {
+            "R64": 9
+          },
+          "ppg_season": 13.4
+        },
+        {
+          "name": "Jaden Bradley",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 20,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 7,
+          "round_scores": {
+            "R64": 7
+          },
+          "ppg_season": 13.3
+        },
+        {
+          "name": "Tyler Bilodeau",
+          "team": "UCLA",
+          "seed": 7,
+          "region": "East",
+          "pick": 61,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 0,
+          "round_scores": {
+            "R64": 0
+          },
+          "ppg_season": 17.6
+        }
+      ]
+    },
+    {
+      "rank": 7,
       "manager": "Mike Haughey",
       "total_points": 106,
       "active_players": 8,
@@ -790,136 +920,6 @@
             "R64": 9
           },
           "ppg_season": 10.5
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "manager": "Josh Ehrlich",
-      "total_points": 105,
-      "active_players": 8,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 96,
-        "R32": 9,
-        "S16": 0,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Braden Smith",
-          "team": "Purdue",
-          "seed": 2,
-          "region": "West",
-          "pick": 21,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 26,
-          "round_scores": {
-            "R64": 26
-          },
-          "ppg_season": 14.0
-        },
-        {
-          "name": "Trevon Brazile",
-          "team": "Arkansas",
-          "seed": 4,
-          "region": "West",
-          "pick": 60,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 19,
-          "round_scores": {
-            "R64": 19
-          },
-          "ppg_season": 13.1
-        },
-        {
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 1,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 18,
-          "round_scores": {
-            "R64": 9,
-            "R32": 9
-          },
-          "ppg_season": 14.4
-        },
-        {
-          "name": "Rueben Chinyelu",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 41,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 14,
-          "round_scores": {
-            "R64": 14
-          },
-          "ppg_season": 11.2
-        },
-        {
-          "name": "Sam Lewis",
-          "team": "Virginia",
-          "seed": 3,
-          "region": "Midwest",
-          "pick": 80,
-          "draft_round": 8,
-          "status": "active",
-          "total_points": 12,
-          "round_scores": {
-            "R64": 12
-          },
-          "ppg_season": 10.8
-        },
-        {
-          "name": "Andrej Stojakovic",
-          "team": "Illinois",
-          "seed": 3,
-          "region": "South",
-          "pick": 40,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 9,
-          "round_scores": {
-            "R64": 9
-          },
-          "ppg_season": 13.4
-        },
-        {
-          "name": "Jaden Bradley",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 20,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 7,
-          "round_scores": {
-            "R64": 7
-          },
-          "ppg_season": 13.3
-        },
-        {
-          "name": "Tyler Bilodeau",
-          "team": "UCLA",
-          "seed": 7,
-          "region": "East",
-          "pick": 61,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 0,
-          "round_scores": {
-            "R64": 0
-          },
-          "ppg_season": 17.6
         }
       ]
     },
