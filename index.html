@@ -563,9 +563,26 @@ async function init() {
 }
 
 function renderHeader(lb, meta, commentary) {
-  var d = new Date(lb.last_updated);
-  document.getElementById('last-updated').textContent = 'Updated: ' + d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+  window._lastUpdatedISO = lb.last_updated;
+  updateTimestamp();
+  if (!window._tickerStarted) {
+    setInterval(updateTimestamp, 5000);
+    window._tickerStarted = true;
+  }
   if (commentary) document.getElementById('gaygent-header').textContent = commentary.gaygent_header || '';
+}
+
+function updateTimestamp() {
+  if (!window._lastUpdatedISO) return;
+  var d = new Date(window._lastUpdatedISO);
+  var now = new Date();
+  var secs = Math.floor((now - d) / 1000);
+  var ago;
+  if (secs < 60) ago = secs + 's ago';
+  else if (secs < 3600) ago = Math.floor(secs / 60) + 'm ago';
+  else ago = Math.floor(secs / 3600) + 'h ' + Math.floor((secs % 3600) / 60) + 'm ago';
+  var timeStr = d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  document.getElementById('last-updated').textContent = 'Last sync: ' + timeStr + ' (' + ago + ') · refreshes every 60s';
 }
 
 function renderRounds(rounds, current) {
