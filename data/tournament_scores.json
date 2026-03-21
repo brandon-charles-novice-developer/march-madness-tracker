@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T05:39:52.056961+00:00",
+  "last_updated": "2026-03-21T06:17:22.030885+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -25,6 +25,12 @@
     ]
   },
   "scores": {
+    "Dailyn Swain": {
+      "R64": 27
+    },
+    "Boopie Miller": {
+      "R64": 15
+    },
     "Bruce Thornton": {
       "R64": 10
     },
@@ -98,9 +104,6 @@
       "R64": 35
     },
     "Robert Wright III": {
-      "R64": 14
-    },
-    "Dailyn Swain": {
       "R64": 14
     },
     "David Mirkovic": {
@@ -261,15 +264,18 @@
     "Idaho",
     "Kennesaw St.",
     "LIU",
+    "Lehigh",
     "McNeese",
     "Miami (OH)",
     "Missouri",
+    "NC State",
     "North Carolina",
     "North Dakota St.",
     "Ohio St.",
     "Penn",
     "Prairie View",
     "Queens (NC)",
+    "SMU",
     "Saint Mary's (CA)",
     "Santa Clara",
     "Siena",
@@ -277,12 +283,17 @@
     "Tennessee St.",
     "Troy",
     "UCF",
+    "UMBC",
     "UNI",
     "Villanova",
     "Wisconsin",
     "Wright St."
   ],
   "games_processed": [
+    "6534592",
+    "6534593",
+    "6534594",
+    "6534595",
     "6534597",
     "6534607",
     "6534600",
@@ -315,5 +326,6 @@
     "6534599",
     "6534618",
     "6534603"
-  ]
+  ],
+  "live_scores": {}
 }

@@ -31,8 +31,9 @@ class TestRoundDates:
             assert round_name in ROUND_DATES
             assert len(ROUND_DATES[round_name]) >= 1
 
-    def test_r64_has_two_days(self):
-        assert len(ROUND_DATES["R64"]) == 2
+    def test_r64_has_four_days(self):
+        # 2 First Four days + 2 R64 days
+        assert len(ROUND_DATES["R64"]) == 4
 
     def test_championship_has_one_day(self):
         assert len(ROUND_DATES["Championship"]) == 1

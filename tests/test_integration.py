@@ -130,9 +130,10 @@ class TestGamesIntegrity:
     def test_has_games(self):
         assert len(self.games["games"]) > 0
 
-    def test_r64_has_32_games(self):
+    def test_r64_has_36_games(self):
+        # 32 R64 games + 4 First Four games (counted as R64)
         r64 = [g for g in self.games["games"] if g["round"] == "R64"]
-        assert len(r64) == 32
+        assert len(r64) == 36
 
     def test_every_game_has_final_status(self):
         for g in self.games["games"]:
@@ -220,11 +221,12 @@ class TestScoresIntegrity:
         assert len(self.scores["scores"]) > 0
 
     def test_has_eliminated_teams(self):
-        # After R64, 32 teams should be eliminated
-        assert len(self.scores["eliminated_teams"]) == 32
+        # After R64 + First Four, 36 teams eliminated (32 R64 + 4 First Four)
+        assert len(self.scores["eliminated_teams"]) == 36
 
     def test_has_processed_games(self):
-        assert len(self.scores["games_processed"]) == 32
+        # 32 R64 games + 4 First Four games
+        assert len(self.scores["games_processed"]) == 36
 
     def test_all_scores_are_non_negative(self):
         for player, rounds in self.scores["scores"].items():

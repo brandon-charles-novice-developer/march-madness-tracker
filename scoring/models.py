@@ -6,8 +6,9 @@ from typing import TypedDict
 ROUND_ORDER: list[str] = ["R64", "R32", "S16", "E8", "F4", "Championship"]
 
 # Game dates per round (2026 tournament)
+# First Four (Mar 17-18) counts as R64 for scoring purposes
 ROUND_DATES: dict[str, list[str]] = {
-    "R64": ["2026-03-19", "2026-03-20"],
+    "R64": ["2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20"],
     "R32": ["2026-03-21", "2026-03-22"],
     "S16": ["2026-03-27", "2026-03-28"],
     "E8": ["2026-03-29", "2026-03-30"],
@@ -16,7 +17,9 @@ ROUND_DATES: dict[str, list[str]] = {
 }
 
 # NCAA API bracketRound number → our round name
+# bracketRound 1 = First Four (counts as R64 for scoring)
 API_ROUND_MAP: dict[int, str] = {
+    1: "R64",
     2: "R64",
     3: "R32",
     4: "S16",

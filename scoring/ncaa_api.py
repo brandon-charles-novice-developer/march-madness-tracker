@@ -57,8 +57,8 @@ def fetch_scoreboard(date: str) -> list[dict]:
         game = entry.get("game", {})
         bracket_round = game.get("bracketRound")
 
-        # Skip non-tournament games
-        if not bracket_round or bracket_round < 2:
+        # Skip non-tournament games (bracketRound 1 = First Four, 2+ = main bracket)
+        if not bracket_round or bracket_round < 1:
             continue
 
         round_name = API_ROUND_MAP.get(bracket_round, f"R{bracket_round}")

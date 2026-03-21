@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T06:08:15.390139+00:00",
+  "last_updated": "2026-03-21T06:18:35.130258+00:00",
   "games": [
     {
       "game_id": "6534627",
@@ -1476,6 +1476,108 @@
           "assists": 1
         }
       ]
+    },
+    {
+      "game_id": "6534595",
+      "round": "R64",
+      "date": "2026-03-18",
+      "status": "final",
+      "away": {
+        "name": "Miami (OH)",
+        "seed": 11,
+        "score": 89,
+        "winner": true
+      },
+      "home": {
+        "name": "SMU",
+        "seed": 11,
+        "score": 79,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Boopie Miller",
+          "team": "SMU",
+          "manager": "Jake Pollack",
+          "points": 15,
+          "minutes": "38",
+          "fg": "6/17",
+          "three": "3/6",
+          "ft": "0/1",
+          "rebounds": 1,
+          "assists": 5
+        }
+      ]
+    },
+    {
+      "game_id": "6534594",
+      "round": "R64",
+      "date": "2026-03-18",
+      "status": "final",
+      "away": {
+        "name": "Prairie View",
+        "seed": 16,
+        "score": 67,
+        "winner": true
+      },
+      "home": {
+        "name": "Lehigh",
+        "seed": 16,
+        "score": 55,
+        "winner": false
+      },
+      "drafted_players": []
+    },
+    {
+      "game_id": "6534593",
+      "round": "R64",
+      "date": "2026-03-17",
+      "status": "final",
+      "away": {
+        "name": "Texas",
+        "seed": 11,
+        "score": 68,
+        "winner": true
+      },
+      "home": {
+        "name": "NC State",
+        "seed": 11,
+        "score": 66,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Dailyn Swain",
+          "team": "Texas",
+          "manager": "Alex Magged",
+          "points": 13,
+          "minutes": "37",
+          "fg": "2/9",
+          "three": "1/3",
+          "ft": "8/9",
+          "rebounds": 8,
+          "assists": 4
+        }
+      ]
+    },
+    {
+      "game_id": "6534592",
+      "round": "R64",
+      "date": "2026-03-17",
+      "status": "final",
+      "away": {
+        "name": "UMBC",
+        "seed": 16,
+        "score": 83,
+        "winner": false
+      },
+      "home": {
+        "name": "Howard",
+        "seed": 16,
+        "score": 86,
+        "winner": true
+      },
+      "drafted_players": []
     }
   ]
 }

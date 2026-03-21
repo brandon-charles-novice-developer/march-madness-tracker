@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T06:08:15.383678+00:00",
+  "last_updated": "2026-03-21T06:18:35.122832+00:00",
   "current_round": "R64",
   "tournament_status": "in_progress",
   "payouts": {
@@ -148,11 +148,11 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 131,
+      "total_points": 144,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
-        "R64": 131,
+        "R64": 144,
         "R32": 0,
         "S16": 0,
         "E8": 0,
@@ -173,6 +173,20 @@
             "R64": 29
           },
           "ppg_season": 13.4
+        },
+        {
+          "name": "Dailyn Swain",
+          "team": "Texas",
+          "seed": 11,
+          "region": "West",
+          "pick": 68,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 27
+          },
+          "ppg_season": 17.8
         },
         {
           "name": "Trey Kaufman-Renn",
@@ -229,20 +243,6 @@
             "R64": 16
           },
           "ppg_season": 11.6
-        },
-        {
-          "name": "Dailyn Swain",
-          "team": "Texas",
-          "seed": 11,
-          "region": "West",
-          "pick": 68,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 14,
-          "round_scores": {
-            "R64": 14
-          },
-          "ppg_season": 17.8
         },
         {
           "name": "Billy Richmond III",
@@ -535,11 +535,11 @@
     {
       "rank": 5,
       "manager": "Jake Pollack",
-      "total_points": 113,
-      "active_players": 7,
+      "total_points": 128,
+      "active_players": 6,
       "total_players": 8,
       "round_totals": {
-        "R64": 113,
+        "R64": 128,
         "R32": 0,
         "S16": 0,
         "E8": 0,
@@ -604,6 +604,20 @@
           "ppg_season": 15.3
         },
         {
+          "name": "Boopie Miller",
+          "team": "SMU",
+          "seed": 11,
+          "region": "Midwest",
+          "pick": 51,
+          "draft_round": 6,
+          "status": "eliminated",
+          "total_points": 15,
+          "round_scores": {
+            "R64": 15
+          },
+          "ppg_season": 19.2
+        },
+        {
           "name": "Alex Condon",
           "team": "Florida",
           "seed": 1,
@@ -644,18 +658,6 @@
             "R64": 10
           },
           "ppg_season": 15.5
-        },
-        {
-          "name": "Boopie Miller",
-          "team": "SMU",
-          "seed": 11,
-          "region": "Midwest",
-          "pick": 51,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 0,
-          "round_scores": {},
-          "ppg_season": 19.2
         }
       ]
     },
