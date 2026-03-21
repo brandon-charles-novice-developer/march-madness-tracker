@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T18:54:07.778800+00:00",
+  "last_updated": "2026-03-21T19:07:50.469604+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -41,7 +41,8 @@
       "R64": 23
     },
     "Ryan Conwell": {
-      "R64": 18
+      "R64": 18,
+      "R32": 3
     },
     "John Blackwell": {
       "R64": 22
@@ -66,13 +67,15 @@
     },
     "Coen Carr": {
       "R64": 17,
-      "R32": 3
+      "R32": 5
     },
     "Jeremy Fears Jr": {
-      "R64": 7
+      "R64": 7,
+      "R32": 2
     },
     "Jaxon Kohler": {
-      "R64": 12
+      "R64": 12,
+      "R32": 5
     },
     "Darius Acuff Jr": {
       "R64": 24
@@ -335,6 +338,9 @@
     "6534640"
   ],
   "live_scores": {
-    "6534630:Coen Carr": 3
+    "6534630:Coen Carr": 5,
+    "6534630:Jeremy Fears Jr": 2,
+    "6534630:Jaxon Kohler": 5,
+    "6534630:Ryan Conwell": 3
   }
 }
