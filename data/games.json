@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T21:21:48.790535+00:00",
+  "last_updated": "2026-03-21T21:36:58.396714+00:00",
   "games": [
     {
       "game_id": "6534640",
@@ -107,6 +107,74 @@
           "minutes": "20",
           "fg": "0/0",
           "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 1,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "game_id": "6534628",
+      "round": "R32",
+      "date": "2026-03-21",
+      "status": "live",
+      "away": {
+        "name": "TCU",
+        "seed": 9,
+        "score": 7,
+        "winner": false
+      },
+      "home": {
+        "name": "Duke",
+        "seed": 1,
+        "score": 9,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Cayden Boozer",
+          "team": "Duke",
+          "manager": "Mark Weiner",
+          "points": 0,
+          "minutes": "4",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 2,
+          "assists": 1
+        },
+        {
+          "name": "Cayden Boozer",
+          "team": "Duke",
+          "manager": "Mark Weiner",
+          "points": 2,
+          "minutes": "4",
+          "fg": "1/1",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 1
+        },
+        {
+          "name": "Isaiah Evans",
+          "team": "Duke",
+          "manager": "Alex Magged",
+          "points": 0,
+          "minutes": "4",
+          "fg": "0/1",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 1
+        },
+        {
+          "name": "David Punch",
+          "team": "TCU",
+          "manager": "AJ Spile",
+          "points": 2,
+          "minutes": "4",
+          "fg": "1/2",
+          "three": "0/1",
           "ft": "0/0",
           "rebounds": 1,
           "assists": 0
