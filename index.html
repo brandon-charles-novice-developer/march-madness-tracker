@@ -440,7 +440,7 @@ function scheduleRefresh(tournamentDates) {
 
   if (inGameWindow) {
     document.getElementById('live-indicator').innerHTML = '<span class="live-dot"></span> LIVE';
-    setInterval(() => location.reload(), 5 * 60 * 1000);
+    setInterval(() => location.reload(), 60 * 1000);
   }
 }
 
