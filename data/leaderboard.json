@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T17:52:40.409512+00:00",
+  "last_updated": "2026-03-21T17:58:55.626430+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -148,12 +148,12 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 152,
+      "total_points": 158,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 8,
+        "R32": 14,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -168,10 +168,10 @@
           "pick": 13,
           "draft_round": 2,
           "status": "active",
-          "total_points": 29,
+          "total_points": 35,
           "round_scores": {
             "R64": 21,
-            "R32": 8
+            "R32": 14
           },
           "ppg_season": 13.3
         },

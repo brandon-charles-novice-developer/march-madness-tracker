@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T17:52:40.401910+00:00",
+  "last_updated": "2026-03-21T17:58:55.609695+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -91,7 +91,7 @@
     },
     "Morez Johnson Jr": {
       "R64": 21,
-      "R32": 8
+      "R32": 14
     },
     "Yaxel Lendeborg": {
       "R64": 9,
@@ -335,6 +335,6 @@
     "6534640:Elliot Cadeau": 12,
     "6534640:Yaxel Lendeborg": 20,
     "6534640:Aday Mara": 14,
-    "6534640:Morez Johnson Jr": 8
+    "6534640:Morez Johnson Jr": 14
   }
 }
