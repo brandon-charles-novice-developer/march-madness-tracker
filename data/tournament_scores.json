@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T23:23:11.666011+00:00",
+  "last_updated": "2026-03-21T23:36:26.700476+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -26,7 +26,8 @@
   },
   "scores": {
     "Dailyn Swain": {
-      "R64": 27
+      "R64": 27,
+      "R32": 5
     },
     "Boopie Miller": {
       "R64": 15
@@ -36,7 +37,7 @@
     },
     "David Punch": {
       "R64": 16,
-      "R32": 2
+      "R32": 4
     },
     "Pryce Sandfort": {
       "R64": 23
@@ -60,7 +61,7 @@
     },
     "Isaiah Evans": {
       "R64": 16,
-      "R32": 15
+      "R32": 17
     },
     "Duke Miles": {
       "R64": 13
@@ -131,11 +132,11 @@
     },
     "Kingston Flemings": {
       "R64": 18,
-      "R32": 6
+      "R32": 9
     },
     "Emanuel Sharp": {
       "R64": 16,
-      "R32": 14
+      "R32": 17
     },
     "Milos Uzan": {
       "R64": 12,
@@ -143,7 +144,7 @@
     },
     "Graham Ike": {
       "R64": 19,
-      "R32": 2
+      "R32": 9
     },
     "Otega Oweh": {
       "R64": 35
@@ -352,11 +353,12 @@
   "live_scores": {
     "6534628:Cayden Boozer": 7,
     "6534628:Patrick Ngongba II": 4,
-    "6534628:David Punch": 2,
-    "6534628:Isaiah Evans": 15,
-    "6534635:Emanuel Sharp": 14,
+    "6534628:David Punch": 4,
+    "6534628:Isaiah Evans": 17,
+    "6534635:Emanuel Sharp": 17,
     "6534635:Milos Uzan": 9,
-    "6534635:Kingston Flemings": 6,
-    "6534638:Graham Ike": 2
+    "6534635:Kingston Flemings": 9,
+    "6534638:Graham Ike": 9,
+    "6534638:Dailyn Swain": 5
   }
 }

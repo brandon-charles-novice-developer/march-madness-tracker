@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T23:23:11.683805+00:00",
+  "last_updated": "2026-03-21T23:36:26.708391+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,12 +19,12 @@
     {
       "rank": 1,
       "manager": "AJ Spile",
-      "total_points": 196,
+      "total_points": 198,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
-        "R32": 23,
+        "R32": 25,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -89,6 +89,21 @@
           "ppg_season": 18.0
         },
         {
+          "name": "David Punch",
+          "team": "TCU",
+          "seed": 9,
+          "region": "East",
+          "pick": 75,
+          "draft_round": 8,
+          "status": "active",
+          "total_points": 20,
+          "round_scores": {
+            "R64": 16,
+            "R32": 4
+          },
+          "ppg_season": 14.3
+        },
+        {
           "name": "Mark Mitchell",
           "team": "Missouri",
           "seed": 10,
@@ -101,21 +116,6 @@
             "R64": 19
           },
           "ppg_season": 18.3
-        },
-        {
-          "name": "David Punch",
-          "team": "TCU",
-          "seed": 9,
-          "region": "East",
-          "pick": 75,
-          "draft_round": 8,
-          "status": "active",
-          "total_points": 18,
-          "round_scores": {
-            "R64": 16,
-            "R32": 2
-          },
-          "ppg_season": 14.3
         },
         {
           "name": "Milan Momcilovic",
@@ -150,12 +150,12 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 174,
+      "total_points": 181,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 30,
+        "R32": 37,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -185,12 +185,27 @@
           "pick": 8,
           "draft_round": 1,
           "status": "active",
-          "total_points": 31,
+          "total_points": 33,
           "round_scores": {
             "R64": 16,
-            "R32": 15
+            "R32": 17
           },
           "ppg_season": 14.9
+        },
+        {
+          "name": "Dailyn Swain",
+          "team": "Texas",
+          "seed": 11,
+          "region": "West",
+          "pick": 68,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 32,
+          "round_scores": {
+            "R64": 27,
+            "R32": 5
+          },
+          "ppg_season": 17.8
         },
         {
           "name": "David Mirkovic",
@@ -205,20 +220,6 @@
             "R64": 29
           },
           "ppg_season": 13.4
-        },
-        {
-          "name": "Dailyn Swain",
-          "team": "Texas",
-          "seed": 11,
-          "region": "West",
-          "pick": 68,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 27
-          },
-          "ppg_season": 17.8
         },
         {
           "name": "Trey Kaufman-Renn",
@@ -281,12 +282,12 @@
     {
       "rank": 3,
       "manager": "Jake Pollack",
-      "total_points": 163,
+      "total_points": 166,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 128,
-        "R32": 35,
+        "R32": 38,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -316,10 +317,10 @@
           "pick": 11,
           "draft_round": 2,
           "status": "active",
-          "total_points": 30,
+          "total_points": 33,
           "round_scores": {
             "R64": 16,
-            "R32": 14
+            "R32": 17
           },
           "ppg_season": 15.3
         },
@@ -543,18 +544,33 @@
     {
       "rank": 5,
       "manager": "Brandon Nye",
-      "total_points": 137,
+      "total_points": 140,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 131,
-        "R32": 6,
+        "R32": 9,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Kingston Flemings",
+          "team": "Houston",
+          "seed": 2,
+          "region": "South",
+          "pick": 9,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 18,
+            "R32": 9
+          },
+          "ppg_season": 16.4
+        },
         {
           "name": "Tyler Tanner",
           "team": "Vanderbilt",
@@ -568,21 +584,6 @@
             "R64": 26
           },
           "ppg_season": 19.2
-        },
-        {
-          "name": "Kingston Flemings",
-          "team": "Houston",
-          "seed": 2,
-          "region": "South",
-          "pick": 9,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 24,
-          "round_scores": {
-            "R64": 18,
-            "R32": 6
-          },
-          "ppg_season": 16.4
         },
         {
           "name": "John Blackwell",
@@ -931,12 +932,12 @@
     {
       "rank": 8,
       "manager": "Mike Haughey",
-      "total_points": 108,
+      "total_points": 115,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 94,
-        "R32": 14,
+        "R32": 21,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -951,10 +952,10 @@
           "pick": 7,
           "draft_round": 1,
           "status": "active",
-          "total_points": 21,
+          "total_points": 28,
           "round_scores": {
             "R64": 19,
-            "R32": 2
+            "R32": 9
           },
           "ppg_season": 19.7
         },
