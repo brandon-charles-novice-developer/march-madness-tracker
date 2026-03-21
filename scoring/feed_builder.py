@@ -265,7 +265,7 @@ def _find_drafted_match(
     team: str,
     drafted_names: set[str],
     player_info: dict[str, dict],
-) -> str | None:
+) -> "str | None":
     """Find a drafted player matching an API player name."""
     name_lower = full_name.lower().strip()
 
