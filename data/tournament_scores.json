@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T18:16:06.125605+00:00",
+  "last_updated": "2026-03-21T18:18:52.491440+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -280,6 +280,7 @@
     "Prairie View",
     "Queens (NC)",
     "SMU",
+    "Saint Louis",
     "Saint Mary's (CA)",
     "Santa Clara",
     "Siena",
@@ -329,12 +330,8 @@
     "6534604",
     "6534599",
     "6534618",
-    "6534603"
+    "6534603",
+    "6534640"
   ],
-  "live_scores": {
-    "6534640:Elliot Cadeau": 12,
-    "6534640:Yaxel Lendeborg": 25,
-    "6534640:Aday Mara": 16,
-    "6534640:Morez Johnson Jr": 15
-  }
+  "live_scores": {}
 }
