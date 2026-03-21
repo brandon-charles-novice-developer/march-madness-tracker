@@ -141,9 +141,9 @@ class TestGamesIntegrity:
             assert g["status"] in valid, f"Game {g['game_id']}: status={g['status']}"
 
     def test_final_games_have_one_winner(self):
-        for g in self.games["games"]:
-            if g["status"] != "final":
-                continue
+        final_games = [g for g in self.games["games"] if g["status"] == "final"]
+        assert len(final_games) > 0, "Fixture must contain at least one final game"
+        for g in final_games:
             winners = []
             if g["away"]["winner"]:
                 winners.append("away")

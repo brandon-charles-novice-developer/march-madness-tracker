@@ -327,6 +327,16 @@ let _prevData = null;
 let _commentary = null;
 let _meta = null;
 
+// === SAFETY HELPERS ===
+
+function escapeHtml(str) {
+  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function escapeAttr(val) {
+  return String(val).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+}
+
 // === ANIMATION HELPERS ===
 
 function animateCount(el, from, to, duration) {
@@ -436,18 +446,18 @@ function applyChanges(changes, fresh) {
   changes.pointChanges.forEach(function(c) {
     if (!c.player && !c.round) {
       // Manager total — podium or standings
-      var podiumEl = document.querySelector('[data-mgr-pts="' + c.manager + '"]');
+      var podiumEl = document.querySelector('[data-mgr-pts="' + escapeAttr(c.manager) + '"]');
       if (podiumEl) {
         animateCount(podiumEl, c.oldPts, c.newPts);
         showDelta(podiumEl.parentElement, c.newPts - c.oldPts);
         flashElement(podiumEl, 'score-changed');
       }
-      var tableEl = document.querySelector('[data-mgr-table-pts="' + c.manager + '"]');
+      var tableEl = document.querySelector('[data-mgr-table-pts="' + escapeAttr(c.manager) + '"]');
       if (tableEl) {
         animateCount(tableEl, c.oldPts, c.newPts);
         flashElement(tableEl, 'score-changed');
       }
-      var cardEl = document.querySelector('[data-mgr-card-pts="' + c.manager + '"]');
+      var cardEl = document.querySelector('[data-mgr-card-pts="' + escapeAttr(c.manager) + '"]');
       if (cardEl) {
         animateCount(cardEl, c.oldPts, c.newPts);
         flashElement(cardEl, 'score-changed');
@@ -455,7 +465,7 @@ function applyChanges(changes, fresh) {
     }
     if (c.player && c.round) {
       // Player round score
-      var cellEl = document.querySelector('[data-player-round="' + c.player + ':' + c.round + '"]');
+      var cellEl = document.querySelector('[data-player-round="' + escapeAttr(c.player) + ':' + c.round + '"]');
       if (cellEl) {
         animateCount(cellEl, c.oldPts, c.newPts);
         showDelta(cellEl, c.newPts - c.oldPts);
@@ -464,7 +474,7 @@ function applyChanges(changes, fresh) {
     }
     if (c.player && !c.round) {
       // Player total
-      var totalEl = document.querySelector('[data-player-total="' + c.player + '"]');
+      var totalEl = document.querySelector('[data-player-total="' + escapeAttr(c.player) + '"]');
       if (totalEl) {
         animateCount(totalEl, c.oldPts, c.newPts);
         flashElement(totalEl, 'score-changed');
@@ -507,7 +517,7 @@ function applyChanges(changes, fresh) {
 
   // 3. Eliminations
   changes.newEliminations.forEach(function(e) {
-    var row = document.querySelector('[data-player-row="' + e.player + '"]');
+    var row = document.querySelector('[data-player-row="' + escapeAttr(e.player) + '"]');
     if (row) {
       row.classList.remove('eliminated');
       flashElement(row, 'just-eliminated', 2500);
@@ -631,7 +641,7 @@ function renderHighlights(standings, currentRound, commentary) {
     bustHtml += '<div class="bust-detail">' + bust.team + ' (' + bust.seed + '-seed) · Season PPG: ' + bust.ppg_season + ' · Actual: ' + bustPts + ' pts</div>';
     bustHtml += '<div class="bust-detail">Status: ' + bust.status.toUpperCase() + ' · Owner: ' + bust.manager + '</div>';
     if (commentary && commentary.bust_roast) {
-      bustHtml += '<div class="bust-quote">' + commentary.bust_roast + '</div>';
+      bustHtml += '<div class="bust-quote">' + escapeHtml(commentary.bust_roast) + '</div>';
     }
   }
   bustHtml += '</div>';
@@ -679,7 +689,7 @@ function renderManagerCards(standings, rounds, commentary) {
           '<span><span class="metric-label">Survival: </span><span class="metric-val">' + surv + '%</span></span>' +
           '<span><span class="metric-label">Live Portfolio: </span><span class="metric-val">' + livePct + '%</span></span>' +
         '</div>' +
-        (blurb ? '<div class="card-commentary">' + blurb + '</div>' : '') +
+        (blurb ? '<div class="card-commentary">' + escapeHtml(blurb) + '</div>' : '') +
         '<table class="player-table">' +
           '<thead><tr><th>Player</th><th>Team</th>' + roundHeaders + '<th>Total</th></tr></thead>' +
           '<tbody>' + tableRows + '</tbody>' +
@@ -714,7 +724,7 @@ async function liveUpdate() {
     }
 
     _prevData = fresh;
-  } catch (e) {
+  } catch (e) { console.warn('[liveUpdate]', e);
     // Network error — skip this cycle silently
   }
 }
