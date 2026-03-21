@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T22:55:12.644915+00:00",
+  "last_updated": "2026-03-21T23:08:43.450672+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -56,11 +56,11 @@
     },
     "Cayden Boozer": {
       "R64": 19,
-      "R32": 2
+      "R32": 5
     },
     "Isaiah Evans": {
       "R64": 16,
-      "R32": 13
+      "R32": 15
     },
     "Duke Miles": {
       "R64": 13
@@ -135,11 +135,11 @@
     },
     "Emanuel Sharp": {
       "R64": 16,
-      "R32": 12
+      "R32": 14
     },
     "Milos Uzan": {
       "R64": 12,
-      "R32": 4
+      "R32": 9
     },
     "Graham Ike": {
       "R64": 19
@@ -349,12 +349,12 @@
     "6534630"
   ],
   "live_scores": {
-    "6534628:Cayden Boozer": 2,
+    "6534628:Cayden Boozer": 5,
     "6534628:Patrick Ngongba II": 4,
     "6534628:David Punch": 2,
-    "6534628:Isaiah Evans": 13,
-    "6534635:Emanuel Sharp": 12,
-    "6534635:Milos Uzan": 4,
+    "6534628:Isaiah Evans": 15,
+    "6534635:Emanuel Sharp": 14,
+    "6534635:Milos Uzan": 9,
     "6534635:Kingston Flemings": 6
   }
 }
