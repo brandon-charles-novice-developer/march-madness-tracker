@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T22:26:00.157403+00:00",
+  "last_updated": "2026-03-21T22:42:36.354364+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -130,15 +130,16 @@
       "R64": 6
     },
     "Kingston Flemings": {
-      "R64": 18
+      "R64": 18,
+      "R32": 4
     },
     "Emanuel Sharp": {
       "R64": 16,
-      "R32": 6
+      "R32": 8
     },
     "Milos Uzan": {
       "R64": 12,
-      "R32": 2
+      "R32": 4
     },
     "Graham Ike": {
       "R64": 19
@@ -352,7 +353,8 @@
     "6534628:Patrick Ngongba II": 4,
     "6534628:David Punch": 2,
     "6534628:Isaiah Evans": 13,
-    "6534635:Emanuel Sharp": 6,
-    "6534635:Milos Uzan": 2
+    "6534635:Emanuel Sharp": 8,
+    "6534635:Milos Uzan": 4,
+    "6534635:Kingston Flemings": 4
   }
 }

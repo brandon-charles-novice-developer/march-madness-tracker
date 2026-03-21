@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T22:26:00.175922+00:00",
+  "last_updated": "2026-03-21T22:42:36.372443+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -281,12 +281,12 @@
     {
       "rank": 3,
       "manager": "Jake Pollack",
-      "total_points": 155,
+      "total_points": 157,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 128,
-        "R32": 27,
+        "R32": 29,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -330,10 +330,10 @@
           "pick": 11,
           "draft_round": 2,
           "status": "active",
-          "total_points": 22,
+          "total_points": 24,
           "round_scores": {
             "R64": 16,
-            "R32": 6
+            "R32": 8
           },
           "ppg_season": 15.3
         },
@@ -543,12 +543,12 @@
     {
       "rank": 5,
       "manager": "Brandon Nye",
-      "total_points": 131,
+      "total_points": 135,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 131,
-        "R32": 0,
+        "R32": 4,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -570,6 +570,21 @@
           "ppg_season": 19.2
         },
         {
+          "name": "Kingston Flemings",
+          "team": "Houston",
+          "seed": 2,
+          "region": "South",
+          "pick": 9,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 22,
+          "round_scores": {
+            "R64": 18,
+            "R32": 4
+          },
+          "ppg_season": 16.4
+        },
+        {
           "name": "John Blackwell",
           "team": "Wisconsin",
           "seed": 5,
@@ -582,20 +597,6 @@
             "R64": 22
           },
           "ppg_season": 19.0
-        },
-        {
-          "name": "Kingston Flemings",
-          "team": "Houston",
-          "seed": 2,
-          "region": "South",
-          "pick": 9,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 18,
-          "round_scores": {
-            "R64": 18
-          },
-          "ppg_season": 16.4
         },
         {
           "name": "Keaton Wagler",
@@ -1184,12 +1185,12 @@
     {
       "rank": 10,
       "manager": "Schaf Chulay",
-      "total_points": 97,
+      "total_points": 99,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 95,
-        "R32": 2,
+        "R32": 4,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -1232,10 +1233,10 @@
           "pick": 44,
           "draft_round": 5,
           "status": "active",
-          "total_points": 14,
+          "total_points": 16,
           "round_scores": {
             "R64": 12,
-            "R32": 2
+            "R32": 4
           },
           "ppg_season": 11.1
         },
