@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T20:54:49.839551+00:00",
+  "last_updated": "2026-03-21T21:07:40.584300+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -42,7 +42,7 @@
     },
     "Ryan Conwell": {
       "R64": 18,
-      "R32": 18
+      "R32": 21
     },
     "John Blackwell": {
       "R64": 22
@@ -71,7 +71,7 @@
     },
     "Jeremy Fears Jr": {
       "R64": 7,
-      "R32": 11
+      "R32": 12
     },
     "Jaxon Kohler": {
       "R64": 12,
@@ -273,6 +273,7 @@
     "Kennesaw St.",
     "LIU",
     "Lehigh",
+    "Louisville",
     "McNeese",
     "Miami (OH)",
     "Missouri",
@@ -335,12 +336,8 @@
     "6534599",
     "6534618",
     "6534603",
-    "6534640"
+    "6534640",
+    "6534630"
   ],
-  "live_scores": {
-    "6534630:Coen Carr": 21,
-    "6534630:Jeremy Fears Jr": 11,
-    "6534630:Jaxon Kohler": 10,
-    "6534630:Ryan Conwell": 18
-  }
+  "live_scores": {}
 }

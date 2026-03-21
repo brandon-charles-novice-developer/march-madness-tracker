@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T20:54:49.856426+00:00",
+  "last_updated": "2026-03-21T21:07:40.601419+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,12 +19,12 @@
     {
       "rank": 1,
       "manager": "AJ Spile",
-      "total_points": 191,
-      "active_players": 5,
+      "total_points": 194,
+      "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
-        "R32": 18,
+        "R32": 21,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -38,11 +38,11 @@
           "region": "East",
           "pick": 55,
           "draft_round": 6,
-          "status": "active",
-          "total_points": 36,
+          "status": "eliminated",
+          "total_points": 39,
           "round_scores": {
             "R64": 18,
-            "R32": 18
+            "R32": 21
           },
           "ppg_season": 18.7
         },
@@ -798,12 +798,12 @@
     {
       "rank": 7,
       "manager": "Jordan Mackler",
-      "total_points": 116,
+      "total_points": 117,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 11,
+        "R32": 12,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -860,10 +860,10 @@
           "pick": 25,
           "draft_round": 3,
           "status": "active",
-          "total_points": 18,
+          "total_points": 19,
           "round_scores": {
             "R64": 7,
-            "R32": 11
+            "R32": 12
           },
           "ppg_season": 15.7
         },
