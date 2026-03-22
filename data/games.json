@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:03:33.760064+00:00",
+  "last_updated": "2026-03-22T01:13:39.922221+00:00",
   "games": [
     {
       "game_id": "6534640",
@@ -209,6 +209,62 @@
           "three": "0/0",
           "ft": "0/0",
           "rebounds": 0,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "game_id": "6534633",
+      "round": "R32",
+      "date": "2026-03-21",
+      "status": "live",
+      "away": {
+        "name": "Vanderbilt",
+        "seed": 5,
+        "score": 4,
+        "winner": false
+      },
+      "home": {
+        "name": "Nebraska",
+        "seed": 4,
+        "score": 11,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Pryce Sandfort",
+          "team": "Nebraska",
+          "manager": "Jordan Mackler",
+          "points": 0,
+          "minutes": "4",
+          "fg": "0/1",
+          "three": "0/1",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Duke Miles",
+          "team": "Vanderbilt",
+          "manager": "Nick Reskin",
+          "points": 0,
+          "minutes": "4",
+          "fg": "0/2",
+          "three": "0/2",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt",
+          "manager": "Brandon Nye",
+          "points": 4,
+          "minutes": "4",
+          "fg": "2/3",
+          "three": "0/1",
+          "ft": "0/0",
+          "rebounds": 1,
           "assists": 0
         }
       ]

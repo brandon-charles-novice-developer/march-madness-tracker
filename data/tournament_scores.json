@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:03:33.742697+00:00",
+  "last_updated": "2026-03-22T01:13:39.903900+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -67,7 +67,8 @@
       "R64": 13
     },
     "Tyler Tanner": {
-      "R64": 26
+      "R64": 26,
+      "R32": 4
     },
     "Coen Carr": {
       "R64": 17,
@@ -124,7 +125,7 @@
     },
     "Andrej Stojakovic": {
       "R64": 9,
-      "R32": 14
+      "R32": 16
     },
     "Keaton Wagler": {
       "R64": 18,
@@ -147,7 +148,7 @@
     },
     "Graham Ike": {
       "R64": 19,
-      "R32": 23
+      "R32": 25
     },
     "Otega Oweh": {
       "R64": 35
@@ -280,6 +281,7 @@
     "Clemson",
     "Furman",
     "Georgia",
+    "Gonzaga",
     "Hawaii",
     "Hofstra",
     "Howard",
@@ -355,13 +357,13 @@
     "6534640",
     "6534630",
     "6534628",
-    "6534635"
+    "6534635",
+    "6534638"
   ],
   "live_scores": {
-    "6534638:Graham Ike": 23,
-    "6534638:Dailyn Swain": 11,
     "6534634:David Mirkovic": 4,
-    "6534634:Andrej Stojakovic": 14,
-    "6534634:Keaton Wagler": 1
+    "6534634:Andrej Stojakovic": 16,
+    "6534634:Keaton Wagler": 1,
+    "6534633:Tyler Tanner": 4
   }
 }
