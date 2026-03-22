@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:12:33.569532+00:00",
+  "last_updated": "2026-03-22T00:17:39.615591+00:00",
   "games": [
     {
       "game_id": "6534640",
@@ -154,6 +154,62 @@
           "ft": "0/0",
           "rebounds": 0,
           "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534634",
+      "round": "R32",
+      "date": "2026-03-21",
+      "status": "live",
+      "away": {
+        "name": "VCU",
+        "seed": 11,
+        "score": 0,
+        "winner": false
+      },
+      "home": {
+        "name": "Illinois",
+        "seed": 3,
+        "score": 0,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "David Mirkovic",
+          "team": "Illinois",
+          "manager": "Alex Magged",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Andrej Stojakovic",
+          "team": "Illinois",
+          "manager": "Josh Ehrlich",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Keaton Wagler",
+          "team": "Illinois",
+          "manager": "Brandon Nye",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:12:33.560808+00:00",
+  "last_updated": "2026-03-22T00:17:39.606392+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -288,12 +288,12 @@
     {
       "rank": 3,
       "manager": "Jake Pollack",
-      "total_points": 166,
+      "total_points": 167,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 128,
-        "R32": 38,
+        "R32": 39,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -323,10 +323,10 @@
           "pick": 11,
           "draft_round": 2,
           "status": "active",
-          "total_points": 33,
+          "total_points": 34,
           "round_scores": {
             "R64": 16,
-            "R32": 17
+            "R32": 18
           },
           "ppg_season": 15.3
         },
@@ -415,9 +415,9 @@
           "ppg_season": 15.5
         }
       ],
-      "avg_per_active": 20.7,
-      "projected_finish": 663,
-      "current_round_delta": 38
+      "avg_per_active": 20.8,
+      "projected_finish": 666,
+      "current_round_delta": 39
     },
     {
       "rank": 4,
