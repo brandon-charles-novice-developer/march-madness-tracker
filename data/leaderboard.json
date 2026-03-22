@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T19:19:28.968448+00:00",
+  "last_updated": "2026-03-22T19:24:37.876423+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -1230,12 +1230,12 @@
     {
       "rank": 10,
       "manager": "Schaf Chulay",
-      "total_points": 117,
+      "total_points": 119,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 95,
-        "R32": 22,
+        "R32": 24,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -1286,6 +1286,21 @@
           "ppg_season": 15.9
         },
         {
+          "name": "Tamin Lipsey",
+          "team": "Iowa State",
+          "seed": 2,
+          "region": "Midwest",
+          "pick": 37,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 12,
+          "round_scores": {
+            "R64": 3,
+            "R32": 9
+          },
+          "ppg_season": 13.3
+        },
+        {
           "name": "Malik Thomas",
           "team": "Virginia",
           "seed": 3,
@@ -1298,21 +1313,6 @@
             "R64": 11
           },
           "ppg_season": 12.4
-        },
-        {
-          "name": "Tamin Lipsey",
-          "team": "Iowa State",
-          "seed": 2,
-          "region": "Midwest",
-          "pick": 37,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 10,
-          "round_scores": {
-            "R64": 3,
-            "R32": 7
-          },
-          "ppg_season": 13.3
         },
         {
           "name": "Solo Ball",
@@ -1357,9 +1357,9 @@
           "ppg_season": 13.5
         }
       ],
-      "avg_per_active": 15.6,
-      "projected_finish": 554,
-      "current_round_delta": 22
+      "avg_per_active": 15.9,
+      "projected_finish": 564,
+      "current_round_delta": 24
     }
   ]
 }
