@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T20:41:46.207868+00:00",
+  "last_updated": "2026-03-22T20:46:56.291012+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -428,12 +428,12 @@
     {
       "rank": 4,
       "manager": "Jordan Mackler",
-      "total_points": 185,
+      "total_points": 189,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 80,
+        "R32": 84,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -463,10 +463,10 @@
           "pick": 65,
           "draft_round": 7,
           "status": "active",
-          "total_points": 48,
+          "total_points": 52,
           "round_scores": {
             "R64": 35,
-            "R32": 13
+            "R32": 17
           },
           "ppg_season": 18.2
         },
@@ -555,9 +555,9 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 23.1,
-      "projected_finish": 924,
-      "current_round_delta": 80
+      "avg_per_active": 23.6,
+      "projected_finish": 944,
+      "current_round_delta": 84
     },
     {
       "rank": 5,
@@ -1096,12 +1096,12 @@
     {
       "rank": 9,
       "manager": "Schaf Chulay",
-      "total_points": 131,
+      "total_points": 133,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 95,
-        "R32": 36,
+        "R32": 38,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -1145,10 +1145,10 @@
           "pick": 37,
           "draft_round": 4,
           "status": "active",
-          "total_points": 24,
+          "total_points": 26,
           "round_scores": {
             "R64": 3,
-            "R32": 21
+            "R32": 23
           },
           "ppg_season": 13.3
         },
@@ -1223,9 +1223,9 @@
           "ppg_season": 13.5
         }
       ],
-      "avg_per_active": 17.6,
-      "projected_finish": 624,
-      "current_round_delta": 36
+      "avg_per_active": 17.9,
+      "projected_finish": 634,
+      "current_round_delta": 38
     },
     {
       "rank": 10,
