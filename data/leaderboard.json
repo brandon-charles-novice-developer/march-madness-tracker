@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T17:57:22.575594+00:00",
+  "last_updated": "2026-03-22T18:02:30.062786+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -291,12 +291,12 @@
     {
       "rank": 3,
       "manager": "Mark Weiner",
-      "total_points": 183,
+      "total_points": 185,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 129,
-        "R32": 54,
+        "R32": 56,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -319,6 +319,21 @@
           "ppg_season": 15.6
         },
         {
+          "name": "Malik Reneau",
+          "team": "Miami FL",
+          "seed": 7,
+          "region": "West",
+          "pick": 58,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 36,
+          "round_scores": {
+            "R64": 24,
+            "R32": 12
+          },
+          "ppg_season": 18.8
+        },
+        {
           "name": "Aday Mara",
           "team": "Michigan",
           "seed": 1,
@@ -332,21 +347,6 @@
             "R32": 16
           },
           "ppg_season": 11.6
-        },
-        {
-          "name": "Malik Reneau",
-          "team": "Miami FL",
-          "seed": 7,
-          "region": "West",
-          "pick": 58,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 34,
-          "round_scores": {
-            "R64": 24,
-            "R32": 10
-          },
-          "ppg_season": 18.8
         },
         {
           "name": "Cayden Boozer",
@@ -420,9 +420,9 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 28.8,
-      "projected_finish": 874,
-      "current_round_delta": 54
+      "avg_per_active": 29.2,
+      "projected_finish": 886,
+      "current_round_delta": 56
     },
     {
       "rank": 4,
@@ -829,12 +829,12 @@
     {
       "rank": 7,
       "manager": "Josh Ehrlich",
-      "total_points": 156,
+      "total_points": 158,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 60,
+        "R32": 62,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -864,10 +864,10 @@
           "pick": 21,
           "draft_round": 3,
           "status": "active",
-          "total_points": 32,
+          "total_points": 34,
           "round_scores": {
             "R64": 26,
-            "R32": 6
+            "R32": 8
           },
           "ppg_season": 14.0
         },
@@ -958,19 +958,19 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 19.5,
-      "projected_finish": 780,
-      "current_round_delta": 60
+      "avg_per_active": 19.8,
+      "projected_finish": 792,
+      "current_round_delta": 62
     },
     {
       "rank": 8,
       "manager": "Nick Reskin",
-      "total_points": 133,
+      "total_points": 137,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 37,
+        "R32": 41,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -985,10 +985,10 @@
           "pick": 22,
           "draft_round": 3,
           "status": "active",
-          "total_points": 32,
+          "total_points": 36,
           "round_scores": {
             "R64": 14,
-            "R32": 18
+            "R32": 22
           },
           "ppg_season": 13.8
         },
@@ -1087,9 +1087,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 21.2,
-      "projected_finish": 472,
-      "current_round_delta": 37
+      "avg_per_active": 22.2,
+      "projected_finish": 492,
+      "current_round_delta": 41
     },
     {
       "rank": 9,
