@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T02:25:12.081424+00:00",
+  "last_updated": "2026-03-22T02:30:18.651502+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -829,18 +829,33 @@
     {
       "rank": 7,
       "manager": "Jordan Mackler",
-      "total_points": 139,
+      "total_points": 140,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 34,
+        "R32": 35,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Darius Acuff Jr",
+          "team": "Arkansas",
+          "seed": 4,
+          "region": "West",
+          "pick": 5,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 35,
+          "round_scores": {
+            "R64": 24,
+            "R32": 11
+          },
+          "ppg_season": 22.7
+        },
         {
           "name": "Otega Oweh",
           "team": "Kentucky",
@@ -854,21 +869,6 @@
             "R64": 35
           },
           "ppg_season": 18.2
-        },
-        {
-          "name": "Darius Acuff Jr",
-          "team": "Arkansas",
-          "seed": 4,
-          "region": "West",
-          "pick": 5,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 34,
-          "round_scores": {
-            "R64": 24,
-            "R32": 10
-          },
-          "ppg_season": 22.7
         },
         {
           "name": "Pryce Sandfort",
@@ -955,9 +955,9 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 17.4,
-      "projected_finish": 696,
-      "current_round_delta": 34
+      "avg_per_active": 17.5,
+      "projected_finish": 700,
+      "current_round_delta": 35
     },
     {
       "rank": 8,
@@ -1096,12 +1096,12 @@
     {
       "rank": 9,
       "manager": "Nick Reskin",
-      "total_points": 112,
+      "total_points": 115,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 16,
+        "R32": 19,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -1159,10 +1159,10 @@
           "pick": 42,
           "draft_round": 5,
           "status": "active",
-          "total_points": 19,
+          "total_points": 22,
           "round_scores": {
             "R64": 13,
-            "R32": 6
+            "R32": 9
           },
           "ppg_season": 16.4
         },
@@ -1217,9 +1217,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 17.2,
-      "projected_finish": 456,
-      "current_round_delta": 16
+      "avg_per_active": 17.8,
+      "projected_finish": 471,
+      "current_round_delta": 19
     },
     {
       "rank": 10,
