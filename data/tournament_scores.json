@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T18:07:38.303611+00:00",
+  "last_updated": "2026-03-22T18:12:48.783530+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -266,7 +266,7 @@
     },
     "Malik Reneau": {
       "R64": 24,
-      "R32": 14
+      "R32": 16
     },
     "Mark Mitchell": {
       "R64": 19
@@ -380,6 +380,6 @@
     "6534639:Trey Kaufman-Renn": 19,
     "6534639:Fletcher Loyer": 22,
     "6534639:Braden Smith": 8,
-    "6534639:Malik Reneau": 14
+    "6534639:Malik Reneau": 16
   }
 }
