@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-03-22T18:48:42.922763+00:00",
+  "last_updated": "2026-03-22T18:53:52.957040+00:00",
   "games": [
+    {
+      "game_id": "6534643",
+      "round": "R32",
+      "date": "2026-03-22",
+      "status": "live",
+      "away": {
+        "name": "Kentucky",
+        "seed": 7,
+        "score": 7,
+        "winner": false
+      },
+      "home": {
+        "name": "Iowa St.",
+        "seed": 2,
+        "score": 2,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Tamin Lipsey",
+          "team": "Iowa St.",
+          "manager": "Schaf Chulay",
+          "points": 0,
+          "minutes": "2",
+          "fg": "0/1",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 1
+        },
+        {
+          "name": "Milan Momcilovic",
+          "team": "Iowa St.",
+          "manager": "AJ Spile",
+          "points": 0,
+          "minutes": "2",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Otega Oweh",
+          "team": "Kentucky",
+          "manager": "Jordan Mackler",
+          "points": 2,
+          "minutes": "2",
+          "fg": "1/2",
+          "three": "0/1",
+          "ft": "0/0",
+          "rebounds": 1,
+          "assists": 0
+        }
+      ]
+    },
     {
       "game_id": "6534639",
       "round": "R32",
