@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T18:12:48.796406+00:00",
+  "last_updated": "2026-03-22T18:17:55.793201+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -829,18 +829,33 @@
     {
       "rank": 7,
       "manager": "Josh Ehrlich",
-      "total_points": 158,
+      "total_points": 162,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 62,
+        "R32": 66,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Braden Smith",
+          "team": "Purdue",
+          "seed": 2,
+          "region": "West",
+          "pick": 21,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 38,
+          "round_scores": {
+            "R64": 26,
+            "R32": 12
+          },
+          "ppg_season": 14.0
+        },
         {
           "name": "Yaxel Lendeborg",
           "team": "Michigan",
@@ -855,21 +870,6 @@
             "R32": 25
           },
           "ppg_season": 14.4
-        },
-        {
-          "name": "Braden Smith",
-          "team": "Purdue",
-          "seed": 2,
-          "region": "West",
-          "pick": 21,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 34,
-          "round_scores": {
-            "R64": 26,
-            "R32": 8
-          },
-          "ppg_season": 14.0
         },
         {
           "name": "Andrej Stojakovic",
@@ -958,19 +958,19 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 19.8,
-      "projected_finish": 792,
-      "current_round_delta": 62
+      "avg_per_active": 20.2,
+      "projected_finish": 808,
+      "current_round_delta": 66
     },
     {
       "rank": 8,
       "manager": "Nick Reskin",
-      "total_points": 137,
+      "total_points": 139,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 41,
+        "R32": 43,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -985,10 +985,10 @@
           "pick": 22,
           "draft_round": 3,
           "status": "active",
-          "total_points": 36,
+          "total_points": 38,
           "round_scores": {
             "R64": 14,
-            "R32": 22
+            "R32": 24
           },
           "ppg_season": 13.8
         },
@@ -1087,9 +1087,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 22.2,
-      "projected_finish": 492,
-      "current_round_delta": 41
+      "avg_per_active": 22.8,
+      "projected_finish": 504,
+      "current_round_delta": 43
     },
     {
       "rank": 9,

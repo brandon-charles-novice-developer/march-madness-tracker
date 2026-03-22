@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T18:12:48.783530+00:00",
+  "last_updated": "2026-03-22T18:17:55.780473+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -231,11 +231,11 @@
     },
     "Fletcher Loyer": {
       "R64": 14,
-      "R32": 22
+      "R32": 24
     },
     "Braden Smith": {
       "R64": 26,
-      "R32": 8
+      "R32": 12
     },
     "Rueben Chinyelu": {
       "R64": 14
@@ -378,8 +378,8 @@
   ],
   "live_scores": {
     "6534639:Trey Kaufman-Renn": 19,
-    "6534639:Fletcher Loyer": 22,
-    "6534639:Braden Smith": 8,
+    "6534639:Fletcher Loyer": 24,
+    "6534639:Braden Smith": 12,
     "6534639:Malik Reneau": 16
   }
 }
