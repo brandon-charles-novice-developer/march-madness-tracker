@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T20:00:39.331919+00:00",
+  "last_updated": "2026-03-22T20:05:47.080637+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -157,12 +157,12 @@
     {
       "rank": 2,
       "manager": "AJ Spile",
-      "total_points": 208,
+      "total_points": 210,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
-        "R32": 35,
+        "R32": 37,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -199,6 +199,21 @@
           "ppg_season": 25.3
         },
         {
+          "name": "Milan Momcilovic",
+          "team": "Iowa State",
+          "seed": 2,
+          "region": "Midwest",
+          "pick": 6,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 29,
+          "round_scores": {
+            "R64": 17,
+            "R32": 12
+          },
+          "ppg_season": 17.1
+        },
+        {
           "name": "Labaron Philon Jr",
           "team": "Alabama",
           "seed": 4,
@@ -225,21 +240,6 @@
             "R64": 29
           },
           "ppg_season": 18.0
-        },
-        {
-          "name": "Milan Momcilovic",
-          "team": "Iowa State",
-          "seed": 2,
-          "region": "Midwest",
-          "pick": 6,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 17,
-            "R32": 10
-          },
-          "ppg_season": 17.1
         },
         {
           "name": "David Punch",
@@ -285,9 +285,9 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 28.3,
-      "projected_finish": 548,
-      "current_round_delta": 35
+      "avg_per_active": 29.0,
+      "projected_finish": 558,
+      "current_round_delta": 37
     },
     {
       "rank": 3,
@@ -563,12 +563,12 @@
     {
       "rank": 5,
       "manager": "Jordan Mackler",
-      "total_points": 177,
+      "total_points": 179,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 72,
+        "R32": 74,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -598,10 +598,10 @@
           "pick": 65,
           "draft_round": 7,
           "status": "active",
-          "total_points": 40,
+          "total_points": 42,
           "round_scores": {
             "R64": 35,
-            "R32": 5
+            "R32": 7
           },
           "ppg_season": 18.2
         },
@@ -690,9 +690,9 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 22.1,
-      "projected_finish": 884,
-      "current_round_delta": 72
+      "avg_per_active": 22.4,
+      "projected_finish": 896,
+      "current_round_delta": 74
     },
     {
       "rank": 6,
@@ -1230,12 +1230,12 @@
     {
       "rank": 10,
       "manager": "Schaf Chulay",
-      "total_points": 119,
+      "total_points": 122,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 95,
-        "R32": 24,
+        "R32": 27,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -1293,10 +1293,10 @@
           "pick": 37,
           "draft_round": 4,
           "status": "active",
-          "total_points": 12,
+          "total_points": 15,
           "round_scores": {
             "R64": 3,
-            "R32": 9
+            "R32": 12
           },
           "ppg_season": 13.3
         },
@@ -1357,9 +1357,9 @@
           "ppg_season": 13.5
         }
       ],
-      "avg_per_active": 15.9,
-      "projected_finish": 564,
-      "current_round_delta": 24
+      "avg_per_active": 16.3,
+      "projected_finish": 578,
+      "current_round_delta": 27
     }
   ]
 }

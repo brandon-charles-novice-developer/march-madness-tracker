@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T20:00:39.320378+00:00",
+  "last_updated": "2026-03-22T20:05:47.067621+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -158,7 +158,7 @@
     },
     "Otega Oweh": {
       "R64": 35,
-      "R32": 5
+      "R32": 7
     },
     "Christian Anderson": {
       "R64": 18
@@ -198,11 +198,11 @@
     },
     "Tamin Lipsey": {
       "R64": 3,
-      "R32": 9
+      "R32": 12
     },
     "Milan Momcilovic": {
       "R64": 17,
-      "R32": 10
+      "R32": 12
     },
     "Labaron Philon Jr": {
       "R64": 29
@@ -382,8 +382,8 @@
     "6534639"
   ],
   "live_scores": {
-    "6534643:Otega Oweh": 5,
-    "6534643:Tamin Lipsey": 9,
-    "6534643:Milan Momcilovic": 10
+    "6534643:Otega Oweh": 7,
+    "6534643:Tamin Lipsey": 12,
+    "6534643:Milan Momcilovic": 12
   }
 }
