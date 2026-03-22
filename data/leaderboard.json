@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:27:51.706240+00:00",
+  "last_updated": "2026-03-22T00:32:57.766213+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -557,12 +557,12 @@
     {
       "rank": 5,
       "manager": "Brandon Nye",
-      "total_points": 140,
+      "total_points": 141,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 131,
-        "R32": 9,
+        "R32": 10,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -620,9 +620,10 @@
           "pick": 12,
           "draft_round": 2,
           "status": "active",
-          "total_points": 18,
+          "total_points": 19,
           "round_scores": {
-            "R64": 18
+            "R64": 18,
+            "R32": 1
           },
           "ppg_season": 17.9
         },
@@ -683,19 +684,19 @@
           "ppg_season": 20.1
         }
       ],
-      "avg_per_active": 20.0,
-      "projected_finish": 540,
-      "current_round_delta": 9
+      "avg_per_active": 20.2,
+      "projected_finish": 545,
+      "current_round_delta": 10
     },
     {
       "rank": 6,
       "manager": "Josh Ehrlich",
-      "total_points": 121,
+      "total_points": 124,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 25,
+        "R32": 28,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -760,6 +761,21 @@
           "ppg_season": 11.2
         },
         {
+          "name": "Andrej Stojakovic",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 40,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 12,
+          "round_scores": {
+            "R64": 9,
+            "R32": 3
+          },
+          "ppg_season": 13.4
+        },
+        {
           "name": "Sam Lewis",
           "team": "Virginia",
           "seed": 3,
@@ -772,20 +788,6 @@
             "R64": 12
           },
           "ppg_season": 10.8
-        },
-        {
-          "name": "Andrej Stojakovic",
-          "team": "Illinois",
-          "seed": 3,
-          "region": "South",
-          "pick": 40,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 9,
-          "round_scores": {
-            "R64": 9
-          },
-          "ppg_season": 13.4
         },
         {
           "name": "Jaden Bradley",
@@ -816,9 +818,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 15.1,
-      "projected_finish": 604,
-      "current_round_delta": 25
+      "avg_per_active": 15.5,
+      "projected_finish": 620,
+      "current_round_delta": 28
     },
     {
       "rank": 7,

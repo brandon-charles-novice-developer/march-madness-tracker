@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:27:51.694777+00:00",
+  "last_updated": "2026-03-22T00:32:57.756771+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -123,10 +123,12 @@
       "R32": 4
     },
     "Andrej Stojakovic": {
-      "R64": 9
+      "R64": 9,
+      "R32": 3
     },
     "Keaton Wagler": {
-      "R64": 18
+      "R64": 18,
+      "R32": 1
     },
     "TJ Power": {
       "R64": 6
@@ -304,6 +306,7 @@
     "South Fla.",
     "TCU",
     "Tennessee St.",
+    "Texas A&M",
     "Troy",
     "UCF",
     "UMBC",
@@ -351,14 +354,14 @@
     "6534603",
     "6534640",
     "6534630",
-    "6534628"
+    "6534628",
+    "6534635"
   ],
   "live_scores": {
-    "6534635:Emanuel Sharp": 18,
-    "6534635:Milos Uzan": 15,
-    "6534635:Kingston Flemings": 9,
     "6534638:Graham Ike": 15,
     "6534638:Dailyn Swain": 7,
-    "6534634:David Mirkovic": 4
+    "6534634:David Mirkovic": 4,
+    "6534634:Andrej Stojakovic": 3,
+    "6534634:Keaton Wagler": 1
   }
 }
