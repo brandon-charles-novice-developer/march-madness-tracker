@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:58:27.788703+00:00",
+  "last_updated": "2026-03-22T01:03:33.742697+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -124,7 +124,7 @@
     },
     "Andrej Stojakovic": {
       "R64": 9,
-      "R32": 9
+      "R32": 14
     },
     "Keaton Wagler": {
       "R64": 18,
@@ -361,7 +361,7 @@
     "6534638:Graham Ike": 23,
     "6534638:Dailyn Swain": 11,
     "6534634:David Mirkovic": 4,
-    "6534634:Andrej Stojakovic": 9,
+    "6534634:Andrej Stojakovic": 14,
     "6534634:Keaton Wagler": 1
   }
 }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:58:27.797670+00:00",
+  "last_updated": "2026-03-22T01:03:33.750829+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -691,12 +691,12 @@
     {
       "rank": 6,
       "manager": "Josh Ehrlich",
-      "total_points": 130,
+      "total_points": 135,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 34,
+        "R32": 39,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -733,6 +733,21 @@
           "ppg_season": 14.0
         },
         {
+          "name": "Andrej Stojakovic",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 40,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 23,
+          "round_scores": {
+            "R64": 9,
+            "R32": 14
+          },
+          "ppg_season": 13.4
+        },
+        {
           "name": "Trevon Brazile",
           "team": "Arkansas",
           "seed": 4,
@@ -745,21 +760,6 @@
             "R64": 19
           },
           "ppg_season": 13.1
-        },
-        {
-          "name": "Andrej Stojakovic",
-          "team": "Illinois",
-          "seed": 3,
-          "region": "South",
-          "pick": 40,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 18,
-          "round_scores": {
-            "R64": 9,
-            "R32": 9
-          },
-          "ppg_season": 13.4
         },
         {
           "name": "Rueben Chinyelu",
@@ -818,9 +818,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 16.2,
-      "projected_finish": 648,
-      "current_round_delta": 34
+      "avg_per_active": 16.9,
+      "projected_finish": 676,
+      "current_round_delta": 39
     },
     {
       "rank": 7,
