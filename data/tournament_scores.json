@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T03:21:37.794840+00:00",
+  "last_updated": "2026-03-22T03:26:44.783733+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -98,7 +98,7 @@
     },
     "Meleek Thomas": {
       "R64": 21,
-      "R32": 12
+      "R32": 16
     },
     "Elliot Cadeau": {
       "R64": 5,
@@ -373,7 +373,7 @@
   "live_scores": {
     "6534637:Darius Acuff Jr": 24,
     "6534637:Trevon Brazile": 8,
-    "6534637:Meleek Thomas": 12,
+    "6534637:Meleek Thomas": 16,
     "6534637:Billy Richmond III": 15
   }
 }
