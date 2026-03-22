@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:49:26.251254+00:00",
+  "last_updated": "2026-03-22T01:54:33.752776+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -86,16 +86,18 @@
     },
     "Darius Acuff Jr": {
       "R64": 24,
-      "R32": 2
+      "R32": 5
     },
     "Trevon Brazile": {
-      "R64": 19
+      "R64": 19,
+      "R32": 2
     },
     "Billy Richmond III": {
       "R64": 10
     },
     "Meleek Thomas": {
-      "R64": 21
+      "R64": 21,
+      "R32": 3
     },
     "Elliot Cadeau": {
       "R64": 5,
@@ -128,11 +130,11 @@
     },
     "Andrej Stojakovic": {
       "R64": 9,
-      "R32": 17
+      "R32": 19
     },
     "Keaton Wagler": {
       "R64": 18,
-      "R32": 6
+      "R32": 8
     },
     "TJ Power": {
       "R64": 6
@@ -365,11 +367,13 @@
   ],
   "live_scores": {
     "6534634:David Mirkovic": 7,
-    "6534634:Andrej Stojakovic": 17,
-    "6534634:Keaton Wagler": 6,
+    "6534634:Andrej Stojakovic": 19,
+    "6534634:Keaton Wagler": 8,
     "6534633:Tyler Tanner": 15,
     "6534633:Duke Miles": 4,
     "6534633:Pryce Sandfort": 5,
-    "6534637:Darius Acuff Jr": 2
+    "6534637:Darius Acuff Jr": 5,
+    "6534637:Trevon Brazile": 2,
+    "6534637:Meleek Thomas": 3
   }
 }

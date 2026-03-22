@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:49:26.261115+00:00",
+  "last_updated": "2026-03-22T01:54:33.763084+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -423,12 +423,12 @@
     {
       "rank": 4,
       "manager": "Brandon Nye",
-      "total_points": 161,
+      "total_points": 163,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 131,
-        "R32": 30,
+        "R32": 32,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -473,10 +473,10 @@
           "pick": 12,
           "draft_round": 2,
           "status": "active",
-          "total_points": 24,
+          "total_points": 26,
           "round_scores": {
             "R64": 18,
-            "R32": 6
+            "R32": 8
           },
           "ppg_season": 17.9
         },
@@ -551,19 +551,19 @@
           "ppg_season": 20.1
         }
       ],
-      "avg_per_active": 24.2,
-      "projected_finish": 645,
-      "current_round_delta": 30
+      "avg_per_active": 24.6,
+      "projected_finish": 655,
+      "current_round_delta": 32
     },
     {
       "rank": 5,
       "manager": "Mark Weiner",
-      "total_points": 154,
+      "total_points": 157,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 129,
-        "R32": 25,
+        "R32": 28,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -601,6 +601,21 @@
           "ppg_season": 7.1
         },
         {
+          "name": "Meleek Thomas",
+          "team": "Arkansas",
+          "seed": 4,
+          "region": "West",
+          "pick": 43,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 24,
+          "round_scores": {
+            "R64": 21,
+            "R32": 3
+          },
+          "ppg_season": 15.6
+        },
+        {
           "name": "Malik Reneau",
           "team": "Miami FL",
           "seed": 7,
@@ -627,20 +642,6 @@
             "R64": 22
           },
           "ppg_season": 12.6
-        },
-        {
-          "name": "Meleek Thomas",
-          "team": "Arkansas",
-          "seed": 4,
-          "region": "West",
-          "pick": 43,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 21,
-          "round_scores": {
-            "R64": 21
-          },
-          "ppg_season": 15.6
         },
         {
           "name": "Thomas Haugh",
@@ -685,19 +686,19 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 24.0,
-      "projected_finish": 730,
-      "current_round_delta": 25
+      "avg_per_active": 24.5,
+      "projected_finish": 745,
+      "current_round_delta": 28
     },
     {
       "rank": 6,
       "manager": "Josh Ehrlich",
-      "total_points": 138,
+      "total_points": 142,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 42,
+        "R32": 46,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -720,6 +721,21 @@
           "ppg_season": 14.4
         },
         {
+          "name": "Andrej Stojakovic",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 40,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 28,
+          "round_scores": {
+            "R64": 9,
+            "R32": 19
+          },
+          "ppg_season": 13.4
+        },
+        {
           "name": "Braden Smith",
           "team": "Purdue",
           "seed": 2,
@@ -734,21 +750,6 @@
           "ppg_season": 14.0
         },
         {
-          "name": "Andrej Stojakovic",
-          "team": "Illinois",
-          "seed": 3,
-          "region": "South",
-          "pick": 40,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 26,
-          "round_scores": {
-            "R64": 9,
-            "R32": 17
-          },
-          "ppg_season": 13.4
-        },
-        {
           "name": "Trevon Brazile",
           "team": "Arkansas",
           "seed": 4,
@@ -756,9 +757,10 @@
           "pick": 60,
           "draft_round": 6,
           "status": "active",
-          "total_points": 19,
+          "total_points": 21,
           "round_scores": {
-            "R64": 19
+            "R64": 19,
+            "R32": 2
           },
           "ppg_season": 13.1
         },
@@ -819,12 +821,145 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 17.2,
-      "projected_finish": 688,
-      "current_round_delta": 42
+      "avg_per_active": 17.8,
+      "projected_finish": 712,
+      "current_round_delta": 46
     },
     {
       "rank": 7,
+      "manager": "Jordan Mackler",
+      "total_points": 131,
+      "active_players": 8,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 105,
+        "R32": 26,
+        "S16": 0,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Otega Oweh",
+          "team": "Kentucky",
+          "seed": 7,
+          "region": "Midwest",
+          "pick": 65,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 35,
+          "round_scores": {
+            "R64": 35
+          },
+          "ppg_season": 18.2
+        },
+        {
+          "name": "Darius Acuff Jr",
+          "team": "Arkansas",
+          "seed": 4,
+          "region": "West",
+          "pick": 5,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 29,
+          "round_scores": {
+            "R64": 24,
+            "R32": 5
+          },
+          "ppg_season": 22.7
+        },
+        {
+          "name": "Pryce Sandfort",
+          "team": "Nebraska",
+          "seed": 4,
+          "region": "South",
+          "pick": 36,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 28,
+          "round_scores": {
+            "R64": 23,
+            "R32": 5
+          },
+          "ppg_season": 17.8
+        },
+        {
+          "name": "Jeremy Fears Jr",
+          "team": "Michigan St",
+          "seed": 3,
+          "region": "East",
+          "pick": 25,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 19,
+          "round_scores": {
+            "R64": 7,
+            "R32": 12
+          },
+          "ppg_season": 15.7
+        },
+        {
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 45,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 14,
+          "round_scores": {
+            "R64": 14
+          },
+          "ppg_season": 10.1
+        },
+        {
+          "name": "Patrick Ngongba II",
+          "team": "Duke",
+          "seed": 1,
+          "region": "East",
+          "pick": 76,
+          "draft_round": 8,
+          "status": "active",
+          "total_points": 4,
+          "round_scores": {
+            "R32": 4
+          },
+          "ppg_season": 10.7
+        },
+        {
+          "name": "Joshua Jefferson",
+          "team": "Iowa State",
+          "seed": 2,
+          "region": "Midwest",
+          "pick": 16,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 2,
+          "round_scores": {
+            "R64": 2
+          },
+          "ppg_season": 16.9
+        },
+        {
+          "name": "Braylon Mullens",
+          "team": "UConn",
+          "seed": 2,
+          "region": "East",
+          "pick": 56,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 0,
+          "round_scores": {},
+          "ppg_season": 8.5
+        }
+      ],
+      "avg_per_active": 16.4,
+      "projected_finish": 656,
+      "current_round_delta": 26
+    },
+    {
+      "rank": 8,
       "manager": "Mike Haughey",
       "total_points": 131,
       "active_players": 7,
@@ -956,139 +1091,6 @@
       "avg_per_active": 12.4,
       "projected_finish": 478,
       "current_round_delta": 37
-    },
-    {
-      "rank": 8,
-      "manager": "Jordan Mackler",
-      "total_points": 128,
-      "active_players": 8,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 105,
-        "R32": 23,
-        "S16": 0,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Otega Oweh",
-          "team": "Kentucky",
-          "seed": 7,
-          "region": "Midwest",
-          "pick": 65,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 35,
-          "round_scores": {
-            "R64": 35
-          },
-          "ppg_season": 18.2
-        },
-        {
-          "name": "Pryce Sandfort",
-          "team": "Nebraska",
-          "seed": 4,
-          "region": "South",
-          "pick": 36,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 28,
-          "round_scores": {
-            "R64": 23,
-            "R32": 5
-          },
-          "ppg_season": 17.8
-        },
-        {
-          "name": "Darius Acuff Jr",
-          "team": "Arkansas",
-          "seed": 4,
-          "region": "West",
-          "pick": 5,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 26,
-          "round_scores": {
-            "R64": 24,
-            "R32": 2
-          },
-          "ppg_season": 22.7
-        },
-        {
-          "name": "Jeremy Fears Jr",
-          "team": "Michigan St",
-          "seed": 3,
-          "region": "East",
-          "pick": 25,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 19,
-          "round_scores": {
-            "R64": 7,
-            "R32": 12
-          },
-          "ppg_season": 15.7
-        },
-        {
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 45,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 14,
-          "round_scores": {
-            "R64": 14
-          },
-          "ppg_season": 10.1
-        },
-        {
-          "name": "Patrick Ngongba II",
-          "team": "Duke",
-          "seed": 1,
-          "region": "East",
-          "pick": 76,
-          "draft_round": 8,
-          "status": "active",
-          "total_points": 4,
-          "round_scores": {
-            "R32": 4
-          },
-          "ppg_season": 10.7
-        },
-        {
-          "name": "Joshua Jefferson",
-          "team": "Iowa State",
-          "seed": 2,
-          "region": "Midwest",
-          "pick": 16,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 2,
-          "round_scores": {
-            "R64": 2
-          },
-          "ppg_season": 16.9
-        },
-        {
-          "name": "Braylon Mullens",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 56,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 0,
-          "round_scores": {},
-          "ppg_season": 8.5
-        }
-      ],
-      "avg_per_active": 16.0,
-      "projected_finish": 640,
-      "current_round_delta": 23
     },
     {
       "rank": 9,
