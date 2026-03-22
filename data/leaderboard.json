@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T20:46:56.291012+00:00",
+  "last_updated": "2026-03-22T20:52:07.098322+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -1096,18 +1096,33 @@
     {
       "rank": 9,
       "manager": "Schaf Chulay",
-      "total_points": 133,
+      "total_points": 136,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 95,
-        "R32": 38,
+        "R32": 41,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Tamin Lipsey",
+          "team": "Iowa State",
+          "seed": 2,
+          "region": "Midwest",
+          "pick": 37,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 29,
+          "round_scores": {
+            "R64": 3,
+            "R32": 26
+          },
+          "ppg_season": 13.3
+        },
         {
           "name": "Darryn Peterson",
           "team": "Kansas",
@@ -1136,21 +1151,6 @@
             "R32": 15
           },
           "ppg_season": 11.1
-        },
-        {
-          "name": "Tamin Lipsey",
-          "team": "Iowa State",
-          "seed": 2,
-          "region": "Midwest",
-          "pick": 37,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 26,
-          "round_scores": {
-            "R64": 3,
-            "R32": 23
-          },
-          "ppg_season": 13.3
         },
         {
           "name": "Brayden Burries",
@@ -1223,9 +1223,9 @@
           "ppg_season": 13.5
         }
       ],
-      "avg_per_active": 17.9,
-      "projected_finish": 634,
-      "current_round_delta": 38
+      "avg_per_active": 18.3,
+      "projected_finish": 648,
+      "current_round_delta": 41
     },
     {
       "rank": 10,
