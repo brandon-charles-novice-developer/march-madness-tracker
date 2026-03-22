@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T02:20:04.137453+00:00",
+  "last_updated": "2026-03-22T02:25:12.072338+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -66,7 +66,7 @@
     },
     "Duke Miles": {
       "R64": 13,
-      "R32": 4
+      "R32": 6
     },
     "Tyler Tanner": {
       "R64": 26,
@@ -86,7 +86,7 @@
     },
     "Darius Acuff Jr": {
       "R64": 24,
-      "R32": 8
+      "R32": 10
     },
     "Trevon Brazile": {
       "R64": 19,
@@ -94,7 +94,7 @@
     },
     "Billy Richmond III": {
       "R64": 10,
-      "R32": 2
+      "R32": 7
     },
     "Meleek Thomas": {
       "R64": 21,
@@ -370,11 +370,11 @@
   ],
   "live_scores": {
     "6534633:Tyler Tanner": 16,
-    "6534633:Duke Miles": 4,
+    "6534633:Duke Miles": 6,
     "6534633:Pryce Sandfort": 8,
-    "6534637:Darius Acuff Jr": 8,
+    "6534637:Darius Acuff Jr": 10,
     "6534637:Trevon Brazile": 5,
     "6534637:Meleek Thomas": 10,
-    "6534637:Billy Richmond III": 2
+    "6534637:Billy Richmond III": 7
   }
 }
