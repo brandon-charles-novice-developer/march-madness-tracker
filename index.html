@@ -7,280 +7,206 @@
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 <style>
 :root {
-  --pink-base: #f0d4e0;
-  --pink-deep: #a83260;
-  --pink-hot: #d6246a;
-  --pink-blush: #ffb6c1;
-  --lavender: #c8a2c8;
-  --lavender-border: 2px solid rgba(200, 162, 200, 0.6);
-  --purple-pts: #5c1a6e;
-  --rainbow-red: #ff6b6b;
-  --rainbow-orange: #ffa94d;
-  --rainbow-yellow: #ffd43b;
-  --rainbow-green: #69db7c;
-  --rainbow-blue: #4dabf7;
-  --rainbow-purple: #da77f2;
-  --text-dark: #2d0f26;
-  --text-muted: #5e3350;
-  --shadow-dark: rgba(180, 130, 155, 0.5);
-  --shadow-light: rgba(255, 240, 248, 0.9);
-  --pride-gradient: linear-gradient(135deg, #ff6b6b, #ffa94d, #ffd43b, #69db7c, #4dabf7, #da77f2);
-  --pride-gradient-bold: linear-gradient(135deg, #c0392b, #d35400, #b8860b, #1a7a3a, #2471a3, #8e44ad);
-  --neu-raised: 8px 8px 16px var(--shadow-dark), -8px -8px 16px var(--shadow-light);
-  --neu-inset: inset 4px 4px 8px rgba(180, 130, 155, 0.4), inset -4px -4px 8px rgba(255, 240, 248, 0.7);
-  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --bg: #0e0514;
+  --bg-panel: #1a0a24;
+  --bg-panel-hover: #24103a;
+  --bg-row-alt: rgba(255, 0, 255, 0.03);
+  --magenta: #e91e8e;
+  --magenta-bright: #ff2daa;
+  --magenta-dim: #8a1155;
+  --cyan: #00e5ff;
+  --purple: #b44dff;
+  --gold: #ffd700;
+  --silver: #b0b0b0;
+  --bronze: #cd7f32;
+  --text: #f0e6f6;
+  --text-muted: #9a7eaa;
+  --text-dim: #6b5078;
+  --active-green: #00ff88;
+  --elim-red: #ff3355;
+  --border: rgba(233, 30, 142, 0.25);
+  --shadow: 4px 4px 0 rgba(0, 0, 0, 0.6);
+  --shadow-lg: 6px 6px 0 rgba(0, 0, 0, 0.5);
+  --font: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  --font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: var(--pink-base); color: var(--text-dark); font-family: var(--font); line-height: 1.5; font-weight: 500; }
-.container { max-width: 900px; margin: 0 auto; padding: 16px; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-ui); line-height: 1.5; }
+.container { max-width: 960px; margin: 0 auto; padding: 12px; }
 
 /* Header */
-header { text-align: center; padding: 32px 16px 8px; }
-header h1 { font-size: 1.6rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 800; margin-bottom: 4px; }
-header h1 .gaygent-text {
-  background: var(--pride-gradient-bold);
-  background-size: 200% 200%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shimmer 4s ease infinite;
-  filter: drop-shadow(0 1px 1px rgba(45, 15, 38, 0.3));
+header { text-align: center; padding: 24px 12px 12px; }
+header h1 { font-family: var(--font); font-size: 1.3rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; }
+header h1 .brand { color: var(--magenta-bright); text-shadow: 0 0 20px rgba(233, 30, 142, 0.6); }
+header h1 .title { color: var(--text); }
+.subtitle { color: var(--text-muted); font-size: 0.8rem; font-style: italic; margin: 4px 0 12px; }
+.header-bar {
+  display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;
+  font-family: var(--font); font-size: 0.72rem; color: var(--text-muted);
+  padding: 8px 16px; margin-bottom: 16px;
+  background: var(--bg-panel); border: 1px solid var(--border); box-shadow: var(--shadow);
 }
-@keyframes shimmer { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
-header h1 .title-rest { color: var(--text-dark); }
-.subtitle { color: var(--text-muted); font-size: 0.85rem; font-style: italic; margin-bottom: 16px; }
-.rainbow-divider { height: 3px; background: var(--pride-gradient-bold); border-radius: 999px; margin: 12px 0 16px; }
-.meta-bar {
-  display: inline-flex; justify-content: center; gap: 16px; flex-wrap: wrap;
-  font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px;
-  padding: 8px 20px; border-radius: 999px;
-  background: var(--pink-base); box-shadow: var(--neu-inset);
-  border: var(--lavender-border);
+.header-bar .live-dot {
+  width: 7px; height: 7px; background: var(--active-green); display: inline-block;
+  box-shadow: 0 0 6px var(--active-green); animation: blink 1.5s infinite;
 }
-.meta-bar .live-dot {
-  width: 8px; height: 8px; border-radius: 50%; display: inline-block;
-  animation: pride-pulse 3s linear infinite;
-}
-@keyframes pride-pulse {
-  0%   { background: #ff6b6b; box-shadow: 0 0 8px #ff6b6b; }
-  16%  { background: #ffa94d; box-shadow: 0 0 8px #ffa94d; }
-  33%  { background: #ffd43b; box-shadow: 0 0 8px #ffd43b; }
-  50%  { background: #69db7c; box-shadow: 0 0 8px #69db7c; }
-  66%  { background: #4dabf7; box-shadow: 0 0 8px #4dabf7; }
-  83%  { background: #da77f2; box-shadow: 0 0 8px #da77f2; }
-  100% { background: #ff6b6b; box-shadow: 0 0 8px #ff6b6b; }
-}
+@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.2; } }
+.divider { height: 2px; background: linear-gradient(90deg, transparent, var(--magenta), transparent); margin: 0 0 16px; }
 
-/* Round Progress */
-.rounds { display: flex; justify-content: center; gap: 8px; margin-bottom: 28px; flex-wrap: wrap; }
+/* Round Pills */
+.rounds { display: flex; justify-content: center; gap: 4px; margin-bottom: 20px; }
 .round-pill {
-  padding: 6px 14px; border-radius: 999px; font-size: 0.75rem; font-weight: 600;
-  text-transform: uppercase; letter-spacing: 0.05em; transition: all 0.3s ease;
-  background: var(--pink-base); color: var(--text-muted); box-shadow: var(--neu-raised);
-  border: var(--lavender-border);
+  padding: 4px 10px; font-family: var(--font); font-size: 0.65rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  background: var(--bg-panel); color: var(--text-dim); border: 1px solid var(--border);
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.4); transition: all 0.2s;
 }
 .round-pill.current {
-  background: var(--purple-pts); color: #fff; font-weight: 800;
-  box-shadow: 0 0 12px rgba(92, 26, 110, 0.5), var(--neu-raised);
-  border-color: var(--purple-pts);
+  background: var(--magenta); color: #fff; border-color: var(--magenta-bright);
+  box-shadow: 0 0 12px rgba(233, 30, 142, 0.5), var(--shadow);
 }
-.round-pill.completed {
-  background: var(--pink-base); color: var(--pink-deep); box-shadow: var(--neu-inset);
+.round-pill.completed { color: var(--magenta); border-color: var(--magenta-dim); }
+
+/* Unified Leaderboard */
+.leaderboard {
+  background: var(--bg-panel); border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg); margin-bottom: 20px; overflow: hidden;
+}
+.lb-header {
+  display: grid; grid-template-columns: 36px 1fr 70px 50px 60px 70px;
+  padding: 8px 12px; font-family: var(--font); font-size: 0.6rem;
+  text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim);
+  background: rgba(233, 30, 142, 0.08); border-bottom: 1px solid var(--border);
+}
+@media (max-width: 600px) {
+  .lb-header { grid-template-columns: 30px 1fr 60px 40px 50px; }
+  .lb-header .col-proj { display: none; }
+}
+.lb-row {
+  display: grid; grid-template-columns: 36px 1fr 70px 50px 60px 70px;
+  padding: 10px 12px; align-items: center; cursor: pointer;
+  border-bottom: 1px solid rgba(233, 30, 142, 0.08);
+  transition: background 0.15s, box-shadow 0.15s;
+}
+.lb-row:hover { background: var(--bg-panel-hover); }
+.lb-row:nth-child(even) { background: var(--bg-row-alt); }
+.lb-row:nth-child(even):hover { background: var(--bg-panel-hover); }
+.lb-row.expanded { background: var(--bg-panel-hover); border-left: 3px solid var(--magenta); }
+@media (max-width: 600px) {
+  .lb-row { grid-template-columns: 30px 1fr 60px 40px 50px; }
+  .lb-row .col-proj { display: none; }
+}
+.lb-row .rank {
+  font-family: var(--font); font-weight: 700; font-size: 0.85rem; color: var(--text-dim);
+}
+.lb-row.top1 .rank { color: var(--gold); text-shadow: 0 0 8px rgba(255,215,0,0.5); }
+.lb-row.top2 .rank { color: var(--silver); }
+.lb-row.top3 .rank { color: var(--bronze); }
+.lb-row .name { font-weight: 600; font-size: 0.88rem; }
+.lb-row .pts { font-family: var(--font); font-weight: 700; color: var(--magenta-bright); font-size: 0.9rem; }
+.lb-row .active-badge {
+  font-family: var(--font); font-size: 0.7rem; font-weight: 600;
+  padding: 1px 6px; border: 1px solid; text-align: center;
+}
+.lb-row .active-badge.full { color: var(--active-green); border-color: rgba(0,255,136,0.3); }
+.lb-row .active-badge.partial { color: var(--elim-red); border-color: rgba(255,51,85,0.3); }
+.lb-row .avg { font-family: var(--font); font-size: 0.75rem; color: var(--cyan); }
+.lb-row .proj { font-family: var(--font); font-size: 0.75rem; color: var(--purple); }
+.lb-row .trend {
+  font-family: var(--font); font-size: 0.65rem; color: var(--active-green); margin-left: 4px;
 }
 
-/* Podium */
-.podium { display: flex; justify-content: center; align-items: flex-end; gap: 16px; margin-bottom: 32px; }
-.podium-card {
-  background: var(--pink-base); border-radius: 24px; padding: 16px 20px; text-align: center;
-  box-shadow: var(--neu-raised); transition: all 0.3s ease; min-width: 140px;
-  border: var(--lavender-border); animation: podium-in 0.5s ease both;
+/* Expanded Detail Panel */
+.detail-panel {
+  background: rgba(26, 10, 36, 0.95); border-top: 1px solid var(--border);
+  border-bottom: 2px solid var(--magenta-dim); padding: 12px; display: none;
 }
-.podium-card.first {
-  order: 2; padding: 24px 28px; transform: translateY(-16px);
-  background: linear-gradient(145deg, #f5dce8, #eacad6);
-  animation-delay: 0.1s;
+.detail-panel.open { display: block; animation: slideDown 0.2s ease; }
+@keyframes slideDown { from { opacity: 0; max-height: 0; } to { opacity: 1; max-height: 600px; } }
+.detail-metrics {
+  display: flex; gap: 16px; margin-bottom: 8px; font-size: 0.72rem; flex-wrap: wrap;
 }
-.podium-card.first::before {
-  content: ''; display: block; height: 3px; border-radius: 999px;
-  background: var(--pride-gradient-bold); margin: -12px -16px 12px;
+.detail-metrics span { color: var(--text-muted); }
+.detail-metrics .val { font-family: var(--font); font-weight: 700; color: var(--text); }
+.detail-commentary {
+  font-size: 0.78rem; color: var(--text-muted); font-style: italic;
+  padding: 8px 10px; margin-bottom: 10px; line-height: 1.6;
+  background: rgba(233, 30, 142, 0.04); border-left: 2px solid var(--magenta-dim);
 }
-.podium-card.second { order: 1; animation-delay: 0.25s; }
-.podium-card.third { order: 3; animation-delay: 0.4s; }
-@keyframes podium-in { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; } }
-.podium-card.first { animation: podium-in-first 0.5s ease 0.1s both; }
-@keyframes podium-in-first { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(-16px); } }
-.podium-medal { font-size: 2rem; filter: drop-shadow(0 2px 4px rgba(180, 130, 155, 0.4)); }
-.podium-rank { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); font-weight: 600; }
-.podium-name { font-size: 1.1rem; font-weight: 800; margin: 4px 0; color: var(--text-dark); }
-.podium-pts { font-size: 1.6rem; font-weight: 800; color: var(--purple-pts); }
-.podium-stats { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; }
-
-/* Standings Table (4-10) */
-.standings-table { width: 100%; border-collapse: separate; border-spacing: 0 4px; margin-bottom: 28px; font-size: 0.85rem; }
-.standings-table th {
-  text-align: left; color: var(--text-muted); font-weight: 600; font-size: 0.7rem;
-  text-transform: uppercase; letter-spacing: 0.05em; padding: 8px 12px;
+.player-tbl { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
+.player-tbl th {
+  text-align: left; font-family: var(--font); font-size: 0.6rem;
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);
+  padding: 4px 6px; border-bottom: 1px solid var(--border);
 }
-.standings-table td { padding: 10px 12px; background: var(--pink-base); transition: all 0.3s ease; }
-.standings-table tr td:first-child { border-radius: 12px 0 0 12px; }
-.standings-table tr td:last-child { border-radius: 0 12px 12px 0; }
-.standings-table tr { box-shadow: var(--neu-raised); border-radius: 12px; }
-.standings-table td { border-top: 1px solid rgba(200, 162, 200, 0.35); border-bottom: 1px solid rgba(200, 162, 200, 0.35); }
-.standings-table tr td:first-child { border-left: 2px solid rgba(200, 162, 200, 0.6); }
-.standings-table tr td:last-child { border-right: 2px solid rgba(200, 162, 200, 0.6); }
-.standings-table tr:hover td { box-shadow: var(--neu-inset); }
-.standings-table .rank-num { font-weight: 800; color: var(--pink-deep); }
-.standings-table .pts-val { font-weight: 800; color: var(--purple-pts); }
+.player-tbl td { padding: 5px 6px; border-bottom: 1px solid rgba(233, 30, 142, 0.06); }
+.player-tbl tr.elim td { opacity: 0.35; }
+.player-tbl tr.elim .team-col { text-decoration: line-through; }
+.player-tbl .pts-col { font-family: var(--font); font-weight: 700; text-align: right; }
+.player-tbl .total-col { font-family: var(--font); font-weight: 700; color: var(--magenta-bright); text-align: right; }
+.status-pip { width: 6px; height: 6px; display: inline-block; margin-right: 5px; }
+.status-pip.on { background: var(--active-green); box-shadow: 0 0 4px var(--active-green); }
+.status-pip.off { background: var(--text-dim); }
 
 /* Tournament Leaders */
-.highlights { margin-bottom: 32px; }
-.highlight-card {
-  background: var(--pink-base); border-radius: 16px; padding: 16px 20px;
-  box-shadow: var(--neu-raised); transition: all 0.3s ease;
-  border: var(--lavender-border);
+.leaders-panel {
+  background: var(--bg-panel); border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg); margin-bottom: 20px; padding: 12px;
 }
-.highlight-card:hover { box-shadow: 10px 10px 20px var(--shadow-dark), -10px -10px 20px var(--shadow-light); }
-.highlight-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; font-weight: 800; }
-.highlight-card h3.hot {
-  background: var(--pride-gradient-bold); -webkit-background-clip: text; background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 1px 1px rgba(45, 15, 38, 0.2));
+.leaders-panel h3 {
+  font-family: var(--font); font-size: 0.7rem; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--magenta-bright); margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(233, 30, 142, 0.3);
 }
 .leaders-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
 @media (max-width: 600px) { .leaders-grid { grid-template-columns: 1fr; } }
-.hot-row {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 7px 10px; font-size: 0.85rem;
-  border-bottom: 1px solid rgba(180, 130, 155, 0.12);
+.leader-row {
+  display: flex; align-items: center; gap: 8px; padding: 5px 8px;
+  font-size: 0.78rem; border-bottom: 1px solid rgba(233, 30, 142, 0.06);
 }
-.hot-row:last-child { border-bottom: none; }
-.hot-row .rank-badge {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 22px; height: 22px; border-radius: 50%; font-size: 0.7rem; font-weight: 800;
-  margin-right: 8px; flex-shrink: 0;
+.leader-row:last-child { border: none; }
+.leader-num {
+  font-family: var(--font); font-weight: 700; font-size: 0.65rem;
+  width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
 }
-.hot-row .rank-badge.top3 { background: var(--purple-pts); color: #fff; }
-.hot-row .rank-badge.rest { background: rgba(200, 162, 200, 0.25); color: var(--purple-pts); }
-.hot-row .player-info { flex: 1; min-width: 0; }
-.hot-row .player-name { font-weight: 600; }
-.hot-row .player-team { font-size: 0.72rem; color: var(--text-muted); }
-.hot-row .pts { color: var(--purple-pts); font-weight: 800; white-space: nowrap; }
-.hot-row .mgr { color: var(--text-muted); font-size: 0.7rem; margin-left: 4px; }
+.leader-num.t3 { color: var(--magenta-bright); border: 1px solid var(--magenta); }
+.leader-num.rest { color: var(--text-dim); border: 1px solid var(--border); }
+.leader-info { flex: 1; min-width: 0; }
+.leader-name { font-weight: 600; font-size: 0.8rem; }
+.leader-team { font-size: 0.65rem; color: var(--text-dim); }
+.leader-pts { font-family: var(--font); font-weight: 700; color: var(--cyan); font-size: 0.8rem; }
+.leader-mgr { font-size: 0.6rem; color: var(--text-dim); margin-left: 4px; }
 
-/* Manager Cards */
-.manager-cards { display: flex; flex-direction: column; gap: 12px; }
-details.manager-card {
-  background: var(--pink-base); border-radius: 16px; overflow: hidden;
-  box-shadow: var(--neu-raised); transition: all 0.3s ease;
-  border: var(--lavender-border);
+/* Footnote */
+.footnote {
+  text-align: center; font-size: 0.65rem; color: var(--text-dim);
+  font-style: italic; margin-bottom: 20px; padding: 0 12px;
 }
-details.manager-card[open] { box-shadow: var(--neu-inset); border-color: var(--lavender); }
-details.manager-card:hover { box-shadow: 10px 10px 20px var(--shadow-dark), -10px -10px 20px var(--shadow-light); }
-details.manager-card[open]:hover { box-shadow: var(--neu-inset); }
-summary.manager-summary {
-  padding: 14px 18px; cursor: pointer; display: flex; align-items: center;
-  gap: 12px; font-size: 0.9rem; list-style: none; transition: all 0.3s ease;
-}
-summary.manager-summary::-webkit-details-marker { display: none; }
-summary.manager-summary::before { content: '💅'; font-size: 1rem; transition: all 0.2s ease; }
-details.manager-card[open] summary.manager-summary::before { content: '✨'; }
-summary .m-rank { font-weight: 800; color: var(--purple-pts); min-width: 28px; }
-summary .m-name { font-weight: 700; flex: 1; color: var(--text-dark); }
-summary .m-pts {
-  font-weight: 800; color: var(--purple-pts); font-size: 0.82rem;
-  background: rgba(200, 162, 200, 0.25); padding: 3px 10px; border-radius: 999px;
-  border: var(--lavender-border); position: relative;
-}
-summary .m-badge { font-size: 0.75rem; padding: 2px 10px; border-radius: 999px; font-weight: 600; }
-summary .m-badge.full { background: rgba(105, 219, 124, 0.2); color: #1a6b2d; border: 1px solid rgba(105, 219, 124, 0.4); }
-summary .m-badge.partial { background: rgba(255, 107, 107, 0.15); color: var(--rainbow-red); border: 1px solid rgba(255, 107, 107, 0.3); }
-.card-body { padding: 0 18px 18px; }
-.card-commentary {
-  font-size: 0.82rem; color: var(--text-muted); font-style: italic;
-  padding: 10px 14px; margin-bottom: 12px; line-height: 1.6;
-  background: rgba(200, 162, 200, 0.12); border-radius: 12px;
-  border: var(--lavender-border);
-  border-left: 3px solid var(--purple-pts);
-}
-.player-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
-.player-table th {
-  text-align: left; color: var(--text-muted); font-weight: 600; font-size: 0.7rem;
-  text-transform: uppercase; padding: 6px 8px;
-  background: rgba(180, 130, 155, 0.08); box-shadow: var(--neu-inset);
-}
-.player-table th:first-child { border-radius: 8px 0 0 8px; }
-.player-table th:last-child { border-radius: 0 8px 8px 0; }
-.player-table td { padding: 7px 8px; position: relative; }
-.player-table tbody tr { transition: all 0.2s ease; }
-.player-table tbody tr:nth-child(even) td { background: rgba(212, 87, 122, 0.04); }
-.player-table tr.eliminated td { opacity: 0.4; }
-.player-table tr.eliminated .team-cell { text-decoration: line-through; }
-.player-table .pts-cell { font-weight: 700; text-align: right; }
-.player-table .total-cell { color: var(--purple-pts); font-weight: 800; text-align: right; }
-.status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; }
-.status-dot.active { background: var(--rainbow-green); animation: pride-pulse 3s linear infinite; }
-.status-dot.elim { background: #cba4b5; }
-.card-metrics { display: flex; gap: 16px; margin-bottom: 10px; font-size: 0.75rem; color: var(--text-muted); }
-.metric-label { text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
-.metric-val { font-weight: 800; color: var(--purple-pts); }
-
-/* === LIVE ANIMATION STYLES === */
-@keyframes score-flash {
-  0%   { background: rgba(92, 26, 110, 0.0); box-shadow: none; }
-  15%  { background: rgba(218, 119, 242, 0.35); box-shadow: 0 0 16px rgba(218, 119, 242, 0.5); }
-  100% { background: rgba(92, 26, 110, 0.0); box-shadow: none; }
-}
-.score-changed { animation: score-flash 2s ease-out; border-radius: 6px; }
-
-@keyframes elimination-flash {
-  0%   { background: rgba(183, 28, 28, 0.5); }
-  40%  { background: rgba(183, 28, 28, 0.2); }
-  100% { background: transparent; }
-}
-.just-eliminated { animation: elimination-flash 2.5s ease-out forwards; }
-.just-eliminated td { opacity: 0.4 !important; }
-.just-eliminated .team-cell { text-decoration: line-through !important; }
-
-@keyframes float-up {
-  0%   { opacity: 1; transform: translateY(0) scale(1); }
-  50%  { opacity: 1; transform: translateY(-12px) scale(1.1); }
-  100% { opacity: 0; transform: translateY(-24px) scale(0.9); }
-}
-.delta-badge {
-  position: absolute; right: -4px; top: -8px;
-  color: #1a7a3a; font-weight: 800; font-size: 0.7rem;
-  animation: float-up 2s ease-out forwards;
-  pointer-events: none; white-space: nowrap;
-  text-shadow: 0 1px 2px rgba(255,255,255,0.8);
-}
-
-@keyframes rank-glow {
-  0%   { box-shadow: var(--neu-raised); }
-  30%  { box-shadow: 0 0 20px rgba(142, 68, 173, 0.4), var(--neu-raised); }
-  100% { box-shadow: var(--neu-raised); }
-}
-.rank-changed { animation: rank-glow 2s ease-out; }
 
 /* Footer */
-footer { text-align: center; padding: 32px 16px; color: var(--text-muted); font-size: 0.75rem; }
-footer span { transition: all 0.3s ease; }
-footer span:hover { background: var(--pride-gradient); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+footer { text-align: center; padding: 20px; color: var(--text-dim); font-size: 0.65rem; }
+
+/* Animation classes */
+@keyframes score-flash {
+  0% { background: transparent; } 15% { background: rgba(233, 30, 142, 0.3); } 100% { background: transparent; }
+}
+.score-changed { animation: score-flash 2s ease-out; }
+@keyframes float-up {
+  0% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; transform: translateY(-18px); }
+}
+.delta-badge {
+  position: absolute; right: -2px; top: -6px; font-family: var(--font);
+  color: var(--active-green); font-weight: 700; font-size: 0.6rem;
+  animation: float-up 2s ease-out forwards; pointer-events: none;
+}
 
 /* Mobile */
 @media (max-width: 500px) {
-  :root {
-    --neu-raised: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
-    --neu-inset: inset 3px 3px 6px rgba(180, 130, 155, 0.4), inset -3px -3px 6px rgba(255, 240, 248, 0.7);
-  }
-  .podium { gap: 8px; }
-  .podium-card { min-width: 95px; padding: 10px 12px; border-radius: 16px; }
-  .podium-card.first { padding: 14px 16px; }
-  .podium-pts { font-size: 1.2rem; }
-  .player-table { font-size: 0.72rem; }
-  .player-table th, .player-table td { padding: 4px 4px; }
-  header h1 { font-size: 1.2rem; }
-  summary.manager-summary { padding: 10px 12px; font-size: 0.82rem; gap: 8px; }
-  .card-commentary { font-size: 0.76rem; }
+  header h1 { font-size: 1rem; }
+  .lb-row { padding: 8px; font-size: 0.82rem; }
+  .player-tbl { font-size: 0.68rem; }
+  .detail-commentary { font-size: 0.72rem; }
 }
 </style>
 </head>
@@ -288,473 +214,253 @@ footer span:hover { background: var(--pride-gradient); -webkit-background-clip: 
 <div class="container">
 
 <header>
-  <h1><span class="gaygent-text">The Gaygent's</span> <span class="title-rest">March Madness Surveillance Board</span></h1>
+  <h1><span class="brand">THE GAYGENT'S</span> <span class="title">SURVEILLANCE BOARD</span></h1>
   <div class="subtitle" id="gaygent-header"></div>
-  <div class="rainbow-divider"></div>
-  <div style="text-align:center">
-    <div class="meta-bar">
-      <span id="last-updated"></span>
-      <span id="live-indicator"></span>
-      <span>1st: $450 · 2nd: $50 · Buy-in: $50</span>
-    </div>
+  <div class="divider"></div>
+  <div class="header-bar">
+    <span id="last-updated"></span>
+    <span id="live-indicator"></span>
+    <span>1ST $450 · 2ND $50 · BUY-IN $50</span>
   </div>
   <div class="rounds" id="rounds"></div>
 </header>
 
-<div class="podium" id="podium"></div>
+<div class="leaderboard" id="leaderboard"></div>
 
-<table class="standings-table" id="standings-table">
-  <thead>
-    <tr><th>#</th><th>Manager</th><th>Pts</th><th>Active</th><th>Survival</th><th>Live %</th></tr>
-  </thead>
-  <tbody id="standings-body"></tbody>
-</table>
-<div style="text-align:center; font-size:0.7rem; color:var(--purple-pts); margin-top:-16px; margin-bottom:24px; font-style:italic; opacity:0.85;">
-  <strong>Survival %</strong> = active players ÷ total players (how much of your roster is still alive)<br>
-  <strong>Live %</strong> = points from active players ÷ total points (how much of your score is still earning)<br>
-  <br>
-  <span style="opacity:0.7;">Definitions provided for Magged, who needs formulas explained or he cries into his Google Sheet.</span>
+<div class="footnote">
+  <strong>AVG/PLAYER</strong> = active player points ÷ active players (roster efficiency)<br>
+  <strong>PROJECTED</strong> = current total + (avg × active × rounds remaining)<br>
+  <span style="opacity:0.7">Definitions provided for Magged, who needs formulas explained or he cries into his Google Sheet.</span>
 </div>
 
-<div class="highlights" id="highlights"></div>
+<div class="leaders-panel" id="leaders"></div>
 
-<div class="manager-cards" id="manager-cards"></div>
-
-<footer>
-  <span>Powered by The Gaygent's Surveillance Network · NCAA API · Built with Pride 🏳️‍🌈</span>
-</footer>
+<footer>POWERED BY THE GAYGENT'S SURVEILLANCE NETWORK · NCAA API · BUILT WITH PRIDE 🏳️‍🌈</footer>
 
 </div>
 
 <script>
-const ROUND_LABELS = { R64: 'R64', R32: 'R32', S16: 'Sweet 16', E8: 'Elite 8', F4: 'Final 4', Championship: 'Championship' };
-let _prevData = null;
-let _commentary = null;
-let _meta = null;
+var ROUND_LABELS = { R64: 'R64', R32: 'R32', S16: 'S16', E8: 'E8', F4: 'F4', Championship: 'CHAMP' };
+var _prevData = null, _commentary = null, _meta = null;
 
-// === SAFETY HELPERS ===
+function escapeHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+function escapeAttr(v) { return String(v).replace(/\\/g,'\\\\').replace(/"/g,'\\"'); }
 
-function escapeHtml(str) {
-  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-}
-
-function escapeAttr(val) {
-  return String(val).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-}
-
-// === ANIMATION HELPERS ===
-
-function animateCount(el, from, to, duration) {
-  duration = duration || 1200;
-  if (from === to) return;
-  const start = performance.now();
-  const update = (now) => {
-    const progress = Math.min((now - start) / duration, 1);
-    const eased = 1 - Math.pow(1 - progress, 3);
-    el.textContent = Math.round(from + (to - from) * eased);
-    if (progress < 1) requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-}
-
-function showDelta(el, delta) {
-  if (delta <= 0) return;
-  const badge = document.createElement('span');
-  badge.className = 'delta-badge';
-  badge.textContent = '+' + delta;
-  el.style.position = 'relative';
-  el.appendChild(badge);
-  setTimeout(() => badge.remove(), 2200);
-}
-
-function flashElement(el, className, duration) {
-  el.classList.remove(className);
-  void el.offsetWidth; // force reflow to restart animation
-  el.classList.add(className);
-  setTimeout(() => el.classList.remove(className), duration || 2500);
-}
-
-function prideConfetti() {
-  if (typeof confetti === 'undefined') return;
-  confetti({ particleCount: 120, spread: 80, origin: { y: 0.35 },
-    colors: ['#c0392b', '#d35400', '#b8860b', '#1a7a3a', '#2471a3', '#8e44ad'] });
-}
-
-function emojiConfetti() {
-  if (typeof confetti === 'undefined') return;
-  var scalar = 2;
-  var shapes = ['💅', '✨', '🏳️‍🌈'].map(function(t) {
-    return confetti.shapeFromText({ text: t, scalar: scalar });
-  });
-  confetti({ shapes: shapes, scalar: scalar, particleCount: 30, spread: 60, origin: { y: 0.4 } });
-}
-
-// === DIFF ENGINE ===
-
-function diffStandings(prev, fresh) {
-  var changes = { pointChanges: [], rankSwaps: [], newEliminations: [], milestones: [] };
-
-  prev.standings.forEach(function(oldS) {
-    var newS = fresh.standings.find(function(s) { return s.manager === oldS.manager; });
-    if (!newS) return;
-
-    if (newS.total_points !== oldS.total_points) {
-      changes.pointChanges.push({ manager: newS.manager, player: null,
-        oldPts: oldS.total_points, newPts: newS.total_points });
-    }
-
-    if (newS.rank !== oldS.rank) {
-      changes.rankSwaps.push({ manager: newS.manager, oldRank: oldS.rank, newRank: newS.rank });
-    }
-
-    oldS.players.forEach(function(oldP) {
-      var newP = newS.players.find(function(p) { return p.name === oldP.name; });
-      if (!newP) return;
-
-      if (newP.total_points !== oldP.total_points) {
-        changes.pointChanges.push({ manager: newS.manager, player: newP.name,
-          oldPts: oldP.total_points, newPts: newP.total_points });
-      }
-      // Per-round diffs
-      Object.keys(newP.round_scores).forEach(function(r) {
-        var oldVal = (oldP.round_scores && oldP.round_scores[r]) || 0;
-        var newVal = newP.round_scores[r] || 0;
-        if (newVal !== oldVal) {
-          changes.pointChanges.push({ manager: newS.manager, player: newP.name,
-            round: r, oldPts: oldVal, newPts: newVal });
-        }
-      });
-
-      if (oldP.status === 'active' && newP.status === 'eliminated') {
-        changes.newEliminations.push({ manager: newS.manager, player: newP.name, team: newP.team });
-      }
-    });
-
-    // Milestones
-    if (newS.rank === 1 && oldS.rank !== 1) {
-      changes.milestones.push({ type: 'lead_change', manager: newS.manager });
-    }
-    [200, 300, 400].forEach(function(m) {
-      if (newS.total_points >= m && oldS.total_points < m) {
-        changes.milestones.push({ type: 'score_milestone', manager: newS.manager, value: m });
-      }
-    });
-  });
-
-  return changes;
-}
-
-// === APPLY CHANGES WITH ANIMATIONS ===
-
-function applyChanges(changes, fresh) {
-  // 1. Animate point changes
-  changes.pointChanges.forEach(function(c) {
-    if (!c.player && !c.round) {
-      // Manager total — podium or standings
-      var podiumEl = document.querySelector('[data-mgr-pts="' + escapeAttr(c.manager) + '"]');
-      if (podiumEl) {
-        animateCount(podiumEl, c.oldPts, c.newPts);
-        showDelta(podiumEl.parentElement, c.newPts - c.oldPts);
-        flashElement(podiumEl, 'score-changed');
-      }
-      var tableEl = document.querySelector('[data-mgr-table-pts="' + escapeAttr(c.manager) + '"]');
-      if (tableEl) {
-        animateCount(tableEl, c.oldPts, c.newPts);
-        flashElement(tableEl, 'score-changed');
-      }
-      var cardEl = document.querySelector('[data-mgr-card-pts="' + escapeAttr(c.manager) + '"]');
-      if (cardEl) {
-        animateCount(cardEl, c.oldPts, c.newPts);
-        flashElement(cardEl, 'score-changed');
-      }
-    }
-    if (c.player && c.round) {
-      // Player round score
-      var cellEl = document.querySelector('[data-player-round="' + escapeAttr(c.player) + ':' + c.round + '"]');
-      if (cellEl) {
-        animateCount(cellEl, c.oldPts, c.newPts);
-        showDelta(cellEl, c.newPts - c.oldPts);
-        flashElement(cellEl, 'score-changed');
-      }
-    }
-    if (c.player && !c.round) {
-      // Player total
-      var totalEl = document.querySelector('[data-player-total="' + escapeAttr(c.player) + '"]');
-      if (totalEl) {
-        animateCount(totalEl, c.oldPts, c.newPts);
-        flashElement(totalEl, 'score-changed');
-      }
-    }
-  });
-
-  // 2. Rank swap animations
-  if (changes.rankSwaps.length > 0) {
-    // FLIP on standings table
-    var tbody = document.getElementById('standings-body');
-    if (tbody) {
-      var rows = Array.from(tbody.querySelectorAll('tr'));
-      var firstRects = rows.map(function(r) { return r.getBoundingClientRect(); });
-
-      renderStandingsTable(fresh.standings.slice(3));
-
-      var newRows = Array.from(tbody.querySelectorAll('tr'));
-      newRows.forEach(function(el, i) {
-        if (i < firstRects.length) {
-          var dy = firstRects[i].top - el.getBoundingClientRect().top;
-          if (Math.abs(dy) > 2) {
-            el.animate([
-              { transform: 'translateY(' + dy + 'px)' },
-              { transform: 'translateY(0)' }
-            ], { duration: 600, easing: 'cubic-bezier(0.4, 0, 0.2, 1)' });
-            flashElement(el, 'rank-changed', 2000);
-          }
-        }
-      });
-    }
-    // Re-render podium with fresh data
-    renderPodium(fresh.standings.slice(0, 3));
-
-    // Re-render manager cards order
-    renderManagerCards(fresh.standings, fresh.rounds, _commentary);
-  } else {
-    // No rank change — update inline values only (already done above via animateCount)
+function animateCount(el, from, to, dur) {
+  dur = dur || 1000; if (from === to) return;
+  var start = performance.now();
+  function step(now) {
+    var p = Math.min((now - start) / dur, 1);
+    el.textContent = Math.round(from + (to - from) * (1 - Math.pow(1 - p, 3)));
+    if (p < 1) requestAnimationFrame(step);
   }
-
-  // 3. Eliminations
-  changes.newEliminations.forEach(function(e) {
-    var row = document.querySelector('[data-player-row="' + escapeAttr(e.player) + '"]');
-    if (row) {
-      row.classList.remove('eliminated');
-      flashElement(row, 'just-eliminated', 2500);
-      setTimeout(function() { row.classList.add('eliminated'); }, 2500);
-    }
-  });
-
-  // 4. Milestones — confetti!
-  if (changes.milestones.length > 0) {
-    prideConfetti();
-    setTimeout(emojiConfetti, 800);
-  }
-
-  // 5. Update header timestamp + highlights
-  renderHeader(fresh, _meta, _commentary);
-  renderHighlights(fresh.standings, fresh.current_round, _commentary);
+  requestAnimationFrame(step);
 }
+function showDelta(el, d) {
+  if (d <= 0) return;
+  var b = document.createElement('span'); b.className = 'delta-badge'; b.textContent = '+' + d;
+  el.style.position = 'relative'; el.appendChild(b); setTimeout(function() { b.remove(); }, 2200);
+}
+function flashEl(el) { el.classList.remove('score-changed'); void el.offsetWidth; el.classList.add('score-changed'); setTimeout(function() { el.classList.remove('score-changed'); }, 2500); }
+function prideConfetti() { if (typeof confetti !== 'undefined') confetti({ particleCount: 100, spread: 70, origin: { y: 0.3 }, colors: ['#e91e8e','#ff2daa','#b44dff','#00e5ff','#00ff88','#ffd700'] }); }
 
-// === RENDER FUNCTIONS (with data attributes) ===
-
+// === INIT ===
 async function init() {
-  var results = await Promise.all([
-    fetch('./data/leaderboard.json').then(function(r) { return r.json(); }),
-    fetch('./data/meta.json').then(function(r) { return r.json(); }),
-    fetch('./data/commentary.json').then(function(r) { return r.json(); }).catch(function() { return null; }),
+  var r = await Promise.all([
+    fetch('./data/leaderboard.json').then(function(x){return x.json();}),
+    fetch('./data/meta.json').then(function(x){return x.json();}),
+    fetch('./data/commentary.json').then(function(x){return x.json();}).catch(function(){return null;}),
   ]);
-  var lb = results[0]; _meta = results[1]; _commentary = results[2];
-
-  renderHeader(lb, _meta, _commentary);
+  var lb = r[0]; _meta = r[1]; _commentary = r[2];
+  renderHeader(lb, _commentary);
   renderRounds(lb.rounds, lb.current_round);
-  renderPodium(lb.standings.slice(0, 3));
-  renderStandingsTable(lb.standings.slice(3));
-  renderHighlights(lb.standings, lb.current_round, _commentary);
-  renderManagerCards(lb.standings, lb.rounds, _commentary);
-
+  renderLeaderboard(lb);
+  renderLeaders(lb);
   _prevData = lb;
   scheduleRefresh(_meta.tournament_dates);
 }
 
-function renderHeader(lb, meta, commentary) {
+function renderHeader(lb, c) {
   window._lastUpdatedISO = lb.last_updated;
   updateTimestamp();
-  if (!window._tickerStarted) {
-    setInterval(updateTimestamp, 5000);
-    window._tickerStarted = true;
-  }
-  if (commentary) document.getElementById('gaygent-header').textContent = commentary.gaygent_header || '';
+  if (!window._tickerStarted) { setInterval(updateTimestamp, 5000); window._tickerStarted = true; }
+  if (c) document.getElementById('gaygent-header').textContent = c.gaygent_header || '';
 }
-
 function updateTimestamp() {
   if (!window._lastUpdatedISO) return;
-  var d = new Date(window._lastUpdatedISO);
-  var now = new Date();
-  var secs = Math.floor((now - d) / 1000);
-  var ago;
-  if (secs < 60) ago = secs + 's ago';
-  else if (secs < 3600) ago = Math.floor(secs / 60) + 'm ago';
-  else ago = Math.floor(secs / 3600) + 'h ' + Math.floor((secs % 3600) / 60) + 'm ago';
-  var timeStr = d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
-  document.getElementById('last-updated').textContent = 'Last sync: ' + timeStr + ' (' + ago + ') · refreshes every 5 min';
+  var d = new Date(window._lastUpdatedISO), now = new Date(), secs = Math.floor((now - d) / 1000);
+  var ago = secs < 60 ? secs + 's ago' : secs < 3600 ? Math.floor(secs/60) + 'm ago' : Math.floor(secs/3600) + 'h ' + Math.floor((secs%3600)/60) + 'm ago';
+  document.getElementById('last-updated').textContent = 'SYNC: ' + d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}) + ' PT (' + ago + ') · EVERY 5 MIN';
 }
-
-function renderRounds(rounds, current) {
-  var el = document.getElementById('rounds');
-  var idx = rounds.indexOf(current);
+function renderRounds(rounds, cur) {
+  var el = document.getElementById('rounds'), idx = rounds.indexOf(cur);
   el.innerHTML = rounds.map(function(r, i) {
     var cls = i < idx ? 'completed' : i === idx ? 'current' : '';
-    var icon = i < idx ? '✓ ' : '';
-    return '<span class="round-pill ' + cls + '">' + icon + (ROUND_LABELS[r] || r) + '</span>';
+    return '<span class="round-pill ' + cls + '">' + (ROUND_LABELS[r]||r) + '</span>';
   }).join('');
 }
 
-function renderPodium(top3) {
-  var medals = ['🥇', '🥈', '🥉'];
-  var classes = ['first', 'second', 'third'];
-  var el = document.getElementById('podium');
-  el.innerHTML = top3.map(function(s, i) {
-    var surv = Math.round(s.active_players / s.total_players * 100);
-    var livePts = s.players.filter(function(p) { return p.status === 'active'; }).reduce(function(a, p) { return a + p.total_points; }, 0);
-    var livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
-    return '<div class="podium-card ' + classes[i] + '" data-manager="' + s.manager + '">' +
-      '<div class="podium-medal">' + medals[i] + '</div>' +
-      '<div class="podium-rank">#' + s.rank + '</div>' +
-      '<div class="podium-name">' + s.manager + '</div>' +
-      '<div class="podium-pts" data-mgr-pts="' + s.manager + '">' + s.total_points + '</div>' +
-      '<div class="podium-stats">' + s.active_players + '/' + s.total_players + ' alive · ' + surv + '% · ' + livePct + '% live</div>' +
-    '</div>';
+// === UNIFIED LEADERBOARD ===
+function renderLeaderboard(lb) {
+  var el = document.getElementById('leaderboard');
+  var hdr = '<div class="lb-header"><span>#</span><span>MANAGER</span><span>PTS</span><span>ACTIVE</span><span>AVG</span><span class="col-proj">PROJ</span></div>';
+
+  var rows = lb.standings.map(function(s) {
+    var topCls = s.rank === 1 ? ' top1' : s.rank === 2 ? ' top2' : s.rank === 3 ? ' top3' : '';
+    var badgeCls = s.active_players === s.total_players ? 'full' : 'partial';
+    var trend = s.current_round_delta > 0 ? '<span class="trend">+' + s.current_round_delta + '</span>' : '';
+
+    var row = '<div class="lb-row' + topCls + '" data-manager="' + escapeAttr(s.manager) + '" onclick="toggleDetail(this)">';
+    row += '<span class="rank">' + s.rank + '</span>';
+    row += '<span class="name">' + s.manager + trend + '</span>';
+    row += '<span class="pts" data-mgr-pts="' + escapeAttr(s.manager) + '">' + s.total_points + '</span>';
+    row += '<span class="active-badge ' + badgeCls + '">' + s.active_players + '/' + s.total_players + '</span>';
+    row += '<span class="avg">' + (s.avg_per_active || 0) + '</span>';
+    row += '<span class="proj col-proj">~' + (s.projected_finish || 0) + '</span>';
+    row += '</div>';
+
+    // Detail panel
+    var blurb = _commentary && _commentary.managers ? (_commentary.managers[s.manager] || '') : '';
+    var detail = '<div class="detail-panel" id="detail-' + escapeAttr(s.manager).replace(/\s/g,'-') + '">';
+    detail += '<div class="detail-metrics">';
+    detail += '<span>ACTIVE: <span class="val">' + s.active_players + '/' + s.total_players + '</span></span>';
+    detail += '<span>AVG/PLAYER: <span class="val">' + (s.avg_per_active || 0) + '</span></span>';
+    detail += '<span>PROJECTED: <span class="val">~' + (s.projected_finish || 0) + '</span></span>';
+    detail += '<span>R' + lb.current_round.replace('R','') + ' TREND: <span class="val" style="color:var(--active-green)">+' + (s.current_round_delta || 0) + '</span></span>';
+    detail += '</div>';
+    if (blurb) detail += '<div class="detail-commentary">' + escapeHtml(blurb) + '</div>';
+
+    var roundHdrs = lb.rounds.map(function(r){return '<th>' + (ROUND_LABELS[r]||r) + '</th>';}).join('');
+    detail += '<table class="player-tbl"><thead><tr><th>PLAYER</th><th>TEAM</th>' + roundHdrs + '<th>TOTAL</th></tr></thead><tbody>';
+    s.players.forEach(function(p) {
+      var cls = p.status === 'eliminated' ? ' class="elim"' : '';
+      var pip = p.status === 'active' ? '<span class="status-pip on"></span>' : '<span class="status-pip off"></span>';
+      var rCells = lb.rounds.map(function(r) {
+        var v = p.round_scores[r];
+        return '<td class="pts-col" data-player-round="' + escapeAttr(p.name) + ':' + r + '">' + (v !== undefined ? v : '—') + '</td>';
+      }).join('');
+      detail += '<tr' + cls + ' data-player-row="' + escapeAttr(p.name) + '">';
+      detail += '<td>' + pip + p.name + '</td>';
+      detail += '<td class="team-col">' + p.team + ' (' + p.seed + ')</td>';
+      detail += rCells;
+      detail += '<td class="total-col" data-player-total="' + escapeAttr(p.name) + '">' + p.total_points + '</td>';
+      detail += '</tr>';
+    });
+    detail += '</tbody></table></div>';
+
+    return row + detail;
   }).join('');
+
+  el.innerHTML = hdr + rows;
 }
 
-function renderStandingsTable(rest) {
-  var tbody = document.getElementById('standings-body');
-  tbody.innerHTML = rest.map(function(s) {
-    var surv = Math.round(s.active_players / s.total_players * 100);
-    var livePts = s.players.filter(function(p) { return p.status === 'active'; }).reduce(function(a, p) { return a + p.total_points; }, 0);
-    var livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
-    var activeColor = s.active_players === s.total_players ? 'color:#1a6b2d' : 'color:#c0392b';
-    return '<tr data-manager="' + s.manager + '">' +
-      '<td class="rank-num">' + s.rank + '</td>' +
-      '<td style="font-weight:700">' + s.manager + '</td>' +
-      '<td class="pts-val" data-mgr-table-pts="' + s.manager + '">' + s.total_points + '</td>' +
-      '<td style="' + activeColor + ';font-weight:600">' + s.active_players + '/' + s.total_players + '</td>' +
-      '<td>' + surv + '%</td>' +
-      '<td>' + livePct + '%</td>' +
-    '</tr>';
-  }).join('');
+function toggleDetail(rowEl) {
+  var mgr = rowEl.getAttribute('data-manager');
+  var panelId = 'detail-' + mgr.replace(/\s/g, '-');
+  var panel = document.getElementById(panelId);
+  if (!panel) return;
+  var isOpen = panel.classList.contains('open');
+
+  // Close all
+  document.querySelectorAll('.detail-panel.open').forEach(function(p) { p.classList.remove('open'); });
+  document.querySelectorAll('.lb-row.expanded').forEach(function(r) { r.classList.remove('expanded'); });
+
+  if (!isOpen) {
+    panel.classList.add('open');
+    rowEl.classList.add('expanded');
+  }
 }
 
-function renderHighlights(standings, currentRound, commentary) {
-  var el = document.getElementById('highlights');
-  var allPlayers = [];
-  standings.forEach(function(s) {
-    s.players.forEach(function(p) { allPlayers.push(Object.assign({}, p, { manager: s.manager })); });
+// === TOURNAMENT LEADERS ===
+function renderLeaders(lb) {
+  var el = document.getElementById('leaders');
+  var all = [];
+  lb.standings.forEach(function(s) {
+    s.players.forEach(function(p) { all.push(Object.assign({}, p, { manager: s.manager })); });
   });
+  var leaders = all.filter(function(p) { return p.total_points > 0 && p.status === 'active'; })
+    .sort(function(a,b) { return b.total_points - a.total_points; }).slice(0, 10);
 
-  // Tournament scoring leaders — aggregated total points, active players only
-  var leaders = allPlayers
-    .filter(function(p) { return p.total_points > 0 && p.status === 'active'; })
-    .sort(function(a, b) { return b.total_points - a.total_points; });
-  var top10 = leaders.slice(0, 10);
-
-  var html = '<div class="highlight-card">';
-  html += '<h3 class="hot">🏆 Tournament Scoring Leaders</h3>';
-  html += '<div class="leaders-grid">';
-  top10.forEach(function(p, i) {
-    var initials = p.manager.split(' ').map(function(w) { return w[0]; }).join('');
-    var badgeClass = i < 3 ? 'top3' : 'rest';
-    html += '<div class="hot-row">';
-    html += '<span class="rank-badge ' + badgeClass + '">' + (i + 1) + '</span>';
-    html += '<span class="player-info"><span class="player-name">' + p.name + '</span><br><span class="player-team">' + p.team + ' (' + p.seed + ')</span></span>';
-    html += '<span class="pts">' + p.total_points + '<span class="mgr"> ' + initials + '</span></span>';
+  var html = '<h3>🏆 TOURNAMENT SCORING LEADERS</h3><div class="leaders-grid">';
+  leaders.forEach(function(p, i) {
+    var init = p.manager.split(' ').map(function(w){return w[0];}).join('');
+    var nc = i < 3 ? 't3' : 'rest';
+    html += '<div class="leader-row">';
+    html += '<span class="leader-num ' + nc + '">' + (i+1) + '</span>';
+    html += '<span class="leader-info"><span class="leader-name">' + p.name + '</span><br><span class="leader-team">' + p.team + ' (' + p.seed + ')</span></span>';
+    html += '<span class="leader-pts">' + p.total_points + '<span class="leader-mgr">' + init + '</span></span>';
     html += '</div>';
   });
-  html += '</div></div>';
+  html += '</div>';
   el.innerHTML = html;
 }
 
-function renderManagerCards(standings, rounds, commentary) {
-  var el = document.getElementById('manager-cards');
-  el.innerHTML = standings.map(function(s) {
-    var surv = Math.round(s.active_players / s.total_players * 100);
-    var livePts = s.players.filter(function(p) { return p.status === 'active'; }).reduce(function(a, p) { return a + p.total_points; }, 0);
-    var livePct = s.total_points > 0 ? Math.round(livePts / s.total_points * 100) : 0;
-    var badgeClass = s.active_players === s.total_players ? 'full' : 'partial';
-    var blurb = commentary && commentary.managers ? (commentary.managers[s.manager] || '') : '';
-
-    var tableRows = '';
-    s.players.forEach(function(p) {
-      var rowClass = p.status === 'eliminated' ? 'eliminated' : '';
-      var dot = p.status === 'active' ? '<span class="status-dot active"></span>' : '<span class="status-dot elim"></span>';
-      var roundCells = '';
-      rounds.forEach(function(r) {
-        var val = p.round_scores[r];
-        var attr = ' data-player-round="' + p.name + ':' + r + '"';
-        roundCells += '<td class="pts-cell"' + attr + '>' + (val !== undefined ? val : '—') + '</td>';
+// === DIFF ENGINE ===
+function diffStandings(prev, fresh) {
+  var c = { pointChanges: [], rankSwaps: [], newEliminations: [], milestones: [] };
+  prev.standings.forEach(function(o) {
+    var n = fresh.standings.find(function(s){return s.manager === o.manager;});
+    if (!n) return;
+    if (n.total_points !== o.total_points) c.pointChanges.push({manager:n.manager,player:null,oldPts:o.total_points,newPts:n.total_points});
+    if (n.rank !== o.rank) c.rankSwaps.push({manager:n.manager,oldRank:o.rank,newRank:n.rank});
+    o.players.forEach(function(op) {
+      var np = n.players.find(function(p){return p.name === op.name;});
+      if (!np) return;
+      if (np.total_points !== op.total_points) c.pointChanges.push({manager:n.manager,player:np.name,oldPts:op.total_points,newPts:np.total_points});
+      Object.keys(np.round_scores).forEach(function(r) {
+        var ov = (op.round_scores && op.round_scores[r]) || 0, nv = np.round_scores[r] || 0;
+        if (nv !== ov) c.pointChanges.push({manager:n.manager,player:np.name,round:r,oldPts:ov,newPts:nv});
       });
-      tableRows += '<tr class="' + rowClass + '" data-player-row="' + p.name + '">' +
-        '<td>' + dot + p.name + '</td>' +
-        '<td class="team-cell">' + p.team + ' (' + p.seed + ')</td>' +
-        roundCells +
-        '<td class="total-cell" data-player-total="' + p.name + '">' + p.total_points + '</td>' +
-      '</tr>';
+      if (op.status === 'active' && np.status === 'eliminated') c.newEliminations.push({manager:n.manager,player:np.name});
     });
-
-    var roundHeaders = rounds.map(function(r) { return '<th>' + r + '</th>'; }).join('');
-
-    return '<details class="manager-card" data-manager="' + s.manager + '">' +
-      '<summary class="manager-summary">' +
-        '<span class="m-rank">#' + s.rank + '</span>' +
-        '<span class="m-name">' + s.manager + '</span>' +
-        '<span class="m-pts" data-mgr-card-pts="' + s.manager + '">' + s.total_points + ' pts</span>' +
-        '<span class="m-badge ' + badgeClass + '">' + s.active_players + '/' + s.total_players + '</span>' +
-      '</summary>' +
-      '<div class="card-body">' +
-        '<div class="card-metrics">' +
-          '<span><span class="metric-label">Survival: </span><span class="metric-val">' + surv + '%</span></span>' +
-          '<span><span class="metric-label">Live Portfolio: </span><span class="metric-val">' + livePct + '%</span></span>' +
-        '</div>' +
-        (blurb ? '<div class="card-commentary">' + escapeHtml(blurb) + '</div>' : '') +
-        '<table class="player-table">' +
-          '<thead><tr><th>Player</th><th>Team</th>' + roundHeaders + '<th>Total</th></tr></thead>' +
-          '<tbody>' + tableRows + '</tbody>' +
-        '</table>' +
-      '</div>' +
-    '</details>';
-  }).join('');
+    if (n.rank === 1 && o.rank !== 1) c.milestones.push({type:'lead'});
+    [200,300,400].forEach(function(m) { if (n.total_points >= m && o.total_points < m) c.milestones.push({type:'milestone'}); });
+  });
+  return c;
 }
 
-// === LIVE UPDATE (replaces location.reload) ===
+function applyChanges(changes, fresh) {
+  changes.pointChanges.forEach(function(ch) {
+    if (!ch.player && !ch.round) {
+      var el = document.querySelector('[data-mgr-pts="' + escapeAttr(ch.manager) + '"]');
+      if (el) { animateCount(el, ch.oldPts, ch.newPts); flashEl(el); showDelta(el.parentElement, ch.newPts - ch.oldPts); }
+    }
+    if (ch.player && ch.round) {
+      var cel = document.querySelector('[data-player-round="' + escapeAttr(ch.player) + ':' + ch.round + '"]');
+      if (cel) { animateCount(cel, ch.oldPts, ch.newPts); flashEl(cel); showDelta(cel, ch.newPts - ch.oldPts); }
+    }
+    if (ch.player && !ch.round) {
+      var tel = document.querySelector('[data-player-total="' + escapeAttr(ch.player) + '"]');
+      if (tel) { animateCount(tel, ch.oldPts, ch.newPts); flashEl(tel); }
+    }
+  });
+  if (changes.rankSwaps.length > 0 || changes.newEliminations.length > 0) {
+    renderLeaderboard(fresh);
+    renderLeaders(fresh);
+  }
+  if (changes.milestones.length > 0) prideConfetti();
+  renderHeader(fresh, _commentary);
+}
 
+// === LIVE UPDATE ===
 async function liveUpdate() {
   try {
-    var fresh = await fetch('./data/leaderboard.json?t=' + Date.now()).then(function(r) { return r.json(); });
-
+    var fresh = await fetch('./data/leaderboard.json?t=' + Date.now()).then(function(r){return r.json();});
     if (!_prevData) { _prevData = fresh; return; }
-
-    // Check if data actually changed
     if (fresh.last_updated === _prevData.last_updated) return;
-
-    var changes = diffStandings(_prevData, fresh);
-
-    var hasChanges = changes.pointChanges.length > 0 ||
-      changes.rankSwaps.length > 0 ||
-      changes.newEliminations.length > 0;
-
-    if (hasChanges) {
-      applyChanges(changes, fresh);
-    } else {
-      // Just update timestamp
-      renderHeader(fresh, _meta, _commentary);
-    }
-
+    var ch = diffStandings(_prevData, fresh);
+    if (ch.pointChanges.length || ch.rankSwaps.length || ch.newEliminations.length) applyChanges(ch, fresh);
+    else renderHeader(fresh, _commentary);
     _prevData = fresh;
-  } catch (e) { console.warn('[liveUpdate]', e);
-    // Network error — skip this cycle silently
-  }
+  } catch(e) { console.warn('[sync]', e); }
 }
 
-function scheduleRefresh(tournamentDates) {
-  var allDates = [];
-  Object.values(tournamentDates).forEach(function(dates) {
-    dates.forEach(function(d) { allDates.push(d); });
-  });
-  var now = new Date();
-  var todayStr = now.toISOString().slice(0, 10);
-  var isGameDay = allDates.indexOf(todayStr) >= 0;
-  var hour = now.getHours();
-  var inGameWindow = isGameDay && hour >= 9 && hour <= 23;
-
-  if (inGameWindow) {
+function scheduleRefresh(td) {
+  var dates = []; Object.values(td).forEach(function(d){d.forEach(function(x){dates.push(x);});});
+  var now = new Date(), today = now.toISOString().slice(0,10), h = now.getHours();
+  if (dates.indexOf(today) >= 0 && h >= 9 && h <= 23) {
     document.getElementById('live-indicator').innerHTML = '<span class="live-dot"></span> LIVE';
-    setInterval(liveUpdate, 60 * 1000);
+    setInterval(liveUpdate, 60000);
   }
 }
 

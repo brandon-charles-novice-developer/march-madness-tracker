@@ -96,10 +96,26 @@ def build_leaderboard_feed(
             "players": players,
         })
 
-    # Sort by total points desc, assign ranks
+    # Sort by total points desc, assign ranks + compute new metrics
     standings.sort(key=lambda s: s["total_points"], reverse=True)
+    current_round_idx = ROUND_ORDER.index(current_round) if current_round in ROUND_ORDER else 0
+    rounds_remaining = max(0, len(ROUND_ORDER) - current_round_idx - 1)
+
     for i, standing in enumerate(standings):
         standing["rank"] = i + 1
+
+        # New metrics
+        active_pts = sum(
+            p["total_points"] for p in standing["players"] if p["status"] == "active"
+        )
+        ac = standing["active_players"]
+        avg_per_active = round(active_pts / ac, 1) if ac > 0 else 0.0
+        projected = standing["total_points"] + round(avg_per_active * ac * rounds_remaining)
+        round_delta = standing["round_totals"].get(current_round, 0)
+
+        standing["avg_per_active"] = avg_per_active
+        standing["projected_finish"] = projected
+        standing["current_round_delta"] = round_delta
 
     return {
         "last_updated": datetime.now(timezone.utc).isoformat(),
