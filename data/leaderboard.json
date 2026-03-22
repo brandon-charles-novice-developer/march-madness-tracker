@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T17:41:56.225975+00:00",
+  "last_updated": "2026-03-22T17:47:05.079128+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,12 +19,12 @@
     {
       "rank": 1,
       "manager": "Alex Magged",
-      "total_points": 223,
+      "total_points": 225,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 79,
+        "R32": 81,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -39,10 +39,10 @@
           "pick": 28,
           "draft_round": 3,
           "status": "active",
-          "total_points": 39,
+          "total_points": 41,
           "round_scores": {
             "R64": 25,
-            "R32": 14
+            "R32": 16
           },
           "ppg_season": 13.4
         },
@@ -150,9 +150,9 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 27.9,
-      "projected_finish": 1116,
-      "current_round_delta": 79
+      "avg_per_active": 28.1,
+      "projected_finish": 1124,
+      "current_round_delta": 81
     },
     {
       "rank": 2,
@@ -291,12 +291,12 @@
     {
       "rank": 3,
       "manager": "Mark Weiner",
-      "total_points": 181,
+      "total_points": 183,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 129,
-        "R32": 52,
+        "R32": 54,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -341,10 +341,10 @@
           "pick": 58,
           "draft_round": 6,
           "status": "active",
-          "total_points": 32,
+          "total_points": 34,
           "round_scores": {
             "R64": 24,
-            "R32": 8
+            "R32": 10
           },
           "ppg_season": 18.8
         },
@@ -420,9 +420,9 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 28.5,
-      "projected_finish": 865,
-      "current_round_delta": 52
+      "avg_per_active": 28.8,
+      "projected_finish": 874,
+      "current_round_delta": 54
     },
     {
       "rank": 4,
@@ -829,12 +829,12 @@
     {
       "rank": 7,
       "manager": "Josh Ehrlich",
-      "total_points": 154,
+      "total_points": 156,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 58,
+        "R32": 60,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -864,10 +864,10 @@
           "pick": 21,
           "draft_round": 3,
           "status": "active",
-          "total_points": 30,
+          "total_points": 32,
           "round_scores": {
             "R64": 26,
-            "R32": 4
+            "R32": 6
           },
           "ppg_season": 14.0
         },
@@ -958,25 +958,40 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 19.2,
-      "projected_finish": 768,
-      "current_round_delta": 58
+      "avg_per_active": 19.5,
+      "projected_finish": 780,
+      "current_round_delta": 60
     },
     {
       "rank": 8,
       "manager": "Nick Reskin",
-      "total_points": 131,
+      "total_points": 133,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 35,
+        "R32": 37,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Fletcher Loyer",
+          "team": "Purdue",
+          "seed": 2,
+          "region": "West",
+          "pick": 22,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 32,
+          "round_scores": {
+            "R64": 14,
+            "R32": 18
+          },
+          "ppg_season": 13.8
+        },
         {
           "name": "Tarris Reed Jr",
           "team": "UConn",
@@ -990,21 +1005,6 @@
             "R64": 31
           },
           "ppg_season": 13.7
-        },
-        {
-          "name": "Fletcher Loyer",
-          "team": "Purdue",
-          "seed": 2,
-          "region": "West",
-          "pick": 22,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 30,
-          "round_scores": {
-            "R64": 14,
-            "R32": 16
-          },
-          "ppg_season": 13.8
         },
         {
           "name": "Amani Lyles",
@@ -1087,9 +1087,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 20.8,
-      "projected_finish": 464,
-      "current_round_delta": 35
+      "avg_per_active": 21.2,
+      "projected_finish": 472,
+      "current_round_delta": 37
     },
     {
       "rank": 9,

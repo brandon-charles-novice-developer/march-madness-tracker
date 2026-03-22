@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T17:41:56.212663+00:00",
+  "last_updated": "2026-03-22T17:47:05.067547+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -227,15 +227,15 @@
     },
     "Trey Kaufman-Renn": {
       "R64": 25,
-      "R32": 14
+      "R32": 16
     },
     "Fletcher Loyer": {
       "R64": 14,
-      "R32": 16
+      "R32": 18
     },
     "Braden Smith": {
       "R64": 26,
-      "R32": 4
+      "R32": 6
     },
     "Rueben Chinyelu": {
       "R64": 14
@@ -266,7 +266,7 @@
     },
     "Malik Reneau": {
       "R64": 24,
-      "R32": 8
+      "R32": 10
     },
     "Mark Mitchell": {
       "R64": 19
@@ -377,9 +377,9 @@
     "6534637"
   ],
   "live_scores": {
-    "6534639:Trey Kaufman-Renn": 14,
-    "6534639:Fletcher Loyer": 16,
-    "6534639:Braden Smith": 4,
-    "6534639:Malik Reneau": 8
+    "6534639:Trey Kaufman-Renn": 16,
+    "6534639:Fletcher Loyer": 18,
+    "6534639:Braden Smith": 6,
+    "6534639:Malik Reneau": 10
   }
 }
