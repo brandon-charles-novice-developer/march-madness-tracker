@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T02:14:56.653384+00:00",
+  "last_updated": "2026-03-22T02:20:04.146503+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -290,12 +290,12 @@
     {
       "rank": 3,
       "manager": "Brandon Nye",
-      "total_points": 169,
+      "total_points": 170,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 131,
-        "R32": 38,
+        "R32": 39,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -310,10 +310,10 @@
           "pick": 29,
           "draft_round": 3,
           "status": "active",
-          "total_points": 41,
+          "total_points": 42,
           "round_scores": {
             "R64": 26,
-            "R32": 15
+            "R32": 16
           },
           "ppg_season": 19.2
         },
@@ -418,9 +418,9 @@
           "ppg_season": 20.1
         }
       ],
-      "avg_per_active": 25.8,
-      "projected_finish": 685,
-      "current_round_delta": 38
+      "avg_per_active": 26.0,
+      "projected_finish": 690,
+      "current_round_delta": 39
     },
     {
       "rank": 4,
@@ -829,12 +829,12 @@
     {
       "rank": 7,
       "manager": "Jordan Mackler",
-      "total_points": 134,
+      "total_points": 137,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 29,
+        "R32": 32,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -856,6 +856,21 @@
           "ppg_season": 18.2
         },
         {
+          "name": "Darius Acuff Jr",
+          "team": "Arkansas",
+          "seed": 4,
+          "region": "West",
+          "pick": 5,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 32,
+          "round_scores": {
+            "R64": 24,
+            "R32": 8
+          },
+          "ppg_season": 22.7
+        },
+        {
           "name": "Pryce Sandfort",
           "team": "Nebraska",
           "seed": 4,
@@ -869,21 +884,6 @@
             "R32": 8
           },
           "ppg_season": 17.8
-        },
-        {
-          "name": "Darius Acuff Jr",
-          "team": "Arkansas",
-          "seed": 4,
-          "region": "West",
-          "pick": 5,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 29,
-          "round_scores": {
-            "R64": 24,
-            "R32": 5
-          },
-          "ppg_season": 22.7
         },
         {
           "name": "Jeremy Fears Jr",
@@ -955,9 +955,9 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 16.8,
-      "projected_finish": 672,
-      "current_round_delta": 29
+      "avg_per_active": 17.1,
+      "projected_finish": 684,
+      "current_round_delta": 32
     },
     {
       "rank": 8,
@@ -1097,7 +1097,7 @@
       "rank": 9,
       "manager": "Nick Reskin",
       "total_points": 110,
-      "active_players": 6,
+      "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
@@ -1211,13 +1211,13 @@
           "region": "South",
           "pick": 79,
           "draft_round": 8,
-          "status": "active",
+          "status": "eliminated",
           "total_points": 0,
           "round_scores": {},
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 14.0,
+      "avg_per_active": 16.8,
       "projected_finish": 446,
       "current_round_delta": 14
     },

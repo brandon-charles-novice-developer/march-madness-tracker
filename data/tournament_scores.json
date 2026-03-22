@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T02:14:56.644013+00:00",
+  "last_updated": "2026-03-22T02:20:04.137453+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -70,7 +70,7 @@
     },
     "Tyler Tanner": {
       "R64": 26,
-      "R32": 15
+      "R32": 16
     },
     "Coen Carr": {
       "R64": 17,
@@ -86,7 +86,7 @@
     },
     "Darius Acuff Jr": {
       "R64": 24,
-      "R32": 5
+      "R32": 8
     },
     "Trevon Brazile": {
       "R64": 19,
@@ -319,6 +319,7 @@
     "UCF",
     "UMBC",
     "UNI",
+    "VCU",
     "Villanova",
     "Wisconsin",
     "Wright St."
@@ -364,16 +365,14 @@
     "6534630",
     "6534628",
     "6534635",
-    "6534638"
+    "6534638",
+    "6534634"
   ],
   "live_scores": {
-    "6534634:David Mirkovic": 7,
-    "6534634:Andrej Stojakovic": 21,
-    "6534634:Keaton Wagler": 14,
-    "6534633:Tyler Tanner": 15,
+    "6534633:Tyler Tanner": 16,
     "6534633:Duke Miles": 4,
     "6534633:Pryce Sandfort": 8,
-    "6534637:Darius Acuff Jr": 5,
+    "6534637:Darius Acuff Jr": 8,
     "6534637:Trevon Brazile": 5,
     "6534637:Meleek Thomas": 10,
     "6534637:Billy Richmond III": 2
