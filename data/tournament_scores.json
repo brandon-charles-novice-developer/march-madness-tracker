@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:39:12.131490+00:00",
+  "last_updated": "2026-03-22T01:44:19.044518+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -40,7 +40,8 @@
       "R32": 4
     },
     "Pryce Sandfort": {
-      "R64": 23
+      "R64": 23,
+      "R32": 2
     },
     "Ryan Conwell": {
       "R64": 18,
@@ -69,7 +70,7 @@
     },
     "Tyler Tanner": {
       "R64": 26,
-      "R32": 11
+      "R32": 13
     },
     "Coen Carr": {
       "R64": 17,
@@ -365,7 +366,8 @@
     "6534634:David Mirkovic": 7,
     "6534634:Andrej Stojakovic": 16,
     "6534634:Keaton Wagler": 4,
-    "6534633:Tyler Tanner": 11,
-    "6534633:Duke Miles": 2
+    "6534633:Tyler Tanner": 13,
+    "6534633:Duke Miles": 2,
+    "6534633:Pryce Sandfort": 2
   }
 }
