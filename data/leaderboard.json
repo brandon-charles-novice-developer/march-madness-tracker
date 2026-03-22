@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T19:24:37.876423+00:00",
+  "last_updated": "2026-03-22T19:29:46.114565+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -157,12 +157,12 @@
     {
       "rank": 2,
       "manager": "AJ Spile",
-      "total_points": 202,
+      "total_points": 205,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
-        "R32": 29,
+        "R32": 32,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -234,10 +234,10 @@
           "pick": 6,
           "draft_round": 1,
           "status": "active",
-          "total_points": 21,
+          "total_points": 24,
           "round_scores": {
             "R64": 17,
-            "R32": 4
+            "R32": 7
           },
           "ppg_season": 17.1
         },
@@ -285,9 +285,9 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 26.3,
-      "projected_finish": 518,
-      "current_round_delta": 29
+      "avg_per_active": 27.3,
+      "projected_finish": 533,
+      "current_round_delta": 32
     },
     {
       "rank": 3,
@@ -563,12 +563,12 @@
     {
       "rank": 5,
       "manager": "Jordan Mackler",
-      "total_points": 174,
+      "total_points": 177,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 69,
+        "R32": 72,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -591,6 +591,21 @@
           "ppg_season": 22.7
         },
         {
+          "name": "Otega Oweh",
+          "team": "Kentucky",
+          "seed": 7,
+          "region": "Midwest",
+          "pick": 65,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 40,
+          "round_scores": {
+            "R64": 35,
+            "R32": 5
+          },
+          "ppg_season": 18.2
+        },
+        {
           "name": "Pryce Sandfort",
           "team": "Nebraska",
           "seed": 4,
@@ -604,21 +619,6 @@
             "R32": 15
           },
           "ppg_season": 17.8
-        },
-        {
-          "name": "Otega Oweh",
-          "team": "Kentucky",
-          "seed": 7,
-          "region": "Midwest",
-          "pick": 65,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 37,
-          "round_scores": {
-            "R64": 35,
-            "R32": 2
-          },
-          "ppg_season": 18.2
         },
         {
           "name": "Jeremy Fears Jr",
@@ -690,9 +690,9 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 21.8,
-      "projected_finish": 872,
-      "current_round_delta": 69
+      "avg_per_active": 22.1,
+      "projected_finish": 884,
+      "current_round_delta": 72
     },
     {
       "rank": 6,
