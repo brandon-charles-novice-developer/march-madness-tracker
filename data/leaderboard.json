@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:54:33.763084+00:00",
+  "last_updated": "2026-03-22T01:59:41.126006+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -423,12 +423,12 @@
     {
       "rank": 4,
       "manager": "Brandon Nye",
-      "total_points": 163,
+      "total_points": 165,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 131,
-        "R32": 32,
+        "R32": 34,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -451,6 +451,21 @@
           "ppg_season": 19.2
         },
         {
+          "name": "Keaton Wagler",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 12,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 28,
+          "round_scores": {
+            "R64": 18,
+            "R32": 10
+          },
+          "ppg_season": 17.9
+        },
+        {
           "name": "Kingston Flemings",
           "team": "Houston",
           "seed": 2,
@@ -464,21 +479,6 @@
             "R32": 9
           },
           "ppg_season": 16.4
-        },
-        {
-          "name": "Keaton Wagler",
-          "team": "Illinois",
-          "seed": 3,
-          "region": "South",
-          "pick": 12,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 26,
-          "round_scores": {
-            "R64": 18,
-            "R32": 8
-          },
-          "ppg_season": 17.9
         },
         {
           "name": "John Blackwell",
@@ -551,9 +551,9 @@
           "ppg_season": 20.1
         }
       ],
-      "avg_per_active": 24.6,
-      "projected_finish": 655,
-      "current_round_delta": 32
+      "avg_per_active": 25.0,
+      "projected_finish": 665,
+      "current_round_delta": 34
     },
     {
       "rank": 5,
@@ -828,12 +828,12 @@
     {
       "rank": 7,
       "manager": "Jordan Mackler",
-      "total_points": 131,
+      "total_points": 134,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 26,
+        "R32": 29,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -855,6 +855,21 @@
           "ppg_season": 18.2
         },
         {
+          "name": "Pryce Sandfort",
+          "team": "Nebraska",
+          "seed": 4,
+          "region": "South",
+          "pick": 36,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 31,
+          "round_scores": {
+            "R64": 23,
+            "R32": 8
+          },
+          "ppg_season": 17.8
+        },
+        {
           "name": "Darius Acuff Jr",
           "team": "Arkansas",
           "seed": 4,
@@ -868,21 +883,6 @@
             "R32": 5
           },
           "ppg_season": 22.7
-        },
-        {
-          "name": "Pryce Sandfort",
-          "team": "Nebraska",
-          "seed": 4,
-          "region": "South",
-          "pick": 36,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 28,
-          "round_scores": {
-            "R64": 23,
-            "R32": 5
-          },
-          "ppg_season": 17.8
         },
         {
           "name": "Jeremy Fears Jr",
@@ -954,9 +954,9 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 16.4,
-      "projected_finish": 656,
-      "current_round_delta": 26
+      "avg_per_active": 16.8,
+      "projected_finish": 672,
+      "current_round_delta": 29
     },
     {
       "rank": 8,
