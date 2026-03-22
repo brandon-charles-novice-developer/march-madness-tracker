@@ -1,6 +1,74 @@
 {
-  "last_updated": "2026-03-22T06:00:34.532133+00:00",
+  "last_updated": "2026-03-22T17:00:48.448899+00:00",
   "games": [
+    {
+      "game_id": "6534639",
+      "round": "R32",
+      "date": "2026-03-22",
+      "status": "live",
+      "away": {
+        "name": "Miami (FL)",
+        "seed": 7,
+        "score": 40,
+        "winner": false
+      },
+      "home": {
+        "name": "Purdue",
+        "seed": 2,
+        "score": 38,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue",
+          "manager": "Alex Magged",
+          "points": 12,
+          "minutes": "17",
+          "fg": "6/9",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 6,
+          "assists": 1
+        },
+        {
+          "name": "Fletcher Loyer",
+          "team": "Purdue",
+          "manager": "Nick Reskin",
+          "points": 10,
+          "minutes": "15",
+          "fg": "3/3",
+          "three": "2/2",
+          "ft": "2/2",
+          "rebounds": 0,
+          "assists": 2
+        },
+        {
+          "name": "Braden Smith",
+          "team": "Purdue",
+          "manager": "Josh Ehrlich",
+          "points": 2,
+          "minutes": "18",
+          "fg": "1/6",
+          "three": "0/2",
+          "ft": "0/0",
+          "rebounds": 2,
+          "assists": 2
+        },
+        {
+          "name": "Malik Reneau",
+          "team": "Miami (FL)",
+          "manager": "Mark Weiner",
+          "points": 6,
+          "minutes": "18",
+          "fg": "2/8",
+          "three": "0/2",
+          "ft": "2/2",
+          "rebounds": 1,
+          "assists": 3
+        }
+      ]
+    },
     {
       "game_id": "6534640",
       "round": "R32",
