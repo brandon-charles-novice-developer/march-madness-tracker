@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T21:22:59.785454+00:00",
+  "last_updated": "2026-03-22T21:28:08.230409+00:00",
   "games": [
     {
       "game_id": "6534643",
@@ -122,6 +122,98 @@
           "ft": "2/2",
           "rebounds": 1,
           "assists": 3
+        }
+      ]
+    },
+    {
+      "game_id": "6534629",
+      "round": "R32",
+      "date": "2026-03-22",
+      "status": "live",
+      "away": {
+        "name": "St. John's (NY)",
+        "seed": 5,
+        "score": 3,
+        "winner": false
+      },
+      "home": {
+        "name": "Kansas",
+        "seed": 4,
+        "score": 0,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Flory Bidunga",
+          "team": "Kansas",
+          "manager": "Schaf Chulay",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Darryn Peterson",
+          "team": "Kansas",
+          "manager": "Schaf Chulay",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/1",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Tre White",
+          "team": "Kansas",
+          "manager": "Jake Pollack",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Zuby Ejiofor",
+          "team": "St. John's (NY)",
+          "manager": "Mike Haughey",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 1
+        },
+        {
+          "name": "Bryce Hopkins",
+          "team": "St. John's (NY)",
+          "manager": "Brandon Nye",
+          "points": 3,
+          "minutes": "0",
+          "fg": "1/1",
+          "three": "1/1",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Oziyah Sellers",
+          "team": "St. John's (NY)",
+          "manager": "Mike Haughey",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
         }
       ]
     },
