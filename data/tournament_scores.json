@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:32:57.756771+00:00",
+  "last_updated": "2026-03-22T00:38:03.465277+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -124,7 +124,7 @@
     },
     "Andrej Stojakovic": {
       "R64": 9,
-      "R32": 3
+      "R32": 5
     },
     "Keaton Wagler": {
       "R64": 18,
@@ -147,7 +147,7 @@
     },
     "Graham Ike": {
       "R64": 19,
-      "R32": 15
+      "R32": 17
     },
     "Otega Oweh": {
       "R64": 35
@@ -358,10 +358,10 @@
     "6534635"
   ],
   "live_scores": {
-    "6534638:Graham Ike": 15,
+    "6534638:Graham Ike": 17,
     "6534638:Dailyn Swain": 7,
     "6534634:David Mirkovic": 4,
-    "6534634:Andrej Stojakovic": 3,
+    "6534634:Andrej Stojakovic": 5,
     "6534634:Keaton Wagler": 1
   }
 }
