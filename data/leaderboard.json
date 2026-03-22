@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:07:28.571897+00:00",
+  "last_updated": "2026-03-22T00:12:33.560808+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -145,7 +145,10 @@
           },
           "ppg_season": 20.3
         }
-      ]
+      ],
+      "avg_per_active": 25.0,
+      "projected_finish": 498,
+      "current_round_delta": 25
     },
     {
       "rank": 2,
@@ -277,7 +280,10 @@
           },
           "ppg_season": 17.5
         }
-      ]
+      ],
+      "avg_per_active": 22.6,
+      "projected_finish": 904,
+      "current_round_delta": 37
     },
     {
       "rank": 3,
@@ -408,7 +414,10 @@
           },
           "ppg_season": 15.5
         }
-      ]
+      ],
+      "avg_per_active": 20.7,
+      "projected_finish": 663,
+      "current_round_delta": 38
     },
     {
       "rank": 4,
@@ -539,7 +548,10 @@
           },
           "ppg_season": 18.8
         }
-      ]
+      ],
+      "avg_per_active": 24.0,
+      "projected_finish": 730,
+      "current_round_delta": 25
     },
     {
       "rank": 5,
@@ -669,7 +681,10 @@
           },
           "ppg_season": 20.1
         }
-      ]
+      ],
+      "avg_per_active": 20.0,
+      "projected_finish": 540,
+      "current_round_delta": 9
     },
     {
       "rank": 6,
@@ -799,7 +814,10 @@
           },
           "ppg_season": 17.6
         }
-      ]
+      ],
+      "avg_per_active": 15.1,
+      "projected_finish": 604,
+      "current_round_delta": 25
     },
     {
       "rank": 7,
@@ -927,7 +945,10 @@
           "round_scores": {},
           "ppg_season": 8.5
         }
-      ]
+      ],
+      "avg_per_active": 15.1,
+      "projected_finish": 604,
+      "current_round_delta": 16
     },
     {
       "rank": 8,
@@ -1058,7 +1079,10 @@
           },
           "ppg_season": 10.5
         }
-      ]
+      ],
+      "avg_per_active": 14.6,
+      "projected_finish": 584,
+      "current_round_delta": 23
     },
     {
       "rank": 9,
@@ -1188,7 +1212,10 @@
           },
           "ppg_season": 13.3
         }
-      ]
+      ],
+      "avg_per_active": 14.6,
+      "projected_finish": 519,
+      "current_round_delta": 15
     },
     {
       "rank": 10,
@@ -1312,7 +1339,10 @@
           "round_scores": {},
           "ppg_season": 14.2
         }
-      ]
+      ],
+      "avg_per_active": 11.4,
+      "projected_finish": 425,
+      "current_round_delta": 10
     }
   ]
 }
