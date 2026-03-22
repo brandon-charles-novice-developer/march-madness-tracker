@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:22:45.395942+00:00",
+  "last_updated": "2026-03-22T00:27:51.694777+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -27,7 +27,7 @@
   "scores": {
     "Dailyn Swain": {
       "R64": 27,
-      "R32": 5
+      "R32": 7
     },
     "Boopie Miller": {
       "R64": 15
@@ -119,7 +119,8 @@
       "R64": 14
     },
     "David Mirkovic": {
-      "R64": 29
+      "R64": 29,
+      "R32": 4
     },
     "Andrej Stojakovic": {
       "R64": 9
@@ -144,7 +145,7 @@
     },
     "Graham Ike": {
       "R64": 19,
-      "R32": 13
+      "R32": 15
     },
     "Otega Oweh": {
       "R64": 35
@@ -356,7 +357,8 @@
     "6534635:Emanuel Sharp": 18,
     "6534635:Milos Uzan": 15,
     "6534635:Kingston Flemings": 9,
-    "6534638:Graham Ike": 13,
-    "6534638:Dailyn Swain": 5
+    "6534638:Graham Ike": 15,
+    "6534638:Dailyn Swain": 7,
+    "6534634:David Mirkovic": 4
   }
 }

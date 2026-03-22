@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:22:45.408045+00:00",
+  "last_updated": "2026-03-22T00:27:51.706240+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -153,12 +153,12 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 181,
+      "total_points": 187,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 37,
+        "R32": 43,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -181,6 +181,21 @@
           "ppg_season": 13.3
         },
         {
+          "name": "Dailyn Swain",
+          "team": "Texas",
+          "seed": 11,
+          "region": "West",
+          "pick": 68,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 34,
+          "round_scores": {
+            "R64": 27,
+            "R32": 7
+          },
+          "ppg_season": 17.8
+        },
+        {
           "name": "Isaiah Evans",
           "team": "Duke",
           "seed": 1,
@@ -196,21 +211,6 @@
           "ppg_season": 14.9
         },
         {
-          "name": "Dailyn Swain",
-          "team": "Texas",
-          "seed": 11,
-          "region": "West",
-          "pick": 68,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 32,
-          "round_scores": {
-            "R64": 27,
-            "R32": 5
-          },
-          "ppg_season": 17.8
-        },
-        {
           "name": "David Mirkovic",
           "team": "Illinois",
           "seed": 3,
@@ -218,9 +218,10 @@
           "pick": 53,
           "draft_round": 6,
           "status": "active",
-          "total_points": 29,
+          "total_points": 33,
           "round_scores": {
-            "R64": 29
+            "R64": 29,
+            "R32": 4
           },
           "ppg_season": 13.4
         },
@@ -281,9 +282,9 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 22.6,
-      "projected_finish": 904,
-      "current_round_delta": 37
+      "avg_per_active": 23.4,
+      "projected_finish": 936,
+      "current_round_delta": 43
     },
     {
       "rank": 3,
@@ -953,12 +954,12 @@
     {
       "rank": 8,
       "manager": "Mike Haughey",
-      "total_points": 119,
+      "total_points": 121,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 94,
-        "R32": 25,
+        "R32": 27,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -973,10 +974,10 @@
           "pick": 7,
           "draft_round": 1,
           "status": "active",
-          "total_points": 32,
+          "total_points": 34,
           "round_scores": {
             "R64": 19,
-            "R32": 13
+            "R32": 15
           },
           "ppg_season": 19.7
         },
@@ -1080,9 +1081,9 @@
           "ppg_season": 10.5
         }
       ],
-      "avg_per_active": 14.9,
-      "projected_finish": 596,
-      "current_round_delta": 25
+      "avg_per_active": 15.1,
+      "projected_finish": 604,
+      "current_round_delta": 27
     },
     {
       "rank": 9,
