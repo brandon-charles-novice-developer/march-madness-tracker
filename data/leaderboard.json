@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T17:26:33.450895+00:00",
+  "last_updated": "2026-03-22T17:31:42.077481+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,18 +19,33 @@
     {
       "rank": 1,
       "manager": "Alex Magged",
-      "total_points": 221,
+      "total_points": 223,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 77,
+        "R32": 79,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue",
+          "seed": 2,
+          "region": "West",
+          "pick": 28,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 39,
+          "round_scores": {
+            "R64": 25,
+            "R32": 14
+          },
+          "ppg_season": 13.4
+        },
         {
           "name": "Dailyn Swain",
           "team": "Texas",
@@ -45,21 +60,6 @@
             "R32": 11
           },
           "ppg_season": 17.8
-        },
-        {
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue",
-          "seed": 2,
-          "region": "West",
-          "pick": 28,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 37,
-          "round_scores": {
-            "R64": 25,
-            "R32": 12
-          },
-          "ppg_season": 13.4
         },
         {
           "name": "Morez Johnson Jr",
@@ -150,9 +150,9 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 27.6,
-      "projected_finish": 1104,
-      "current_round_delta": 77
+      "avg_per_active": 27.9,
+      "projected_finish": 1116,
+      "current_round_delta": 79
     },
     {
       "rank": 2,
