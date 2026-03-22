@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:43:09.064088+00:00",
+  "last_updated": "2026-03-22T00:48:14.720779+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -27,7 +27,7 @@
   "scores": {
     "Dailyn Swain": {
       "R64": 27,
-      "R32": 7
+      "R32": 11
     },
     "Boopie Miller": {
       "R64": 15
@@ -359,7 +359,7 @@
   ],
   "live_scores": {
     "6534638:Graham Ike": 19,
-    "6534638:Dailyn Swain": 7,
+    "6534638:Dailyn Swain": 11,
     "6534634:David Mirkovic": 4,
     "6534634:Andrej Stojakovic": 5,
     "6534634:Keaton Wagler": 1

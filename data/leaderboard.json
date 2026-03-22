@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:43:09.074260+00:00",
+  "last_updated": "2026-03-22T00:48:14.730591+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -153,18 +153,33 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 187,
+      "total_points": 191,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 43,
+        "R32": 47,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Dailyn Swain",
+          "team": "Texas",
+          "seed": 11,
+          "region": "West",
+          "pick": 68,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 38,
+          "round_scores": {
+            "R64": 27,
+            "R32": 11
+          },
+          "ppg_season": 17.8
+        },
         {
           "name": "Morez Johnson Jr",
           "team": "Michigan",
@@ -179,21 +194,6 @@
             "R32": 15
           },
           "ppg_season": 13.3
-        },
-        {
-          "name": "Dailyn Swain",
-          "team": "Texas",
-          "seed": 11,
-          "region": "West",
-          "pick": 68,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 34,
-          "round_scores": {
-            "R64": 27,
-            "R32": 7
-          },
-          "ppg_season": 17.8
         },
         {
           "name": "Isaiah Evans",
@@ -282,9 +282,9 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 23.4,
-      "projected_finish": 936,
-      "current_round_delta": 43
+      "avg_per_active": 23.9,
+      "projected_finish": 956,
+      "current_round_delta": 47
     },
     {
       "rank": 3,
