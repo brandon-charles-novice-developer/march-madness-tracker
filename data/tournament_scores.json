@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T02:40:35.347341+00:00",
+  "last_updated": "2026-03-22T02:45:42.020038+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -41,7 +41,7 @@
     },
     "Pryce Sandfort": {
       "R64": 23,
-      "R32": 8
+      "R32": 11
     },
     "Ryan Conwell": {
       "R64": 18,
@@ -70,7 +70,7 @@
     },
     "Tyler Tanner": {
       "R64": 26,
-      "R32": 16
+      "R32": 19
     },
     "Coen Carr": {
       "R64": 17,
@@ -369,9 +369,9 @@
     "6534634"
   ],
   "live_scores": {
-    "6534633:Tyler Tanner": 16,
+    "6534633:Tyler Tanner": 19,
     "6534633:Duke Miles": 9,
-    "6534633:Pryce Sandfort": 8,
+    "6534633:Pryce Sandfort": 11,
     "6534637:Darius Acuff Jr": 13,
     "6534637:Trevon Brazile": 5,
     "6534637:Meleek Thomas": 10,
