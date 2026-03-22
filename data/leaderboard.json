@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T17:36:48.998746+00:00",
+  "last_updated": "2026-03-22T17:41:56.225975+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -829,12 +829,12 @@
     {
       "rank": 7,
       "manager": "Josh Ehrlich",
-      "total_points": 152,
+      "total_points": 154,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 56,
+        "R32": 58,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -857,6 +857,21 @@
           "ppg_season": 14.4
         },
         {
+          "name": "Braden Smith",
+          "team": "Purdue",
+          "seed": 2,
+          "region": "West",
+          "pick": 21,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 30,
+          "round_scores": {
+            "R64": 26,
+            "R32": 4
+          },
+          "ppg_season": 14.0
+        },
+        {
           "name": "Andrej Stojakovic",
           "team": "Illinois",
           "seed": 3,
@@ -870,21 +885,6 @@
             "R32": 21
           },
           "ppg_season": 13.4
-        },
-        {
-          "name": "Braden Smith",
-          "team": "Purdue",
-          "seed": 2,
-          "region": "West",
-          "pick": 21,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 28,
-          "round_scores": {
-            "R64": 26,
-            "R32": 2
-          },
-          "ppg_season": 14.0
         },
         {
           "name": "Trevon Brazile",
@@ -958,12 +958,141 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 19.0,
-      "projected_finish": 760,
-      "current_round_delta": 56
+      "avg_per_active": 19.2,
+      "projected_finish": 768,
+      "current_round_delta": 58
     },
     {
       "rank": 8,
+      "manager": "Nick Reskin",
+      "total_points": 131,
+      "active_players": 4,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 96,
+        "R32": 35,
+        "S16": 0,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Tarris Reed Jr",
+          "team": "UConn",
+          "seed": 2,
+          "region": "East",
+          "pick": 19,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 31,
+          "round_scores": {
+            "R64": 31
+          },
+          "ppg_season": 13.7
+        },
+        {
+          "name": "Fletcher Loyer",
+          "team": "Purdue",
+          "seed": 2,
+          "region": "West",
+          "pick": 22,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 30,
+          "round_scores": {
+            "R64": 14,
+            "R32": 16
+          },
+          "ppg_season": 13.8
+        },
+        {
+          "name": "Amani Lyles",
+          "team": "Akron",
+          "seed": 12,
+          "region": "Midwest",
+          "pick": 59,
+          "draft_round": 6,
+          "status": "eliminated",
+          "total_points": 26,
+          "round_scores": {
+            "R64": 26
+          },
+          "ppg_season": 14.6
+        },
+        {
+          "name": "Jaxon Kohler",
+          "team": "Michigan St",
+          "seed": 3,
+          "region": "East",
+          "pick": 39,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 22,
+          "round_scores": {
+            "R64": 12,
+            "R32": 10
+          },
+          "ppg_season": 12.7
+        },
+        {
+          "name": "Duke Miles",
+          "team": "Vanderbilt",
+          "seed": 5,
+          "region": "South",
+          "pick": 42,
+          "draft_round": 5,
+          "status": "eliminated",
+          "total_points": 22,
+          "round_scores": {
+            "R64": 13,
+            "R32": 9
+          },
+          "ppg_season": 16.4
+        },
+        {
+          "name": "Cam Boozer",
+          "team": "",
+          "seed": 0,
+          "region": "",
+          "pick": 2,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 0,
+          "round_scores": {},
+          "ppg_season": 0
+        },
+        {
+          "name": "Tyon-Grant Foster",
+          "team": "Gonzaga",
+          "seed": 3,
+          "region": "West",
+          "pick": 62,
+          "draft_round": 7,
+          "status": "eliminated",
+          "total_points": 0,
+          "round_scores": {},
+          "ppg_season": 6.8
+        },
+        {
+          "name": "Terrance Hill Jr",
+          "team": "VCU",
+          "seed": 11,
+          "region": "South",
+          "pick": 79,
+          "draft_round": 8,
+          "status": "eliminated",
+          "total_points": 0,
+          "round_scores": {},
+          "ppg_season": 14.2
+        }
+      ],
+      "avg_per_active": 20.8,
+      "projected_finish": 464,
+      "current_round_delta": 35
+    },
+    {
+      "rank": 9,
       "manager": "Mike Haughey",
       "total_points": 131,
       "active_players": 7,
@@ -1095,135 +1224,6 @@
       "avg_per_active": 12.4,
       "projected_finish": 478,
       "current_round_delta": 37
-    },
-    {
-      "rank": 9,
-      "manager": "Nick Reskin",
-      "total_points": 128,
-      "active_players": 4,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 96,
-        "R32": 32,
-        "S16": 0,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Tarris Reed Jr",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 19,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 31,
-          "round_scores": {
-            "R64": 31
-          },
-          "ppg_season": 13.7
-        },
-        {
-          "name": "Fletcher Loyer",
-          "team": "Purdue",
-          "seed": 2,
-          "region": "West",
-          "pick": 22,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 14,
-            "R32": 13
-          },
-          "ppg_season": 13.8
-        },
-        {
-          "name": "Amani Lyles",
-          "team": "Akron",
-          "seed": 12,
-          "region": "Midwest",
-          "pick": 59,
-          "draft_round": 6,
-          "status": "eliminated",
-          "total_points": 26,
-          "round_scores": {
-            "R64": 26
-          },
-          "ppg_season": 14.6
-        },
-        {
-          "name": "Jaxon Kohler",
-          "team": "Michigan St",
-          "seed": 3,
-          "region": "East",
-          "pick": 39,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 22,
-          "round_scores": {
-            "R64": 12,
-            "R32": 10
-          },
-          "ppg_season": 12.7
-        },
-        {
-          "name": "Duke Miles",
-          "team": "Vanderbilt",
-          "seed": 5,
-          "region": "South",
-          "pick": 42,
-          "draft_round": 5,
-          "status": "eliminated",
-          "total_points": 22,
-          "round_scores": {
-            "R64": 13,
-            "R32": 9
-          },
-          "ppg_season": 16.4
-        },
-        {
-          "name": "Cam Boozer",
-          "team": "",
-          "seed": 0,
-          "region": "",
-          "pick": 2,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 0,
-          "round_scores": {},
-          "ppg_season": 0
-        },
-        {
-          "name": "Tyon-Grant Foster",
-          "team": "Gonzaga",
-          "seed": 3,
-          "region": "West",
-          "pick": 62,
-          "draft_round": 7,
-          "status": "eliminated",
-          "total_points": 0,
-          "round_scores": {},
-          "ppg_season": 6.8
-        },
-        {
-          "name": "Terrance Hill Jr",
-          "team": "VCU",
-          "seed": 11,
-          "region": "South",
-          "pick": 79,
-          "draft_round": 8,
-          "status": "eliminated",
-          "total_points": 0,
-          "round_scores": {},
-          "ppg_season": 14.2
-        }
-      ],
-      "avg_per_active": 20.0,
-      "projected_finish": 448,
-      "current_round_delta": 32
     },
     {
       "rank": 10,
