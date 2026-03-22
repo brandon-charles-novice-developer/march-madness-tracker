@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T19:04:09.718334+00:00",
+  "last_updated": "2026-03-22T19:14:20.112329+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -157,12 +157,12 @@
     {
       "rank": 2,
       "manager": "AJ Spile",
-      "total_points": 198,
+      "total_points": 202,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
-        "R32": 25,
+        "R32": 29,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -227,6 +227,21 @@
           "ppg_season": 18.0
         },
         {
+          "name": "Milan Momcilovic",
+          "team": "Iowa State",
+          "seed": 2,
+          "region": "Midwest",
+          "pick": 6,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 21,
+          "round_scores": {
+            "R64": 17,
+            "R32": 4
+          },
+          "ppg_season": 17.1
+        },
+        {
           "name": "David Punch",
           "team": "TCU",
           "seed": 9,
@@ -256,20 +271,6 @@
           "ppg_season": 18.3
         },
         {
-          "name": "Milan Momcilovic",
-          "team": "Iowa State",
-          "seed": 2,
-          "region": "Midwest",
-          "pick": 6,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 17,
-          "round_scores": {
-            "R64": 17
-          },
-          "ppg_season": 17.1
-        },
-        {
           "name": "Bruce Thornton",
           "team": "Ohio St",
           "seed": 8,
@@ -284,9 +285,9 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 25.0,
-      "projected_finish": 498,
-      "current_round_delta": 25
+      "avg_per_active": 26.3,
+      "projected_finish": 518,
+      "current_round_delta": 29
     },
     {
       "rank": 3,
@@ -1229,12 +1230,12 @@
     {
       "rank": 10,
       "manager": "Schaf Chulay",
-      "total_points": 112,
+      "total_points": 117,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 95,
-        "R32": 17,
+        "R32": 22,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -1299,6 +1300,21 @@
           "ppg_season": 12.4
         },
         {
+          "name": "Tamin Lipsey",
+          "team": "Iowa State",
+          "seed": 2,
+          "region": "Midwest",
+          "pick": 37,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 10,
+          "round_scores": {
+            "R64": 3,
+            "R32": 7
+          },
+          "ppg_season": 13.3
+        },
+        {
           "name": "Solo Ball",
           "team": "UConn",
           "seed": 2,
@@ -1339,26 +1355,11 @@
             "R64": 6
           },
           "ppg_season": 13.5
-        },
-        {
-          "name": "Tamin Lipsey",
-          "team": "Iowa State",
-          "seed": 2,
-          "region": "Midwest",
-          "pick": 37,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 5,
-          "round_scores": {
-            "R64": 3,
-            "R32": 2
-          },
-          "ppg_season": 13.3
         }
       ],
-      "avg_per_active": 14.9,
-      "projected_finish": 529,
-      "current_round_delta": 17
+      "avg_per_active": 15.6,
+      "projected_finish": 554,
+      "current_round_delta": 22
     }
   ]
 }
