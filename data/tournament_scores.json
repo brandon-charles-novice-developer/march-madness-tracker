@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T18:17:55.780473+00:00",
+  "last_updated": "2026-03-22T18:23:04.603025+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -302,6 +302,7 @@
     "Lehigh",
     "Louisville",
     "McNeese",
+    "Miami (FL)",
     "Miami (OH)",
     "Missouri",
     "NC State",
@@ -374,12 +375,8 @@
     "6534638",
     "6534634",
     "6534633",
-    "6534637"
+    "6534637",
+    "6534639"
   ],
-  "live_scores": {
-    "6534639:Trey Kaufman-Renn": 19,
-    "6534639:Fletcher Loyer": 24,
-    "6534639:Braden Smith": 12,
-    "6534639:Malik Reneau": 16
-  }
+  "live_scores": {}
 }
