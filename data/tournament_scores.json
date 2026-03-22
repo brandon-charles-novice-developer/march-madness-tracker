@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T17:47:05.067547+00:00",
+  "last_updated": "2026-03-22T17:52:12.411164+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -227,7 +227,7 @@
     },
     "Trey Kaufman-Renn": {
       "R64": 25,
-      "R32": 16
+      "R32": 17
     },
     "Fletcher Loyer": {
       "R64": 14,
@@ -377,7 +377,7 @@
     "6534637"
   ],
   "live_scores": {
-    "6534639:Trey Kaufman-Renn": 16,
+    "6534639:Trey Kaufman-Renn": 17,
     "6534639:Fletcher Loyer": 18,
     "6534639:Braden Smith": 6,
     "6534639:Malik Reneau": 10
