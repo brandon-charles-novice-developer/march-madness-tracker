@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T20:26:20.287448+00:00",
+  "last_updated": "2026-03-22T20:31:28.565977+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -198,7 +198,7 @@
     },
     "Tamin Lipsey": {
       "R64": 3,
-      "R32": 17
+      "R32": 19
     },
     "Milan Momcilovic": {
       "R64": 17,
@@ -383,7 +383,7 @@
   ],
   "live_scores": {
     "6534643:Otega Oweh": 9,
-    "6534643:Tamin Lipsey": 17,
+    "6534643:Tamin Lipsey": 19,
     "6534643:Milan Momcilovic": 14
   }
 }

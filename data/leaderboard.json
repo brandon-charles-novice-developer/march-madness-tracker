@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T20:26:20.298781+00:00",
+  "last_updated": "2026-03-22T20:31:28.577018+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -1230,12 +1230,12 @@
     {
       "rank": 10,
       "manager": "Schaf Chulay",
-      "total_points": 127,
+      "total_points": 129,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 95,
-        "R32": 32,
+        "R32": 34,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -1279,10 +1279,10 @@
           "pick": 37,
           "draft_round": 4,
           "status": "active",
-          "total_points": 20,
+          "total_points": 22,
           "round_scores": {
             "R64": 3,
-            "R32": 17
+            "R32": 19
           },
           "ppg_season": 13.3
         },
@@ -1357,9 +1357,9 @@
           "ppg_season": 13.5
         }
       ],
-      "avg_per_active": 17.0,
-      "projected_finish": 603,
-      "current_round_delta": 32
+      "avg_per_active": 17.3,
+      "projected_finish": 613,
+      "current_round_delta": 34
     }
   ]
 }
