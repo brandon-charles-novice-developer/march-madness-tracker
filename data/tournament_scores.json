@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:28:58.773410+00:00",
+  "last_updated": "2026-03-22T01:34:05.454836+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -64,11 +64,12 @@
       "R32": 17
     },
     "Duke Miles": {
-      "R64": 13
+      "R64": 13,
+      "R32": 2
     },
     "Tyler Tanner": {
       "R64": 26,
-      "R32": 8
+      "R32": 11
     },
     "Coen Carr": {
       "R64": 17,
@@ -121,7 +122,7 @@
     },
     "David Mirkovic": {
       "R64": 29,
-      "R32": 4
+      "R32": 7
     },
     "Andrej Stojakovic": {
       "R64": 9,
@@ -129,7 +130,7 @@
     },
     "Keaton Wagler": {
       "R64": 18,
-      "R32": 1
+      "R32": 4
     },
     "TJ Power": {
       "R64": 6
@@ -361,9 +362,10 @@
     "6534638"
   ],
   "live_scores": {
-    "6534634:David Mirkovic": 4,
+    "6534634:David Mirkovic": 7,
     "6534634:Andrej Stojakovic": 16,
-    "6534634:Keaton Wagler": 1,
-    "6534633:Tyler Tanner": 8
+    "6534634:Keaton Wagler": 4,
+    "6534633:Tyler Tanner": 11,
+    "6534633:Duke Miles": 2
   }
 }

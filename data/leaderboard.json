@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:28:58.781419+00:00",
+  "last_updated": "2026-03-22T01:34:05.463267+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -153,12 +153,12 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 191,
+      "total_points": 194,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 47,
+        "R32": 50,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -196,6 +196,21 @@
           "ppg_season": 13.3
         },
         {
+          "name": "David Mirkovic",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 53,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 36,
+          "round_scores": {
+            "R64": 29,
+            "R32": 7
+          },
+          "ppg_season": 13.4
+        },
+        {
           "name": "Isaiah Evans",
           "team": "Duke",
           "seed": 1,
@@ -209,21 +224,6 @@
             "R32": 17
           },
           "ppg_season": 14.9
-        },
-        {
-          "name": "David Mirkovic",
-          "team": "Illinois",
-          "seed": 3,
-          "region": "South",
-          "pick": 53,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 33,
-          "round_scores": {
-            "R64": 29,
-            "R32": 4
-          },
-          "ppg_season": 13.4
         },
         {
           "name": "Trey Kaufman-Renn",
@@ -282,9 +282,9 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 23.9,
-      "projected_finish": 956,
-      "current_round_delta": 47
+      "avg_per_active": 24.2,
+      "projected_finish": 968,
+      "current_round_delta": 50
     },
     {
       "rank": 3,
@@ -422,6 +422,141 @@
     },
     {
       "rank": 4,
+      "manager": "Brandon Nye",
+      "total_points": 155,
+      "active_players": 5,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 131,
+        "R32": 24,
+        "S16": 0,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt",
+          "seed": 5,
+          "region": "South",
+          "pick": 29,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 37,
+          "round_scores": {
+            "R64": 26,
+            "R32": 11
+          },
+          "ppg_season": 19.2
+        },
+        {
+          "name": "Kingston Flemings",
+          "team": "Houston",
+          "seed": 2,
+          "region": "South",
+          "pick": 9,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 18,
+            "R32": 9
+          },
+          "ppg_season": 16.4
+        },
+        {
+          "name": "Keaton Wagler",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 12,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 22,
+          "round_scores": {
+            "R64": 18,
+            "R32": 4
+          },
+          "ppg_season": 17.9
+        },
+        {
+          "name": "John Blackwell",
+          "team": "Wisconsin",
+          "seed": 5,
+          "region": "West",
+          "pick": 32,
+          "draft_round": 4,
+          "status": "eliminated",
+          "total_points": 22,
+          "round_scores": {
+            "R64": 22
+          },
+          "ppg_season": 19.0
+        },
+        {
+          "name": "Bennett Stirtz",
+          "team": "Iowa",
+          "seed": 9,
+          "region": "South",
+          "pick": 69,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 16,
+          "round_scores": {
+            "R64": 16
+          },
+          "ppg_season": 20.0
+        },
+        {
+          "name": "Robert Wright III",
+          "team": "BYU",
+          "seed": 6,
+          "region": "West",
+          "pick": 72,
+          "draft_round": 8,
+          "status": "eliminated",
+          "total_points": 14,
+          "round_scores": {
+            "R64": 14
+          },
+          "ppg_season": 18.2
+        },
+        {
+          "name": "Bryce Hopkins",
+          "team": "St Johns",
+          "seed": 5,
+          "region": "East",
+          "pick": 52,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 13,
+          "round_scores": {
+            "R64": 13
+          },
+          "ppg_season": 13.5
+        },
+        {
+          "name": "Tavari Johnson",
+          "team": "Akron",
+          "seed": 12,
+          "region": "Midwest",
+          "pick": 49,
+          "draft_round": 5,
+          "status": "eliminated",
+          "total_points": 4,
+          "round_scores": {
+            "R64": 4
+          },
+          "ppg_season": 20.1
+        }
+      ],
+      "avg_per_active": 23.0,
+      "projected_finish": 615,
+      "current_round_delta": 24
+    },
+    {
+      "rank": 5,
       "manager": "Mark Weiner",
       "total_points": 154,
       "active_players": 6,
@@ -553,141 +688,6 @@
       "avg_per_active": 24.0,
       "projected_finish": 730,
       "current_round_delta": 25
-    },
-    {
-      "rank": 5,
-      "manager": "Brandon Nye",
-      "total_points": 149,
-      "active_players": 5,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 131,
-        "R32": 18,
-        "S16": 0,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Tyler Tanner",
-          "team": "Vanderbilt",
-          "seed": 5,
-          "region": "South",
-          "pick": 29,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 34,
-          "round_scores": {
-            "R64": 26,
-            "R32": 8
-          },
-          "ppg_season": 19.2
-        },
-        {
-          "name": "Kingston Flemings",
-          "team": "Houston",
-          "seed": 2,
-          "region": "South",
-          "pick": 9,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 18,
-            "R32": 9
-          },
-          "ppg_season": 16.4
-        },
-        {
-          "name": "John Blackwell",
-          "team": "Wisconsin",
-          "seed": 5,
-          "region": "West",
-          "pick": 32,
-          "draft_round": 4,
-          "status": "eliminated",
-          "total_points": 22,
-          "round_scores": {
-            "R64": 22
-          },
-          "ppg_season": 19.0
-        },
-        {
-          "name": "Keaton Wagler",
-          "team": "Illinois",
-          "seed": 3,
-          "region": "South",
-          "pick": 12,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 19,
-          "round_scores": {
-            "R64": 18,
-            "R32": 1
-          },
-          "ppg_season": 17.9
-        },
-        {
-          "name": "Bennett Stirtz",
-          "team": "Iowa",
-          "seed": 9,
-          "region": "South",
-          "pick": 69,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 16,
-          "round_scores": {
-            "R64": 16
-          },
-          "ppg_season": 20.0
-        },
-        {
-          "name": "Robert Wright III",
-          "team": "BYU",
-          "seed": 6,
-          "region": "West",
-          "pick": 72,
-          "draft_round": 8,
-          "status": "eliminated",
-          "total_points": 14,
-          "round_scores": {
-            "R64": 14
-          },
-          "ppg_season": 18.2
-        },
-        {
-          "name": "Bryce Hopkins",
-          "team": "St Johns",
-          "seed": 5,
-          "region": "East",
-          "pick": 52,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 13,
-          "round_scores": {
-            "R64": 13
-          },
-          "ppg_season": 13.5
-        },
-        {
-          "name": "Tavari Johnson",
-          "team": "Akron",
-          "seed": 12,
-          "region": "Midwest",
-          "pick": 49,
-          "draft_round": 5,
-          "status": "eliminated",
-          "total_points": 4,
-          "round_scores": {
-            "R64": 4
-          },
-          "ppg_season": 20.1
-        }
-      ],
-      "avg_per_active": 21.8,
-      "projected_finish": 585,
-      "current_round_delta": 18
     },
     {
       "rank": 6,
@@ -1224,12 +1224,12 @@
     {
       "rank": 10,
       "manager": "Nick Reskin",
-      "total_points": 106,
+      "total_points": 108,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 10,
+        "R32": 12,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -1280,6 +1280,21 @@
           "ppg_season": 12.7
         },
         {
+          "name": "Duke Miles",
+          "team": "Vanderbilt",
+          "seed": 5,
+          "region": "South",
+          "pick": 42,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 15,
+          "round_scores": {
+            "R64": 13,
+            "R32": 2
+          },
+          "ppg_season": 16.4
+        },
+        {
           "name": "Fletcher Loyer",
           "team": "Purdue",
           "seed": 2,
@@ -1292,20 +1307,6 @@
             "R64": 14
           },
           "ppg_season": 13.8
-        },
-        {
-          "name": "Duke Miles",
-          "team": "Vanderbilt",
-          "seed": 5,
-          "region": "South",
-          "pick": 42,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 13,
-          "round_scores": {
-            "R64": 13
-          },
-          "ppg_season": 16.4
         },
         {
           "name": "Cam Boozer",
@@ -1344,9 +1345,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 13.3,
-      "projected_finish": 425,
-      "current_round_delta": 10
+      "avg_per_active": 13.7,
+      "projected_finish": 437,
+      "current_round_delta": 12
     }
   ]
 }
