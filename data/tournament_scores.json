@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T20:57:15.766139+00:00",
+  "last_updated": "2026-03-22T21:02:24.594189+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -301,6 +301,7 @@
     "Howard",
     "Idaho",
     "Kennesaw St.",
+    "Kentucky",
     "LIU",
     "Lehigh",
     "Louisville",
@@ -379,11 +380,8 @@
     "6534634",
     "6534633",
     "6534637",
-    "6534639"
+    "6534639",
+    "6534643"
   ],
-  "live_scores": {
-    "6534643:Otega Oweh": 18,
-    "6534643:Tamin Lipsey": 26,
-    "6534643:Milan Momcilovic": 20
-  }
+  "live_scores": {}
 }
