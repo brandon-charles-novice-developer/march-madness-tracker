@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T02:55:56.613312+00:00",
+  "last_updated": "2026-03-22T03:01:03.843602+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -41,7 +41,7 @@
     },
     "Pryce Sandfort": {
       "R64": 23,
-      "R32": 11
+      "R32": 13
     },
     "Ryan Conwell": {
       "R64": 18,
@@ -86,7 +86,7 @@
     },
     "Darius Acuff Jr": {
       "R64": 24,
-      "R32": 13
+      "R32": 17
     },
     "Trevon Brazile": {
       "R64": 19,
@@ -94,11 +94,11 @@
     },
     "Billy Richmond III": {
       "R64": 10,
-      "R32": 7
+      "R32": 10
     },
     "Meleek Thomas": {
       "R64": 21,
-      "R32": 10
+      "R32": 12
     },
     "Elliot Cadeau": {
       "R64": 5,
@@ -371,10 +371,10 @@
   "live_scores": {
     "6534633:Tyler Tanner": 25,
     "6534633:Duke Miles": 9,
-    "6534633:Pryce Sandfort": 11,
-    "6534637:Darius Acuff Jr": 13,
+    "6534633:Pryce Sandfort": 13,
+    "6534637:Darius Acuff Jr": 17,
     "6534637:Trevon Brazile": 5,
-    "6534637:Meleek Thomas": 10,
-    "6534637:Billy Richmond III": 7
+    "6534637:Meleek Thomas": 12,
+    "6534637:Billy Richmond III": 10
   }
 }
