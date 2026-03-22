@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T03:11:21.054698+00:00",
+  "last_updated": "2026-03-22T03:16:30.297714+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,12 +19,12 @@
     {
       "rank": 1,
       "manager": "Alex Magged",
-      "total_points": 204,
+      "total_points": 208,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 60,
+        "R32": 64,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -113,10 +113,10 @@
           "pick": 73,
           "draft_round": 8,
           "status": "active",
-          "total_points": 20,
+          "total_points": 24,
           "round_scores": {
             "R64": 10,
-            "R32": 10
+            "R32": 14
           },
           "ppg_season": 10.8
         },
@@ -149,9 +149,9 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 25.5,
-      "projected_finish": 1020,
-      "current_round_delta": 60
+      "avg_per_active": 26.0,
+      "projected_finish": 1040,
+      "current_round_delta": 64
     },
     {
       "rank": 2,
@@ -290,12 +290,12 @@
     {
       "rank": 3,
       "manager": "Brandon Nye",
-      "total_points": 179,
-      "active_players": 5,
+      "total_points": 181,
+      "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 131,
-        "R32": 48,
+        "R32": 50,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -309,11 +309,11 @@
           "region": "South",
           "pick": 29,
           "draft_round": 3,
-          "status": "active",
-          "total_points": 51,
+          "status": "eliminated",
+          "total_points": 53,
           "round_scores": {
             "R64": 26,
-            "R32": 25
+            "R32": 27
           },
           "ppg_season": 19.2
         },
@@ -418,9 +418,9 @@
           "ppg_season": 20.1
         }
       ],
-      "avg_per_active": 27.8,
-      "projected_finish": 735,
-      "current_round_delta": 48
+      "avg_per_active": 22.0,
+      "projected_finish": 533,
+      "current_round_delta": 50
     },
     {
       "rank": 4,
@@ -694,12 +694,12 @@
     {
       "rank": 6,
       "manager": "Jordan Mackler",
-      "total_points": 153,
+      "total_points": 158,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 48,
+        "R32": 53,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -714,10 +714,10 @@
           "pick": 5,
           "draft_round": 1,
           "status": "active",
-          "total_points": 41,
+          "total_points": 46,
           "round_scores": {
             "R64": 24,
-            "R32": 17
+            "R32": 22
           },
           "ppg_season": 22.7
         },
@@ -820,19 +820,19 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 19.1,
-      "projected_finish": 764,
-      "current_round_delta": 48
+      "avg_per_active": 19.8,
+      "projected_finish": 792,
+      "current_round_delta": 53
     },
     {
       "rank": 7,
       "manager": "Josh Ehrlich",
-      "total_points": 147,
+      "total_points": 150,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 51,
+        "R32": 54,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -870,6 +870,21 @@
           "ppg_season": 13.4
         },
         {
+          "name": "Trevon Brazile",
+          "team": "Arkansas",
+          "seed": 4,
+          "region": "West",
+          "pick": 60,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 19,
+            "R32": 8
+          },
+          "ppg_season": 13.1
+        },
+        {
           "name": "Braden Smith",
           "team": "Purdue",
           "seed": 2,
@@ -882,21 +897,6 @@
             "R64": 26
           },
           "ppg_season": 14.0
-        },
-        {
-          "name": "Trevon Brazile",
-          "team": "Arkansas",
-          "seed": 4,
-          "region": "West",
-          "pick": 60,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 24,
-          "round_scores": {
-            "R64": 19,
-            "R32": 5
-          },
-          "ppg_season": 13.1
         },
         {
           "name": "Rueben Chinyelu",
@@ -955,9 +955,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 18.4,
-      "projected_finish": 736,
-      "current_round_delta": 51
+      "avg_per_active": 18.8,
+      "projected_finish": 752,
+      "current_round_delta": 54
     },
     {
       "rank": 8,
@@ -1097,7 +1097,7 @@
       "rank": 9,
       "manager": "Nick Reskin",
       "total_points": 115,
-      "active_players": 5,
+      "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
@@ -1158,7 +1158,7 @@
           "region": "South",
           "pick": 42,
           "draft_round": 5,
-          "status": "active",
+          "status": "eliminated",
           "total_points": 22,
           "round_scores": {
             "R64": 13,
@@ -1217,8 +1217,8 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 17.8,
-      "projected_finish": 471,
+      "avg_per_active": 16.8,
+      "projected_finish": 384,
       "current_round_delta": 19
     },
     {
