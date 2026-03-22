@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T03:47:15.941206+00:00",
+  "last_updated": "2026-03-22T03:52:23.199983+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -560,12 +560,12 @@
     {
       "rank": 5,
       "manager": "Jordan Mackler",
-      "total_points": 170,
+      "total_points": 172,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 65,
+        "R32": 67,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -580,10 +580,10 @@
           "pick": 5,
           "draft_round": 1,
           "status": "active",
-          "total_points": 58,
+          "total_points": 60,
           "round_scores": {
             "R64": 24,
-            "R32": 34
+            "R32": 36
           },
           "ppg_season": 22.7
         },
@@ -686,9 +686,9 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 21.2,
-      "projected_finish": 848,
-      "current_round_delta": 65
+      "avg_per_active": 21.5,
+      "projected_finish": 860,
+      "current_round_delta": 67
     },
     {
       "rank": 6,
