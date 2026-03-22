@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:17:39.606392+00:00",
+  "last_updated": "2026-03-22T00:22:45.408045+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -953,12 +953,12 @@
     {
       "rank": 8,
       "manager": "Mike Haughey",
-      "total_points": 117,
+      "total_points": 119,
       "active_players": 8,
       "total_players": 8,
       "round_totals": {
         "R64": 94,
-        "R32": 23,
+        "R32": 25,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -973,10 +973,10 @@
           "pick": 7,
           "draft_round": 1,
           "status": "active",
-          "total_points": 30,
+          "total_points": 32,
           "round_scores": {
             "R64": 19,
-            "R32": 11
+            "R32": 13
           },
           "ppg_season": 19.7
         },
@@ -1080,9 +1080,9 @@
           "ppg_season": 10.5
         }
       ],
-      "avg_per_active": 14.6,
-      "projected_finish": 584,
-      "current_round_delta": 23
+      "avg_per_active": 14.9,
+      "projected_finish": 596,
+      "current_round_delta": 25
     },
     {
       "rank": 9,

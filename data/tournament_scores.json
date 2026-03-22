@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:17:39.597824+00:00",
+  "last_updated": "2026-03-22T00:22:45.395942+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -144,7 +144,7 @@
     },
     "Graham Ike": {
       "R64": 19,
-      "R32": 11
+      "R32": 13
     },
     "Otega Oweh": {
       "R64": 35
@@ -356,7 +356,7 @@
     "6534635:Emanuel Sharp": 18,
     "6534635:Milos Uzan": 15,
     "6534635:Kingston Flemings": 9,
-    "6534638:Graham Ike": 11,
+    "6534638:Graham Ike": 13,
     "6534638:Dailyn Swain": 5
   }
 }
