@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:44:19.044518+00:00",
+  "last_updated": "2026-03-22T01:49:26.251254+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -41,7 +41,7 @@
     },
     "Pryce Sandfort": {
       "R64": 23,
-      "R32": 2
+      "R32": 5
     },
     "Ryan Conwell": {
       "R64": 18,
@@ -66,11 +66,11 @@
     },
     "Duke Miles": {
       "R64": 13,
-      "R32": 2
+      "R32": 4
     },
     "Tyler Tanner": {
       "R64": 26,
-      "R32": 13
+      "R32": 15
     },
     "Coen Carr": {
       "R64": 17,
@@ -85,7 +85,8 @@
       "R32": 10
     },
     "Darius Acuff Jr": {
-      "R64": 24
+      "R64": 24,
+      "R32": 2
     },
     "Trevon Brazile": {
       "R64": 19
@@ -127,11 +128,11 @@
     },
     "Andrej Stojakovic": {
       "R64": 9,
-      "R32": 16
+      "R32": 17
     },
     "Keaton Wagler": {
       "R64": 18,
-      "R32": 4
+      "R32": 6
     },
     "TJ Power": {
       "R64": 6
@@ -364,10 +365,11 @@
   ],
   "live_scores": {
     "6534634:David Mirkovic": 7,
-    "6534634:Andrej Stojakovic": 16,
-    "6534634:Keaton Wagler": 4,
-    "6534633:Tyler Tanner": 13,
-    "6534633:Duke Miles": 2,
-    "6534633:Pryce Sandfort": 2
+    "6534634:Andrej Stojakovic": 17,
+    "6534634:Keaton Wagler": 6,
+    "6534633:Tyler Tanner": 15,
+    "6534633:Duke Miles": 4,
+    "6534633:Pryce Sandfort": 5,
+    "6534637:Darius Acuff Jr": 2
   }
 }

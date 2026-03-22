@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:44:19.063923+00:00",
+  "last_updated": "2026-03-22T01:49:26.270505+00:00",
   "games": [
     {
       "game_id": "6534640",
@@ -98,6 +98,62 @@
           "ft": "0/0",
           "rebounds": 1,
           "assists": 2
+        }
+      ]
+    },
+    {
+      "game_id": "6534637",
+      "round": "R32",
+      "date": "2026-03-21",
+      "status": "live",
+      "away": {
+        "name": "High Point",
+        "seed": 12,
+        "score": 2,
+        "winner": false
+      },
+      "home": {
+        "name": "Arkansas",
+        "seed": 4,
+        "score": 0,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Trevon Brazile",
+          "team": "Arkansas",
+          "manager": "Josh Ehrlich",
+          "points": 0,
+          "minutes": "1",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Billy Richmond III",
+          "team": "Arkansas",
+          "manager": "Alex Magged",
+          "points": 0,
+          "minutes": "1",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Meleek Thomas",
+          "team": "Arkansas",
+          "manager": "Mark Weiner",
+          "points": 0,
+          "minutes": "1",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
         }
       ]
     },
