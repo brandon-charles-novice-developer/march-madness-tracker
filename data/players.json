@@ -1,0 +1,2054 @@
+{
+  "metadata": {
+    "source": "Google Sheet + research agents",
+    "date": "2026-03-15",
+    "notes": "PPG from sheet. OUT players flagged. Any player on tournament roster is draftable."
+  },
+  "players": [
+    {
+      "name": "Cameron Boozer",
+      "team": "Duke",
+      "seed": 1,
+      "region": "East",
+      "ppg": 22.5,
+      "status": "active",
+      "role": "primary",
+      "consistency": "high",
+      "notes": "NPOY candidate, 57.9% FG, 10.2 RPG, 19 double-doubles"
+    },
+    {
+      "name": "Isaiah Evans",
+      "team": "Duke",
+      "seed": 1,
+      "region": "East",
+      "ppg": 14.9,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Patrick Ngongba II",
+      "team": "Duke",
+      "seed": 1,
+      "region": "East",
+      "ppg": 10.7,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Caleb Foster",
+      "team": "Duke",
+      "seed": 1,
+      "region": "East",
+      "ppg": 8.5,
+      "status": "OUT"
+    },
+    {
+      "name": "Cayden Boozer",
+      "team": "Duke",
+      "seed": 1,
+      "region": "East",
+      "ppg": 7.1,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Dame Sarr",
+      "team": "Duke",
+      "seed": 1,
+      "region": "East",
+      "ppg": 6.3,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Nikolas Khamenia",
+      "team": "Duke",
+      "seed": 1,
+      "region": "East",
+      "ppg": 5.8,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Maliq Brown",
+      "team": "Duke",
+      "seed": 1,
+      "region": "East",
+      "ppg": 4.8,
+      "status": "active",
+      "role": "bench"
+    },
+    {
+      "name": "Thomas Haugh",
+      "team": "Florida",
+      "seed": 1,
+      "region": "South",
+      "ppg": 17.1,
+      "status": "active",
+      "role": "primary",
+      "consistency": "high",
+      "notes": "1st Team All-SEC"
+    },
+    {
+      "name": "Alex Condon",
+      "team": "Florida",
+      "seed": 1,
+      "region": "South",
+      "ppg": 15.0,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Boogie Fland",
+      "team": "Florida",
+      "seed": 1,
+      "region": "South",
+      "ppg": 11.6,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Xaivian Lee",
+      "team": "Florida",
+      "seed": 1,
+      "region": "South",
+      "ppg": 11.5,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Rueben Chinyelu",
+      "team": "Florida",
+      "seed": 1,
+      "region": "South",
+      "ppg": 11.2,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Urban Klavzar",
+      "team": "Florida",
+      "seed": 1,
+      "region": "South",
+      "ppg": 9.7,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Isaiah Brown",
+      "team": "Florida",
+      "seed": 1,
+      "region": "South",
+      "ppg": 5.5,
+      "status": "active",
+      "role": "bench"
+    },
+    {
+      "name": "Micah Handlogten",
+      "team": "Florida",
+      "seed": 1,
+      "region": "South",
+      "ppg": 4.1,
+      "status": "active",
+      "role": "bench"
+    },
+    {
+      "name": "Brayden Burries",
+      "team": "Arizona",
+      "seed": 1,
+      "region": "West",
+      "ppg": 15.9,
+      "status": "active",
+      "role": "primary",
+      "momentum": "hot",
+      "notes": "18.4 PPG last 7 on 57% FG"
+    },
+    {
+      "name": "Koa Peat",
+      "team": "Arizona",
+      "seed": 1,
+      "region": "West",
+      "ppg": 13.6,
+      "status": "active",
+      "role": "secondary",
+      "consistency": "high"
+    },
+    {
+      "name": "Jaden Bradley",
+      "team": "Arizona",
+      "seed": 1,
+      "region": "West",
+      "ppg": 13.3,
+      "status": "active",
+      "role": "secondary",
+      "notes": "Big 12 POY"
+    },
+    {
+      "name": "Motiejus Krivas",
+      "team": "Arizona",
+      "seed": 1,
+      "region": "West",
+      "ppg": 10.5,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Ivan Kharchenkov",
+      "team": "Arizona",
+      "seed": 1,
+      "region": "West",
+      "ppg": 10.1,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Tobe Awaka",
+      "team": "Arizona",
+      "seed": 1,
+      "region": "West",
+      "ppg": 9.4,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Anthony Dell'Orso",
+      "team": "Arizona",
+      "seed": 1,
+      "region": "West",
+      "ppg": 9.0,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Dwayne Aristode",
+      "team": "Arizona",
+      "seed": 1,
+      "region": "West",
+      "ppg": 4.1,
+      "status": "active",
+      "role": "bench"
+    },
+    {
+      "name": "Yaxel Lendeborg",
+      "team": "Michigan",
+      "seed": 1,
+      "region": "Midwest",
+      "ppg": 14.4,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Morez Johnson Jr",
+      "team": "Michigan",
+      "seed": 1,
+      "region": "Midwest",
+      "ppg": 13.3,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Aday Mara",
+      "team": "Michigan",
+      "seed": 1,
+      "region": "Midwest",
+      "ppg": 11.6,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Elliot Cadeau",
+      "team": "Michigan",
+      "seed": 1,
+      "region": "Midwest",
+      "ppg": 10.2,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Trey McKenney",
+      "team": "Michigan",
+      "seed": 1,
+      "region": "Midwest",
+      "ppg": 9.7,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "LJ Cason",
+      "team": "Michigan",
+      "seed": 1,
+      "region": "Midwest",
+      "ppg": 8.4,
+      "status": "OUT"
+    },
+    {
+      "name": "Nimari Burnett",
+      "team": "Michigan",
+      "seed": 1,
+      "region": "Midwest",
+      "ppg": 8.2,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Roddy Gayle Jr",
+      "team": "Michigan",
+      "seed": 1,
+      "region": "Midwest",
+      "ppg": 7.2,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Tarris Reed Jr",
+      "team": "UConn",
+      "seed": 2,
+      "region": "East",
+      "ppg": 13.7,
+      "status": "active",
+      "role": "primary",
+      "consistency": "high",
+      "notes": "64.8% FG"
+    },
+    {
+      "name": "Solo Ball",
+      "team": "UConn",
+      "seed": 2,
+      "region": "East",
+      "ppg": 13.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Alex Karaban",
+      "team": "UConn",
+      "seed": 2,
+      "region": "East",
+      "ppg": 12.6,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Braylon Mullins",
+      "team": "UConn",
+      "seed": 2,
+      "region": "East",
+      "ppg": 12.0,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Silas Demary Jr",
+      "team": "UConn",
+      "seed": 2,
+      "region": "East",
+      "ppg": 10.9,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Eric Reibe",
+      "team": "UConn",
+      "seed": 2,
+      "region": "East",
+      "ppg": 6.8,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Kingston Flemings",
+      "team": "Houston",
+      "seed": 2,
+      "region": "South",
+      "ppg": 16.4,
+      "status": "active",
+      "role": "primary",
+      "momentum": "hot",
+      "notes": "ascending all season"
+    },
+    {
+      "name": "Emanuel Sharp",
+      "team": "Houston",
+      "seed": 2,
+      "region": "South",
+      "ppg": 15.3,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Milos Uzan",
+      "team": "Houston",
+      "seed": 2,
+      "region": "South",
+      "ppg": 11.1,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Chris Cenac Jr",
+      "team": "Houston",
+      "seed": 2,
+      "region": "South",
+      "ppg": 9.5,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Joseph Tugler",
+      "team": "Houston",
+      "seed": 2,
+      "region": "South",
+      "ppg": 8.4,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Mercy Miller",
+      "team": "Houston",
+      "seed": 2,
+      "region": "South",
+      "ppg": 4.8,
+      "status": "active",
+      "role": "bench"
+    },
+    {
+      "name": "Braden Smith",
+      "team": "Purdue",
+      "seed": 2,
+      "region": "West",
+      "ppg": 14.0,
+      "status": "active",
+      "role": "primary",
+      "consistency": "high"
+    },
+    {
+      "name": "Fletcher Loyer",
+      "team": "Purdue",
+      "seed": 2,
+      "region": "West",
+      "ppg": 13.8,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Trey Kaufman-Renn",
+      "team": "Purdue",
+      "seed": 2,
+      "region": "West",
+      "ppg": 13.4,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Oscar Cluff",
+      "team": "Purdue",
+      "seed": 2,
+      "region": "West",
+      "ppg": 10.3,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "CJ Cox",
+      "team": "Purdue",
+      "seed": 2,
+      "region": "West",
+      "ppg": 8.4,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Daniel Jacobsen",
+      "team": "Purdue",
+      "seed": 2,
+      "region": "West",
+      "ppg": 6.2,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Milan Momcilovic",
+      "team": "Iowa State",
+      "seed": 2,
+      "region": "Midwest",
+      "ppg": 17.1,
+      "status": "active",
+      "role": "primary",
+      "notes": "50.7% from 3, historically unprecedented"
+    },
+    {
+      "name": "Joshua Jefferson",
+      "team": "Iowa State",
+      "seed": 2,
+      "region": "Midwest",
+      "ppg": 16.9,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Tamin Lipsey",
+      "team": "Iowa State",
+      "seed": 2,
+      "region": "Midwest",
+      "ppg": 13.3,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Blake Buchanan",
+      "team": "Iowa State",
+      "seed": 2,
+      "region": "Midwest",
+      "ppg": 8.4,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Killyan Toure",
+      "team": "Iowa State",
+      "seed": 2,
+      "region": "Midwest",
+      "ppg": 8.1,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Jamarion Batemon",
+      "team": "Iowa State",
+      "seed": 2,
+      "region": "Midwest",
+      "ppg": 6.9,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Jeremy Fears Jr",
+      "team": "Michigan St",
+      "seed": 3,
+      "region": "East",
+      "ppg": 15.7,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Jaxon Kohler",
+      "team": "Michigan St",
+      "seed": 3,
+      "region": "East",
+      "ppg": 12.7,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Coen Carr",
+      "team": "Michigan St",
+      "seed": 3,
+      "region": "East",
+      "ppg": 11.6,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Carson Cooper",
+      "team": "Michigan St",
+      "seed": 3,
+      "region": "East",
+      "ppg": 10.8,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Kur Teng",
+      "team": "Michigan St",
+      "seed": 3,
+      "region": "East",
+      "ppg": 7.7,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Jordan Scott",
+      "team": "Michigan St",
+      "seed": 3,
+      "region": "East",
+      "ppg": 5.9,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Keaton Wagler",
+      "team": "Illinois",
+      "seed": 3,
+      "region": "South",
+      "ppg": 17.9,
+      "status": "active",
+      "role": "primary",
+      "momentum": "hot",
+      "notes": "Broke Illinois freshman scoring record, 46 at Purdue"
+    },
+    {
+      "name": "Andrej Stojakovic",
+      "team": "Illinois",
+      "seed": 3,
+      "region": "South",
+      "ppg": 13.4,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "David Mirkovic",
+      "team": "Illinois",
+      "seed": 3,
+      "region": "South",
+      "ppg": 13.4,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Kylan Boswell",
+      "team": "Illinois",
+      "seed": 3,
+      "region": "South",
+      "ppg": 13.2,
+      "status": "active",
+      "role": "secondary",
+      "notes": "Returning from hand fracture, rust risk"
+    },
+    {
+      "name": "Tomislav Ivisic",
+      "team": "Illinois",
+      "seed": 3,
+      "region": "South",
+      "ppg": 10.0,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Zvonimir Ivisic",
+      "team": "Illinois",
+      "seed": 3,
+      "region": "South",
+      "ppg": 7.0,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Graham Ike",
+      "team": "Gonzaga",
+      "seed": 3,
+      "region": "West",
+      "ppg": 19.7,
+      "status": "active",
+      "role": "primary",
+      "consistency": "high",
+      "notes": "WCC POY, Kareem Abdul-Jabbar Award finalist, post dominance"
+    },
+    {
+      "name": "Braden Huff",
+      "team": "Gonzaga",
+      "seed": 3,
+      "region": "West",
+      "ppg": 17.8,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Tyon Grant-Foster",
+      "team": "Gonzaga",
+      "seed": 3,
+      "region": "West",
+      "ppg": 11.2,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Mario Saint-Supery",
+      "team": "Gonzaga",
+      "seed": 3,
+      "region": "West",
+      "ppg": 8.6,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Davis Fogle",
+      "team": "Gonzaga",
+      "seed": 3,
+      "region": "West",
+      "ppg": 8.4,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Adam Miller",
+      "team": "Gonzaga",
+      "seed": 3,
+      "region": "West",
+      "ppg": 7.6,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Thijs De Ridder",
+      "team": "Virginia",
+      "seed": 3,
+      "region": "Midwest",
+      "ppg": 15.5,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Malik Thomas",
+      "team": "Virginia",
+      "seed": 3,
+      "region": "Midwest",
+      "ppg": 12.4,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Sam Lewis",
+      "team": "Virginia",
+      "seed": 3,
+      "region": "Midwest",
+      "ppg": 10.8,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Chance Mallory",
+      "team": "Virginia",
+      "seed": 3,
+      "region": "Midwest",
+      "ppg": 9.5,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Jacari White",
+      "team": "Virginia",
+      "seed": 3,
+      "region": "Midwest",
+      "ppg": 8.8,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Johann Grunloh",
+      "team": "Virginia",
+      "seed": 3,
+      "region": "Midwest",
+      "ppg": 7.2,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Darryn Peterson",
+      "team": "Kansas",
+      "seed": 4,
+      "region": "East",
+      "ppg": 19.8,
+      "status": "active",
+      "role": "primary",
+      "notes": "Projected No. 1 NBA Draft pick"
+    },
+    {
+      "name": "Tre White",
+      "team": "Kansas",
+      "seed": 4,
+      "region": "East",
+      "ppg": 13.8,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Flory Bidunga",
+      "team": "Kansas",
+      "seed": 4,
+      "region": "East",
+      "ppg": 13.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Melvin Council Jr",
+      "team": "Kansas",
+      "seed": 4,
+      "region": "East",
+      "ppg": 12.9,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Bryson Tiller",
+      "team": "Kansas",
+      "seed": 4,
+      "region": "East",
+      "ppg": 8.2,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Pryce Sandfort",
+      "team": "Nebraska",
+      "seed": 4,
+      "region": "South",
+      "ppg": 17.8,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Rienk Mast",
+      "team": "Nebraska",
+      "seed": 4,
+      "region": "South",
+      "ppg": 13.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Braden Frager",
+      "team": "Nebraska",
+      "seed": 4,
+      "region": "South",
+      "ppg": 11.6,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Jamarques Lawrence",
+      "team": "Nebraska",
+      "seed": 4,
+      "region": "South",
+      "ppg": 9.7,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Sam Hoiberg",
+      "team": "Nebraska",
+      "seed": 4,
+      "region": "South",
+      "ppg": 9.6,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Darius Acuff Jr",
+      "team": "Arkansas",
+      "seed": 4,
+      "region": "West",
+      "ppg": 22.7,
+      "status": "active",
+      "role": "primary",
+      "momentum": "hot",
+      "notes": "SEC POY, Wooden finalist, 49 vs Bama"
+    },
+    {
+      "name": "Meleek Thomas",
+      "team": "Arkansas",
+      "seed": 4,
+      "region": "West",
+      "ppg": 15.6,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Trevon Brazile",
+      "team": "Arkansas",
+      "seed": 4,
+      "region": "West",
+      "ppg": 13.1,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Billy Richmond III",
+      "team": "Arkansas",
+      "seed": 4,
+      "region": "West",
+      "ppg": 10.8,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Malique Ewin",
+      "team": "Arkansas",
+      "seed": 4,
+      "region": "West",
+      "ppg": 9.8,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Labaron Philon Jr",
+      "team": "Alabama",
+      "seed": 4,
+      "region": "Midwest",
+      "ppg": 21.7,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Aden Holloway",
+      "team": "Alabama",
+      "seed": 4,
+      "region": "Midwest",
+      "ppg": 16.8,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Latrell Wrightsell Jr",
+      "team": "Alabama",
+      "seed": 4,
+      "region": "Midwest",
+      "ppg": 12.8,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Amari Allen",
+      "team": "Alabama",
+      "seed": 4,
+      "region": "Midwest",
+      "ppg": 11.7,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Aiden Sherrell",
+      "team": "Alabama",
+      "seed": 4,
+      "region": "Midwest",
+      "ppg": 11.1,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Zuby Ejiofor",
+      "team": "St Johns",
+      "seed": 5,
+      "region": "East",
+      "ppg": 16.3,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Bryce Hopkins",
+      "team": "St Johns",
+      "seed": 5,
+      "region": "East",
+      "ppg": 13.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Oziyah Sellers",
+      "team": "St Johns",
+      "seed": 5,
+      "region": "East",
+      "ppg": 10.7,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Ian Jackson",
+      "team": "St Johns",
+      "seed": 5,
+      "region": "East",
+      "ppg": 9.6,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Joson Sanon",
+      "team": "St Johns",
+      "seed": 5,
+      "region": "East",
+      "ppg": 8.3,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Tyler Tanner",
+      "team": "Vanderbilt",
+      "seed": 5,
+      "region": "South",
+      "ppg": 19.2,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Duke Miles",
+      "team": "Vanderbilt",
+      "seed": 5,
+      "region": "South",
+      "ppg": 16.4,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Tyler Nickel",
+      "team": "Vanderbilt",
+      "seed": 5,
+      "region": "South",
+      "ppg": 13.3,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "AK Okereke",
+      "team": "Vanderbilt",
+      "seed": 5,
+      "region": "South",
+      "ppg": 9.8,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Devin McGlockton",
+      "team": "Vanderbilt",
+      "seed": 5,
+      "region": "South",
+      "ppg": 9.7,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Nick Boyd",
+      "team": "Wisconsin",
+      "seed": 5,
+      "region": "West",
+      "ppg": 20.6,
+      "status": "active",
+      "role": "primary",
+      "consistency": "high",
+      "notes": "20+ in 61% of games"
+    },
+    {
+      "name": "John Blackwell",
+      "team": "Wisconsin",
+      "seed": 5,
+      "region": "West",
+      "ppg": 19.0,
+      "status": "active",
+      "role": "primary",
+      "momentum": "hot",
+      "notes": "34-pt Big Ten Tourney game"
+    },
+    {
+      "name": "Nolan Winter",
+      "team": "Wisconsin",
+      "seed": 5,
+      "region": "West",
+      "ppg": 13.3,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Austin Rapp",
+      "team": "Wisconsin",
+      "seed": 5,
+      "region": "West",
+      "ppg": 9.6,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Braeden Carrington",
+      "team": "Wisconsin",
+      "seed": 5,
+      "region": "West",
+      "ppg": 8.4,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "JT Toppin",
+      "team": "Texas Tech",
+      "seed": 5,
+      "region": "Midwest",
+      "ppg": 21.8,
+      "status": "OUT"
+    },
+    {
+      "name": "Christian Anderson",
+      "team": "Texas Tech",
+      "seed": 5,
+      "region": "Midwest",
+      "ppg": 18.9,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Donovan Atwell",
+      "team": "Texas Tech",
+      "seed": 5,
+      "region": "Midwest",
+      "ppg": 13.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "LeJuan Watts",
+      "team": "Texas Tech",
+      "seed": 5,
+      "region": "Midwest",
+      "ppg": 11.5,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Jaylen Petty",
+      "team": "Texas Tech",
+      "seed": 5,
+      "region": "Midwest",
+      "ppg": 9.5,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Ryan Conwell",
+      "team": "Louisville",
+      "seed": 6,
+      "region": "East",
+      "ppg": 18.7,
+      "status": "active",
+      "role": "primary",
+      "notes": "100+ made 3s, 40.4% FG volume shooter"
+    },
+    {
+      "name": "Mikel Brown Jr",
+      "team": "Louisville",
+      "seed": 6,
+      "region": "East",
+      "ppg": 18.2,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "J'Vonne Hadley",
+      "team": "Louisville",
+      "seed": 6,
+      "region": "East",
+      "ppg": 11.8,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Isaac McKneely",
+      "team": "Louisville",
+      "seed": 6,
+      "region": "East",
+      "ppg": 10.6,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Sananda Fru",
+      "team": "Louisville",
+      "seed": 6,
+      "region": "East",
+      "ppg": 9.2,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Caleb Wilson",
+      "team": "North Carolina",
+      "seed": 6,
+      "region": "South",
+      "ppg": 19.8,
+      "status": "OUT"
+    },
+    {
+      "name": "Henri Veesaar",
+      "team": "North Carolina",
+      "seed": 6,
+      "region": "South",
+      "ppg": 16.7,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Seth Trimble",
+      "team": "North Carolina",
+      "seed": 6,
+      "region": "South",
+      "ppg": 14.0,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Luka Bogavac",
+      "team": "North Carolina",
+      "seed": 6,
+      "region": "South",
+      "ppg": 9.8,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Jarin Stevenson",
+      "team": "North Carolina",
+      "seed": 6,
+      "region": "South",
+      "ppg": 8.0,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "AJ Dybantsa",
+      "team": "BYU",
+      "seed": 6,
+      "region": "West",
+      "ppg": 25.3,
+      "status": "active",
+      "role": "primary",
+      "notes": "TRAP: 3 guards OUT (Saunders, Baker, Pickens). Big 12 Freshman of Year but team is depleted"
+    },
+    {
+      "name": "Robert Wright III",
+      "team": "BYU",
+      "seed": 6,
+      "region": "West",
+      "ppg": 18.2,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Richie Saunders",
+      "team": "BYU",
+      "seed": 6,
+      "region": "West",
+      "ppg": 18.0,
+      "status": "OUT"
+    },
+    {
+      "name": "Kennard Davis Jr",
+      "team": "BYU",
+      "seed": 6,
+      "region": "West",
+      "ppg": 8.5,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Dawson Baker",
+      "team": "BYU",
+      "seed": 6,
+      "region": "West",
+      "ppg": 7.5,
+      "status": "OUT"
+    },
+    {
+      "name": "Ja'Kobi Gillespie",
+      "team": "Tennessee",
+      "seed": 6,
+      "region": "Midwest",
+      "ppg": 18.0,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Nate Ament",
+      "team": "Tennessee",
+      "seed": 6,
+      "region": "Midwest",
+      "ppg": 17.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "JP Estrella",
+      "team": "Tennessee",
+      "seed": 6,
+      "region": "Midwest",
+      "ppg": 10.1,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Felix Okpara",
+      "team": "Tennessee",
+      "seed": 6,
+      "region": "Midwest",
+      "ppg": 7.7,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Jaylen Carey",
+      "team": "Tennessee",
+      "seed": 6,
+      "region": "Midwest",
+      "ppg": 7.4,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Tyler Bilodeau",
+      "team": "UCLA",
+      "seed": 7,
+      "region": "East",
+      "ppg": 17.6,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Donovan Dent",
+      "team": "UCLA",
+      "seed": 7,
+      "region": "East",
+      "ppg": 13.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Trent Perry",
+      "team": "UCLA",
+      "seed": 7,
+      "region": "East",
+      "ppg": 12.7,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Skyy Clark",
+      "team": "UCLA",
+      "seed": 7,
+      "region": "East",
+      "ppg": 11.7,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Paulius Murauskas",
+      "team": "Saint Mary's",
+      "seed": 7,
+      "region": "South",
+      "ppg": 18.8,
+      "status": "active",
+      "role": "primary",
+      "consistency": "high",
+      "notes": "Double digits 95% of games"
+    },
+    {
+      "name": "Mikey Lewis",
+      "team": "Saint Mary's",
+      "seed": 7,
+      "region": "South",
+      "ppg": 14.2,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Joshua Dent",
+      "team": "Saint Mary's",
+      "seed": 7,
+      "region": "South",
+      "ppg": 13.0,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Andrew McKeever",
+      "team": "Saint Mary's",
+      "seed": 7,
+      "region": "South",
+      "ppg": 8.4,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Malik Reneau",
+      "team": "Miami FL",
+      "seed": 7,
+      "region": "West",
+      "ppg": 18.8,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Tre Donaldson",
+      "team": "Miami FL",
+      "seed": 7,
+      "region": "West",
+      "ppg": 16.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Shelton Henderson",
+      "team": "Miami FL",
+      "seed": 7,
+      "region": "West",
+      "ppg": 13.7,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Tru Washington",
+      "team": "Miami FL",
+      "seed": 7,
+      "region": "West",
+      "ppg": 12.1,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Otega Oweh",
+      "team": "Kentucky",
+      "seed": 7,
+      "region": "Midwest",
+      "ppg": 18.2,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Denzel Aberdeen",
+      "team": "Kentucky",
+      "seed": 7,
+      "region": "Midwest",
+      "ppg": 13.2,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Collin Chandler",
+      "team": "Kentucky",
+      "seed": 7,
+      "region": "Midwest",
+      "ppg": 9.9,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Mouhamed Dioubate",
+      "team": "Kentucky",
+      "seed": 7,
+      "region": "Midwest",
+      "ppg": 8.7,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Bruce Thornton",
+      "team": "Ohio St",
+      "seed": 8,
+      "region": "East",
+      "ppg": 20.3,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "John Mobley Jr",
+      "team": "Ohio St",
+      "seed": 8,
+      "region": "East",
+      "ppg": 15.6,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Devin Royal",
+      "team": "Ohio St",
+      "seed": 8,
+      "region": "East",
+      "ppg": 13.7,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Christoph Tilly",
+      "team": "Ohio St",
+      "seed": 8,
+      "region": "East",
+      "ppg": 11.0,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Bennett Stirtz",
+      "team": "Iowa",
+      "seed": 9,
+      "region": "South",
+      "ppg": 20.0,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Tavion Banks",
+      "team": "Iowa",
+      "seed": 9,
+      "region": "South",
+      "ppg": 10.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Tavari Johnson",
+      "team": "Akron",
+      "seed": 12,
+      "region": "Midwest",
+      "ppg": 20.1,
+      "status": "active",
+      "role": "primary",
+      "notes": "Cinderella alpha candidate"
+    },
+    {
+      "name": "Amani Lyles",
+      "team": "Akron",
+      "seed": 12,
+      "region": "Midwest",
+      "ppg": 14.6,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Shammah Scott",
+      "team": "Akron",
+      "seed": 12,
+      "region": "Midwest",
+      "ppg": 12.7,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Robbie Avila",
+      "team": "Saint Louis",
+      "seed": 9,
+      "region": "Midwest",
+      "ppg": 12.9,
+      "status": "active",
+      "role": "primary",
+      "notes": "27-4 team, 40.1% 3PT, Cinderella candidate"
+    },
+    {
+      "name": "Trey Green",
+      "team": "Saint Louis",
+      "seed": 9,
+      "region": "Midwest",
+      "ppg": 11.1,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Dion Brown",
+      "team": "Saint Louis",
+      "seed": 9,
+      "region": "Midwest",
+      "ppg": 11.1,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Amari McCottry",
+      "team": "Saint Louis",
+      "seed": 9,
+      "region": "Midwest",
+      "ppg": 10.3,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Larry Johnson",
+      "team": "McNeese",
+      "seed": 12,
+      "region": "South",
+      "ppg": 17.5,
+      "status": "active",
+      "role": "primary",
+      "notes": "Cinderella alpha candidate"
+    },
+    {
+      "name": "Tyshawn Archie",
+      "team": "McNeese",
+      "seed": 12,
+      "region": "South",
+      "ppg": 14.3,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Javohn Garcia",
+      "team": "McNeese",
+      "seed": 12,
+      "region": "South",
+      "ppg": 12.0,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Boopie Miller",
+      "team": "SMU",
+      "seed": 11,
+      "region": "Midwest",
+      "ppg": 19.2,
+      "status": "active",
+      "role": "primary",
+      "notes": "41% 3PT"
+    },
+    {
+      "name": "Jaron Pierre Jr",
+      "team": "SMU",
+      "seed": 11,
+      "region": "Midwest",
+      "ppg": 17.6,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "BJ Edwards",
+      "team": "SMU",
+      "seed": 11,
+      "region": "Midwest",
+      "ppg": 12.7,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Corey Washington",
+      "team": "SMU",
+      "seed": 11,
+      "region": "Midwest",
+      "ppg": 11.3,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Dailyn Swain",
+      "team": "Texas",
+      "seed": 11,
+      "region": "West",
+      "ppg": 17.8,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Matas Vokietaitis",
+      "team": "Texas",
+      "seed": 11,
+      "region": "West",
+      "ppg": 15.5,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Tramon Mark",
+      "team": "Texas",
+      "seed": 11,
+      "region": "West",
+      "ppg": 13.5,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Jordan Pope",
+      "team": "Texas",
+      "seed": 11,
+      "region": "West",
+      "ppg": 13.3,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Mark Mitchell",
+      "team": "Missouri",
+      "seed": 10,
+      "region": "West",
+      "ppg": 18.3,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Jayden Stone",
+      "team": "Missouri",
+      "seed": 10,
+      "region": "West",
+      "ppg": 13.2,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "MJ Collins Jr",
+      "team": "Utah State",
+      "seed": 9,
+      "region": "West",
+      "ppg": 17.6,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Mason Falslev",
+      "team": "Utah State",
+      "seed": 9,
+      "region": "West",
+      "ppg": 16.1,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Dominique Daniels Jr",
+      "team": "California Baptist",
+      "seed": 13,
+      "region": "East",
+      "ppg": 23.2,
+      "status": "active",
+      "role": "primary",
+      "notes": "TRAP: 13-seed, likely 1 game"
+    },
+    {
+      "name": "Cruz Davis",
+      "team": "Hofstra",
+      "seed": 13,
+      "region": "Midwest",
+      "ppg": 20.2,
+      "status": "active",
+      "role": "primary",
+      "notes": "TRAP: 13-seed"
+    },
+    {
+      "name": "Dontae Horne",
+      "team": "Prairie View A&M",
+      "seed": 16,
+      "region": "South",
+      "ppg": 20.2,
+      "status": "active",
+      "role": "primary",
+      "notes": "TRAP: 16-seed"
+    },
+    {
+      "name": "Nasir Whitlock",
+      "team": "Lehigh",
+      "seed": 16,
+      "region": "South",
+      "ppg": 21.0,
+      "status": "active",
+      "role": "primary",
+      "notes": "TRAP: 16-seed"
+    },
+    {
+      "name": "Jeremiah Wilkinson",
+      "team": "Georgia",
+      "seed": 8,
+      "region": "Midwest",
+      "ppg": 17.0,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Blue Cain",
+      "team": "Georgia",
+      "seed": 8,
+      "region": "Midwest",
+      "ppg": 13.3,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Kanon Catchings",
+      "team": "Georgia",
+      "seed": 8,
+      "region": "Midwest",
+      "ppg": 12.0,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Marcus Millender",
+      "team": "Georgia",
+      "seed": 8,
+      "region": "Midwest",
+      "ppg": 11.9,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "RJ Godfrey",
+      "team": "Clemson",
+      "seed": 8,
+      "region": "South",
+      "ppg": 11.9,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Carter Welling",
+      "team": "Clemson",
+      "seed": 8,
+      "region": "South",
+      "ppg": 10.2,
+      "status": "OUT"
+    },
+    {
+      "name": "Jestin Porter",
+      "team": "Clemson",
+      "seed": 8,
+      "region": "South",
+      "ppg": 9.6,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Nick Davidson",
+      "team": "Clemson",
+      "seed": 8,
+      "region": "South",
+      "ppg": 9.1,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Tyler Perkins",
+      "team": "Villanova",
+      "seed": 8,
+      "region": "West",
+      "ppg": 13.7,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Duke Brennan",
+      "team": "Villanova",
+      "seed": 8,
+      "region": "West",
+      "ppg": 12.4,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Acaden Lewis",
+      "team": "Villanova",
+      "seed": 8,
+      "region": "West",
+      "ppg": 12.3,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Bryce Lindsay",
+      "team": "Villanova",
+      "seed": 8,
+      "region": "West",
+      "ppg": 11.9,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "David Punch",
+      "team": "TCU",
+      "seed": 9,
+      "region": "East",
+      "ppg": 14.3,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Xavier Edmonds",
+      "team": "TCU",
+      "seed": 9,
+      "region": "East",
+      "ppg": 12.6,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Riley Kugel",
+      "team": "UCF",
+      "seed": 10,
+      "region": "East",
+      "ppg": 14.4,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Themus Fulks",
+      "team": "UCF",
+      "seed": 10,
+      "region": "East",
+      "ppg": 14.1,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Jordan Burks",
+      "team": "UCF",
+      "seed": 10,
+      "region": "East",
+      "ppg": 13.0,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Rashaun Agee",
+      "team": "Texas A&M",
+      "seed": 10,
+      "region": "South",
+      "ppg": 14.7,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Rylan Griffen",
+      "team": "Texas A&M",
+      "seed": 10,
+      "region": "South",
+      "ppg": 11.6,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Marcus Hill",
+      "team": "Texas A&M",
+      "seed": 10,
+      "region": "South",
+      "ppg": 10.8,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Mackenzie Mgbako",
+      "team": "Texas A&M",
+      "seed": 10,
+      "region": "South",
+      "ppg": 10.4,
+      "status": "OUT"
+    },
+    {
+      "name": "Christian Hammond",
+      "team": "Santa Clara",
+      "seed": 10,
+      "region": "Midwest",
+      "ppg": 15.8,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Elijah Mahi",
+      "team": "Santa Clara",
+      "seed": 10,
+      "region": "Midwest",
+      "ppg": 13.9,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Wes Enis",
+      "team": "South Florida",
+      "seed": 11,
+      "region": "East",
+      "ppg": 16.7,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Izaiyah Nelson",
+      "team": "South Florida",
+      "seed": 11,
+      "region": "East",
+      "ppg": 15.8,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Joseph Pinion",
+      "team": "South Florida",
+      "seed": 11,
+      "region": "East",
+      "ppg": 14.5,
+      "status": "active",
+      "role": "tertiary"
+    },
+    {
+      "name": "Terrence Hill Jr",
+      "team": "VCU",
+      "seed": 11,
+      "region": "South",
+      "ppg": 14.4,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Lazar Djokovic",
+      "team": "VCU",
+      "seed": 11,
+      "region": "South",
+      "ppg": 13.8,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Terry Anderson",
+      "team": "High Point",
+      "seed": 12,
+      "region": "West",
+      "ppg": 16.0,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Rob Martin",
+      "team": "High Point",
+      "seed": 12,
+      "region": "West",
+      "ppg": 15.3,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Simeon Cottle",
+      "team": "Kennesaw State",
+      "seed": 14,
+      "region": "West",
+      "ppg": 20.2,
+      "status": "OUT"
+    },
+    {
+      "name": "Ethan Roberts",
+      "team": "Penn",
+      "seed": 14,
+      "region": "South",
+      "ppg": 16.9,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "TJ Power",
+      "team": "Penn",
+      "seed": 14,
+      "region": "South",
+      "ppg": 15.8,
+      "status": "active",
+      "role": "secondary"
+    },
+    {
+      "name": "Tyon-Grant Foster",
+      "team": "Gonzaga",
+      "seed": 3,
+      "region": "West",
+      "ppg": 6.8,
+      "status": "active",
+      "role": "rotation"
+    },
+    {
+      "name": "Terrance Hill Jr",
+      "team": "VCU",
+      "seed": 11,
+      "region": "South",
+      "ppg": 14.2,
+      "status": "active",
+      "role": "primary"
+    },
+    {
+      "name": "Braylon Mullens",
+      "team": "UConn",
+      "seed": 2,
+      "region": "East",
+      "ppg": 8.5,
+      "status": "active",
+      "role": "rotation"
+    }
+  ]
+}

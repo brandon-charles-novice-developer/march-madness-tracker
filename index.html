@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Gaygent's March Madness Surveillance Board</title>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<style>
+:root {
+  --bg: #0e0514;
+  --bg-panel: #1a0a24;
+  --bg-panel-hover: #24103a;
+  --bg-row-alt: rgba(255, 0, 255, 0.03);
+  --magenta: #e91e8e;
+  --magenta-bright: #ff2daa;
+  --magenta-dim: #8a1155;
+  --cyan: #00e5ff;
+  --purple: #b44dff;
+  --gold: #ffd700;
+  --silver: #b0b0b0;
+  --bronze: #cd7f32;
+  --text: #f0e6f6;
+  --text-muted: #9a7eaa;
+  --text-dim: #6b5078;
+  --active-green: #00ff88;
+  --elim-red: #ff3355;
+  --border: rgba(233, 30, 142, 0.25);
+  --shadow: 4px 4px 0 rgba(0, 0, 0, 0.6);
+  --shadow-lg: 6px 6px 0 rgba(0, 0, 0, 0.5);
+  --font: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  --font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-ui); line-height: 1.5; }
+.container { max-width: 960px; margin: 0 auto; padding: 12px; }
+
+/* Header */
+header { text-align: center; padding: 24px 12px 12px; }
+header h1 { font-family: var(--font); font-size: 1.3rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; }
+header h1 .brand { color: var(--magenta-bright); text-shadow: 0 0 20px rgba(233, 30, 142, 0.6); }
+header h1 .title { color: var(--text); }
+.subtitle { color: var(--text-muted); font-size: 0.8rem; font-style: italic; margin: 4px 0 12px; }
+.header-bar {
+  display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;
+  font-family: var(--font); font-size: 0.72rem; color: var(--text-muted);
+  padding: 8px 16px; margin-bottom: 16px;
+  background: var(--bg-panel); border: 1px solid var(--border); box-shadow: var(--shadow);
+}
+.header-bar .live-dot {
+  width: 7px; height: 7px; background: var(--active-green); display: inline-block;
+  box-shadow: 0 0 6px var(--active-green); animation: blink 1.5s infinite;
+}
+@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.2; } }
+.divider { height: 2px; background: linear-gradient(90deg, transparent, var(--magenta), transparent); margin: 0 0 16px; }
+
+/* Round Pills */
+.rounds { display: flex; justify-content: center; gap: 4px; margin-bottom: 20px; }
+.round-pill {
+  padding: 4px 10px; font-family: var(--font); font-size: 0.65rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  background: var(--bg-panel); color: var(--text-dim); border: 1px solid var(--border);
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.4); transition: all 0.2s;
+}
+.round-pill.current {
+  background: var(--magenta); color: #fff; border-color: var(--magenta-bright);
+  box-shadow: 0 0 12px rgba(233, 30, 142, 0.5), var(--shadow);
+}
+.round-pill.completed { color: var(--magenta); border-color: var(--magenta-dim); }
+
+/* Unified Leaderboard */
+.leaderboard {
+  background: var(--bg-panel); border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg); margin-bottom: 20px; overflow: hidden;
+}
+.lb-header {
+  display: grid; grid-template-columns: 36px 1fr 70px 50px 60px 70px;
+  padding: 8px 12px; font-family: var(--font); font-size: 0.6rem;
+  text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim);
+  background: rgba(233, 30, 142, 0.08); border-bottom: 1px solid var(--border);
+}
+@media (max-width: 600px) {
+  .lb-header { grid-template-columns: 30px 1fr 60px 40px 50px; }
+  .lb-header .col-proj { display: none; }
+}
+.lb-row {
+  display: grid; grid-template-columns: 36px 1fr 70px 50px 60px 70px;
+  padding: 10px 12px; align-items: center; cursor: pointer;
+  border-bottom: 1px solid rgba(233, 30, 142, 0.08);
+  transition: background 0.15s, box-shadow 0.15s;
+}
+.lb-row:hover { background: var(--bg-panel-hover); }
+.lb-row:nth-child(even) { background: var(--bg-row-alt); }
+.lb-row:nth-child(even):hover { background: var(--bg-panel-hover); }
+.lb-row.expanded { background: var(--bg-panel-hover); border-left: 3px solid var(--magenta); }
+@media (max-width: 600px) {
+  .lb-row { grid-template-columns: 30px 1fr 60px 40px 50px; }
+  .lb-row .col-proj { display: none; }
+}
+.lb-row .rank {
+  font-family: var(--font); font-weight: 700; font-size: 0.85rem; color: var(--text-dim);
+}
+.lb-row.top1 .rank { color: var(--gold); text-shadow: 0 0 8px rgba(255,215,0,0.5); }
+.lb-row.top2 .rank { color: var(--silver); }
+.lb-row.top3 .rank { color: var(--bronze); }
+.lb-row .name { font-weight: 600; font-size: 0.88rem; }
+.lb-row .pts { font-family: var(--font); font-weight: 700; color: var(--magenta-bright); font-size: 0.9rem; }
+.lb-row .active-badge {
+  font-family: var(--font); font-size: 0.7rem; font-weight: 600;
+  padding: 1px 6px; border: 1px solid; text-align: center;
+}
+.lb-row .active-badge.full { color: var(--active-green); border-color: rgba(0,255,136,0.3); }
+.lb-row .active-badge.partial { color: var(--elim-red); border-color: rgba(255,51,85,0.3); }
+.lb-row .avg { font-family: var(--font); font-size: 0.75rem; color: var(--cyan); }
+.lb-row .proj { font-family: var(--font); font-size: 0.75rem; color: var(--purple); }
+.lb-row .trend {
+  font-family: var(--font); font-size: 0.65rem; color: var(--active-green); margin-left: 4px;
+}
+
+/* Expanded Detail Panel */
+.detail-panel {
+  background: rgba(26, 10, 36, 0.95); border-top: 1px solid var(--border);
+  border-bottom: 2px solid var(--magenta-dim); padding: 12px; display: none;
+}
+.detail-panel.open { display: block; animation: slideDown 0.2s ease; }
+@keyframes slideDown { from { opacity: 0; max-height: 0; } to { opacity: 1; max-height: 600px; } }
+.detail-metrics {
+  display: flex; gap: 16px; margin-bottom: 8px; font-size: 0.72rem; flex-wrap: wrap;
+}
+.detail-metrics span { color: var(--text-muted); }
+.detail-metrics .val { font-family: var(--font); font-weight: 700; color: var(--text); }
+.detail-commentary {
+  font-size: 0.78rem; color: var(--text-muted); font-style: italic;
+  padding: 8px 10px; margin-bottom: 10px; line-height: 1.6;
+  background: rgba(233, 30, 142, 0.04); border-left: 2px solid var(--magenta-dim);
+}
+.player-tbl { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
+.player-tbl th {
+  text-align: left; font-family: var(--font); font-size: 0.6rem;
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);
+  padding: 4px 6px; border-bottom: 1px solid var(--border);
+}
+.player-tbl td { padding: 5px 6px; border-bottom: 1px solid rgba(233, 30, 142, 0.06); }
+.player-tbl tr.elim td { opacity: 0.35; }
+.player-tbl tr.elim .team-col { text-decoration: line-through; }
+.player-tbl .pts-col { font-family: var(--font); font-weight: 700; text-align: right; }
+.player-tbl .total-col { font-family: var(--font); font-weight: 700; color: var(--magenta-bright); text-align: right; }
+.status-pip { width: 6px; height: 6px; display: inline-block; margin-right: 5px; }
+.status-pip.on { background: var(--active-green); box-shadow: 0 0 4px var(--active-green); }
+.status-pip.off { background: var(--text-dim); }
+
+/* Tournament Leaders */
+.leaders-panel {
+  background: var(--bg-panel); border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg); margin-bottom: 20px; padding: 12px;
+}
+.leaders-panel h3 {
+  font-family: var(--font); font-size: 0.7rem; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--magenta-bright); margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(233, 30, 142, 0.3);
+}
+.leaders-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+@media (max-width: 600px) { .leaders-grid { grid-template-columns: 1fr; } }
+.leader-row {
+  display: flex; align-items: center; gap: 8px; padding: 5px 8px;
+  font-size: 0.78rem; border-bottom: 1px solid rgba(233, 30, 142, 0.06);
+}
+.leader-row:last-child { border: none; }
+.leader-num {
+  font-family: var(--font); font-weight: 700; font-size: 0.65rem;
+  width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.leader-num.t3 { color: var(--magenta-bright); border: 1px solid var(--magenta); }
+.leader-num.rest { color: var(--text-dim); border: 1px solid var(--border); }
+.leader-info { flex: 1; min-width: 0; }
+.leader-name { font-weight: 600; font-size: 0.8rem; }
+.leader-team { font-size: 0.65rem; color: var(--text-dim); }
+.leader-pts { font-family: var(--font); font-weight: 700; color: var(--cyan); font-size: 0.8rem; }
+.leader-mgr { font-size: 0.6rem; color: var(--text-dim); margin-left: 4px; }
+
+/* Footnote */
+.footnote {
+  text-align: center; font-size: 0.65rem; color: var(--text-dim);
+  font-style: italic; margin-bottom: 20px; padding: 0 12px;
+}
+
+/* Footer */
+footer { text-align: center; padding: 20px; color: var(--text-dim); font-size: 0.65rem; }
+
+/* Animation classes */
+@keyframes score-flash {
+  0% { background: transparent; } 15% { background: rgba(233, 30, 142, 0.3); } 100% { background: transparent; }
+}
+.score-changed { animation: score-flash 2s ease-out; }
+@keyframes float-up {
+  0% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; transform: translateY(-18px); }
+}
+.delta-badge {
+  position: absolute; right: -2px; top: -6px; font-family: var(--font);
+  color: var(--active-green); font-weight: 700; font-size: 0.6rem;
+  animation: float-up 2s ease-out forwards; pointer-events: none;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  header h1 { font-size: 1rem; }
+  .lb-row { padding: 8px; font-size: 0.82rem; }
+  .player-tbl { font-size: 0.68rem; }
+  .detail-commentary { font-size: 0.72rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1><span class="brand">THE GAYGENT'S</span> <span class="title">SURVEILLANCE BOARD</span></h1>
+  <div class="subtitle" id="gaygent-header"></div>
+  <div class="divider"></div>
+  <div class="header-bar">
+    <span id="last-updated"></span>
+    <span id="live-indicator"></span>
+    <span>1ST $450 · 2ND $50 · BUY-IN $50</span>
+  </div>
+  <div class="rounds" id="rounds"></div>
+</header>
+
+<div class="leaderboard" id="leaderboard"></div>
+
+<div class="footnote">
+  <strong>AVG/PLAYER</strong> = active player points ÷ active players (roster efficiency)<br>
+  <strong>PROJECTED</strong> = current total + (avg × active × rounds remaining)<br>
+  <span style="opacity:0.7">Definitions provided for Magged, who needs formulas explained or he cries into his Google Sheet.</span>
+</div>
+
+<div class="leaders-panel" id="leaders"></div>
+
+<footer>POWERED BY THE GAYGENT'S SURVEILLANCE NETWORK · NCAA API · BUILT WITH PRIDE 🏳️‍🌈</footer>
+
+</div>
+
+<script>
+var ROUND_LABELS = { R64: 'R64', R32: 'R32', S16: 'S16', E8: 'E8', F4: 'F4', Championship: 'CHAMP' };
+var _prevData = null, _commentary = null, _meta = null;
+
+function escapeHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+function escapeAttr(v) { return String(v).replace(/\\/g,'\\\\').replace(/"/g,'\\"'); }
+
+function animateCount(el, from, to, dur) {
+  dur = dur || 1000; if (from === to) return;
+  var start = performance.now();
+  function step(now) {
+    var p = Math.min((now - start) / dur, 1);
+    el.textContent = Math.round(from + (to - from) * (1 - Math.pow(1 - p, 3)));
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+function showDelta(el, d) {
+  if (d <= 0) return;
+  var b = document.createElement('span'); b.className = 'delta-badge'; b.textContent = '+' + d;
+  el.style.position = 'relative'; el.appendChild(b); setTimeout(function() { b.remove(); }, 2200);
+}
+function flashEl(el) { el.classList.remove('score-changed'); void el.offsetWidth; el.classList.add('score-changed'); setTimeout(function() { el.classList.remove('score-changed'); }, 2500); }
+function prideConfetti() { if (typeof confetti !== 'undefined') confetti({ particleCount: 100, spread: 70, origin: { y: 0.3 }, colors: ['#e91e8e','#ff2daa','#b44dff','#00e5ff','#00ff88','#ffd700'] }); }
+
+// === INIT ===
+async function init() {
+  var r = await Promise.all([
+    fetch('./data/leaderboard.json').then(function(x){return x.json();}),
+    fetch('./data/meta.json').then(function(x){return x.json();}),
+    fetch('./data/commentary.json').then(function(x){return x.json();}).catch(function(){return null;}),
+  ]);
+  var lb = r[0]; _meta = r[1]; _commentary = r[2];
+  renderHeader(lb, _commentary);
+  renderRounds(lb.rounds, lb.current_round);
+  renderLeaderboard(lb);
+  renderLeaders(lb);
+  _prevData = lb;
+  scheduleRefresh(_meta.tournament_dates);
+}
+
+function renderHeader(lb, c) {
+  window._lastUpdatedISO = lb.last_updated;
+  updateTimestamp();
+  if (!window._tickerStarted) { setInterval(updateTimestamp, 5000); window._tickerStarted = true; }
+  if (c) document.getElementById('gaygent-header').textContent = c.gaygent_header || '';
+}
+function updateTimestamp() {
+  if (!window._lastUpdatedISO) return;
+  var d = new Date(window._lastUpdatedISO), now = new Date(), secs = Math.floor((now - d) / 1000);
+  var ago = secs < 60 ? secs + 's ago' : secs < 3600 ? Math.floor(secs/60) + 'm ago' : Math.floor(secs/3600) + 'h ' + Math.floor((secs%3600)/60) + 'm ago';
+  document.getElementById('last-updated').textContent = 'SYNC: ' + d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}) + ' PT (' + ago + ') · EVERY 5 MIN';
+}
+function renderRounds(rounds, cur) {
+  var el = document.getElementById('rounds'), idx = rounds.indexOf(cur);
+  el.innerHTML = rounds.map(function(r, i) {
+    var cls = i < idx ? 'completed' : i === idx ? 'current' : '';
+    return '<span class="round-pill ' + cls + '">' + (ROUND_LABELS[r]||r) + '</span>';
+  }).join('');
+}
+
+// === UNIFIED LEADERBOARD ===
+function renderLeaderboard(lb) {
+  var el = document.getElementById('leaderboard');
+  var hdr = '<div class="lb-header"><span>#</span><span>MANAGER</span><span>PTS</span><span>ACTIVE</span><span>AVG</span><span class="col-proj">PROJ</span></div>';
+
+  var rows = lb.standings.map(function(s) {
+    var topCls = s.rank === 1 ? ' top1' : s.rank === 2 ? ' top2' : s.rank === 3 ? ' top3' : '';
+    var badgeCls = s.active_players === s.total_players ? 'full' : 'partial';
+    var trend = s.current_round_delta > 0 ? '<span class="trend">+' + s.current_round_delta + '</span>' : '';
+
+    var row = '<div class="lb-row' + topCls + '" data-manager="' + escapeAttr(s.manager) + '" onclick="toggleDetail(this)">';
+    row += '<span class="rank">' + s.rank + '</span>';
+    row += '<span class="name">' + s.manager + trend + '</span>';
+    row += '<span class="pts" data-mgr-pts="' + escapeAttr(s.manager) + '">' + s.total_points + '</span>';
+    row += '<span class="active-badge ' + badgeCls + '">' + s.active_players + '/' + s.total_players + '</span>';
+    row += '<span class="avg">' + (s.avg_per_active || 0) + '</span>';
+    row += '<span class="proj col-proj">~' + (s.projected_finish || 0) + '</span>';
+    row += '</div>';
+
+    // Detail panel
+    var blurb = _commentary && _commentary.managers ? (_commentary.managers[s.manager] || '') : '';
+    var detail = '<div class="detail-panel" id="detail-' + escapeAttr(s.manager).replace(/\s/g,'-') + '">';
+    detail += '<div class="detail-metrics">';
+    detail += '<span>ACTIVE: <span class="val">' + s.active_players + '/' + s.total_players + '</span></span>';
+    detail += '<span>AVG/PLAYER: <span class="val">' + (s.avg_per_active || 0) + '</span></span>';
+    detail += '<span>PROJECTED: <span class="val">~' + (s.projected_finish || 0) + '</span></span>';
+    detail += '<span>R' + lb.current_round.replace('R','') + ' TREND: <span class="val" style="color:var(--active-green)">+' + (s.current_round_delta || 0) + '</span></span>';
+    detail += '</div>';
+    if (blurb) detail += '<div class="detail-commentary">' + escapeHtml(blurb) + '</div>';
+
+    var roundHdrs = lb.rounds.map(function(r){return '<th>' + (ROUND_LABELS[r]||r) + '</th>';}).join('');
+    detail += '<table class="player-tbl"><thead><tr><th>PLAYER</th><th>TEAM</th>' + roundHdrs + '<th>TOTAL</th></tr></thead><tbody>';
+    s.players.forEach(function(p) {
+      var cls = p.status === 'eliminated' ? ' class="elim"' : '';
+      var pip = p.status === 'active' ? '<span class="status-pip on"></span>' : '<span class="status-pip off"></span>';
+      var rCells = lb.rounds.map(function(r) {
+        var v = p.round_scores[r];
+        return '<td class="pts-col" data-player-round="' + escapeAttr(p.name) + ':' + r + '">' + (v !== undefined ? v : '—') + '</td>';
+      }).join('');
+      detail += '<tr' + cls + ' data-player-row="' + escapeAttr(p.name) + '">';
+      detail += '<td>' + pip + p.name + '</td>';
+      detail += '<td class="team-col">' + p.team + ' (' + p.seed + ')</td>';
+      detail += rCells;
+      detail += '<td class="total-col" data-player-total="' + escapeAttr(p.name) + '">' + p.total_points + '</td>';
+      detail += '</tr>';
+    });
+    detail += '</tbody></table></div>';
+
+    return row + detail;
+  }).join('');
+
+  el.innerHTML = hdr + rows;
+}
+
+function toggleDetail(rowEl) {
+  var mgr = rowEl.getAttribute('data-manager');
+  var panelId = 'detail-' + mgr.replace(/\s/g, '-');
+  var panel = document.getElementById(panelId);
+  if (!panel) return;
+  var isOpen = panel.classList.contains('open');
+
+  // Close all
+  document.querySelectorAll('.detail-panel.open').forEach(function(p) { p.classList.remove('open'); });
+  document.querySelectorAll('.lb-row.expanded').forEach(function(r) { r.classList.remove('expanded'); });
+
+  if (!isOpen) {
+    panel.classList.add('open');
+    rowEl.classList.add('expanded');
+  }
+}
+
+// === TOURNAMENT LEADERS ===
+function renderLeaders(lb) {
+  var el = document.getElementById('leaders');
+  var all = [];
+  lb.standings.forEach(function(s) {
+    s.players.forEach(function(p) { all.push(Object.assign({}, p, { manager: s.manager })); });
+  });
+  var leaders = all.filter(function(p) { return p.total_points > 0 && p.status === 'active'; })
+    .sort(function(a,b) { return b.total_points - a.total_points; }).slice(0, 10);
+
+  var html = '<h3>🏆 TOURNAMENT SCORING LEADERS</h3><div class="leaders-grid">';
+  leaders.forEach(function(p, i) {
+    var init = p.manager.split(' ').map(function(w){return w[0];}).join('');
+    var nc = i < 3 ? 't3' : 'rest';
+    html += '<div class="leader-row">';
+    html += '<span class="leader-num ' + nc + '">' + (i+1) + '</span>';
+    html += '<span class="leader-info"><span class="leader-name">' + p.name + '</span><br><span class="leader-team">' + p.team + ' (' + p.seed + ')</span></span>';
+    html += '<span class="leader-pts">' + p.total_points + '<span class="leader-mgr">' + init + '</span></span>';
+    html += '</div>';
+  });
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+// === DIFF ENGINE ===
+function diffStandings(prev, fresh) {
+  var c = { pointChanges: [], rankSwaps: [], newEliminations: [], milestones: [] };
+  prev.standings.forEach(function(o) {
+    var n = fresh.standings.find(function(s){return s.manager === o.manager;});
+    if (!n) return;
+    if (n.total_points !== o.total_points) c.pointChanges.push({manager:n.manager,player:null,oldPts:o.total_points,newPts:n.total_points});
+    if (n.rank !== o.rank) c.rankSwaps.push({manager:n.manager,oldRank:o.rank,newRank:n.rank});
+    o.players.forEach(function(op) {
+      var np = n.players.find(function(p){return p.name === op.name;});
+      if (!np) return;
+      if (np.total_points !== op.total_points) c.pointChanges.push({manager:n.manager,player:np.name,oldPts:op.total_points,newPts:np.total_points});
+      Object.keys(np.round_scores).forEach(function(r) {
+        var ov = (op.round_scores && op.round_scores[r]) || 0, nv = np.round_scores[r] || 0;
+        if (nv !== ov) c.pointChanges.push({manager:n.manager,player:np.name,round:r,oldPts:ov,newPts:nv});
+      });
+      if (op.status === 'active' && np.status === 'eliminated') c.newEliminations.push({manager:n.manager,player:np.name});
+    });
+    if (n.rank === 1 && o.rank !== 1) c.milestones.push({type:'lead'});
+    [200,300,400].forEach(function(m) { if (n.total_points >= m && o.total_points < m) c.milestones.push({type:'milestone'}); });
+  });
+  return c;
+}
+
+function applyChanges(changes, fresh) {
+  changes.pointChanges.forEach(function(ch) {
+    if (!ch.player && !ch.round) {
+      var el = document.querySelector('[data-mgr-pts="' + escapeAttr(ch.manager) + '"]');
+      if (el) { animateCount(el, ch.oldPts, ch.newPts); flashEl(el); showDelta(el.parentElement, ch.newPts - ch.oldPts); }
+    }
+    if (ch.player && ch.round) {
+      var cel = document.querySelector('[data-player-round="' + escapeAttr(ch.player) + ':' + ch.round + '"]');
+      if (cel) { animateCount(cel, ch.oldPts, ch.newPts); flashEl(cel); showDelta(cel, ch.newPts - ch.oldPts); }
+    }
+    if (ch.player && !ch.round) {
+      var tel = document.querySelector('[data-player-total="' + escapeAttr(ch.player) + '"]');
+      if (tel) { animateCount(tel, ch.oldPts, ch.newPts); flashEl(tel); }
+    }
+  });
+  if (changes.rankSwaps.length > 0 || changes.newEliminations.length > 0) {
+    renderLeaderboard(fresh);
+    renderLeaders(fresh);
+  }
+  if (changes.milestones.length > 0) prideConfetti();
+  renderHeader(fresh, _commentary);
+}
+
+// === LIVE UPDATE ===
+async function liveUpdate() {
+  try {
+    var fresh = await fetch('./data/leaderboard.json?t=' + Date.now()).then(function(r){return r.json();});
+    if (!_prevData) { _prevData = fresh; return; }
+    if (fresh.last_updated === _prevData.last_updated) return;
+    var ch = diffStandings(_prevData, fresh);
+    if (ch.pointChanges.length || ch.rankSwaps.length || ch.newEliminations.length) applyChanges(ch, fresh);
+    else renderHeader(fresh, _commentary);
+    _prevData = fresh;
+  } catch(e) { console.warn('[sync]', e); }
+}
+
+function scheduleRefresh(td) {
+  var dates = []; Object.values(td).forEach(function(d){d.forEach(function(x){dates.push(x);});});
+  var now = new Date(), today = now.toISOString().slice(0,10), h = now.getHours();
+  if (dates.indexOf(today) >= 0 && h >= 9 && h <= 23) {
+    document.getElementById('live-indicator').innerHTML = '<span class="live-dot"></span> LIVE';
+    setInterval(liveUpdate, 60000);
+  }
+}
+
+init();
+</script>
+</body>
+</html>

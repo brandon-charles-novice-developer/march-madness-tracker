@@ -1,0 +1,48 @@
+{
+  "pool_name": "March Madness 2026",
+  "format": "Player draft \u2014 points scored by your players count toward your total",
+  "draft_type": "Serpentine, 10 teams, 8 rounds",
+  "managers": [
+    "Josh Ehrlich",
+    "Nick Reskin",
+    "Mark Weiner",
+    "Schaf Chulay",
+    "Jordan Mackler",
+    "AJ Spile",
+    "Mike Haughey",
+    "Alex Magged",
+    "Brandon Nye",
+    "Jake Pollack"
+  ],
+  "payouts": {
+    "first": 450,
+    "second": 50,
+    "buy_in": 50
+  },
+  "tournament_dates": {
+    "R64": [
+      "2026-03-17",
+      "2026-03-18",
+      "2026-03-19",
+      "2026-03-20"
+    ],
+    "R32": [
+      "2026-03-21",
+      "2026-03-22"
+    ],
+    "S16": [
+      "2026-03-27",
+      "2026-03-28"
+    ],
+    "E8": [
+      "2026-03-29",
+      "2026-03-30"
+    ],
+    "F4": [
+      "2026-04-04"
+    ],
+    "Championship": [
+      "2026-04-06"
+    ]
+  }
+}

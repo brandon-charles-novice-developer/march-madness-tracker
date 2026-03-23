@@ -1,0 +1,188 @@
+{
+  "tournament": "2026 NCAA Men's Basketball Tournament",
+  "regions": {
+    "East": {
+      "label": "EAST (TOP LEFT)",
+      "regional_site": "Washington, D.C. (Capital One Arena)",
+      "matchups": {
+        "R1": [
+          {"higher": "Duke", "higher_seed": 1, "lower": "Siena", "lower_seed": 16, "site": "Greenville, SC"},
+          {"higher": "Ohio St", "higher_seed": 8, "lower": "TCU", "lower_seed": 9, "site": "Greenville, SC"},
+          {"higher": "St Johns", "higher_seed": 5, "lower": "Northern Iowa", "lower_seed": 12, "site": "San Diego"},
+          {"higher": "Kansas", "higher_seed": 4, "lower": "California Baptist", "lower_seed": 13, "site": "San Diego"},
+          {"higher": "Louisville", "higher_seed": 6, "lower": "South Florida", "lower_seed": 11, "site": "Buffalo, NY"},
+          {"higher": "Michigan St", "higher_seed": 3, "lower": "North Dakota State", "lower_seed": 14, "site": "Buffalo, NY"},
+          {"higher": "UCLA", "higher_seed": 7, "lower": "UCF", "lower_seed": 10, "site": "Philadelphia"},
+          {"higher": "UConn", "higher_seed": 2, "lower": "Furman", "lower_seed": 15, "site": "Philadelphia"}
+        ],
+        "R2_projected": [
+          {"matchup": "Duke/Siena vs Ohio St/TCU", "seeds": "1/16 vs 8/9"},
+          {"matchup": "St Johns/N Iowa vs Kansas/Cal Baptist", "seeds": "5/12 vs 4/13"},
+          {"matchup": "Louisville/USF vs Michigan St/NDSU", "seeds": "6/11 vs 3/14"},
+          {"matchup": "UCLA/UCF vs UConn/Furman", "seeds": "7/10 vs 2/15"}
+        ],
+        "S16_projected": [
+          {"matchup": "Duke side vs Kansas/St Johns side", "seeds": "1-bracket vs 4/5-bracket"},
+          {"matchup": "UConn/MSU side vs Louisville/UCLA side", "seeds": "2/3-bracket vs 6/7-bracket"}
+        ],
+        "E8_projected": "East region final"
+      }
+    },
+    "South": {
+      "label": "SOUTH (BOTTOM LEFT)",
+      "regional_site": "Houston, TX (Toyota Center)",
+      "matchups": {
+        "R1": [
+          {"higher": "Florida", "higher_seed": 1, "lower": "Prairie View A&M/Lehigh", "lower_seed": 16, "site": "Tampa, FL"},
+          {"higher": "Clemson", "higher_seed": 8, "lower": "Iowa", "lower_seed": 9, "site": "Tampa, FL"},
+          {"higher": "Vanderbilt", "higher_seed": 5, "lower": "McNeese", "lower_seed": 12, "site": "Oklahoma City"},
+          {"higher": "Nebraska", "higher_seed": 4, "lower": "Troy", "lower_seed": 13, "site": "Oklahoma City"},
+          {"higher": "North Carolina", "higher_seed": 6, "lower": "VCU", "lower_seed": 11, "site": "Greenville, SC"},
+          {"higher": "Illinois", "higher_seed": 3, "lower": "Penn", "lower_seed": 14, "site": "Greenville, SC"},
+          {"higher": "Saint Mary's", "higher_seed": 7, "lower": "Texas A&M", "lower_seed": 10, "site": "Oklahoma City"},
+          {"higher": "Houston", "higher_seed": 2, "lower": "Idaho", "lower_seed": 15, "site": "Oklahoma City"}
+        ],
+        "R2_projected": [
+          {"matchup": "Florida/Play-in vs Clemson/Iowa", "seeds": "1/16 vs 8/9"},
+          {"matchup": "Vanderbilt/McNeese vs Nebraska/Troy", "seeds": "5/12 vs 4/13"},
+          {"matchup": "North Carolina/VCU vs Illinois/Penn", "seeds": "6/11 vs 3/14"},
+          {"matchup": "Saint Mary's/Texas A&M vs Houston/Idaho", "seeds": "7/10 vs 2/15"}
+        ],
+        "S16_projected": [
+          {"matchup": "Florida side vs Nebraska/Vanderbilt side", "seeds": "1-bracket vs 4/5-bracket"},
+          {"matchup": "Houston/Illinois side vs UNC/Saint Mary's side", "seeds": "2/3-bracket vs 6/7-bracket"}
+        ],
+        "E8_projected": "South region final"
+      }
+    },
+    "West": {
+      "label": "WEST (TOP RIGHT)",
+      "regional_site": "San Jose, CA (SAP Center)",
+      "matchups": {
+        "R1": [
+          {"higher": "Arizona", "higher_seed": 1, "lower": "Long Island", "lower_seed": 16, "site": "San Diego"},
+          {"higher": "Villanova", "higher_seed": 8, "lower": "Utah State", "lower_seed": 9, "site": "San Diego"},
+          {"higher": "Wisconsin", "higher_seed": 5, "lower": "High Point", "lower_seed": 12, "site": "Portland, OR"},
+          {"higher": "Arkansas", "higher_seed": 4, "lower": "Hawaii", "lower_seed": 13, "site": "Portland, OR"},
+          {"higher": "BYU", "higher_seed": 6, "lower": "NC State/Texas", "lower_seed": 11, "site": "Portland, OR"},
+          {"higher": "Gonzaga", "higher_seed": 3, "lower": "Kennesaw State", "lower_seed": 14, "site": "Portland, OR"},
+          {"higher": "Miami FL", "higher_seed": 7, "lower": "Missouri", "lower_seed": 10, "site": "St. Louis"},
+          {"higher": "Purdue", "higher_seed": 2, "lower": "Queens", "lower_seed": 15, "site": "St. Louis"}
+        ],
+        "R2_projected": [
+          {"matchup": "Arizona/LIU vs Villanova/Utah State", "seeds": "1/16 vs 8/9"},
+          {"matchup": "Wisconsin/High Point vs Arkansas/Hawaii", "seeds": "5/12 vs 4/13"},
+          {"matchup": "BYU/Play-in vs Gonzaga/Kennesaw St", "seeds": "6/11 vs 3/14"},
+          {"matchup": "Miami FL/Missouri vs Purdue/Queens", "seeds": "7/10 vs 2/15"}
+        ],
+        "S16_projected": [
+          {"matchup": "Arizona side vs Arkansas/Wisconsin side", "seeds": "1-bracket vs 4/5-bracket"},
+          {"matchup": "Purdue/Gonzaga side vs BYU/Miami side", "seeds": "2/3-bracket vs 6/7-bracket"}
+        ],
+        "E8_projected": "West region final"
+      }
+    },
+    "Midwest": {
+      "label": "MIDWEST (BOTTOM RIGHT)",
+      "regional_site": "Chicago, IL (United Center)",
+      "matchups": {
+        "R1": [
+          {"higher": "Michigan", "higher_seed": 1, "lower": "UMBC/Howard", "lower_seed": 16, "site": "Buffalo, NY"},
+          {"higher": "Georgia", "higher_seed": 8, "lower": "Saint Louis", "lower_seed": 9, "site": "Buffalo, NY"},
+          {"higher": "Texas Tech", "higher_seed": 5, "lower": "Akron", "lower_seed": 12, "site": "Tampa, FL"},
+          {"higher": "Alabama", "higher_seed": 4, "lower": "Hofstra", "lower_seed": 13, "site": "Tampa, FL"},
+          {"higher": "Tennessee", "higher_seed": 6, "lower": "Miami OH/SMU", "lower_seed": 11, "site": "Philadelphia"},
+          {"higher": "Virginia", "higher_seed": 3, "lower": "Wright State", "lower_seed": 14, "site": "Philadelphia"},
+          {"higher": "Kentucky", "higher_seed": 7, "lower": "Santa Clara", "lower_seed": 10, "site": "St. Louis"},
+          {"higher": "Iowa State", "higher_seed": 2, "lower": "Tennessee State", "lower_seed": 15, "site": "St. Louis"}
+        ],
+        "R2_projected": [
+          {"matchup": "Michigan/Play-in vs Georgia/Saint Louis", "seeds": "1/16 vs 8/9"},
+          {"matchup": "Texas Tech/Akron vs Alabama/Hofstra", "seeds": "5/12 vs 4/13"},
+          {"matchup": "Tennessee/Play-in vs Virginia/Wright State", "seeds": "6/11 vs 3/14"},
+          {"matchup": "Kentucky/Santa Clara vs Iowa State/Tennessee State", "seeds": "7/10 vs 2/15"}
+        ],
+        "S16_projected": [
+          {"matchup": "Michigan side vs Alabama/Texas Tech side", "seeds": "1-bracket vs 4/5-bracket"},
+          {"matchup": "Iowa State/Virginia side vs Tennessee/Kentucky side", "seeds": "2/3-bracket vs 6/7-bracket"}
+        ],
+        "E8_projected": "Midwest region final"
+      }
+    }
+  },
+  "teams": {
+    "Duke": {"seed": 1, "region": "East", "title_odds": "+325", "kenpom_rank": 1},
+    "Michigan": {"seed": 1, "region": "Midwest", "title_odds": "+340", "kenpom_rank": 2},
+    "Arizona": {"seed": 1, "region": "West", "title_odds": "+475", "kenpom_rank": 3},
+    "Florida": {"seed": 1, "region": "South", "title_odds": "+700", "kenpom_rank": 4},
+    "Houston": {"seed": 2, "region": "South", "title_odds": "+1100"},
+    "UConn": {"seed": 2, "region": "East", "title_odds": "+1800"},
+    "Iowa State": {"seed": 2, "region": "Midwest", "title_odds": "+2200"},
+    "Purdue": {"seed": 2, "region": "West", "title_odds": "+3300"},
+    "Michigan St": {"seed": 3, "region": "East", "title_odds": "+4000"},
+    "Illinois": {"seed": 3, "region": "South", "title_odds": "+1800"},
+    "Gonzaga": {"seed": 3, "region": "West", "title_odds": "+5500"},
+    "Virginia": {"seed": 3, "region": "Midwest", "title_odds": "+8000"},
+    "Kansas": {"seed": 4, "region": "East", "title_odds": "+4000"},
+    "Nebraska": {"seed": 4, "region": "South"},
+    "Arkansas": {"seed": 4, "region": "West", "title_odds": "+6600"},
+    "Alabama": {"seed": 4, "region": "Midwest", "title_odds": "+10000"},
+    "St Johns": {"seed": 5, "region": "East", "title_odds": "+6600"},
+    "Vanderbilt": {"seed": 5, "region": "South"},
+    "Wisconsin": {"seed": 5, "region": "West", "title_odds": "+9000"},
+    "Texas Tech": {"seed": 5, "region": "Midwest"},
+    "Louisville": {"seed": 6, "region": "East"},
+    "North Carolina": {"seed": 6, "region": "South"},
+    "BYU": {"seed": 6, "region": "West"},
+    "Tennessee": {"seed": 6, "region": "Midwest", "title_odds": "+10000"},
+    "UCLA": {"seed": 7, "region": "East"},
+    "Saint Mary's": {"seed": 7, "region": "South"},
+    "Miami FL": {"seed": 7, "region": "West"},
+    "Kentucky": {"seed": 7, "region": "Midwest", "title_odds": "+12500"},
+    "Ohio St": {"seed": 8, "region": "East"},
+    "Clemson": {"seed": 8, "region": "South"},
+    "Villanova": {"seed": 8, "region": "West"},
+    "Georgia": {"seed": 8, "region": "Midwest"},
+    "TCU": {"seed": 9, "region": "East"},
+    "Iowa": {"seed": 9, "region": "South"},
+    "Utah State": {"seed": 9, "region": "West"},
+    "Saint Louis": {"seed": 9, "region": "Midwest", "notes": "27-4, 40.1% team 3PT, Cinderella candidate"},
+    "UCF": {"seed": 10, "region": "East"},
+    "Texas A&M": {"seed": 10, "region": "South"},
+    "Missouri": {"seed": 10, "region": "West"},
+    "Santa Clara": {"seed": 10, "region": "Midwest"},
+    "South Florida": {"seed": 11, "region": "East"},
+    "VCU": {"seed": 11, "region": "South"},
+    "NC State": {"seed": 11, "region": "West", "play_in": true},
+    "Texas": {"seed": 11, "region": "West", "play_in": true},
+    "Miami OH": {"seed": 11, "region": "Midwest", "play_in": true},
+    "SMU": {"seed": 11, "region": "Midwest", "play_in": true},
+    "Northern Iowa": {"seed": 12, "region": "East"},
+    "McNeese": {"seed": 12, "region": "South"},
+    "High Point": {"seed": 12, "region": "West"},
+    "Akron": {"seed": 12, "region": "Midwest", "notes": "Tavari Johnson 20.1 PPG"},
+    "California Baptist": {"seed": 13, "region": "East"},
+    "Troy": {"seed": 13, "region": "South"},
+    "Hawaii": {"seed": 13, "region": "West"},
+    "Hofstra": {"seed": 13, "region": "Midwest"},
+    "North Dakota State": {"seed": 14, "region": "East"},
+    "Penn": {"seed": 14, "region": "South"},
+    "Kennesaw State": {"seed": 14, "region": "West"},
+    "Wright State": {"seed": 14, "region": "Midwest"},
+    "Furman": {"seed": 15, "region": "East"},
+    "Idaho": {"seed": 15, "region": "South"},
+    "Queens": {"seed": 15, "region": "West"},
+    "Tennessee State": {"seed": 15, "region": "Midwest"},
+    "Siena": {"seed": 16, "region": "East"},
+    "Prairie View A&M": {"seed": 16, "region": "South", "play_in": true},
+    "Lehigh": {"seed": 16, "region": "South", "play_in": true},
+    "Long Island": {"seed": 16, "region": "West"},
+    "UMBC": {"seed": 16, "region": "Midwest", "play_in": true},
+    "Howard": {"seed": 16, "region": "Midwest", "play_in": true}
+  },
+  "historical_expected_wins_by_seed": {
+    "1": 3.34, "2": 2.34, "3": 1.84, "4": 1.56, "5": 1.14,
+    "6": 1.05, "7": 0.89, "8": 0.71, "9": 0.61, "10": 0.60,
+    "11": 0.66, "12": 0.51, "13": 0.24, "14": 0.16, "15": 0.10, "16": 0.013
+  }
+}

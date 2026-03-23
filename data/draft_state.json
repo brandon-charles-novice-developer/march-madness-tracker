@@ -1,0 +1,486 @@
+{
+  "picks": [
+    {
+      "overall_pick": 1,
+      "round": 1,
+      "manager": "Josh Ehrlich",
+      "player": "Yaxel Lendeborg"
+    },
+    {
+      "overall_pick": 2,
+      "round": 1,
+      "manager": "Nick Reskin",
+      "player": "Cam Boozer"
+    },
+    {
+      "overall_pick": 3,
+      "round": 1,
+      "manager": "Mark Weiner",
+      "player": "Thomas Haugh"
+    },
+    {
+      "overall_pick": 4,
+      "round": 1,
+      "manager": "Schaf Chulay",
+      "player": "Brayden Burries"
+    },
+    {
+      "overall_pick": 5,
+      "round": 1,
+      "manager": "Jordan Mackler",
+      "player": "Darius Acuff Jr"
+    },
+    {
+      "overall_pick": 6,
+      "round": 1,
+      "manager": "AJ Spile",
+      "player": "Milan Momcilovic"
+    },
+    {
+      "overall_pick": 7,
+      "round": 1,
+      "manager": "Mike Haughey",
+      "player": "Graham Ike"
+    },
+    {
+      "overall_pick": 8,
+      "round": 1,
+      "manager": "Alex Magged",
+      "player": "Isaiah Evans"
+    },
+    {
+      "overall_pick": 9,
+      "round": 1,
+      "manager": "Brandon Nye",
+      "player": "Kingston Flemings"
+    },
+    {
+      "overall_pick": 10,
+      "round": 1,
+      "manager": "Jake Pollack",
+      "player": "Alex Condon"
+    },
+    {
+      "overall_pick": 11,
+      "round": 2,
+      "manager": "Jake Pollack",
+      "player": "Emanuel Sharp"
+    },
+    {
+      "overall_pick": 12,
+      "round": 2,
+      "manager": "Brandon Nye",
+      "player": "Keaton Wagler"
+    },
+    {
+      "overall_pick": 13,
+      "round": 2,
+      "manager": "Alex Magged",
+      "player": "Morez Johnson Jr"
+    },
+    {
+      "overall_pick": 14,
+      "round": 2,
+      "manager": "Mike Haughey",
+      "player": "Koa Peat"
+    },
+    {
+      "overall_pick": 15,
+      "round": 2,
+      "manager": "AJ Spile",
+      "player": "Labaron Philon Jr"
+    },
+    {
+      "overall_pick": 16,
+      "round": 2,
+      "manager": "Jordan Mackler",
+      "player": "Joshua Jefferson"
+    },
+    {
+      "overall_pick": 17,
+      "round": 2,
+      "manager": "Schaf Chulay",
+      "player": "Solo Ball"
+    },
+    {
+      "overall_pick": 18,
+      "round": 2,
+      "manager": "Mark Weiner",
+      "player": "Aday Mara"
+    },
+    {
+      "overall_pick": 19,
+      "round": 2,
+      "manager": "Nick Reskin",
+      "player": "Tarris Reed Jr"
+    },
+    {
+      "overall_pick": 20,
+      "round": 2,
+      "manager": "Josh Ehrlich",
+      "player": "Jaden Bradley"
+    },
+    {
+      "overall_pick": 21,
+      "round": 3,
+      "manager": "Josh Ehrlich",
+      "player": "Braden Smith"
+    },
+    {
+      "overall_pick": 22,
+      "round": 3,
+      "manager": "Nick Reskin",
+      "player": "Fletcher Loyer"
+    },
+    {
+      "overall_pick": 23,
+      "round": 3,
+      "manager": "Mark Weiner",
+      "player": "Cayden Boozer"
+    },
+    {
+      "overall_pick": 24,
+      "round": 3,
+      "manager": "Schaf Chulay",
+      "player": "Darryn Peterson"
+    },
+    {
+      "overall_pick": 25,
+      "round": 3,
+      "manager": "Jordan Mackler",
+      "player": "Jeremy Fears Jr"
+    },
+    {
+      "overall_pick": 26,
+      "round": 3,
+      "manager": "AJ Spile",
+      "player": "AJ Dybantsa"
+    },
+    {
+      "overall_pick": 27,
+      "round": 3,
+      "manager": "Mike Haughey",
+      "player": "Zuby Ejiofor"
+    },
+    {
+      "overall_pick": 28,
+      "round": 3,
+      "manager": "Alex Magged",
+      "player": "Trey Kaufman-Renn"
+    },
+    {
+      "overall_pick": 29,
+      "round": 3,
+      "manager": "Brandon Nye",
+      "player": "Tyler Tanner"
+    },
+    {
+      "overall_pick": 30,
+      "round": 3,
+      "manager": "Jake Pollack",
+      "player": "Thijs De Ridder"
+    },
+    {
+      "overall_pick": 31,
+      "round": 4,
+      "manager": "Jake Pollack",
+      "player": "Nick Boyd"
+    },
+    {
+      "overall_pick": 32,
+      "round": 4,
+      "manager": "Brandon Nye",
+      "player": "John Blackwell"
+    },
+    {
+      "overall_pick": 33,
+      "round": 4,
+      "manager": "Alex Magged",
+      "player": "Boogie Fland"
+    },
+    {
+      "overall_pick": 34,
+      "round": 4,
+      "manager": "Mike Haughey",
+      "player": "Xaivian Lee"
+    },
+    {
+      "overall_pick": 35,
+      "round": 4,
+      "manager": "AJ Spile",
+      "player": "Bruce Thornton"
+    },
+    {
+      "overall_pick": 36,
+      "round": 4,
+      "manager": "Jordan Mackler",
+      "player": "Pryce Sandfort"
+    },
+    {
+      "overall_pick": 37,
+      "round": 4,
+      "manager": "Schaf Chulay",
+      "player": "Tamin Lipsey"
+    },
+    {
+      "overall_pick": 38,
+      "round": 4,
+      "manager": "Mark Weiner",
+      "player": "Alex Karaban"
+    },
+    {
+      "overall_pick": 39,
+      "round": 4,
+      "manager": "Nick Reskin",
+      "player": "Jaxon Kohler"
+    },
+    {
+      "overall_pick": 40,
+      "round": 4,
+      "manager": "Josh Ehrlich",
+      "player": "Andrej Stojakovic"
+    },
+    {
+      "overall_pick": 41,
+      "round": 5,
+      "manager": "Josh Ehrlich",
+      "player": "Rueben Chinyelu"
+    },
+    {
+      "overall_pick": 42,
+      "round": 5,
+      "manager": "Nick Reskin",
+      "player": "Duke Miles"
+    },
+    {
+      "overall_pick": 43,
+      "round": 5,
+      "manager": "Mark Weiner",
+      "player": "Meleek Thomas"
+    },
+    {
+      "overall_pick": 44,
+      "round": 5,
+      "manager": "Schaf Chulay",
+      "player": "Milos Uzan"
+    },
+    {
+      "overall_pick": 45,
+      "round": 5,
+      "manager": "Jordan Mackler",
+      "player": "Ivan Kharchenkov"
+    },
+    {
+      "overall_pick": 46,
+      "round": 5,
+      "manager": "AJ Spile",
+      "player": "Ja'Kobi Gillespie"
+    },
+    {
+      "overall_pick": 47,
+      "round": 5,
+      "manager": "Mike Haughey",
+      "player": "Elliot Cadeau"
+    },
+    {
+      "overall_pick": 48,
+      "round": 5,
+      "manager": "Alex Magged",
+      "player": "Nate Ament"
+    },
+    {
+      "overall_pick": 49,
+      "round": 5,
+      "manager": "Brandon Nye",
+      "player": "Tavari Johnson"
+    },
+    {
+      "overall_pick": 50,
+      "round": 5,
+      "manager": "Jake Pollack",
+      "player": "Christian Anderson"
+    },
+    {
+      "overall_pick": 51,
+      "round": 6,
+      "manager": "Jake Pollack",
+      "player": "Boopie Miller"
+    },
+    {
+      "overall_pick": 52,
+      "round": 6,
+      "manager": "Brandon Nye",
+      "player": "Bryce Hopkins"
+    },
+    {
+      "overall_pick": 53,
+      "round": 6,
+      "manager": "Alex Magged",
+      "player": "David Mirkovic"
+    },
+    {
+      "overall_pick": 54,
+      "round": 6,
+      "manager": "Mike Haughey",
+      "player": "Motiejus Krivas"
+    },
+    {
+      "overall_pick": 55,
+      "round": 6,
+      "manager": "AJ Spile",
+      "player": "Ryan Conwell"
+    },
+    {
+      "overall_pick": 57,
+      "round": 6,
+      "manager": "Schaf Chulay",
+      "player": "Malik Thomas"
+    },
+    {
+      "overall_pick": 58,
+      "round": 6,
+      "manager": "Mark Weiner",
+      "player": "Malik Reneau"
+    },
+    {
+      "overall_pick": 59,
+      "round": 6,
+      "manager": "Nick Reskin",
+      "player": "Amani Lyles"
+    },
+    {
+      "overall_pick": 60,
+      "round": 6,
+      "manager": "Josh Ehrlich",
+      "player": "Trevon Brazile"
+    },
+    {
+      "overall_pick": 61,
+      "round": 7,
+      "manager": "Josh Ehrlich",
+      "player": "Tyler Bilodeau"
+    },
+    {
+      "overall_pick": 63,
+      "round": 7,
+      "manager": "Mark Weiner",
+      "player": "Paulius Murauskas"
+    },
+    {
+      "overall_pick": 64,
+      "round": 7,
+      "manager": "Schaf Chulay",
+      "player": "Nolan Winter"
+    },
+    {
+      "overall_pick": 65,
+      "round": 7,
+      "manager": "Jordan Mackler",
+      "player": "Otega Oweh"
+    },
+    {
+      "overall_pick": 66,
+      "round": 7,
+      "manager": "AJ Spile",
+      "player": "Mark Mitchell"
+    },
+    {
+      "overall_pick": 67,
+      "round": 7,
+      "manager": "Mike Haughey",
+      "player": "Oziyah Sellers"
+    },
+    {
+      "overall_pick": 68,
+      "round": 7,
+      "manager": "Alex Magged",
+      "player": "Dailyn Swain"
+    },
+    {
+      "overall_pick": 69,
+      "round": 7,
+      "manager": "Brandon Nye",
+      "player": "Bennett Stirtz"
+    },
+    {
+      "overall_pick": 70,
+      "round": 7,
+      "manager": "Jake Pollack",
+      "player": "Tre White"
+    },
+    {
+      "overall_pick": 71,
+      "round": 8,
+      "manager": "Jake Pollack",
+      "player": "Coen Carr"
+    },
+    {
+      "overall_pick": 72,
+      "round": 8,
+      "manager": "Brandon Nye",
+      "player": "Robert Wright III"
+    },
+    {
+      "overall_pick": 56,
+      "round": 6,
+      "manager": "Jordan Mackler",
+      "player": "Braylon Mullens"
+    },
+    {
+      "overall_pick": 62,
+      "round": 7,
+      "manager": "Nick Reskin",
+      "player": "Tyon-Grant Foster"
+    },
+    {
+      "overall_pick": 73,
+      "round": 8,
+      "manager": "Alex Magged",
+      "player": "Billy Richmond III"
+    },
+    {
+      "overall_pick": 74,
+      "round": 8,
+      "manager": "Mike Haughey",
+      "player": "Urban Klavzar"
+    },
+    {
+      "overall_pick": 75,
+      "round": 8,
+      "manager": "AJ Spile",
+      "player": "David Punch"
+    },
+    {
+      "overall_pick": 76,
+      "round": 8,
+      "manager": "Jordan Mackler",
+      "player": "Patrick Ngongba II"
+    },
+    {
+      "overall_pick": 77,
+      "round": 8,
+      "manager": "Schaf Chulay",
+      "player": "Flory Bidunga"
+    },
+    {
+      "overall_pick": 78,
+      "round": 8,
+      "manager": "Mark Weiner",
+      "player": "TJ Power"
+    },
+    {
+      "overall_pick": 79,
+      "round": 8,
+      "manager": "Nick Reskin",
+      "player": "Terrance Hill Jr"
+    },
+    {
+      "overall_pick": 80,
+      "round": 8,
+      "manager": "Josh Ehrlich",
+      "player": "Sam Lewis"
+    }
+  ],
+  "source": "sheet_sync",
+  "notes": "All 80 picks complete. Full rosters confirmed from scoring sheet."
+}

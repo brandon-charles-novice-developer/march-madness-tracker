@@ -1,0 +1,27 @@
+{
+  "name": "march-madness-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandon-charles-novice-developer/march-madness-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/brandon-charles-novice-developer/march-madness-tracker/issues"
+  },
+  "homepage": "https://github.com/brandon-charles-novice-developer/march-madness-tracker#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
