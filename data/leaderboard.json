@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T21:28:08.219859+00:00",
+  "last_updated": "2026-03-23T04:56:28.153727+00:00",
   "current_round": "R32",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,12 +19,12 @@
     {
       "rank": 1,
       "manager": "Alex Magged",
-      "total_points": 228,
-      "active_players": 8,
+      "total_points": 251,
+      "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
-        "R32": 84,
+        "R32": 107,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -128,10 +128,11 @@
           "region": "South",
           "pick": 33,
           "draft_round": 4,
-          "status": "active",
-          "total_points": 16,
+          "status": "eliminated",
+          "total_points": 23,
           "round_scores": {
-            "R64": 16
+            "R64": 16,
+            "R32": 7
           },
           "ppg_season": 11.6
         },
@@ -143,32 +144,48 @@
           "pick": 48,
           "draft_round": 5,
           "status": "active",
-          "total_points": 0,
+          "total_points": 16,
           "round_scores": {
-            "R64": 0
+            "R64": 0,
+            "R32": 16
           },
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 28.5,
-      "projected_finish": 1140,
-      "current_round_delta": 84
+      "avg_per_active": 32.6,
+      "projected_finish": 1164,
+      "current_round_delta": 107
     },
     {
       "rank": 2,
       "manager": "AJ Spile",
-      "total_points": 218,
+      "total_points": 248,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
-        "R32": 45,
+        "R32": 75,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee",
+          "seed": 6,
+          "region": "Midwest",
+          "pick": 46,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 50,
+          "round_scores": {
+            "R64": 29,
+            "R32": 21
+          },
+          "ppg_season": 18.0
+        },
         {
           "name": "Ryan Conwell",
           "team": "Louisville",
@@ -183,6 +200,21 @@
             "R32": 21
           },
           "ppg_season": 18.7
+        },
+        {
+          "name": "Labaron Philon Jr",
+          "team": "Alabama",
+          "seed": 4,
+          "region": "Midwest",
+          "pick": 15,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 38,
+          "round_scores": {
+            "R64": 29,
+            "R32": 9
+          },
+          "ppg_season": 21.7
         },
         {
           "name": "Milan Momcilovic",
@@ -212,34 +244,6 @@
             "R64": 35
           },
           "ppg_season": 25.3
-        },
-        {
-          "name": "Labaron Philon Jr",
-          "team": "Alabama",
-          "seed": 4,
-          "region": "Midwest",
-          "pick": 15,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 29,
-          "round_scores": {
-            "R64": 29
-          },
-          "ppg_season": 21.7
-        },
-        {
-          "name": "Ja'Kobi Gillespie",
-          "team": "Tennessee",
-          "seed": 6,
-          "region": "Midwest",
-          "pick": 46,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 29,
-          "round_scores": {
-            "R64": 29
-          },
-          "ppg_season": 18.0
         },
         {
           "name": "David Punch",
@@ -285,19 +289,432 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 31.7,
-      "projected_finish": 598,
-      "current_round_delta": 45
+      "avg_per_active": 41.7,
+      "projected_finish": 748,
+      "current_round_delta": 75
     },
     {
       "rank": 3,
+      "manager": "Mark Weiner",
+      "total_points": 235,
+      "active_players": 5,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 129,
+        "R32": 106,
+        "S16": 0,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Alex Karaban",
+          "team": "UConn",
+          "seed": 2,
+          "region": "East",
+          "pick": 38,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 49,
+          "round_scores": {
+            "R64": 22,
+            "R32": 27
+          },
+          "ppg_season": 12.6
+        },
+        {
+          "name": "Meleek Thomas",
+          "team": "Arkansas",
+          "seed": 4,
+          "region": "West",
+          "pick": 43,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 40,
+          "round_scores": {
+            "R64": 21,
+            "R32": 19
+          },
+          "ppg_season": 15.6
+        },
+        {
+          "name": "Malik Reneau",
+          "team": "Miami FL",
+          "seed": 7,
+          "region": "West",
+          "pick": 58,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 40,
+          "round_scores": {
+            "R64": 24,
+            "R32": 16
+          },
+          "ppg_season": 18.8
+        },
+        {
+          "name": "Aday Mara",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 18,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 35,
+          "round_scores": {
+            "R64": 19,
+            "R32": 16
+          },
+          "ppg_season": 11.6
+        },
+        {
+          "name": "Thomas Haugh",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 3,
+          "draft_round": 1,
+          "status": "eliminated",
+          "total_points": 33,
+          "round_scores": {
+            "R64": 14,
+            "R32": 19
+          },
+          "ppg_season": 17.1
+        },
+        {
+          "name": "Cayden Boozer",
+          "team": "Duke",
+          "seed": 1,
+          "region": "East",
+          "pick": 23,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 28,
+          "round_scores": {
+            "R64": 19,
+            "R32": 9
+          },
+          "ppg_season": 7.1
+        },
+        {
+          "name": "TJ Power",
+          "team": "Penn",
+          "seed": 14,
+          "region": "South",
+          "pick": 78,
+          "draft_round": 8,
+          "status": "eliminated",
+          "total_points": 6,
+          "round_scores": {
+            "R64": 6
+          },
+          "ppg_season": 15.8
+        },
+        {
+          "name": "Paulius Murauskas",
+          "team": "Saint Mary's",
+          "seed": 7,
+          "region": "South",
+          "pick": 63,
+          "draft_round": 7,
+          "status": "eliminated",
+          "total_points": 4,
+          "round_scores": {
+            "R64": 4
+          },
+          "ppg_season": 18.8
+        }
+      ],
+      "avg_per_active": 38.4,
+      "projected_finish": 1003,
+      "current_round_delta": 106
+    },
+    {
+      "rank": 4,
+      "manager": "Jake Pollack",
+      "total_points": 221,
+      "active_players": 2,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 128,
+        "R32": 93,
+        "S16": 0,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Coen Carr",
+          "team": "Michigan St",
+          "seed": 3,
+          "region": "East",
+          "pick": 71,
+          "draft_round": 8,
+          "status": "active",
+          "total_points": 38,
+          "round_scores": {
+            "R64": 17,
+            "R32": 21
+          },
+          "ppg_season": 11.6
+        },
+        {
+          "name": "Alex Condon",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 10,
+          "draft_round": 1,
+          "status": "eliminated",
+          "total_points": 34,
+          "round_scores": {
+            "R64": 13,
+            "R32": 21
+          },
+          "ppg_season": 15.0
+        },
+        {
+          "name": "Emanuel Sharp",
+          "team": "Houston",
+          "seed": 2,
+          "region": "South",
+          "pick": 11,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 34,
+          "round_scores": {
+            "R64": 16,
+            "R32": 18
+          },
+          "ppg_season": 15.3
+        },
+        {
+          "name": "Thijs De Ridder",
+          "team": "Virginia",
+          "seed": 3,
+          "region": "Midwest",
+          "pick": 30,
+          "draft_round": 3,
+          "status": "eliminated",
+          "total_points": 32,
+          "round_scores": {
+            "R64": 10,
+            "R32": 22
+          },
+          "ppg_season": 15.5
+        },
+        {
+          "name": "Nick Boyd",
+          "team": "Wisconsin",
+          "seed": 5,
+          "region": "West",
+          "pick": 31,
+          "draft_round": 4,
+          "status": "eliminated",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 27
+          },
+          "ppg_season": 20.6
+        },
+        {
+          "name": "Christian Anderson",
+          "team": "Texas Tech",
+          "seed": 5,
+          "region": "Midwest",
+          "pick": 50,
+          "draft_round": 5,
+          "status": "eliminated",
+          "total_points": 25,
+          "round_scores": {
+            "R64": 18,
+            "R32": 7
+          },
+          "ppg_season": 18.9
+        },
+        {
+          "name": "Tre White",
+          "team": "Kansas",
+          "seed": 4,
+          "region": "East",
+          "pick": 70,
+          "draft_round": 7,
+          "status": "eliminated",
+          "total_points": 16,
+          "round_scores": {
+            "R64": 12,
+            "R32": 4
+          },
+          "ppg_season": 13.8
+        },
+        {
+          "name": "Boopie Miller",
+          "team": "SMU",
+          "seed": 11,
+          "region": "Midwest",
+          "pick": 51,
+          "draft_round": 6,
+          "status": "eliminated",
+          "total_points": 15,
+          "round_scores": {
+            "R64": 15
+          },
+          "ppg_season": 19.2
+        }
+      ],
+      "avg_per_active": 36.0,
+      "projected_finish": 509,
+      "current_round_delta": 93
+    },
+    {
+      "rank": 5,
+      "manager": "Brandon Nye",
+      "total_points": 212,
+      "active_players": 4,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 131,
+        "R32": 81,
+        "S16": 0,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt",
+          "seed": 5,
+          "region": "South",
+          "pick": 29,
+          "draft_round": 3,
+          "status": "eliminated",
+          "total_points": 53,
+          "round_scores": {
+            "R64": 26,
+            "R32": 27
+          },
+          "ppg_season": 19.2
+        },
+        {
+          "name": "Keaton Wagler",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 12,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 32,
+          "round_scores": {
+            "R64": 18,
+            "R32": 14
+          },
+          "ppg_season": 17.9
+        },
+        {
+          "name": "Bryce Hopkins",
+          "team": "St Johns",
+          "seed": 5,
+          "region": "East",
+          "pick": 52,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 31,
+          "round_scores": {
+            "R64": 13,
+            "R32": 18
+          },
+          "ppg_season": 13.5
+        },
+        {
+          "name": "Bennett Stirtz",
+          "team": "Iowa",
+          "seed": 9,
+          "region": "South",
+          "pick": 69,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 29,
+          "round_scores": {
+            "R64": 16,
+            "R32": 13
+          },
+          "ppg_season": 20.0
+        },
+        {
+          "name": "Kingston Flemings",
+          "team": "Houston",
+          "seed": 2,
+          "region": "South",
+          "pick": 9,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 18,
+            "R32": 9
+          },
+          "ppg_season": 16.4
+        },
+        {
+          "name": "John Blackwell",
+          "team": "Wisconsin",
+          "seed": 5,
+          "region": "West",
+          "pick": 32,
+          "draft_round": 4,
+          "status": "eliminated",
+          "total_points": 22,
+          "round_scores": {
+            "R64": 22
+          },
+          "ppg_season": 19.0
+        },
+        {
+          "name": "Robert Wright III",
+          "team": "BYU",
+          "seed": 6,
+          "region": "West",
+          "pick": 72,
+          "draft_round": 8,
+          "status": "eliminated",
+          "total_points": 14,
+          "round_scores": {
+            "R64": 14
+          },
+          "ppg_season": 18.2
+        },
+        {
+          "name": "Tavari Johnson",
+          "team": "Akron",
+          "seed": 12,
+          "region": "Midwest",
+          "pick": 49,
+          "draft_round": 5,
+          "status": "eliminated",
+          "total_points": 4,
+          "round_scores": {
+            "R64": 4
+          },
+          "ppg_season": 20.1
+        }
+      ],
+      "avg_per_active": 29.8,
+      "projected_finish": 689,
+      "current_round_delta": 81
+    },
+    {
+      "rank": 6,
       "manager": "Jordan Mackler",
-      "total_points": 190,
+      "total_points": 199,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
-        "R32": 85,
+        "R32": 94,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -350,6 +767,21 @@
           "ppg_season": 17.8
         },
         {
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 45,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 23,
+          "round_scores": {
+            "R64": 14,
+            "R32": 9
+          },
+          "ppg_season": 10.1
+        },
+        {
           "name": "Jeremy Fears Jr",
           "team": "Michigan St",
           "seed": 3,
@@ -363,20 +795,6 @@
             "R32": 12
           },
           "ppg_season": 15.7
-        },
-        {
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 45,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 14,
-          "round_scores": {
-            "R64": 14
-          },
-          "ppg_season": 10.1
         },
         {
           "name": "Patrick Ngongba II",
@@ -419,19 +837,19 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 19.6,
-      "projected_finish": 739,
-      "current_round_delta": 85
+      "avg_per_active": 20.9,
+      "projected_finish": 784,
+      "current_round_delta": 94
     },
     {
-      "rank": 4,
-      "manager": "Mark Weiner",
-      "total_points": 189,
-      "active_players": 6,
+      "rank": 7,
+      "manager": "Mike Haughey",
+      "total_points": 199,
+      "active_players": 5,
       "total_players": 8,
       "round_totals": {
-        "R64": 129,
-        "R32": 60,
+        "R64": 94,
+        "R32": 105,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -439,405 +857,278 @@
       },
       "players": [
         {
-          "name": "Meleek Thomas",
-          "team": "Arkansas",
-          "seed": 4,
-          "region": "West",
-          "pick": 43,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 40,
-          "round_scores": {
-            "R64": 21,
-            "R32": 19
-          },
-          "ppg_season": 15.6
-        },
-        {
-          "name": "Malik Reneau",
-          "team": "Miami FL",
-          "seed": 7,
-          "region": "West",
-          "pick": 58,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 40,
-          "round_scores": {
-            "R64": 24,
-            "R32": 16
-          },
-          "ppg_season": 18.8
-        },
-        {
-          "name": "Aday Mara",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 18,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 35,
-          "round_scores": {
-            "R64": 19,
-            "R32": 16
-          },
-          "ppg_season": 11.6
-        },
-        {
-          "name": "Cayden Boozer",
-          "team": "Duke",
-          "seed": 1,
-          "region": "East",
-          "pick": 23,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 28,
-          "round_scores": {
-            "R64": 19,
-            "R32": 9
-          },
-          "ppg_season": 7.1
-        },
-        {
-          "name": "Alex Karaban",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 38,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 22,
-          "round_scores": {
-            "R64": 22
-          },
-          "ppg_season": 12.6
-        },
-        {
-          "name": "Thomas Haugh",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 3,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 14,
-          "round_scores": {
-            "R64": 14
-          },
-          "ppg_season": 17.1
-        },
-        {
-          "name": "TJ Power",
-          "team": "Penn",
-          "seed": 14,
-          "region": "South",
-          "pick": 78,
-          "draft_round": 8,
-          "status": "eliminated",
-          "total_points": 6,
-          "round_scores": {
-            "R64": 6
-          },
-          "ppg_season": 15.8
-        },
-        {
-          "name": "Paulius Murauskas",
-          "team": "Saint Mary's",
-          "seed": 7,
-          "region": "South",
-          "pick": 63,
-          "draft_round": 7,
-          "status": "eliminated",
-          "total_points": 4,
-          "round_scores": {
-            "R64": 4
-          },
-          "ppg_season": 18.8
-        }
-      ],
-      "avg_per_active": 29.8,
-      "projected_finish": 904,
-      "current_round_delta": 60
-    },
-    {
-      "rank": 5,
-      "manager": "Brandon Nye",
-      "total_points": 184,
-      "active_players": 4,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 131,
-        "R32": 53,
-        "S16": 0,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Tyler Tanner",
-          "team": "Vanderbilt",
-          "seed": 5,
-          "region": "South",
-          "pick": 29,
-          "draft_round": 3,
-          "status": "eliminated",
-          "total_points": 53,
-          "round_scores": {
-            "R64": 26,
-            "R32": 27
-          },
-          "ppg_season": 19.2
-        },
-        {
-          "name": "Keaton Wagler",
-          "team": "Illinois",
+          "name": "Graham Ike",
+          "team": "Gonzaga",
           "seed": 3,
-          "region": "South",
-          "pick": 12,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 32,
-          "round_scores": {
-            "R64": 18,
-            "R32": 14
-          },
-          "ppg_season": 17.9
-        },
-        {
-          "name": "Kingston Flemings",
-          "team": "Houston",
-          "seed": 2,
-          "region": "South",
-          "pick": 9,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 18,
-            "R32": 9
-          },
-          "ppg_season": 16.4
-        },
-        {
-          "name": "John Blackwell",
-          "team": "Wisconsin",
-          "seed": 5,
           "region": "West",
-          "pick": 32,
-          "draft_round": 4,
+          "pick": 7,
+          "draft_round": 1,
           "status": "eliminated",
-          "total_points": 22,
+          "total_points": 44,
           "round_scores": {
-            "R64": 22
+            "R64": 19,
+            "R32": 25
           },
-          "ppg_season": 19.0
+          "ppg_season": 19.7
         },
         {
-          "name": "Bryce Hopkins",
+          "name": "Zuby Ejiofor",
           "team": "St Johns",
           "seed": 5,
           "region": "East",
-          "pick": 52,
+          "pick": 27,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 32,
+          "round_scores": {
+            "R64": 14,
+            "R32": 18
+          },
+          "ppg_season": 16.3
+        },
+        {
+          "name": "Koa Peat",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 14,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 29,
+          "round_scores": {
+            "R64": 15,
+            "R32": 14
+          },
+          "ppg_season": 13.6
+        },
+        {
+          "name": "Xaivian Lee",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 34,
+          "draft_round": 4,
+          "status": "eliminated",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 10,
+            "R32": 17
+          },
+          "ppg_season": 11.5
+        },
+        {
+          "name": "Motiejus Krivas",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 54,
           "draft_round": 6,
           "status": "active",
+          "total_points": 20,
+          "round_scores": {
+            "R64": 9,
+            "R32": 11
+          },
+          "ppg_season": 10.5
+        },
+        {
+          "name": "Elliot Cadeau",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 47,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 17,
+          "round_scores": {
+            "R64": 5,
+            "R32": 12
+          },
+          "ppg_season": 10.2
+        },
+        {
+          "name": "Urban Klavzar",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 74,
+          "draft_round": 8,
+          "status": "eliminated",
           "total_points": 16,
           "round_scores": {
-            "R64": 13,
+            "R64": 11,
+            "R32": 5
+          },
+          "ppg_season": 9.7
+        },
+        {
+          "name": "Oziyah Sellers",
+          "team": "St Johns",
+          "seed": 5,
+          "region": "East",
+          "pick": 67,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 14,
+          "round_scores": {
+            "R64": 11,
             "R32": 3
+          },
+          "ppg_season": 10.7
+        }
+      ],
+      "avg_per_active": 22.4,
+      "projected_finish": 647,
+      "current_round_delta": 105
+    },
+    {
+      "rank": 8,
+      "manager": "Schaf Chulay",
+      "total_points": 197,
+      "active_players": 4,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 95,
+        "R32": 102,
+        "S16": 0,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Darryn Peterson",
+          "team": "Kansas",
+          "seed": 4,
+          "region": "East",
+          "pick": 24,
+          "draft_round": 3,
+          "status": "eliminated",
+          "total_points": 49,
+          "round_scores": {
+            "R64": 28,
+            "R32": 21
+          },
+          "ppg_season": 19.8
+        },
+        {
+          "name": "Brayden Burries",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 4,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 34,
+          "round_scores": {
+            "R64": 18,
+            "R32": 16
+          },
+          "ppg_season": 15.9
+        },
+        {
+          "name": "Tamin Lipsey",
+          "team": "Iowa State",
+          "seed": 2,
+          "region": "Midwest",
+          "pick": 37,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 29,
+          "round_scores": {
+            "R64": 3,
+            "R32": 26
+          },
+          "ppg_season": 13.3
+        },
+        {
+          "name": "Milos Uzan",
+          "team": "Houston",
+          "seed": 2,
+          "region": "South",
+          "pick": 44,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 12,
+            "R32": 15
+          },
+          "ppg_season": 11.1
+        },
+        {
+          "name": "Malik Thomas",
+          "team": "Virginia",
+          "seed": 3,
+          "region": "Midwest",
+          "pick": 57,
+          "draft_round": 6,
+          "status": "eliminated",
+          "total_points": 23,
+          "round_scores": {
+            "R64": 11,
+            "R32": 12
+          },
+          "ppg_season": 12.4
+        },
+        {
+          "name": "Flory Bidunga",
+          "team": "Kansas",
+          "seed": 4,
+          "region": "East",
+          "pick": 77,
+          "draft_round": 8,
+          "status": "eliminated",
+          "total_points": 18,
+          "round_scores": {
+            "R64": 6,
+            "R32": 12
           },
           "ppg_season": 13.5
         },
         {
-          "name": "Bennett Stirtz",
-          "team": "Iowa",
-          "seed": 9,
-          "region": "South",
-          "pick": 69,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 16,
-          "round_scores": {
-            "R64": 16
-          },
-          "ppg_season": 20.0
-        },
-        {
-          "name": "Robert Wright III",
-          "team": "BYU",
-          "seed": 6,
-          "region": "West",
-          "pick": 72,
-          "draft_round": 8,
-          "status": "eliminated",
-          "total_points": 14,
-          "round_scores": {
-            "R64": 14
-          },
-          "ppg_season": 18.2
-        },
-        {
-          "name": "Tavari Johnson",
-          "team": "Akron",
-          "seed": 12,
-          "region": "Midwest",
-          "pick": 49,
-          "draft_round": 5,
-          "status": "eliminated",
-          "total_points": 4,
-          "round_scores": {
-            "R64": 4
-          },
-          "ppg_season": 20.1
-        }
-      ],
-      "avg_per_active": 22.8,
-      "projected_finish": 549,
-      "current_round_delta": 53
-    },
-    {
-      "rank": 6,
-      "manager": "Jake Pollack",
-      "total_points": 167,
-      "active_players": 6,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 128,
-        "R32": 39,
-        "S16": 0,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Coen Carr",
-          "team": "Michigan St",
-          "seed": 3,
-          "region": "East",
-          "pick": 71,
-          "draft_round": 8,
-          "status": "active",
-          "total_points": 38,
-          "round_scores": {
-            "R64": 17,
-            "R32": 21
-          },
-          "ppg_season": 11.6
-        },
-        {
-          "name": "Emanuel Sharp",
-          "team": "Houston",
+          "name": "Solo Ball",
+          "team": "UConn",
           "seed": 2,
-          "region": "South",
-          "pick": 11,
+          "region": "East",
+          "pick": 17,
           "draft_round": 2,
           "status": "active",
-          "total_points": 34,
+          "total_points": 9,
           "round_scores": {
-            "R64": 16,
-            "R32": 18
+            "R64": 9,
+            "R32": 0
           },
-          "ppg_season": 15.3
+          "ppg_season": 13.5
         },
         {
-          "name": "Nick Boyd",
+          "name": "Nolan Winter",
           "team": "Wisconsin",
           "seed": 5,
           "region": "West",
-          "pick": 31,
-          "draft_round": 4,
-          "status": "eliminated",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 27
-          },
-          "ppg_season": 20.6
-        },
-        {
-          "name": "Christian Anderson",
-          "team": "Texas Tech",
-          "seed": 5,
-          "region": "Midwest",
-          "pick": 50,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 18,
-          "round_scores": {
-            "R64": 18
-          },
-          "ppg_season": 18.9
-        },
-        {
-          "name": "Boopie Miller",
-          "team": "SMU",
-          "seed": 11,
-          "region": "Midwest",
-          "pick": 51,
-          "draft_round": 6,
-          "status": "eliminated",
-          "total_points": 15,
-          "round_scores": {
-            "R64": 15
-          },
-          "ppg_season": 19.2
-        },
-        {
-          "name": "Alex Condon",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 10,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 13,
-          "round_scores": {
-            "R64": 13
-          },
-          "ppg_season": 15.0
-        },
-        {
-          "name": "Tre White",
-          "team": "Kansas",
-          "seed": 4,
-          "region": "East",
-          "pick": 70,
+          "pick": 64,
           "draft_round": 7,
-          "status": "active",
-          "total_points": 12,
+          "status": "eliminated",
+          "total_points": 8,
           "round_scores": {
-            "R64": 12
+            "R64": 8
           },
-          "ppg_season": 13.8
-        },
-        {
-          "name": "Thijs De Ridder",
-          "team": "Virginia",
-          "seed": 3,
-          "region": "Midwest",
-          "pick": 30,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 10,
-          "round_scores": {
-            "R64": 10
-          },
-          "ppg_season": 15.5
+          "ppg_season": 13.3
         }
       ],
-      "avg_per_active": 20.8,
-      "projected_finish": 666,
-      "current_round_delta": 39
+      "avg_per_active": 24.8,
+      "projected_finish": 594,
+      "current_round_delta": 102
     },
     {
-      "rank": 7,
+      "rank": 9,
       "manager": "Josh Ehrlich",
-      "total_points": 162,
-      "active_players": 8,
+      "total_points": 185,
+      "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 66,
+        "R32": 89,
         "S16": 0,
         "E8": 0,
         "F4": 0,
@@ -905,18 +1196,19 @@
           "ppg_season": 13.1
         },
         {
-          "name": "Rueben Chinyelu",
-          "team": "Florida",
+          "name": "Jaden Bradley",
+          "team": "Arizona",
           "seed": 1,
-          "region": "South",
-          "pick": 41,
-          "draft_round": 5,
+          "region": "West",
+          "pick": 20,
+          "draft_round": 2,
           "status": "active",
-          "total_points": 14,
+          "total_points": 25,
           "round_scores": {
-            "R64": 14
+            "R64": 7,
+            "R32": 18
           },
-          "ppg_season": 11.2
+          "ppg_season": 13.3
         },
         {
           "name": "Sam Lewis",
@@ -925,26 +1217,28 @@
           "region": "Midwest",
           "pick": 80,
           "draft_round": 8,
-          "status": "active",
-          "total_points": 12,
+          "status": "eliminated",
+          "total_points": 17,
           "round_scores": {
-            "R64": 12
+            "R64": 12,
+            "R32": 5
           },
           "ppg_season": 10.8
         },
         {
-          "name": "Jaden Bradley",
-          "team": "Arizona",
+          "name": "Rueben Chinyelu",
+          "team": "Florida",
           "seed": 1,
-          "region": "West",
-          "pick": 20,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 7,
+          "region": "South",
+          "pick": 41,
+          "draft_round": 5,
+          "status": "eliminated",
+          "total_points": 14,
           "round_scores": {
-            "R64": 7
+            "R64": 14,
+            "R32": 0
           },
-          "ppg_season": 13.3
+          "ppg_season": 11.2
         },
         {
           "name": "Tyler Bilodeau",
@@ -953,33 +1247,49 @@
           "region": "East",
           "pick": 61,
           "draft_round": 7,
-          "status": "active",
+          "status": "eliminated",
           "total_points": 0,
           "round_scores": {
-            "R64": 0
+            "R64": 0,
+            "R32": 0
           },
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 20.2,
-      "projected_finish": 808,
-      "current_round_delta": 66
+      "avg_per_active": 30.8,
+      "projected_finish": 801,
+      "current_round_delta": 89
     },
     {
-      "rank": 8,
+      "rank": 10,
       "manager": "Nick Reskin",
-      "total_points": 139,
+      "total_points": 149,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
-        "R32": 43,
+        "R32": 53,
         "S16": 0,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Tarris Reed Jr",
+          "team": "UConn",
+          "seed": 2,
+          "region": "East",
+          "pick": 19,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 41,
+          "round_scores": {
+            "R64": 31,
+            "R32": 10
+          },
+          "ppg_season": 13.7
+        },
         {
           "name": "Fletcher Loyer",
           "team": "Purdue",
@@ -994,20 +1304,6 @@
             "R32": 24
           },
           "ppg_season": 13.8
-        },
-        {
-          "name": "Tarris Reed Jr",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 19,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 31,
-          "round_scores": {
-            "R64": 31
-          },
-          "ppg_season": 13.7
         },
         {
           "name": "Amani Lyles",
@@ -1090,277 +1386,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 22.8,
-      "projected_finish": 504,
-      "current_round_delta": 43
-    },
-    {
-      "rank": 9,
-      "manager": "Schaf Chulay",
-      "total_points": 136,
-      "active_players": 7,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 95,
-        "R32": 41,
-        "S16": 0,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Tamin Lipsey",
-          "team": "Iowa State",
-          "seed": 2,
-          "region": "Midwest",
-          "pick": 37,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 29,
-          "round_scores": {
-            "R64": 3,
-            "R32": 26
-          },
-          "ppg_season": 13.3
-        },
-        {
-          "name": "Darryn Peterson",
-          "team": "Kansas",
-          "seed": 4,
-          "region": "East",
-          "pick": 24,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 28,
-          "round_scores": {
-            "R64": 28
-          },
-          "ppg_season": 19.8
-        },
-        {
-          "name": "Milos Uzan",
-          "team": "Houston",
-          "seed": 2,
-          "region": "South",
-          "pick": 44,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 12,
-            "R32": 15
-          },
-          "ppg_season": 11.1
-        },
-        {
-          "name": "Brayden Burries",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 4,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 18,
-          "round_scores": {
-            "R64": 18
-          },
-          "ppg_season": 15.9
-        },
-        {
-          "name": "Malik Thomas",
-          "team": "Virginia",
-          "seed": 3,
-          "region": "Midwest",
-          "pick": 57,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 11,
-          "round_scores": {
-            "R64": 11
-          },
-          "ppg_season": 12.4
-        },
-        {
-          "name": "Solo Ball",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 17,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 9,
-          "round_scores": {
-            "R64": 9
-          },
-          "ppg_season": 13.5
-        },
-        {
-          "name": "Nolan Winter",
-          "team": "Wisconsin",
-          "seed": 5,
-          "region": "West",
-          "pick": 64,
-          "draft_round": 7,
-          "status": "eliminated",
-          "total_points": 8,
-          "round_scores": {
-            "R64": 8
-          },
-          "ppg_season": 13.3
-        },
-        {
-          "name": "Flory Bidunga",
-          "team": "Kansas",
-          "seed": 4,
-          "region": "East",
-          "pick": 77,
-          "draft_round": 8,
-          "status": "active",
-          "total_points": 6,
-          "round_scores": {
-            "R64": 6
-          },
-          "ppg_season": 13.5
-        }
-      ],
-      "avg_per_active": 18.3,
-      "projected_finish": 648,
-      "current_round_delta": 41
-    },
-    {
-      "rank": 10,
-      "manager": "Mike Haughey",
-      "total_points": 131,
-      "active_players": 7,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 94,
-        "R32": 37,
-        "S16": 0,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Graham Ike",
-          "team": "Gonzaga",
-          "seed": 3,
-          "region": "West",
-          "pick": 7,
-          "draft_round": 1,
-          "status": "eliminated",
-          "total_points": 44,
-          "round_scores": {
-            "R64": 19,
-            "R32": 25
-          },
-          "ppg_season": 19.7
-        },
-        {
-          "name": "Elliot Cadeau",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 47,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 17,
-          "round_scores": {
-            "R64": 5,
-            "R32": 12
-          },
-          "ppg_season": 10.2
-        },
-        {
-          "name": "Koa Peat",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 14,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 15,
-          "round_scores": {
-            "R64": 15
-          },
-          "ppg_season": 13.6
-        },
-        {
-          "name": "Zuby Ejiofor",
-          "team": "St Johns",
-          "seed": 5,
-          "region": "East",
-          "pick": 27,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 14,
-          "round_scores": {
-            "R64": 14
-          },
-          "ppg_season": 16.3
-        },
-        {
-          "name": "Oziyah Sellers",
-          "team": "St Johns",
-          "seed": 5,
-          "region": "East",
-          "pick": 67,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 11,
-          "round_scores": {
-            "R64": 11
-          },
-          "ppg_season": 10.7
-        },
-        {
-          "name": "Urban Klavzar",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 74,
-          "draft_round": 8,
-          "status": "active",
-          "total_points": 11,
-          "round_scores": {
-            "R64": 11
-          },
-          "ppg_season": 9.7
-        },
-        {
-          "name": "Xaivian Lee",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 34,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 10,
-          "round_scores": {
-            "R64": 10
-          },
-          "ppg_season": 11.5
-        },
-        {
-          "name": "Motiejus Krivas",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 54,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 9,
-          "round_scores": {
-            "R64": 9
-          },
-          "ppg_season": 10.5
-        }
-      ],
-      "avg_per_active": 12.4,
-      "projected_finish": 478,
-      "current_round_delta": 37
+      "avg_per_active": 25.2,
+      "projected_finish": 552,
+      "current_round_delta": 53
     }
   ]
 }

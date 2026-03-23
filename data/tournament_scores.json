@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T21:28:08.208326+00:00",
+  "last_updated": "2026-03-23T04:56:28.106259+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -161,7 +161,8 @@
       "R32": 18
     },
     "Christian Anderson": {
-      "R64": 18
+      "R64": 18,
+      "R32": 7
     },
     "Tavari Johnson": {
       "R64": 4
@@ -170,28 +171,36 @@
       "R64": 26
     },
     "Jaden Bradley": {
-      "R64": 7
+      "R64": 7,
+      "R32": 18
     },
     "Brayden Burries": {
-      "R64": 18
+      "R64": 18,
+      "R32": 16
     },
     "Ivan Kharchenkov": {
-      "R64": 14
+      "R64": 14,
+      "R32": 9
     },
     "Motiejus Krivas": {
-      "R64": 9
+      "R64": 9,
+      "R32": 11
     },
     "Koa Peat": {
-      "R64": 15
+      "R64": 15,
+      "R32": 14
     },
     "Thijs De Ridder": {
-      "R64": 10
+      "R64": 10,
+      "R32": 22
     },
     "Sam Lewis": {
-      "R64": 12
+      "R64": 12,
+      "R32": 5
     },
     "Malik Thomas": {
-      "R64": 11
+      "R64": 11,
+      "R32": 12
     },
     "Joshua Jefferson": {
       "R64": 2
@@ -205,29 +214,36 @@
       "R32": 20
     },
     "Labaron Philon Jr": {
-      "R64": 29
+      "R64": 29,
+      "R32": 9
     },
     "Nate Ament": {
-      "R64": 0
+      "R64": 0,
+      "R32": 16
     },
     "Ja'Kobi Gillespie": {
-      "R64": 29
+      "R64": 29,
+      "R32": 21
     },
     "Bennett Stirtz": {
-      "R64": 16
+      "R64": 16,
+      "R32": 13
     },
     "Zuby Ejiofor": {
-      "R64": 14
+      "R64": 14,
+      "R32": 18
     },
     "Bryce Hopkins": {
       "R64": 13,
-      "R32": 3
+      "R32": 18
     },
     "Oziyah Sellers": {
-      "R64": 11
+      "R64": 11,
+      "R32": 3
     },
     "Tyler Bilodeau": {
-      "R64": 0
+      "R64": 0,
+      "R32": 0
     },
     "Trey Kaufman-Renn": {
       "R64": 25,
@@ -242,31 +258,40 @@
       "R32": 12
     },
     "Rueben Chinyelu": {
-      "R64": 14
+      "R64": 14,
+      "R32": 0
     },
     "Alex Condon": {
-      "R64": 13
+      "R64": 13,
+      "R32": 21
     },
     "Boogie Fland": {
-      "R64": 16
+      "R64": 16,
+      "R32": 7
     },
     "Thomas Haugh": {
-      "R64": 14
+      "R64": 14,
+      "R32": 19
     },
     "Urban Klavzar": {
-      "R64": 11
+      "R64": 11,
+      "R32": 5
     },
     "Xaivian Lee": {
-      "R64": 10
+      "R64": 10,
+      "R32": 17
     },
     "Flory Bidunga": {
-      "R64": 6
+      "R64": 6,
+      "R32": 12
     },
     "Darryn Peterson": {
-      "R64": 28
+      "R64": 28,
+      "R32": 21
     },
     "Tre White": {
-      "R64": 12
+      "R64": 12,
+      "R32": 4
     },
     "Malik Reneau": {
       "R64": 24,
@@ -276,13 +301,16 @@
       "R64": 19
     },
     "Solo Ball": {
-      "R64": 9
+      "R64": 9,
+      "R32": 0
     },
     "Alex Karaban": {
-      "R64": 22
+      "R64": 22,
+      "R32": 27
     },
     "Tarris Reed Jr": {
-      "R64": 31
+      "R64": 31,
+      "R32": 10
     },
     "Patrick Ngongba II": {
       "R32": 4
@@ -293,6 +321,7 @@
     "BYU",
     "California Baptist",
     "Clemson",
+    "Florida",
     "Furman",
     "Georgia",
     "Gonzaga",
@@ -301,6 +330,7 @@
     "Hofstra",
     "Howard",
     "Idaho",
+    "Kansas",
     "Kennesaw St.",
     "Kentucky",
     "LIU",
@@ -326,13 +356,17 @@
     "TCU",
     "Tennessee St.",
     "Texas A&M",
+    "Texas Tech",
     "Troy",
     "UCF",
+    "UCLA",
     "UMBC",
     "UNI",
+    "Utah St.",
     "VCU",
     "Vanderbilt",
     "Villanova",
+    "Virginia",
     "Wisconsin",
     "Wright St."
   ],
@@ -382,9 +416,13 @@
     "6534633",
     "6534637",
     "6534639",
-    "6534643"
+    "6534643",
+    "6534629",
+    "6534642",
+    "6534632",
+    "6534636",
+    "6534631",
+    "6534641"
   ],
-  "live_scores": {
-    "6534629:Bryce Hopkins": 3
-  }
+  "live_scores": {}
 }

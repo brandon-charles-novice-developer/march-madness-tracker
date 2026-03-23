@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T21:28:08.230409+00:00",
+  "last_updated": "2026-03-23T04:56:28.249659+00:00",
   "games": [
     {
       "game_id": "6534643",
@@ -54,6 +54,118 @@
           "ft": "0/0",
           "rebounds": 1,
           "assists": 0
+        }
+      ]
+    },
+    {
+      "game_id": "6534642",
+      "round": "R32",
+      "date": "2026-03-22",
+      "status": "final",
+      "away": {
+        "name": "Tennessee",
+        "seed": 6,
+        "score": 79,
+        "winner": true
+      },
+      "home": {
+        "name": "Virginia",
+        "seed": 3,
+        "score": 72,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Thijs De Ridder",
+          "team": "Virginia",
+          "manager": "Jake Pollack",
+          "points": 22,
+          "minutes": "31",
+          "fg": "8/14",
+          "three": "4/6",
+          "ft": "2/4",
+          "rebounds": 5,
+          "assists": 2
+        },
+        {
+          "name": "Sam Lewis",
+          "team": "Virginia",
+          "manager": "Josh Ehrlich",
+          "points": 5,
+          "minutes": "22",
+          "fg": "2/9",
+          "three": "1/5",
+          "ft": "0/0",
+          "rebounds": 2,
+          "assists": 0
+        },
+        {
+          "name": "Malik Thomas",
+          "team": "Virginia",
+          "manager": "Schaf Chulay",
+          "points": 12,
+          "minutes": "14",
+          "fg": "4/10",
+          "three": "3/7",
+          "ft": "1/2",
+          "rebounds": 1,
+          "assists": 1
+        },
+        {
+          "name": "Nate Ament",
+          "team": "Tennessee",
+          "manager": "Alex Magged",
+          "points": 16,
+          "minutes": "29",
+          "fg": "4/11",
+          "three": "1/3",
+          "ft": "7/8",
+          "rebounds": 4,
+          "assists": 0
+        },
+        {
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee",
+          "manager": "AJ Spile",
+          "points": 21,
+          "minutes": "38",
+          "fg": "6/14",
+          "three": "3/5",
+          "ft": "6/6",
+          "rebounds": 3,
+          "assists": 6
+        }
+      ]
+    },
+    {
+      "game_id": "6534641",
+      "round": "R32",
+      "date": "2026-03-22",
+      "status": "final",
+      "away": {
+        "name": "Texas Tech",
+        "seed": 5,
+        "score": 65,
+        "winner": false
+      },
+      "home": {
+        "name": "Alabama",
+        "seed": 4,
+        "score": 90,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Christian Anderson",
+          "team": "Texas Tech",
+          "manager": "Jake Pollack",
+          "points": 7,
+          "minutes": "36",
+          "fg": "2/11",
+          "three": "1/7",
+          "ft": "2/2",
+          "rebounds": 1,
+          "assists": 3
         }
       ]
     },
@@ -122,6 +234,246 @@
           "ft": "2/2",
           "rebounds": 1,
           "assists": 3
+        }
+      ]
+    },
+    {
+      "game_id": "6534636",
+      "round": "R32",
+      "date": "2026-03-22",
+      "status": "final",
+      "away": {
+        "name": "Utah St.",
+        "seed": 9,
+        "score": 66,
+        "winner": false
+      },
+      "home": {
+        "name": "Arizona",
+        "seed": 1,
+        "score": 78,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Jaden Bradley",
+          "team": "Arizona",
+          "manager": "Josh Ehrlich",
+          "points": 18,
+          "minutes": "38",
+          "fg": "6/16",
+          "three": "1/4",
+          "ft": "5/7",
+          "rebounds": 1,
+          "assists": 0
+        },
+        {
+          "name": "Brayden Burries",
+          "team": "Arizona",
+          "manager": "Schaf Chulay",
+          "points": 16,
+          "minutes": "25",
+          "fg": "5/7",
+          "three": "3/3",
+          "ft": "3/5",
+          "rebounds": 9,
+          "assists": 2
+        },
+        {
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona",
+          "manager": "Jordan Mackler",
+          "points": 9,
+          "minutes": "36",
+          "fg": "3/11",
+          "three": "1/4",
+          "ft": "2/2",
+          "rebounds": 5,
+          "assists": 2
+        },
+        {
+          "name": "Motiejus Krivas",
+          "team": "Arizona",
+          "manager": "Mike Haughey",
+          "points": 11,
+          "minutes": "32",
+          "fg": "2/7",
+          "three": "0/1",
+          "ft": "7/8",
+          "rebounds": 14,
+          "assists": 2
+        },
+        {
+          "name": "Koa Peat",
+          "team": "Arizona",
+          "manager": "Mike Haughey",
+          "points": 14,
+          "minutes": "32",
+          "fg": "4/7",
+          "three": "0/0",
+          "ft": "6/9",
+          "rebounds": 10,
+          "assists": 1
+        }
+      ]
+    },
+    {
+      "game_id": "6534632",
+      "round": "R32",
+      "date": "2026-03-22",
+      "status": "final",
+      "away": {
+        "name": "Iowa",
+        "seed": 9,
+        "score": 73,
+        "winner": true
+      },
+      "home": {
+        "name": "Florida",
+        "seed": 1,
+        "score": 72,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Rueben Chinyelu",
+          "team": "Florida",
+          "manager": "Josh Ehrlich",
+          "points": 0,
+          "minutes": "18",
+          "fg": "0/1",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 1,
+          "assists": 0
+        },
+        {
+          "name": "Alex Condon",
+          "team": "Florida",
+          "manager": "Jake Pollack",
+          "points": 21,
+          "minutes": "34",
+          "fg": "8/13",
+          "three": "0/0",
+          "ft": "5/9",
+          "rebounds": 5,
+          "assists": 7
+        },
+        {
+          "name": "Boogie Fland",
+          "team": "Florida",
+          "manager": "Alex Magged",
+          "points": 7,
+          "minutes": "35",
+          "fg": "3/6",
+          "three": "0/3",
+          "ft": "1/2",
+          "rebounds": 2,
+          "assists": 4
+        },
+        {
+          "name": "Thomas Haugh",
+          "team": "Florida",
+          "manager": "Mark Weiner",
+          "points": 19,
+          "minutes": "39",
+          "fg": "3/11",
+          "three": "2/8",
+          "ft": "11/12",
+          "rebounds": 6,
+          "assists": 2
+        },
+        {
+          "name": "Urban Klavzar",
+          "team": "Florida",
+          "manager": "Mike Haughey",
+          "points": 5,
+          "minutes": "19",
+          "fg": "1/2",
+          "three": "1/2",
+          "ft": "2/2",
+          "rebounds": 1,
+          "assists": 2
+        },
+        {
+          "name": "Xaivian Lee",
+          "team": "Florida",
+          "manager": "Mike Haughey",
+          "points": 17,
+          "minutes": "29",
+          "fg": "7/11",
+          "three": "3/6",
+          "ft": "0/0",
+          "rebounds": 3,
+          "assists": 3
+        },
+        {
+          "name": "Bennett Stirtz",
+          "team": "Iowa",
+          "manager": "Brandon Nye",
+          "points": 13,
+          "minutes": "39",
+          "fg": "5/16",
+          "three": "0/9",
+          "ft": "3/4",
+          "rebounds": 5,
+          "assists": 5
+        }
+      ]
+    },
+    {
+      "game_id": "6534631",
+      "round": "R32",
+      "date": "2026-03-22",
+      "status": "final",
+      "away": {
+        "name": "UCLA",
+        "seed": 7,
+        "score": 57,
+        "winner": false
+      },
+      "home": {
+        "name": "UConn",
+        "seed": 2,
+        "score": 73,
+        "winner": true
+      },
+      "drafted_players": [
+        {
+          "name": "Solo Ball",
+          "team": "UConn",
+          "manager": "Schaf Chulay",
+          "points": 0,
+          "minutes": "13",
+          "fg": "0/5",
+          "three": "0/5",
+          "ft": "0/0",
+          "rebounds": 2,
+          "assists": 1
+        },
+        {
+          "name": "Alex Karaban",
+          "team": "UConn",
+          "manager": "Mark Weiner",
+          "points": 27,
+          "minutes": "36",
+          "fg": "9/16",
+          "three": "4/8",
+          "ft": "5/5",
+          "rebounds": 5,
+          "assists": 1
+        },
+        {
+          "name": "Tyler Bilodeau",
+          "team": "UCLA",
+          "manager": "Josh Ehrlich",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
         }
       ]
     },
