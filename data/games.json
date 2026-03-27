@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-03-27T23:49:23.981620+00:00",
+  "last_updated": "2026-03-27T23:54:28.481281+00:00",
   "games": [
+    {
+      "game_id": "6534650",
+      "round": "S16",
+      "date": "2026-03-27",
+      "status": "live",
+      "away": {
+        "name": "Alabama",
+        "seed": 4,
+        "score": 0,
+        "winner": false
+      },
+      "home": {
+        "name": "Michigan",
+        "seed": 1,
+        "score": 0,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Elliot Cadeau",
+          "team": "Michigan",
+          "manager": "Mike Haughey",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan",
+          "manager": "Josh Ehrlich",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Aday Mara",
+          "team": "Michigan",
+          "manager": "Mark Weiner",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/1",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 1,
+          "assists": 0
+        }
+      ]
+    },
     {
       "game_id": "6534644",
       "round": "S16",
