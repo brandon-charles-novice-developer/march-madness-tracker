@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:24:06.442956+00:00",
+  "last_updated": "2026-03-27T23:29:11.046500+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,13 +19,13 @@
     {
       "rank": 1,
       "manager": "Alex Magged",
-      "total_points": 253,
+      "total_points": 255,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
         "R32": 107,
-        "S16": 2,
+        "S16": 4,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -62,6 +62,22 @@
           "ppg_season": 17.8
         },
         {
+          "name": "Isaiah Evans",
+          "team": "Duke",
+          "seed": 1,
+          "region": "East",
+          "pick": 8,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 37,
+          "round_scores": {
+            "R64": 16,
+            "R32": 17,
+            "S16": 4
+          },
+          "ppg_season": 14.9
+        },
+        {
           "name": "Morez Johnson Jr",
           "team": "Michigan",
           "seed": 1,
@@ -90,22 +106,6 @@
             "R32": 7
           },
           "ppg_season": 13.4
-        },
-        {
-          "name": "Isaiah Evans",
-          "team": "Duke",
-          "seed": 1,
-          "region": "East",
-          "pick": 8,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 35,
-          "round_scores": {
-            "R64": 16,
-            "R32": 17,
-            "S16": 2
-          },
-          "ppg_season": 14.9
         },
         {
           "name": "Billy Richmond III",
@@ -153,9 +153,9 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 32.9,
-      "projected_finish": 944,
-      "current_round_delta": 2
+      "avg_per_active": 33.1,
+      "projected_finish": 950,
+      "current_round_delta": 4
     },
     {
       "rank": 2,
@@ -848,13 +848,13 @@
     {
       "rank": 7,
       "manager": "Mike Haughey",
-      "total_points": 199,
+      "total_points": 201,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 94,
         "R32": 105,
-        "S16": 0,
+        "S16": 2,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -883,10 +883,11 @@
           "pick": 27,
           "draft_round": 3,
           "status": "active",
-          "total_points": 32,
+          "total_points": 34,
           "round_scores": {
             "R64": 14,
-            "R32": 18
+            "R32": 18,
+            "S16": 2
           },
           "ppg_season": 16.3
         },
@@ -981,9 +982,9 @@
           "ppg_season": 10.7
         }
       ],
-      "avg_per_active": 22.4,
-      "projected_finish": 535,
-      "current_round_delta": 0
+      "avg_per_active": 22.8,
+      "projected_finish": 543,
+      "current_round_delta": 2
     },
     {
       "rank": 8,

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:24:06.429924+00:00",
+  "last_updated": "2026-03-27T23:29:11.034425+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -64,7 +64,7 @@
     "Isaiah Evans": {
       "R64": 16,
       "R32": 17,
-      "S16": 2
+      "S16": 4
     },
     "Duke Miles": {
       "R64": 13,
@@ -233,7 +233,8 @@
     },
     "Zuby Ejiofor": {
       "R64": 14,
-      "R32": 18
+      "R32": 18,
+      "S16": 2
     },
     "Bryce Hopkins": {
       "R64": 13,
@@ -429,9 +430,10 @@
     "6534641"
   ],
   "live_scores": {
-    "6534644:Isaiah Evans": 2,
+    "6534644:Isaiah Evans": 4,
     "6534644:Cayden Boozer": 5,
     "6534644:Patrick Ngongba II": 2,
-    "6534644:Bryce Hopkins": 2
+    "6534644:Bryce Hopkins": 2,
+    "6534644:Zuby Ejiofor": 2
   }
 }
