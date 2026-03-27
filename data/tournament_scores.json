@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:44:20.910462+00:00",
+  "last_updated": "2026-03-27T23:49:23.954796+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -59,12 +59,12 @@
     "Cayden Boozer": {
       "R64": 19,
       "R32": 9,
-      "S16": 5
+      "S16": 7
     },
     "Isaiah Evans": {
       "R64": 16,
       "R32": 17,
-      "S16": 8
+      "S16": 11
     },
     "Duke Miles": {
       "R64": 13,
@@ -234,7 +234,7 @@
     "Zuby Ejiofor": {
       "R64": 14,
       "R32": 18,
-      "S16": 2
+      "S16": 4
     },
     "Bryce Hopkins": {
       "R64": 13,
@@ -430,10 +430,10 @@
     "6534641"
   ],
   "live_scores": {
-    "6534644:Isaiah Evans": 8,
-    "6534644:Cayden Boozer": 5,
+    "6534644:Isaiah Evans": 11,
+    "6534644:Cayden Boozer": 7,
     "6534644:Patrick Ngongba II": 2,
     "6534644:Bryce Hopkins": 6,
-    "6534644:Zuby Ejiofor": 2
+    "6534644:Zuby Ejiofor": 4
   }
 }
