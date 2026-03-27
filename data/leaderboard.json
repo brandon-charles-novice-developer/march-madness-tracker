@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:54:28.470390+00:00",
+  "last_updated": "2026-03-27T23:59:33.454204+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -712,13 +712,13 @@
     {
       "rank": 6,
       "manager": "Mike Haughey",
-      "total_points": 203,
+      "total_points": 208,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 94,
         "R32": 105,
-        "S16": 4,
+        "S16": 9,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -747,11 +747,11 @@
           "pick": 27,
           "draft_round": 3,
           "status": "active",
-          "total_points": 36,
+          "total_points": 39,
           "round_scores": {
             "R64": 14,
             "R32": 18,
-            "S16": 4
+            "S16": 7
           },
           "ppg_season": 16.3
         },
@@ -808,10 +808,11 @@
           "pick": 47,
           "draft_round": 5,
           "status": "active",
-          "total_points": 17,
+          "total_points": 19,
           "round_scores": {
             "R64": 5,
-            "R32": 12
+            "R32": 12,
+            "S16": 2
           },
           "ppg_season": 10.2
         },
@@ -846,9 +847,9 @@
           "ppg_season": 10.7
         }
       ],
-      "avg_per_active": 23.2,
-      "projected_finish": 551,
-      "current_round_delta": 4
+      "avg_per_active": 24.2,
+      "projected_finish": 571,
+      "current_round_delta": 9
     },
     {
       "rank": 7,
@@ -1128,13 +1129,13 @@
     {
       "rank": 9,
       "manager": "Josh Ehrlich",
-      "total_points": 185,
+      "total_points": 187,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 89,
-        "S16": 0,
+        "S16": 2,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -1163,10 +1164,11 @@
           "pick": 1,
           "draft_round": 1,
           "status": "active",
-          "total_points": 34,
+          "total_points": 36,
           "round_scores": {
             "R64": 9,
-            "R32": 25
+            "R32": 25,
+            "S16": 2
           },
           "ppg_season": 14.4
         },
@@ -1261,9 +1263,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 30.8,
-      "projected_finish": 647,
-      "current_round_delta": 0
+      "avg_per_active": 31.2,
+      "projected_finish": 655,
+      "current_round_delta": 2
     },
     {
       "rank": 10,

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:54:28.457424+00:00",
+  "last_updated": "2026-03-27T23:59:33.444262+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -104,7 +104,8 @@
     },
     "Elliot Cadeau": {
       "R64": 5,
-      "R32": 12
+      "R32": 12,
+      "S16": 2
     },
     "Morez Johnson Jr": {
       "R64": 21,
@@ -112,7 +113,8 @@
     },
     "Yaxel Lendeborg": {
       "R64": 9,
-      "R32": 25
+      "R32": 25,
+      "S16": 2
     },
     "Aday Mara": {
       "R64": 19,
@@ -234,7 +236,7 @@
     "Zuby Ejiofor": {
       "R64": 14,
       "R32": 18,
-      "S16": 4
+      "S16": 7
     },
     "Bryce Hopkins": {
       "R64": 13,
@@ -434,6 +436,8 @@
     "6534644:Cayden Boozer": 7,
     "6534644:Patrick Ngongba II": 2,
     "6534644:Bryce Hopkins": 6,
-    "6534644:Zuby Ejiofor": 4
+    "6534644:Zuby Ejiofor": 7,
+    "6534650:Elliot Cadeau": 2,
+    "6534650:Yaxel Lendeborg": 2
   }
 }
