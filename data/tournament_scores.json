@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:29:11.034425+00:00",
+  "last_updated": "2026-03-27T23:34:15.223714+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -239,7 +239,7 @@
     "Bryce Hopkins": {
       "R64": 13,
       "R32": 18,
-      "S16": 2
+      "S16": 3
     },
     "Oziyah Sellers": {
       "R64": 11,
@@ -433,7 +433,7 @@
     "6534644:Isaiah Evans": 4,
     "6534644:Cayden Boozer": 5,
     "6534644:Patrick Ngongba II": 2,
-    "6534644:Bryce Hopkins": 2,
+    "6534644:Bryce Hopkins": 3,
     "6534644:Zuby Ejiofor": 2
   }
 }
