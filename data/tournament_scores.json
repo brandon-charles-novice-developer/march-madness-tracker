@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:19:02.690216+00:00",
+  "last_updated": "2026-03-27T23:24:06.429924+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -237,7 +237,8 @@
     },
     "Bryce Hopkins": {
       "R64": 13,
-      "R32": 18
+      "R32": 18,
+      "S16": 2
     },
     "Oziyah Sellers": {
       "R64": 11,
@@ -315,7 +316,8 @@
       "R32": 10
     },
     "Patrick Ngongba II": {
-      "R32": 4
+      "R32": 4,
+      "S16": 2
     }
   },
   "eliminated_teams": [
@@ -428,6 +430,8 @@
   ],
   "live_scores": {
     "6534644:Isaiah Evans": 2,
-    "6534644:Cayden Boozer": 5
+    "6534644:Cayden Boozer": 5,
+    "6534644:Patrick Ngongba II": 2,
+    "6534644:Bryce Hopkins": 2
   }
 }
