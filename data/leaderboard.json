@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T03:17:33.973393+00:00",
+  "last_updated": "2026-03-28T03:22:39.080760+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -586,13 +586,13 @@
     {
       "rank": 5,
       "manager": "Jake Pollack",
-      "total_points": 230,
+      "total_points": 232,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
         "R64": 128,
         "R32": 93,
-        "S16": 9,
+        "S16": 11,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -606,11 +606,11 @@
           "pick": 71,
           "draft_round": 8,
           "status": "active",
-          "total_points": 47,
+          "total_points": 49,
           "round_scores": {
             "R64": 17,
             "R32": 21,
-            "S16": 9
+            "S16": 11
           },
           "ppg_season": 11.6
         },
@@ -718,9 +718,9 @@
           "ppg_season": 19.2
         }
       ],
-      "avg_per_active": 40.5,
-      "projected_finish": 473,
-      "current_round_delta": 9
+      "avg_per_active": 41.5,
+      "projected_finish": 481,
+      "current_round_delta": 11
     },
     {
       "rank": 6,
@@ -863,13 +863,13 @@
     {
       "rank": 7,
       "manager": "Schaf Chulay",
-      "total_points": 210,
+      "total_points": 212,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 95,
         "R32": 102,
-        "S16": 13,
+        "S16": 15,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -891,6 +891,22 @@
           "ppg_season": 19.8
         },
         {
+          "name": "Tamin Lipsey",
+          "team": "Iowa State",
+          "seed": 2,
+          "region": "Midwest",
+          "pick": 37,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 36,
+          "round_scores": {
+            "R64": 3,
+            "R32": 26,
+            "S16": 7
+          },
+          "ppg_season": 13.3
+        },
+        {
           "name": "Brayden Burries",
           "team": "Arizona",
           "seed": 1,
@@ -904,22 +920,6 @@
             "R32": 16
           },
           "ppg_season": 15.9
-        },
-        {
-          "name": "Tamin Lipsey",
-          "team": "Iowa State",
-          "seed": 2,
-          "region": "Midwest",
-          "pick": 37,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 34,
-          "round_scores": {
-            "R64": 3,
-            "R32": 26,
-            "S16": 5
-          },
-          "ppg_season": 13.3
         },
         {
           "name": "Milos Uzan",
@@ -997,9 +997,9 @@
           "ppg_season": 13.3
         }
       ],
-      "avg_per_active": 28.0,
-      "projected_finish": 546,
-      "current_round_delta": 13
+      "avg_per_active": 28.5,
+      "projected_finish": 554,
+      "current_round_delta": 15
     },
     {
       "rank": 8,
@@ -1282,13 +1282,13 @@
     {
       "rank": 10,
       "manager": "Nick Reskin",
-      "total_points": 166,
+      "total_points": 168,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 53,
-        "S16": 17,
+        "S16": 19,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -1302,11 +1302,11 @@
           "pick": 19,
           "draft_round": 2,
           "status": "active",
-          "total_points": 49,
+          "total_points": 51,
           "round_scores": {
             "R64": 31,
             "R32": 10,
-            "S16": 8
+            "S16": 10
           },
           "ppg_season": 13.7
         },
@@ -1407,9 +1407,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 29.5,
-      "projected_finish": 520,
-      "current_round_delta": 17
+      "avg_per_active": 30.0,
+      "projected_finish": 528,
+      "current_round_delta": 19
     }
   ]
 }
