@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T04:23:35.540451+00:00",
+  "last_updated": "2026-03-28T04:28:40.340209+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -217,7 +217,7 @@
     "Tamin Lipsey": {
       "R64": 3,
       "R32": 26,
-      "S16": 15
+      "S16": 17
     },
     "Milan Momcilovic": {
       "R64": 17,
@@ -452,7 +452,7 @@
     "6534645"
   ],
   "live_scores": {
-    "6534651:Tamin Lipsey": 15,
+    "6534651:Tamin Lipsey": 17,
     "6534651:Ja'Kobi Gillespie": 13,
     "6534651:Nate Ament": 13,
     "6534651:Milan Momcilovic": 3
