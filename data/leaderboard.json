@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T00:35:12.694730+00:00",
+  "last_updated": "2026-03-28T00:40:19.602328+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -161,18 +161,34 @@
     {
       "rank": 2,
       "manager": "AJ Spile",
-      "total_points": 259,
+      "total_points": 265,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
         "R32": 75,
-        "S16": 11,
+        "S16": 17,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Labaron Philon Jr",
+          "team": "Alabama",
+          "seed": 4,
+          "region": "Midwest",
+          "pick": 15,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 55,
+          "round_scores": {
+            "R64": 29,
+            "R32": 9,
+            "S16": 17
+          },
+          "ppg_season": 21.7
+        },
         {
           "name": "Ja'Kobi Gillespie",
           "team": "Tennessee",
@@ -187,22 +203,6 @@
             "R32": 21
           },
           "ppg_season": 18.0
-        },
-        {
-          "name": "Labaron Philon Jr",
-          "team": "Alabama",
-          "seed": 4,
-          "region": "Midwest",
-          "pick": 15,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 49,
-          "round_scores": {
-            "R64": 29,
-            "R32": 9,
-            "S16": 11
-          },
-          "ppg_season": 21.7
         },
         {
           "name": "Ryan Conwell",
@@ -292,9 +292,9 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 45.3,
-      "projected_finish": 667,
-      "current_round_delta": 11
+      "avg_per_active": 47.3,
+      "projected_finish": 691,
+      "current_round_delta": 17
     },
     {
       "rank": 3,
