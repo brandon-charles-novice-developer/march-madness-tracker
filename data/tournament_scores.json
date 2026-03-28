@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T03:12:28.819349+00:00",
+  "last_updated": "2026-03-28T03:17:33.960936+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -77,7 +77,7 @@
     "Coen Carr": {
       "R64": 17,
       "R32": 21,
-      "S16": 7
+      "S16": 9
     },
     "Jeremy Fears Jr": {
       "R64": 7,
@@ -232,12 +232,12 @@
     "Nate Ament": {
       "R64": 0,
       "R32": 16,
-      "S16": 5
+      "S16": 7
     },
     "Ja'Kobi Gillespie": {
       "R64": 29,
       "R32": 21,
-      "S16": 4
+      "S16": 6
     },
     "Bennett Stirtz": {
       "R64": 16,
@@ -454,11 +454,11 @@
     "6534645:Tarris Reed Jr": 8,
     "6534645:Jeremy Fears Jr": 6,
     "6534645:Jaxon Kohler": 9,
-    "6534645:Coen Carr": 7,
+    "6534645:Coen Carr": 9,
     "6534645:Solo Ball": 8,
     "6534651:Tamin Lipsey": 5,
-    "6534651:Ja'Kobi Gillespie": 4,
-    "6534651:Nate Ament": 5,
+    "6534651:Ja'Kobi Gillespie": 6,
+    "6534651:Nate Ament": 7,
     "6534651:Milan Momcilovic": 3
   }
 }
