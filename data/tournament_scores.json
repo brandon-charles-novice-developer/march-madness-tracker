@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T04:33:45.534467+00:00",
+  "last_updated": "2026-03-28T04:38:50.516785+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -222,7 +222,7 @@
     "Milan Momcilovic": {
       "R64": 17,
       "R32": 20,
-      "S16": 3
+      "S16": 6
     },
     "Labaron Philon Jr": {
       "R64": 29,
@@ -237,7 +237,7 @@
     "Ja'Kobi Gillespie": {
       "R64": 29,
       "R32": 21,
-      "S16": 13
+      "S16": 16
     },
     "Bennett Stirtz": {
       "R64": 16,
@@ -453,8 +453,8 @@
   ],
   "live_scores": {
     "6534651:Tamin Lipsey": 17,
-    "6534651:Ja'Kobi Gillespie": 13,
+    "6534651:Ja'Kobi Gillespie": 16,
     "6534651:Nate Ament": 13,
-    "6534651:Milan Momcilovic": 3
+    "6534651:Milan Momcilovic": 6
   }
 }
