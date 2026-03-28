@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T01:05:38.774139+00:00",
+  "last_updated": "2026-03-28T01:10:42.497675+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -64,7 +64,7 @@
     "Isaiah Evans": {
       "R64": 16,
       "R32": 17,
-      "S16": 21
+      "S16": 24
     },
     "Duke Miles": {
       "R64": 13,
@@ -115,7 +115,7 @@
     "Yaxel Lendeborg": {
       "R64": 9,
       "R32": 25,
-      "S16": 12
+      "S16": 17
     },
     "Aday Mara": {
       "R64": 19,
@@ -436,13 +436,13 @@
     "6534641"
   ],
   "live_scores": {
-    "6534644:Isaiah Evans": 21,
+    "6534644:Isaiah Evans": 24,
     "6534644:Cayden Boozer": 7,
     "6534644:Patrick Ngongba II": 3,
     "6534644:Bryce Hopkins": 13,
     "6534644:Zuby Ejiofor": 13,
     "6534650:Elliot Cadeau": 7,
-    "6534650:Yaxel Lendeborg": 12,
+    "6534650:Yaxel Lendeborg": 17,
     "6534650:Aday Mara": 4,
     "6534650:Labaron Philon Jr": 19,
     "6534650:Morez Johnson Jr": 4,
