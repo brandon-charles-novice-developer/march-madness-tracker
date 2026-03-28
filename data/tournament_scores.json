@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T01:41:05.804758+00:00",
+  "last_updated": "2026-03-28T01:46:10.131516+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -120,7 +120,7 @@
     "Aday Mara": {
       "R64": 19,
       "R32": 16,
-      "S16": 6
+      "S16": 8
     },
     "Paulius Murauskas": {
       "R64": 4
@@ -440,7 +440,7 @@
   "live_scores": {
     "6534650:Elliot Cadeau": 11,
     "6534650:Yaxel Lendeborg": 22,
-    "6534650:Aday Mara": 6,
+    "6534650:Aday Mara": 8,
     "6534650:Labaron Philon Jr": 27,
     "6534650:Morez Johnson Jr": 4
   }
