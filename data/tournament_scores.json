@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T04:03:20.746576+00:00",
+  "last_updated": "2026-03-28T04:13:25.573307+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -82,7 +82,7 @@
     "Jeremy Fears Jr": {
       "R64": 7,
       "R32": 12,
-      "S16": 11
+      "S16": 13
     },
     "Jaxon Kohler": {
       "R64": 12,
@@ -325,12 +325,12 @@
     "Alex Karaban": {
       "R64": 22,
       "R32": 27,
-      "S16": 15
+      "S16": 17
     },
     "Tarris Reed Jr": {
       "R64": 31,
       "R32": 10,
-      "S16": 16
+      "S16": 19
     },
     "Patrick Ngongba II": {
       "R32": 4,
@@ -450,9 +450,9 @@
     "6534650"
   ],
   "live_scores": {
-    "6534645:Alex Karaban": 15,
-    "6534645:Tarris Reed Jr": 16,
-    "6534645:Jeremy Fears Jr": 11,
+    "6534645:Alex Karaban": 17,
+    "6534645:Tarris Reed Jr": 19,
+    "6534645:Jeremy Fears Jr": 13,
     "6534645:Jaxon Kohler": 12,
     "6534645:Coen Carr": 13,
     "6534645:Solo Ball": 12,
