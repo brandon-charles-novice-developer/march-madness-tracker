@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T02:01:21.796930+00:00",
+  "last_updated": "2026-03-28T02:06:26.677499+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -80,11 +80,13 @@
     },
     "Jeremy Fears Jr": {
       "R64": 7,
-      "R32": 12
+      "R32": 12,
+      "S16": 2
     },
     "Jaxon Kohler": {
       "R64": 12,
-      "R32": 10
+      "R32": 10,
+      "S16": 2
     },
     "Darius Acuff Jr": {
       "R64": 24,
@@ -222,7 +224,7 @@
     "Labaron Philon Jr": {
       "R64": 29,
       "R32": 9,
-      "S16": 32
+      "S16": 35
     },
     "Nate Ament": {
       "R64": 0,
@@ -316,11 +318,13 @@
     },
     "Alex Karaban": {
       "R64": 22,
-      "R32": 27
+      "R32": 27,
+      "S16": 3
     },
     "Tarris Reed Jr": {
       "R64": 31,
-      "R32": 10
+      "R32": 10,
+      "S16": 2
     },
     "Patrick Ngongba II": {
       "R32": 4,
@@ -329,6 +333,7 @@
   },
   "eliminated_teams": [
     "Akron",
+    "Alabama",
     "BYU",
     "California Baptist",
     "Clemson",
@@ -435,13 +440,13 @@
     "6534636",
     "6534631",
     "6534641",
-    "6534644"
+    "6534644",
+    "6534650"
   ],
   "live_scores": {
-    "6534650:Elliot Cadeau": 17,
-    "6534650:Yaxel Lendeborg": 23,
-    "6534650:Aday Mara": 8,
-    "6534650:Labaron Philon Jr": 32,
-    "6534650:Morez Johnson Jr": 7
+    "6534645:Alex Karaban": 3,
+    "6534645:Tarris Reed Jr": 2,
+    "6534645:Jeremy Fears Jr": 2,
+    "6534645:Jaxon Kohler": 2
   }
 }
