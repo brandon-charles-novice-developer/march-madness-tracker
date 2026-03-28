@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T00:14:45.968153+00:00",
+  "last_updated": "2026-03-28T00:19:53.803918+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,13 +19,13 @@
     {
       "rank": 1,
       "manager": "Alex Magged",
-      "total_points": 262,
+      "total_points": 266,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
         "R32": 107,
-        "S16": 11,
+        "S16": 15,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -63,6 +63,22 @@
           "ppg_season": 13.4
         },
         {
+          "name": "Morez Johnson Jr",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 13,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 40,
+          "round_scores": {
+            "R64": 21,
+            "R32": 15,
+            "S16": 4
+          },
+          "ppg_season": 13.3
+        },
+        {
           "name": "Dailyn Swain",
           "team": "Texas",
           "seed": 11,
@@ -76,21 +92,6 @@
             "R32": 11
           },
           "ppg_season": 17.8
-        },
-        {
-          "name": "Morez Johnson Jr",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 13,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 36,
-          "round_scores": {
-            "R64": 21,
-            "R32": 15
-          },
-          "ppg_season": 13.3
         },
         {
           "name": "David Mirkovic",
@@ -153,20 +154,20 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 34.1,
-      "projected_finish": 978,
-      "current_round_delta": 11
+      "avg_per_active": 34.7,
+      "projected_finish": 995,
+      "current_round_delta": 15
     },
     {
       "rank": 2,
       "manager": "AJ Spile",
-      "total_points": 251,
+      "total_points": 254,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
         "R32": 75,
-        "S16": 3,
+        "S16": 6,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -195,11 +196,11 @@
           "pick": 15,
           "draft_round": 2,
           "status": "active",
-          "total_points": 41,
+          "total_points": 44,
           "round_scores": {
             "R64": 29,
             "R32": 9,
-            "S16": 3
+            "S16": 6
           },
           "ppg_season": 21.7
         },
@@ -291,9 +292,9 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 42.7,
-      "projected_finish": 635,
-      "current_round_delta": 3
+      "avg_per_active": 43.7,
+      "projected_finish": 647,
+      "current_round_delta": 6
     },
     {
       "rank": 3,
@@ -1131,13 +1132,13 @@
     {
       "rank": 9,
       "manager": "Josh Ehrlich",
-      "total_points": 192,
+      "total_points": 195,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 89,
-        "S16": 7,
+        "S16": 10,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -1151,11 +1152,11 @@
           "pick": 1,
           "draft_round": 1,
           "status": "active",
-          "total_points": 41,
+          "total_points": 44,
           "round_scores": {
             "R64": 9,
             "R32": 25,
-            "S16": 7
+            "S16": 10
           },
           "ppg_season": 14.4
         },
@@ -1265,9 +1266,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 32.2,
-      "projected_finish": 675,
-      "current_round_delta": 7
+      "avg_per_active": 32.8,
+      "projected_finish": 687,
+      "current_round_delta": 10
     },
     {
       "rank": 10,
