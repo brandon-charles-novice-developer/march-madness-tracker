@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T02:57:14.137581+00:00",
+  "last_updated": "2026-03-28T03:02:19.134522+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -231,7 +231,7 @@
     "Nate Ament": {
       "R64": 0,
       "R32": 16,
-      "S16": 3
+      "S16": 5
     },
     "Ja'Kobi Gillespie": {
       "R64": 29,
@@ -457,6 +457,6 @@
     "6534645:Solo Ball": 8,
     "6534651:Tamin Lipsey": 3,
     "6534651:Ja'Kobi Gillespie": 4,
-    "6534651:Nate Ament": 3
+    "6534651:Nate Ament": 5
   }
 }
