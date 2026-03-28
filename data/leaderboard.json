@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T02:31:49.274012+00:00",
+  "last_updated": "2026-03-28T02:36:53.828895+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -1001,13 +1001,13 @@
     {
       "rank": 8,
       "manager": "Jordan Mackler",
-      "total_points": 204,
+      "total_points": 206,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
         "R32": 94,
-        "S16": 5,
+        "S16": 7,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -1059,6 +1059,22 @@
           "ppg_season": 17.8
         },
         {
+          "name": "Jeremy Fears Jr",
+          "team": "Michigan St",
+          "seed": 3,
+          "region": "East",
+          "pick": 25,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 23,
+          "round_scores": {
+            "R64": 7,
+            "R32": 12,
+            "S16": 4
+          },
+          "ppg_season": 15.7
+        },
+        {
           "name": "Ivan Kharchenkov",
           "team": "Arizona",
           "seed": 1,
@@ -1072,22 +1088,6 @@
             "R32": 9
           },
           "ppg_season": 10.1
-        },
-        {
-          "name": "Jeremy Fears Jr",
-          "team": "Michigan St",
-          "seed": 3,
-          "region": "East",
-          "pick": 25,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 21,
-          "round_scores": {
-            "R64": 7,
-            "R32": 12,
-            "S16": 2
-          },
-          "ppg_season": 15.7
         },
         {
           "name": "Patrick Ngongba II",
@@ -1131,9 +1131,9 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 21.6,
-      "projected_finish": 658,
-      "current_round_delta": 5
+      "avg_per_active": 21.9,
+      "projected_finish": 666,
+      "current_round_delta": 7
     },
     {
       "rank": 9,

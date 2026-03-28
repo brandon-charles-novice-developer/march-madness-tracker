@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T02:31:49.259488+00:00",
+  "last_updated": "2026-03-28T02:36:53.815911+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -82,7 +82,7 @@
     "Jeremy Fears Jr": {
       "R64": 7,
       "R32": 12,
-      "S16": 2
+      "S16": 4
     },
     "Jaxon Kohler": {
       "R64": 12,
@@ -448,7 +448,7 @@
   "live_scores": {
     "6534645:Alex Karaban": 5,
     "6534645:Tarris Reed Jr": 2,
-    "6534645:Jeremy Fears Jr": 2,
+    "6534645:Jeremy Fears Jr": 4,
     "6534645:Jaxon Kohler": 4,
     "6534645:Coen Carr": 5,
     "6534645:Solo Ball": 6
