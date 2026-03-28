@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T00:50:27.929891+00:00",
+  "last_updated": "2026-03-28T00:55:31.548876+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -64,7 +64,7 @@
     "Isaiah Evans": {
       "R64": 16,
       "R32": 17,
-      "S16": 14
+      "S16": 16
     },
     "Duke Miles": {
       "R64": 13,
@@ -244,12 +244,12 @@
     "Bryce Hopkins": {
       "R64": 13,
       "R32": 18,
-      "S16": 6
+      "S16": 8
     },
     "Oziyah Sellers": {
       "R64": 11,
       "R32": 3,
-      "S16": 2
+      "S16": 5
     },
     "Tyler Bilodeau": {
       "R64": 0,
@@ -436,16 +436,16 @@
     "6534641"
   ],
   "live_scores": {
-    "6534644:Isaiah Evans": 14,
+    "6534644:Isaiah Evans": 16,
     "6534644:Cayden Boozer": 7,
     "6534644:Patrick Ngongba II": 3,
-    "6534644:Bryce Hopkins": 6,
+    "6534644:Bryce Hopkins": 8,
     "6534644:Zuby Ejiofor": 13,
     "6534650:Elliot Cadeau": 7,
     "6534650:Yaxel Lendeborg": 12,
     "6534650:Aday Mara": 4,
     "6534650:Labaron Philon Jr": 19,
     "6534650:Morez Johnson Jr": 4,
-    "6534644:Oziyah Sellers": 2
+    "6534644:Oziyah Sellers": 5
   }
 }
