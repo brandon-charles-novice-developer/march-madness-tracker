@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T02:11:30.810806+00:00",
+  "last_updated": "2026-03-28T02:16:35.605143+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -320,7 +320,7 @@
     "Alex Karaban": {
       "R64": 22,
       "R32": 27,
-      "S16": 3
+      "S16": 5
     },
     "Tarris Reed Jr": {
       "R64": 31,
@@ -445,7 +445,7 @@
     "6534650"
   ],
   "live_scores": {
-    "6534645:Alex Karaban": 3,
+    "6534645:Alex Karaban": 5,
     "6534645:Tarris Reed Jr": 2,
     "6534645:Jeremy Fears Jr": 2,
     "6534645:Jaxon Kohler": 2,
