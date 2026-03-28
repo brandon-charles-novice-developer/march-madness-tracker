@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T00:40:19.592189+00:00",
+  "last_updated": "2026-03-28T00:45:24.478251+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -222,7 +222,7 @@
     "Labaron Philon Jr": {
       "R64": 29,
       "R32": 9,
-      "S16": 17
+      "S16": 19
     },
     "Nate Ament": {
       "R64": 0,
@@ -324,7 +324,7 @@
     },
     "Patrick Ngongba II": {
       "R32": 4,
-      "S16": 2
+      "S16": 3
     }
   },
   "eliminated_teams": [
@@ -438,13 +438,13 @@
   "live_scores": {
     "6534644:Isaiah Evans": 14,
     "6534644:Cayden Boozer": 7,
-    "6534644:Patrick Ngongba II": 2,
+    "6534644:Patrick Ngongba II": 3,
     "6534644:Bryce Hopkins": 6,
     "6534644:Zuby Ejiofor": 13,
     "6534650:Elliot Cadeau": 7,
     "6534650:Yaxel Lendeborg": 12,
     "6534650:Aday Mara": 4,
-    "6534650:Labaron Philon Jr": 17,
+    "6534650:Labaron Philon Jr": 19,
     "6534650:Morez Johnson Jr": 4,
     "6534644:Oziyah Sellers": 2
   }
