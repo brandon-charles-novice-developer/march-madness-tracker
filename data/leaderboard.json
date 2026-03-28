@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T01:30:58.419222+00:00",
+  "last_updated": "2026-03-28T01:36:01.746244+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -161,13 +161,13 @@
     {
       "rank": 2,
       "manager": "AJ Spile",
-      "total_points": 270,
+      "total_points": 271,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
         "R32": 75,
-        "S16": 22,
+        "S16": 23,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -181,11 +181,11 @@
           "pick": 15,
           "draft_round": 2,
           "status": "active",
-          "total_points": 60,
+          "total_points": 61,
           "round_scores": {
             "R64": 29,
             "R32": 9,
-            "S16": 22
+            "S16": 23
           },
           "ppg_season": 21.7
         },
@@ -292,20 +292,20 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 49.0,
-      "projected_finish": 711,
-      "current_round_delta": 22
+      "avg_per_active": 49.3,
+      "projected_finish": 715,
+      "current_round_delta": 23
     },
     {
       "rank": 3,
       "manager": "Mark Weiner",
-      "total_points": 246,
+      "total_points": 248,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 129,
         "R32": 106,
-        "S16": 11,
+        "S16": 13,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -325,6 +325,22 @@
             "R32": 27
           },
           "ppg_season": 12.6
+        },
+        {
+          "name": "Aday Mara",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 18,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 41,
+          "round_scores": {
+            "R64": 19,
+            "R32": 16,
+            "S16": 6
+          },
+          "ppg_season": 11.6
         },
         {
           "name": "Meleek Thomas",
@@ -355,22 +371,6 @@
             "R32": 16
           },
           "ppg_season": 18.8
-        },
-        {
-          "name": "Aday Mara",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 18,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 39,
-          "round_scores": {
-            "R64": 19,
-            "R32": 16,
-            "S16": 4
-          },
-          "ppg_season": 11.6
         },
         {
           "name": "Cayden Boozer",
@@ -432,9 +432,9 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 40.6,
-      "projected_finish": 855,
-      "current_round_delta": 11
+      "avg_per_active": 41.0,
+      "projected_finish": 863,
+      "current_round_delta": 13
     },
     {
       "rank": 4,
