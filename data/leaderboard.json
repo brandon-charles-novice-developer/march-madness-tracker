@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T01:51:13.950726+00:00",
+  "last_updated": "2026-03-28T01:56:17.979596+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,13 +19,13 @@
     {
       "rank": 1,
       "manager": "Alex Magged",
-      "total_points": 281,
+      "total_points": 283,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
         "R32": 107,
-        "S16": 30,
+        "S16": 32,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -70,11 +70,11 @@
           "pick": 13,
           "draft_round": 2,
           "status": "active",
-          "total_points": 41,
+          "total_points": 43,
           "round_scores": {
             "R64": 21,
             "R32": 15,
-            "S16": 5
+            "S16": 7
           },
           "ppg_season": 13.3
         },
@@ -154,20 +154,20 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 36.9,
-      "projected_finish": 1056,
-      "current_round_delta": 30
+      "avg_per_active": 37.1,
+      "projected_finish": 1062,
+      "current_round_delta": 32
     },
     {
       "rank": 2,
       "manager": "AJ Spile",
-      "total_points": 278,
+      "total_points": 280,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
         "R32": 75,
-        "S16": 30,
+        "S16": 32,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -181,11 +181,11 @@
           "pick": 15,
           "draft_round": 2,
           "status": "active",
-          "total_points": 68,
+          "total_points": 70,
           "round_scores": {
             "R64": 29,
             "R32": 9,
-            "S16": 30
+            "S16": 32
           },
           "ppg_season": 21.7
         },
@@ -292,9 +292,9 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 51.7,
-      "projected_finish": 743,
-      "current_round_delta": 30
+      "avg_per_active": 52.3,
+      "projected_finish": 751,
+      "current_round_delta": 32
     },
     {
       "rank": 3,
