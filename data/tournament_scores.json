@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T00:04:39.464457+00:00",
+  "last_updated": "2026-03-28T00:14:45.957638+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -114,11 +114,12 @@
     "Yaxel Lendeborg": {
       "R64": 9,
       "R32": 25,
-      "S16": 6
+      "S16": 7
     },
     "Aday Mara": {
       "R64": 19,
-      "R32": 16
+      "R32": 16,
+      "S16": 2
     },
     "Paulius Murauskas": {
       "R64": 4
@@ -219,7 +220,8 @@
     },
     "Labaron Philon Jr": {
       "R64": 29,
-      "R32": 9
+      "R32": 9,
+      "S16": 3
     },
     "Nate Ament": {
       "R64": 0,
@@ -438,6 +440,8 @@
     "6534644:Bryce Hopkins": 6,
     "6534644:Zuby Ejiofor": 7,
     "6534650:Elliot Cadeau": 2,
-    "6534650:Yaxel Lendeborg": 6
+    "6534650:Yaxel Lendeborg": 7,
+    "6534650:Aday Mara": 2,
+    "6534650:Labaron Philon Jr": 3
   }
 }
