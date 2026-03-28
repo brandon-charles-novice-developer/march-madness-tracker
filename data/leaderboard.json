@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T02:47:03.746505+00:00",
+  "last_updated": "2026-03-28T02:52:08.824987+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,13 +19,13 @@
     {
       "rank": 1,
       "manager": "AJ Spile",
-      "total_points": 285,
+      "total_points": 287,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
         "R32": 75,
-        "S16": 37,
+        "S16": 39,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -55,11 +55,11 @@
           "pick": 46,
           "draft_round": 5,
           "status": "active",
-          "total_points": 52,
+          "total_points": 54,
           "round_scores": {
             "R64": 29,
             "R32": 21,
-            "S16": 2
+            "S16": 4
           },
           "ppg_season": 18.0
         },
@@ -151,20 +151,20 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 44.5,
-      "projected_finish": 552,
-      "current_round_delta": 37
+      "avg_per_active": 45.5,
+      "projected_finish": 560,
+      "current_round_delta": 39
     },
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 283,
+      "total_points": 286,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
         "R32": 107,
-        "S16": 32,
+        "S16": 35,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -285,17 +285,18 @@
           "pick": 48,
           "draft_round": 5,
           "status": "active",
-          "total_points": 16,
+          "total_points": 19,
           "round_scores": {
             "R64": 0,
-            "R32": 16
+            "R32": 16,
+            "S16": 3
           },
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 37.1,
-      "projected_finish": 1062,
-      "current_round_delta": 32
+      "avg_per_active": 37.6,
+      "projected_finish": 1076,
+      "current_round_delta": 35
     },
     {
       "rank": 3,
@@ -583,6 +584,145 @@
     },
     {
       "rank": 5,
+      "manager": "Jake Pollack",
+      "total_points": 228,
+      "active_players": 2,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 128,
+        "R32": 93,
+        "S16": 7,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Coen Carr",
+          "team": "Michigan St",
+          "seed": 3,
+          "region": "East",
+          "pick": 71,
+          "draft_round": 8,
+          "status": "active",
+          "total_points": 45,
+          "round_scores": {
+            "R64": 17,
+            "R32": 21,
+            "S16": 7
+          },
+          "ppg_season": 11.6
+        },
+        {
+          "name": "Alex Condon",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 10,
+          "draft_round": 1,
+          "status": "eliminated",
+          "total_points": 34,
+          "round_scores": {
+            "R64": 13,
+            "R32": 21
+          },
+          "ppg_season": 15.0
+        },
+        {
+          "name": "Emanuel Sharp",
+          "team": "Houston",
+          "seed": 2,
+          "region": "South",
+          "pick": 11,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 34,
+          "round_scores": {
+            "R64": 16,
+            "R32": 18
+          },
+          "ppg_season": 15.3
+        },
+        {
+          "name": "Thijs De Ridder",
+          "team": "Virginia",
+          "seed": 3,
+          "region": "Midwest",
+          "pick": 30,
+          "draft_round": 3,
+          "status": "eliminated",
+          "total_points": 32,
+          "round_scores": {
+            "R64": 10,
+            "R32": 22
+          },
+          "ppg_season": 15.5
+        },
+        {
+          "name": "Nick Boyd",
+          "team": "Wisconsin",
+          "seed": 5,
+          "region": "West",
+          "pick": 31,
+          "draft_round": 4,
+          "status": "eliminated",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 27
+          },
+          "ppg_season": 20.6
+        },
+        {
+          "name": "Christian Anderson",
+          "team": "Texas Tech",
+          "seed": 5,
+          "region": "Midwest",
+          "pick": 50,
+          "draft_round": 5,
+          "status": "eliminated",
+          "total_points": 25,
+          "round_scores": {
+            "R64": 18,
+            "R32": 7
+          },
+          "ppg_season": 18.9
+        },
+        {
+          "name": "Tre White",
+          "team": "Kansas",
+          "seed": 4,
+          "region": "East",
+          "pick": 70,
+          "draft_round": 7,
+          "status": "eliminated",
+          "total_points": 16,
+          "round_scores": {
+            "R64": 12,
+            "R32": 4
+          },
+          "ppg_season": 13.8
+        },
+        {
+          "name": "Boopie Miller",
+          "team": "SMU",
+          "seed": 11,
+          "region": "Midwest",
+          "pick": 51,
+          "draft_round": 6,
+          "status": "eliminated",
+          "total_points": 15,
+          "round_scores": {
+            "R64": 15
+          },
+          "ppg_season": 19.2
+        }
+      ],
+      "avg_per_active": 39.5,
+      "projected_finish": 465,
+      "current_round_delta": 7
+    },
+    {
+      "rank": 6,
       "manager": "Brandon Nye",
       "total_points": 227,
       "active_players": 3,
@@ -718,145 +858,6 @@
       "avg_per_active": 29.3,
       "projected_finish": 491,
       "current_round_delta": 15
-    },
-    {
-      "rank": 6,
-      "manager": "Jake Pollack",
-      "total_points": 226,
-      "active_players": 2,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 128,
-        "R32": 93,
-        "S16": 5,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Coen Carr",
-          "team": "Michigan St",
-          "seed": 3,
-          "region": "East",
-          "pick": 71,
-          "draft_round": 8,
-          "status": "active",
-          "total_points": 43,
-          "round_scores": {
-            "R64": 17,
-            "R32": 21,
-            "S16": 5
-          },
-          "ppg_season": 11.6
-        },
-        {
-          "name": "Alex Condon",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 10,
-          "draft_round": 1,
-          "status": "eliminated",
-          "total_points": 34,
-          "round_scores": {
-            "R64": 13,
-            "R32": 21
-          },
-          "ppg_season": 15.0
-        },
-        {
-          "name": "Emanuel Sharp",
-          "team": "Houston",
-          "seed": 2,
-          "region": "South",
-          "pick": 11,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 34,
-          "round_scores": {
-            "R64": 16,
-            "R32": 18
-          },
-          "ppg_season": 15.3
-        },
-        {
-          "name": "Thijs De Ridder",
-          "team": "Virginia",
-          "seed": 3,
-          "region": "Midwest",
-          "pick": 30,
-          "draft_round": 3,
-          "status": "eliminated",
-          "total_points": 32,
-          "round_scores": {
-            "R64": 10,
-            "R32": 22
-          },
-          "ppg_season": 15.5
-        },
-        {
-          "name": "Nick Boyd",
-          "team": "Wisconsin",
-          "seed": 5,
-          "region": "West",
-          "pick": 31,
-          "draft_round": 4,
-          "status": "eliminated",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 27
-          },
-          "ppg_season": 20.6
-        },
-        {
-          "name": "Christian Anderson",
-          "team": "Texas Tech",
-          "seed": 5,
-          "region": "Midwest",
-          "pick": 50,
-          "draft_round": 5,
-          "status": "eliminated",
-          "total_points": 25,
-          "round_scores": {
-            "R64": 18,
-            "R32": 7
-          },
-          "ppg_season": 18.9
-        },
-        {
-          "name": "Tre White",
-          "team": "Kansas",
-          "seed": 4,
-          "region": "East",
-          "pick": 70,
-          "draft_round": 7,
-          "status": "eliminated",
-          "total_points": 16,
-          "round_scores": {
-            "R64": 12,
-            "R32": 4
-          },
-          "ppg_season": 13.8
-        },
-        {
-          "name": "Boopie Miller",
-          "team": "SMU",
-          "seed": 11,
-          "region": "Midwest",
-          "pick": 51,
-          "draft_round": 6,
-          "status": "eliminated",
-          "total_points": 15,
-          "round_scores": {
-            "R64": 15
-          },
-          "ppg_season": 19.2
-        }
-      ],
-      "avg_per_active": 38.5,
-      "projected_finish": 457,
-      "current_round_delta": 5
     },
     {
       "rank": 7,
@@ -1002,13 +1003,13 @@
     {
       "rank": 8,
       "manager": "Schaf Chulay",
-      "total_points": 206,
+      "total_points": 208,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 95,
         "R32": 102,
-        "S16": 9,
+        "S16": 11,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -1113,11 +1114,11 @@
           "pick": 17,
           "draft_round": 2,
           "status": "active",
-          "total_points": 15,
+          "total_points": 17,
           "round_scores": {
             "R64": 9,
             "R32": 0,
-            "S16": 6
+            "S16": 8
           },
           "ppg_season": 13.5
         },
@@ -1136,20 +1137,20 @@
           "ppg_season": 13.3
         }
       ],
-      "avg_per_active": 27.0,
-      "projected_finish": 530,
-      "current_round_delta": 9
+      "avg_per_active": 27.5,
+      "projected_finish": 538,
+      "current_round_delta": 11
     },
     {
       "rank": 9,
       "manager": "Jordan Mackler",
-      "total_points": 206,
+      "total_points": 208,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
         "R32": 94,
-        "S16": 7,
+        "S16": 9,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -1208,11 +1209,11 @@
           "pick": 25,
           "draft_round": 3,
           "status": "active",
-          "total_points": 23,
+          "total_points": 25,
           "round_scores": {
             "R64": 7,
             "R32": 12,
-            "S16": 4
+            "S16": 6
           },
           "ppg_season": 15.7
         },
@@ -1273,20 +1274,20 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 21.9,
-      "projected_finish": 666,
-      "current_round_delta": 7
+      "avg_per_active": 22.1,
+      "projected_finish": 672,
+      "current_round_delta": 9
     },
     {
       "rank": 10,
       "manager": "Nick Reskin",
-      "total_points": 161,
+      "total_points": 166,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 53,
-        "S16": 12,
+        "S16": 17,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -1331,11 +1332,11 @@
           "pick": 39,
           "draft_round": 4,
           "status": "active",
-          "total_points": 26,
+          "total_points": 31,
           "round_scores": {
             "R64": 12,
             "R32": 10,
-            "S16": 4
+            "S16": 9
           },
           "ppg_season": 12.7
         },
@@ -1405,9 +1406,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 28.2,
-      "projected_finish": 499,
-      "current_round_delta": 12
+      "avg_per_active": 29.5,
+      "projected_finish": 520,
+      "current_round_delta": 17
     }
   ]
 }
