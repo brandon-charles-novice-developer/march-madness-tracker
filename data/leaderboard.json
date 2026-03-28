@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T03:53:11.119482+00:00",
+  "last_updated": "2026-03-28T03:58:16.093069+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -1282,13 +1282,13 @@
     {
       "rank": 10,
       "manager": "Nick Reskin",
-      "total_points": 175,
+      "total_points": 177,
       "active_players": 4,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 53,
-        "S16": 26,
+        "S16": 28,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -1302,11 +1302,11 @@
           "pick": 19,
           "draft_round": 2,
           "status": "active",
-          "total_points": 55,
+          "total_points": 57,
           "round_scores": {
             "R64": 31,
             "R32": 10,
-            "S16": 14
+            "S16": 16
           },
           "ppg_season": 13.7
         },
@@ -1407,9 +1407,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 31.8,
-      "projected_finish": 557,
-      "current_round_delta": 26
+      "avg_per_active": 32.2,
+      "projected_finish": 563,
+      "current_round_delta": 28
     }
   ]
 }

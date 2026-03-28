@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T03:53:11.107705+00:00",
+  "last_updated": "2026-03-28T03:58:16.082021+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -330,7 +330,7 @@
     "Tarris Reed Jr": {
       "R64": 31,
       "R32": 10,
-      "S16": 14
+      "S16": 16
     },
     "Patrick Ngongba II": {
       "R32": 4,
@@ -451,7 +451,7 @@
   ],
   "live_scores": {
     "6534645:Alex Karaban": 12,
-    "6534645:Tarris Reed Jr": 14,
+    "6534645:Tarris Reed Jr": 16,
     "6534645:Jeremy Fears Jr": 8,
     "6534645:Jaxon Kohler": 12,
     "6534645:Coen Carr": 13,
