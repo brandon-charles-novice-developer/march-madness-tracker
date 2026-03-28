@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T03:58:16.082021+00:00",
+  "last_updated": "2026-03-28T04:03:20.746576+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -82,7 +82,7 @@
     "Jeremy Fears Jr": {
       "R64": 7,
       "R32": 12,
-      "S16": 8
+      "S16": 11
     },
     "Jaxon Kohler": {
       "R64": 12,
@@ -217,7 +217,7 @@
     "Tamin Lipsey": {
       "R64": 3,
       "R32": 26,
-      "S16": 11
+      "S16": 13
     },
     "Milan Momcilovic": {
       "R64": 17,
@@ -232,12 +232,12 @@
     "Nate Ament": {
       "R64": 0,
       "R32": 16,
-      "S16": 12
+      "S16": 13
     },
     "Ja'Kobi Gillespie": {
       "R64": 29,
       "R32": 21,
-      "S16": 8
+      "S16": 13
     },
     "Bennett Stirtz": {
       "R64": 16,
@@ -325,7 +325,7 @@
     "Alex Karaban": {
       "R64": 22,
       "R32": 27,
-      "S16": 12
+      "S16": 15
     },
     "Tarris Reed Jr": {
       "R64": 31,
@@ -450,15 +450,15 @@
     "6534650"
   ],
   "live_scores": {
-    "6534645:Alex Karaban": 12,
+    "6534645:Alex Karaban": 15,
     "6534645:Tarris Reed Jr": 16,
-    "6534645:Jeremy Fears Jr": 8,
+    "6534645:Jeremy Fears Jr": 11,
     "6534645:Jaxon Kohler": 12,
     "6534645:Coen Carr": 13,
     "6534645:Solo Ball": 12,
-    "6534651:Tamin Lipsey": 11,
-    "6534651:Ja'Kobi Gillespie": 8,
-    "6534651:Nate Ament": 12,
+    "6534651:Tamin Lipsey": 13,
+    "6534651:Ja'Kobi Gillespie": 13,
+    "6534651:Nate Ament": 13,
     "6534651:Milan Momcilovic": 3
   }
 }
