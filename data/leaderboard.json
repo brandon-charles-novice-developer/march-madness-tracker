@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T04:38:50.529601+00:00",
+  "last_updated": "2026-03-28T04:43:55.723513+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -159,13 +159,13 @@
     {
       "rank": 2,
       "manager": "Alex Magged",
-      "total_points": 296,
+      "total_points": 301,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
         "R32": 107,
-        "S16": 45,
+        "S16": 50,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -256,11 +256,11 @@
           "pick": 48,
           "draft_round": 5,
           "status": "active",
-          "total_points": 29,
+          "total_points": 34,
           "round_scores": {
             "R64": 0,
             "R32": 16,
-            "S16": 13
+            "S16": 18
           },
           "ppg_season": 17.5
         },
@@ -295,9 +295,9 @@
           "ppg_season": 11.6
         }
       ],
-      "avg_per_active": 39.0,
-      "projected_finish": 1115,
-      "current_round_delta": 45
+      "avg_per_active": 39.7,
+      "projected_finish": 1135,
+      "current_round_delta": 50
     },
     {
       "rank": 3,
@@ -724,6 +724,147 @@
     },
     {
       "rank": 6,
+      "manager": "Schaf Chulay",
+      "total_points": 227,
+      "active_players": 4,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 95,
+        "R32": 102,
+        "S16": 30,
+        "E8": 0,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Darryn Peterson",
+          "team": "Kansas",
+          "seed": 4,
+          "region": "East",
+          "pick": 24,
+          "draft_round": 3,
+          "status": "eliminated",
+          "total_points": 49,
+          "round_scores": {
+            "R64": 28,
+            "R32": 21
+          },
+          "ppg_season": 19.8
+        },
+        {
+          "name": "Tamin Lipsey",
+          "team": "Iowa State",
+          "seed": 2,
+          "region": "Midwest",
+          "pick": 37,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 47,
+          "round_scores": {
+            "R64": 3,
+            "R32": 26,
+            "S16": 18
+          },
+          "ppg_season": 13.3
+        },
+        {
+          "name": "Brayden Burries",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 4,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 34,
+          "round_scores": {
+            "R64": 18,
+            "R32": 16
+          },
+          "ppg_season": 15.9
+        },
+        {
+          "name": "Milos Uzan",
+          "team": "Houston",
+          "seed": 2,
+          "region": "South",
+          "pick": 44,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 12,
+            "R32": 15
+          },
+          "ppg_season": 11.1
+        },
+        {
+          "name": "Malik Thomas",
+          "team": "Virginia",
+          "seed": 3,
+          "region": "Midwest",
+          "pick": 57,
+          "draft_round": 6,
+          "status": "eliminated",
+          "total_points": 23,
+          "round_scores": {
+            "R64": 11,
+            "R32": 12
+          },
+          "ppg_season": 12.4
+        },
+        {
+          "name": "Solo Ball",
+          "team": "UConn",
+          "seed": 2,
+          "region": "East",
+          "pick": 17,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 21,
+          "round_scores": {
+            "R64": 9,
+            "R32": 0,
+            "S16": 12
+          },
+          "ppg_season": 13.5
+        },
+        {
+          "name": "Flory Bidunga",
+          "team": "Kansas",
+          "seed": 4,
+          "region": "East",
+          "pick": 77,
+          "draft_round": 8,
+          "status": "eliminated",
+          "total_points": 18,
+          "round_scores": {
+            "R64": 6,
+            "R32": 12
+          },
+          "ppg_season": 13.5
+        },
+        {
+          "name": "Nolan Winter",
+          "team": "Wisconsin",
+          "seed": 5,
+          "region": "West",
+          "pick": 64,
+          "draft_round": 7,
+          "status": "eliminated",
+          "total_points": 8,
+          "round_scores": {
+            "R64": 8
+          },
+          "ppg_season": 13.3
+        }
+      ],
+      "avg_per_active": 32.2,
+      "projected_finish": 613,
+      "current_round_delta": 30
+    },
+    {
+      "rank": 7,
       "manager": "Brandon Nye",
       "total_points": 227,
       "active_players": 3,
@@ -859,147 +1000,6 @@
       "avg_per_active": 29.3,
       "projected_finish": 491,
       "current_round_delta": 15
-    },
-    {
-      "rank": 7,
-      "manager": "Schaf Chulay",
-      "total_points": 226,
-      "active_players": 4,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 95,
-        "R32": 102,
-        "S16": 29,
-        "E8": 0,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Darryn Peterson",
-          "team": "Kansas",
-          "seed": 4,
-          "region": "East",
-          "pick": 24,
-          "draft_round": 3,
-          "status": "eliminated",
-          "total_points": 49,
-          "round_scores": {
-            "R64": 28,
-            "R32": 21
-          },
-          "ppg_season": 19.8
-        },
-        {
-          "name": "Tamin Lipsey",
-          "team": "Iowa State",
-          "seed": 2,
-          "region": "Midwest",
-          "pick": 37,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 46,
-          "round_scores": {
-            "R64": 3,
-            "R32": 26,
-            "S16": 17
-          },
-          "ppg_season": 13.3
-        },
-        {
-          "name": "Brayden Burries",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 4,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 34,
-          "round_scores": {
-            "R64": 18,
-            "R32": 16
-          },
-          "ppg_season": 15.9
-        },
-        {
-          "name": "Milos Uzan",
-          "team": "Houston",
-          "seed": 2,
-          "region": "South",
-          "pick": 44,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 12,
-            "R32": 15
-          },
-          "ppg_season": 11.1
-        },
-        {
-          "name": "Malik Thomas",
-          "team": "Virginia",
-          "seed": 3,
-          "region": "Midwest",
-          "pick": 57,
-          "draft_round": 6,
-          "status": "eliminated",
-          "total_points": 23,
-          "round_scores": {
-            "R64": 11,
-            "R32": 12
-          },
-          "ppg_season": 12.4
-        },
-        {
-          "name": "Solo Ball",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 17,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 21,
-          "round_scores": {
-            "R64": 9,
-            "R32": 0,
-            "S16": 12
-          },
-          "ppg_season": 13.5
-        },
-        {
-          "name": "Flory Bidunga",
-          "team": "Kansas",
-          "seed": 4,
-          "region": "East",
-          "pick": 77,
-          "draft_round": 8,
-          "status": "eliminated",
-          "total_points": 18,
-          "round_scores": {
-            "R64": 6,
-            "R32": 12
-          },
-          "ppg_season": 13.5
-        },
-        {
-          "name": "Nolan Winter",
-          "team": "Wisconsin",
-          "seed": 5,
-          "region": "West",
-          "pick": 64,
-          "draft_round": 7,
-          "status": "eliminated",
-          "total_points": 8,
-          "round_scores": {
-            "R64": 8
-          },
-          "ppg_season": 13.3
-        }
-      ],
-      "avg_per_active": 32.0,
-      "projected_finish": 610,
-      "current_round_delta": 29
     },
     {
       "rank": 8,
