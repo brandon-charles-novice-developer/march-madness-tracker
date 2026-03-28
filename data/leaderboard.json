@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T01:56:17.979596+00:00",
+  "last_updated": "2026-03-28T02:01:21.813090+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -439,13 +439,13 @@
     {
       "rank": 4,
       "manager": "Mike Haughey",
-      "total_points": 237,
+      "total_points": 238,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 94,
         "R32": 105,
-        "S16": 38,
+        "S16": 39,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -490,11 +490,11 @@
           "pick": 47,
           "draft_round": 5,
           "status": "active",
-          "total_points": 33,
+          "total_points": 34,
           "round_scores": {
             "R64": 5,
             "R32": 12,
-            "S16": 16
+            "S16": 17
           },
           "ppg_season": 10.2
         },
@@ -575,9 +575,9 @@
           "ppg_season": 9.7
         }
       ],
-      "avg_per_active": 27.3,
-      "projected_finish": 483,
-      "current_round_delta": 38
+      "avg_per_active": 27.7,
+      "projected_finish": 487,
+      "current_round_delta": 39
     },
     {
       "rank": 5,
@@ -858,13 +858,13 @@
     {
       "rank": 7,
       "manager": "Josh Ehrlich",
-      "total_points": 207,
+      "total_points": 208,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 89,
-        "S16": 22,
+        "S16": 23,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -878,11 +878,11 @@
           "pick": 1,
           "draft_round": 1,
           "status": "active",
-          "total_points": 56,
+          "total_points": 57,
           "round_scores": {
             "R64": 9,
             "R32": 25,
-            "S16": 22
+            "S16": 23
           },
           "ppg_season": 14.4
         },
@@ -992,9 +992,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 35.2,
-      "projected_finish": 735,
-      "current_round_delta": 22
+      "avg_per_active": 35.4,
+      "projected_finish": 739,
+      "current_round_delta": 23
     },
     {
       "rank": 8,
