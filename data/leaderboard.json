@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T04:13:25.584528+00:00",
+  "last_updated": "2026-03-28T04:18:30.558289+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -587,7 +587,7 @@
       "rank": 5,
       "manager": "Jake Pollack",
       "total_points": 234,
-      "active_players": 2,
+      "active_players": 1,
       "total_players": 8,
       "round_totals": {
         "R64": 128,
@@ -605,7 +605,7 @@
           "region": "East",
           "pick": 71,
           "draft_round": 8,
-          "status": "active",
+          "status": "eliminated",
           "total_points": 51,
           "round_scores": {
             "R64": 17,
@@ -718,8 +718,8 @@
           "ppg_season": 19.2
         }
       ],
-      "avg_per_active": 42.5,
-      "projected_finish": 489,
+      "avg_per_active": 34.0,
+      "projected_finish": 336,
       "current_round_delta": 13
     },
     {
@@ -1005,7 +1005,7 @@
       "rank": 8,
       "manager": "Jordan Mackler",
       "total_points": 215,
-      "active_players": 7,
+      "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
@@ -1068,7 +1068,7 @@
           "region": "East",
           "pick": 25,
           "draft_round": 3,
-          "status": "active",
+          "status": "eliminated",
           "total_points": 32,
           "round_scores": {
             "R64": 7,
@@ -1134,8 +1134,8 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 23.1,
-      "projected_finish": 700,
+      "avg_per_active": 21.7,
+      "projected_finish": 606,
       "current_round_delta": 16
     },
     {
@@ -1282,13 +1282,13 @@
     {
       "rank": 10,
       "manager": "Nick Reskin",
-      "total_points": 180,
-      "active_players": 4,
+      "total_points": 181,
+      "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 53,
-        "S16": 31,
+        "S16": 32,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -1302,11 +1302,11 @@
           "pick": 19,
           "draft_round": 2,
           "status": "active",
-          "total_points": 60,
+          "total_points": 61,
           "round_scores": {
             "R64": 31,
             "R32": 10,
-            "S16": 19
+            "S16": 20
           },
           "ppg_season": 13.7
         },
@@ -1332,7 +1332,7 @@
           "region": "East",
           "pick": 39,
           "draft_round": 4,
-          "status": "active",
+          "status": "eliminated",
           "total_points": 34,
           "round_scores": {
             "R64": 12,
@@ -1408,8 +1408,8 @@
         }
       ],
       "avg_per_active": 33.0,
-      "projected_finish": 576,
-      "current_round_delta": 31
+      "projected_finish": 478,
+      "current_round_delta": 32
     }
   ]
 }
