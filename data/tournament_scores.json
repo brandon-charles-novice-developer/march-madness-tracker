@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T02:06:26.677499+00:00",
+  "last_updated": "2026-03-28T02:11:30.810806+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -76,7 +76,8 @@
     },
     "Coen Carr": {
       "R64": 17,
-      "R32": 21
+      "R32": 21,
+      "S16": 1
     },
     "Jeremy Fears Jr": {
       "R64": 7,
@@ -447,6 +448,7 @@
     "6534645:Alex Karaban": 3,
     "6534645:Tarris Reed Jr": 2,
     "6534645:Jeremy Fears Jr": 2,
-    "6534645:Jaxon Kohler": 2
+    "6534645:Jaxon Kohler": 2,
+    "6534645:Coen Carr": 1
   }
 }
