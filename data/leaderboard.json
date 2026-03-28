@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T01:15:46.997706+00:00",
+  "last_updated": "2026-03-28T01:20:50.494869+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -161,13 +161,13 @@
     {
       "rank": 2,
       "manager": "AJ Spile",
-      "total_points": 267,
+      "total_points": 270,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
         "R32": 75,
-        "S16": 19,
+        "S16": 22,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -181,11 +181,11 @@
           "pick": 15,
           "draft_round": 2,
           "status": "active",
-          "total_points": 57,
+          "total_points": 60,
           "round_scores": {
             "R64": 29,
             "R32": 9,
-            "S16": 19
+            "S16": 22
           },
           "ppg_season": 21.7
         },
@@ -292,9 +292,9 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 48.0,
-      "projected_finish": 699,
-      "current_round_delta": 19
+      "avg_per_active": 49.0,
+      "projected_finish": 711,
+      "current_round_delta": 22
     },
     {
       "rank": 3,
@@ -439,13 +439,13 @@
     {
       "rank": 4,
       "manager": "Mike Haughey",
-      "total_points": 227,
+      "total_points": 231,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 94,
         "R32": 105,
-        "S16": 28,
+        "S16": 32,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -459,11 +459,11 @@
           "pick": 27,
           "draft_round": 3,
           "status": "active",
-          "total_points": 48,
+          "total_points": 49,
           "round_scores": {
             "R64": 14,
             "R32": 18,
-            "S16": 16
+            "S16": 17
           },
           "ppg_season": 16.3
         },
@@ -520,11 +520,11 @@
           "pick": 47,
           "draft_round": 5,
           "status": "active",
-          "total_points": 24,
+          "total_points": 27,
           "round_scores": {
             "R64": 5,
             "R32": 12,
-            "S16": 7
+            "S16": 10
           },
           "ppg_season": 10.2
         },
@@ -575,9 +575,9 @@
           "ppg_season": 9.7
         }
       ],
-      "avg_per_active": 28.0,
-      "projected_finish": 647,
-      "current_round_delta": 28
+      "avg_per_active": 28.8,
+      "projected_finish": 663,
+      "current_round_delta": 32
     },
     {
       "rank": 5,
@@ -858,13 +858,13 @@
     {
       "rank": 7,
       "manager": "Josh Ehrlich",
-      "total_points": 202,
+      "total_points": 207,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 89,
-        "S16": 17,
+        "S16": 22,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -878,11 +878,11 @@
           "pick": 1,
           "draft_round": 1,
           "status": "active",
-          "total_points": 51,
+          "total_points": 56,
           "round_scores": {
             "R64": 9,
             "R32": 25,
-            "S16": 17
+            "S16": 22
           },
           "ppg_season": 14.4
         },
@@ -992,9 +992,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 34.2,
-      "projected_finish": 715,
-      "current_round_delta": 17
+      "avg_per_active": 35.2,
+      "projected_finish": 735,
+      "current_round_delta": 22
     },
     {
       "rank": 8,

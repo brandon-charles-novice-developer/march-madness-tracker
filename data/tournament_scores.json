@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T01:15:46.986176+00:00",
+  "last_updated": "2026-03-28T01:20:50.484157+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -105,7 +105,7 @@
     "Elliot Cadeau": {
       "R64": 5,
       "R32": 12,
-      "S16": 7
+      "S16": 10
     },
     "Morez Johnson Jr": {
       "R64": 21,
@@ -115,7 +115,7 @@
     "Yaxel Lendeborg": {
       "R64": 9,
       "R32": 25,
-      "S16": 17
+      "S16": 22
     },
     "Aday Mara": {
       "R64": 19,
@@ -222,7 +222,7 @@
     "Labaron Philon Jr": {
       "R64": 29,
       "R32": 9,
-      "S16": 19
+      "S16": 22
     },
     "Nate Ament": {
       "R64": 0,
@@ -239,7 +239,7 @@
     "Zuby Ejiofor": {
       "R64": 14,
       "R32": 18,
-      "S16": 16
+      "S16": 17
     },
     "Bryce Hopkins": {
       "R64": 13,
@@ -440,11 +440,11 @@
     "6534644:Cayden Boozer": 7,
     "6534644:Patrick Ngongba II": 3,
     "6534644:Bryce Hopkins": 15,
-    "6534644:Zuby Ejiofor": 16,
-    "6534650:Elliot Cadeau": 7,
-    "6534650:Yaxel Lendeborg": 17,
+    "6534644:Zuby Ejiofor": 17,
+    "6534650:Elliot Cadeau": 10,
+    "6534650:Yaxel Lendeborg": 22,
     "6534650:Aday Mara": 4,
-    "6534650:Labaron Philon Jr": 19,
+    "6534650:Labaron Philon Jr": 22,
     "6534650:Morez Johnson Jr": 4,
     "6534644:Oziyah Sellers": 5
   }
