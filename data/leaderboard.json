@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:59:33.454204+00:00",
+  "last_updated": "2026-03-28T00:04:39.474543+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -1129,18 +1129,34 @@
     {
       "rank": 9,
       "manager": "Josh Ehrlich",
-      "total_points": 187,
+      "total_points": 191,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 89,
-        "S16": 2,
+        "S16": 6,
         "E8": 0,
         "F4": 0,
         "Championship": 0
       },
       "players": [
+        {
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 1,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 40,
+          "round_scores": {
+            "R64": 9,
+            "R32": 25,
+            "S16": 6
+          },
+          "ppg_season": 14.4
+        },
         {
           "name": "Braden Smith",
           "team": "Purdue",
@@ -1155,22 +1171,6 @@
             "R32": 12
           },
           "ppg_season": 14.0
-        },
-        {
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 1,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 36,
-          "round_scores": {
-            "R64": 9,
-            "R32": 25,
-            "S16": 2
-          },
-          "ppg_season": 14.4
         },
         {
           "name": "Andrej Stojakovic",
@@ -1263,9 +1263,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 31.2,
-      "projected_finish": 655,
-      "current_round_delta": 2
+      "avg_per_active": 32.0,
+      "projected_finish": 671,
+      "current_round_delta": 6
     },
     {
       "rank": 10,
