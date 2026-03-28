@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T00:25:00.844668+00:00",
+  "last_updated": "2026-03-28T00:30:08.507962+00:00",
   "current_round": "S16",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,13 +19,13 @@
     {
       "rank": 1,
       "manager": "Alex Magged",
-      "total_points": 266,
+      "total_points": 269,
       "active_players": 7,
       "total_players": 8,
       "round_totals": {
         "R64": 144,
         "R32": 107,
-        "S16": 15,
+        "S16": 18,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -39,11 +39,11 @@
           "pick": 8,
           "draft_round": 1,
           "status": "active",
-          "total_points": 44,
+          "total_points": 47,
           "round_scores": {
             "R64": 16,
             "R32": 17,
-            "S16": 11
+            "S16": 14
           },
           "ppg_season": 14.9
         },
@@ -154,9 +154,9 @@
           "ppg_season": 17.5
         }
       ],
-      "avg_per_active": 34.7,
-      "projected_finish": 995,
-      "current_round_delta": 15
+      "avg_per_active": 35.1,
+      "projected_finish": 1006,
+      "current_round_delta": 18
     },
     {
       "rank": 2,
@@ -715,13 +715,13 @@
     {
       "rank": 6,
       "manager": "Mike Haughey",
-      "total_points": 213,
+      "total_points": 217,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 94,
         "R32": 105,
-        "S16": 14,
+        "S16": 18,
         "E8": 0,
         "F4": 0,
         "Championship": 0
@@ -750,11 +750,11 @@
           "pick": 27,
           "draft_round": 3,
           "status": "active",
-          "total_points": 39,
+          "total_points": 41,
           "round_scores": {
             "R64": 14,
             "R32": 18,
-            "S16": 7
+            "S16": 9
           },
           "ppg_season": 16.3
         },
@@ -820,6 +820,22 @@
           "ppg_season": 10.5
         },
         {
+          "name": "Oziyah Sellers",
+          "team": "St Johns",
+          "seed": 5,
+          "region": "East",
+          "pick": 67,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 16,
+          "round_scores": {
+            "R64": 11,
+            "R32": 3,
+            "S16": 2
+          },
+          "ppg_season": 10.7
+        },
+        {
           "name": "Urban Klavzar",
           "team": "Florida",
           "seed": 1,
@@ -833,26 +849,11 @@
             "R32": 5
           },
           "ppg_season": 9.7
-        },
-        {
-          "name": "Oziyah Sellers",
-          "team": "St Johns",
-          "seed": 5,
-          "region": "East",
-          "pick": 67,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 14,
-          "round_scores": {
-            "R64": 11,
-            "R32": 3
-          },
-          "ppg_season": 10.7
         }
       ],
-      "avg_per_active": 25.2,
-      "projected_finish": 591,
-      "current_round_delta": 14
+      "avg_per_active": 26.0,
+      "projected_finish": 607,
+      "current_round_delta": 18
     },
     {
       "rank": 7,
