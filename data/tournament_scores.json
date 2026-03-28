@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T01:46:10.131516+00:00",
+  "last_updated": "2026-03-28T01:51:13.935965+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -105,12 +105,12 @@
     "Elliot Cadeau": {
       "R64": 5,
       "R32": 12,
-      "S16": 11
+      "S16": 16
     },
     "Morez Johnson Jr": {
       "R64": 21,
       "R32": 15,
-      "S16": 4
+      "S16": 5
     },
     "Yaxel Lendeborg": {
       "R64": 9,
@@ -222,7 +222,7 @@
     "Labaron Philon Jr": {
       "R64": 29,
       "R32": 9,
-      "S16": 27
+      "S16": 30
     },
     "Nate Ament": {
       "R64": 0,
@@ -438,10 +438,10 @@
     "6534644"
   ],
   "live_scores": {
-    "6534650:Elliot Cadeau": 11,
+    "6534650:Elliot Cadeau": 16,
     "6534650:Yaxel Lendeborg": 22,
     "6534650:Aday Mara": 8,
-    "6534650:Labaron Philon Jr": 27,
-    "6534650:Morez Johnson Jr": 4
+    "6534650:Labaron Philon Jr": 30,
+    "6534650:Morez Johnson Jr": 5
   }
 }
