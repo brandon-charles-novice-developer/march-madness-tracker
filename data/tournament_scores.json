@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T19:00:49.689405+00:00",
+  "last_updated": "2026-03-29T19:05:52.656891+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -109,7 +109,7 @@
       "R64": 5,
       "R32": 12,
       "S16": 17,
-      "E8": 5
+      "E8": 8
     },
     "Morez Johnson Jr": {
       "R64": 21,
@@ -461,7 +461,7 @@
   ],
   "live_scores": {
     "6534655:Aday Mara": 6,
-    "6534655:Elliot Cadeau": 5,
+    "6534655:Elliot Cadeau": 8,
     "6534655:Nate Ament": 4,
     "6534655:Morez Johnson Jr": 3,
     "6534655:Yaxel Lendeborg": 10,
