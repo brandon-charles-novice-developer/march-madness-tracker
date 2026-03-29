@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T19:51:20.667235+00:00",
+  "last_updated": "2026-03-29T19:56:23.762878+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -121,7 +121,7 @@
       "R64": 9,
       "R32": 25,
       "S16": 23,
-      "E8": 19
+      "E8": 22
     },
     "Aday Mara": {
       "R64": 19,
@@ -464,7 +464,7 @@
     "6534655:Elliot Cadeau": 8,
     "6534655:Nate Ament": 4,
     "6534655:Morez Johnson Jr": 3,
-    "6534655:Yaxel Lendeborg": 19,
+    "6534655:Yaxel Lendeborg": 22,
     "6534655:Ja'Kobi Gillespie": 12
   }
 }
