@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T21:17:17.071254+00:00",
+  "last_updated": "2026-03-29T21:22:20.855931+00:00",
   "current_round": "E8",
   "tournament_status": "in_progress",
   "payouts": {
@@ -306,14 +306,14 @@
     {
       "rank": 3,
       "manager": "Mark Weiner",
-      "total_points": 282,
+      "total_points": 285,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 129,
         "R32": 106,
         "S16": 32,
-        "E8": 15,
+        "E8": 18,
         "F4": 0,
         "Championship": 0
       },
@@ -352,6 +352,23 @@
           "ppg_season": 11.6
         },
         {
+          "name": "Cayden Boozer",
+          "team": "Duke",
+          "seed": 1,
+          "region": "East",
+          "pick": 23,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 42,
+          "round_scores": {
+            "R64": 19,
+            "R32": 9,
+            "S16": 7,
+            "E8": 7
+          },
+          "ppg_season": 7.1
+        },
+        {
           "name": "Meleek Thomas",
           "team": "Arkansas",
           "seed": 4,
@@ -380,23 +397,6 @@
             "R32": 16
           },
           "ppg_season": 18.8
-        },
-        {
-          "name": "Cayden Boozer",
-          "team": "Duke",
-          "seed": 1,
-          "region": "East",
-          "pick": 23,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 39,
-          "round_scores": {
-            "R64": 19,
-            "R32": 9,
-            "S16": 7,
-            "E8": 4
-          },
-          "ppg_season": 7.1
         },
         {
           "name": "Thomas Haugh",
@@ -442,9 +442,9 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 47.8,
-      "projected_finish": 760,
-      "current_round_delta": 15
+      "avg_per_active": 48.4,
+      "projected_finish": 769,
+      "current_round_delta": 18
     },
     {
       "rank": 4,
@@ -1291,14 +1291,14 @@
     {
       "rank": 10,
       "manager": "Nick Reskin",
-      "total_points": 189,
+      "total_points": 193,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 53,
         "S16": 32,
-        "E8": 8,
+        "E8": 12,
         "F4": 0,
         "Championship": 0
       },
@@ -1311,12 +1311,12 @@
           "pick": 19,
           "draft_round": 2,
           "status": "active",
-          "total_points": 69,
+          "total_points": 73,
           "round_scores": {
             "R64": 31,
             "R32": 10,
             "S16": 20,
-            "E8": 8
+            "E8": 12
           },
           "ppg_season": 13.7
         },
@@ -1417,9 +1417,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 35.7,
-      "projected_finish": 403,
-      "current_round_delta": 8
+      "avg_per_active": 37.0,
+      "projected_finish": 415,
+      "current_round_delta": 12
     }
   ]
 }
