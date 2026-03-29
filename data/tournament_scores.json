@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T22:53:30.046672+00:00",
+  "last_updated": "2026-03-29T22:58:33.856841+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -341,7 +341,7 @@
       "R64": 31,
       "R32": 10,
       "S16": 20,
-      "E8": 23
+      "E8": 24
     },
     "Patrick Ngongba II": {
       "R32": 4,
@@ -470,7 +470,7 @@
   "live_scores": {
     "6534652:Cayden Boozer": 15,
     "6534652:Isaiah Evans": 5,
-    "6534652:Tarris Reed Jr": 23,
+    "6534652:Tarris Reed Jr": 24,
     "6534652:Solo Ball": 4,
     "6534652:Patrick Ngongba II": 5,
     "6534652:Alex Karaban": 2
