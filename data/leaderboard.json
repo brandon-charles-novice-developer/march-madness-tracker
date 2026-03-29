@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T23:13:41.287796+00:00",
+  "last_updated": "2026-03-29T23:18:44.867226+00:00",
   "current_round": "E8",
   "tournament_status": "in_progress",
   "payouts": {
@@ -306,14 +306,14 @@
     {
       "rank": 3,
       "manager": "Mark Weiner",
-      "total_points": 295,
+      "total_points": 298,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 129,
         "R32": 106,
         "S16": 32,
-        "E8": 28,
+        "E8": 31,
         "F4": 0,
         "Championship": 0
       },
@@ -326,12 +326,12 @@
           "pick": 38,
           "draft_round": 4,
           "status": "active",
-          "total_points": 68,
+          "total_points": 71,
           "round_scores": {
             "R64": 22,
             "R32": 27,
             "S16": 17,
-            "E8": 2
+            "E8": 5
           },
           "ppg_season": 12.6
         },
@@ -443,9 +443,9 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 50.4,
-      "projected_finish": 799,
-      "current_round_delta": 28
+      "avg_per_active": 51.0,
+      "projected_finish": 808,
+      "current_round_delta": 31
     },
     {
       "rank": 4,
