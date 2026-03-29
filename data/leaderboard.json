@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T22:23:07.995613+00:00",
+  "last_updated": "2026-03-29T22:28:11.911820+00:00",
   "current_round": "E8",
   "tournament_status": "in_progress",
   "payouts": {
@@ -306,14 +306,14 @@
     {
       "rank": 3,
       "manager": "Mark Weiner",
-      "total_points": 291,
+      "total_points": 293,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 129,
         "R32": 106,
         "S16": 32,
-        "E8": 24,
+        "E8": 26,
         "F4": 0,
         "Championship": 0
       },
@@ -359,12 +359,12 @@
           "pick": 23,
           "draft_round": 3,
           "status": "active",
-          "total_points": 48,
+          "total_points": 50,
           "round_scores": {
             "R64": 19,
             "R32": 9,
             "S16": 7,
-            "E8": 13
+            "E8": 15
           },
           "ppg_season": 7.1
         },
@@ -442,9 +442,9 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 49.6,
-      "projected_finish": 787,
-      "current_round_delta": 24
+      "avg_per_active": 50.0,
+      "projected_finish": 793,
+      "current_round_delta": 26
     },
     {
       "rank": 4,
@@ -1154,14 +1154,14 @@
     {
       "rank": 9,
       "manager": "Jordan Mackler",
-      "total_points": 217,
+      "total_points": 219,
       "active_players": 6,
       "total_players": 8,
       "round_totals": {
         "R64": 105,
         "R32": 94,
         "S16": 16,
-        "E8": 2,
+        "E8": 4,
         "F4": 0,
         "Championship": 0
       },
@@ -1250,11 +1250,11 @@
           "pick": 76,
           "draft_round": 8,
           "status": "active",
-          "total_points": 9,
+          "total_points": 11,
           "round_scores": {
             "R32": 4,
             "S16": 3,
-            "E8": 2
+            "E8": 4
           },
           "ppg_season": 10.7
         },
@@ -1285,21 +1285,21 @@
           "ppg_season": 8.5
         }
       ],
-      "avg_per_active": 22.0,
-      "projected_finish": 481,
-      "current_round_delta": 2
+      "avg_per_active": 22.3,
+      "projected_finish": 487,
+      "current_round_delta": 4
     },
     {
       "rank": 10,
       "manager": "Nick Reskin",
-      "total_points": 193,
+      "total_points": 195,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 53,
         "S16": 32,
-        "E8": 12,
+        "E8": 14,
         "F4": 0,
         "Championship": 0
       },
@@ -1312,12 +1312,12 @@
           "pick": 19,
           "draft_round": 2,
           "status": "active",
-          "total_points": 73,
+          "total_points": 75,
           "round_scores": {
             "R64": 31,
             "R32": 10,
             "S16": 20,
-            "E8": 12
+            "E8": 14
           },
           "ppg_season": 13.7
         },
@@ -1418,9 +1418,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 37.0,
-      "projected_finish": 415,
-      "current_round_delta": 12
+      "avg_per_active": 37.7,
+      "projected_finish": 421,
+      "current_round_delta": 14
     }
   ]
 }
