@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T19:10:55.461315+00:00",
+  "last_updated": "2026-03-29T19:15:58.731884+00:00",
   "current_round": "E8",
   "tournament_status": "in_progress",
   "payouts": {
@@ -19,14 +19,14 @@
     {
       "rank": 1,
       "manager": "AJ Spile",
-      "total_points": 308,
+      "total_points": 311,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
         "R64": 173,
         "R32": 75,
         "S16": 57,
-        "E8": 3,
+        "E8": 6,
         "F4": 0,
         "Championship": 0
       },
@@ -55,12 +55,12 @@
           "pick": 46,
           "draft_round": 5,
           "status": "active",
-          "total_points": 69,
+          "total_points": 72,
           "round_scores": {
             "R64": 29,
             "R32": 21,
             "S16": 16,
-            "E8": 3
+            "E8": 6
           },
           "ppg_season": 18.0
         },
@@ -153,9 +153,9 @@
           "ppg_season": 20.3
         }
       ],
-      "avg_per_active": 56.0,
-      "projected_finish": 532,
-      "current_round_delta": 3
+      "avg_per_active": 57.5,
+      "projected_finish": 541,
+      "current_round_delta": 6
     },
     {
       "rank": 2,

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T19:10:55.447962+00:00",
+  "last_updated": "2026-03-29T19:15:58.717598+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -243,7 +243,7 @@
       "R64": 29,
       "R32": 21,
       "S16": 16,
-      "E8": 3
+      "E8": 6
     },
     "Bennett Stirtz": {
       "R64": 16,
@@ -465,6 +465,6 @@
     "6534655:Nate Ament": 4,
     "6534655:Morez Johnson Jr": 3,
     "6534655:Yaxel Lendeborg": 13,
-    "6534655:Ja'Kobi Gillespie": 3
+    "6534655:Ja'Kobi Gillespie": 6
   }
 }
