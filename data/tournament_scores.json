@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T21:32:27.981610+00:00",
+  "last_updated": "2026-03-29T21:37:31.551056+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -60,7 +60,7 @@
       "R64": 19,
       "R32": 9,
       "S16": 7,
-      "E8": 7
+      "E8": 9
     },
     "Isaiah Evans": {
       "R64": 16,
@@ -344,7 +344,8 @@
     },
     "Patrick Ngongba II": {
       "R32": 4,
-      "S16": 3
+      "S16": 3,
+      "E8": 2
     }
   },
   "eliminated_teams": [
@@ -466,9 +467,10 @@
     "6534655"
   ],
   "live_scores": {
-    "6534652:Cayden Boozer": 7,
+    "6534652:Cayden Boozer": 9,
     "6534652:Isaiah Evans": 5,
     "6534652:Tarris Reed Jr": 12,
-    "6534652:Solo Ball": 2
+    "6534652:Solo Ball": 2,
+    "6534652:Patrick Ngongba II": 2
   }
 }
