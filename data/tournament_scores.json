@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T18:30:32.108062+00:00",
+  "last_updated": "2026-03-29T18:35:34.763564+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -120,7 +120,8 @@
     "Yaxel Lendeborg": {
       "R64": 9,
       "R32": 25,
-      "S16": 23
+      "S16": 23,
+      "E8": 2
     },
     "Aday Mara": {
       "R64": 19,
@@ -236,7 +237,7 @@
       "R64": 0,
       "R32": 16,
       "S16": 18,
-      "E8": 2
+      "E8": 4
     },
     "Ja'Kobi Gillespie": {
       "R64": 29,
@@ -460,7 +461,8 @@
   "live_scores": {
     "6534655:Aday Mara": 2,
     "6534655:Elliot Cadeau": 2,
-    "6534655:Nate Ament": 2,
-    "6534655:Morez Johnson Jr": 2
+    "6534655:Nate Ament": 4,
+    "6534655:Morez Johnson Jr": 2,
+    "6534655:Yaxel Lendeborg": 2
   }
 }

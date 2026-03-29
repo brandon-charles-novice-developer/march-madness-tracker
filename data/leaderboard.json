@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T18:30:32.123294+00:00",
+  "last_updated": "2026-03-29T18:35:34.783220+00:00",
   "current_round": "E8",
   "tournament_status": "in_progress",
   "payouts": {
@@ -18,6 +18,151 @@
   "standings": [
     {
       "rank": 1,
+      "manager": "Alex Magged",
+      "total_points": 307,
+      "active_players": 7,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 144,
+        "R32": 107,
+        "S16": 50,
+        "E8": 6,
+        "F4": 0,
+        "Championship": 0
+      },
+      "players": [
+        {
+          "name": "Isaiah Evans",
+          "team": "Duke",
+          "seed": 1,
+          "region": "East",
+          "pick": 8,
+          "draft_round": 1,
+          "status": "active",
+          "total_points": 58,
+          "round_scores": {
+            "R64": 16,
+            "R32": 17,
+            "S16": 25
+          },
+          "ppg_season": 14.9
+        },
+        {
+          "name": "Morez Johnson Jr",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 13,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 45,
+          "round_scores": {
+            "R64": 21,
+            "R32": 15,
+            "S16": 7,
+            "E8": 2
+          },
+          "ppg_season": 13.3
+        },
+        {
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue",
+          "seed": 2,
+          "region": "West",
+          "pick": 28,
+          "draft_round": 3,
+          "status": "active",
+          "total_points": 44,
+          "round_scores": {
+            "R64": 25,
+            "R32": 19
+          },
+          "ppg_season": 13.4
+        },
+        {
+          "name": "Nate Ament",
+          "team": "Tennessee",
+          "seed": 6,
+          "region": "Midwest",
+          "pick": 48,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 38,
+          "round_scores": {
+            "R64": 0,
+            "R32": 16,
+            "S16": 18,
+            "E8": 4
+          },
+          "ppg_season": 17.5
+        },
+        {
+          "name": "Dailyn Swain",
+          "team": "Texas",
+          "seed": 11,
+          "region": "West",
+          "pick": 68,
+          "draft_round": 7,
+          "status": "active",
+          "total_points": 38,
+          "round_scores": {
+            "R64": 27,
+            "R32": 11
+          },
+          "ppg_season": 17.8
+        },
+        {
+          "name": "David Mirkovic",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 53,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 36,
+          "round_scores": {
+            "R64": 29,
+            "R32": 7
+          },
+          "ppg_season": 13.4
+        },
+        {
+          "name": "Billy Richmond III",
+          "team": "Arkansas",
+          "seed": 4,
+          "region": "West",
+          "pick": 73,
+          "draft_round": 8,
+          "status": "active",
+          "total_points": 25,
+          "round_scores": {
+            "R64": 10,
+            "R32": 15
+          },
+          "ppg_season": 10.8
+        },
+        {
+          "name": "Boogie Fland",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 33,
+          "draft_round": 4,
+          "status": "eliminated",
+          "total_points": 23,
+          "round_scores": {
+            "R64": 16,
+            "R32": 7
+          },
+          "ppg_season": 11.6
+        }
+      ],
+      "avg_per_active": 40.6,
+      "projected_finish": 875,
+      "current_round_delta": 6
+    },
+    {
+      "rank": 2,
       "manager": "AJ Spile",
       "total_points": 305,
       "active_players": 2,
@@ -155,151 +300,6 @@
       "avg_per_active": 54.5,
       "projected_finish": 523,
       "current_round_delta": 0
-    },
-    {
-      "rank": 2,
-      "manager": "Alex Magged",
-      "total_points": 305,
-      "active_players": 7,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 144,
-        "R32": 107,
-        "S16": 50,
-        "E8": 4,
-        "F4": 0,
-        "Championship": 0
-      },
-      "players": [
-        {
-          "name": "Isaiah Evans",
-          "team": "Duke",
-          "seed": 1,
-          "region": "East",
-          "pick": 8,
-          "draft_round": 1,
-          "status": "active",
-          "total_points": 58,
-          "round_scores": {
-            "R64": 16,
-            "R32": 17,
-            "S16": 25
-          },
-          "ppg_season": 14.9
-        },
-        {
-          "name": "Morez Johnson Jr",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 13,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 45,
-          "round_scores": {
-            "R64": 21,
-            "R32": 15,
-            "S16": 7,
-            "E8": 2
-          },
-          "ppg_season": 13.3
-        },
-        {
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue",
-          "seed": 2,
-          "region": "West",
-          "pick": 28,
-          "draft_round": 3,
-          "status": "active",
-          "total_points": 44,
-          "round_scores": {
-            "R64": 25,
-            "R32": 19
-          },
-          "ppg_season": 13.4
-        },
-        {
-          "name": "Dailyn Swain",
-          "team": "Texas",
-          "seed": 11,
-          "region": "West",
-          "pick": 68,
-          "draft_round": 7,
-          "status": "active",
-          "total_points": 38,
-          "round_scores": {
-            "R64": 27,
-            "R32": 11
-          },
-          "ppg_season": 17.8
-        },
-        {
-          "name": "Nate Ament",
-          "team": "Tennessee",
-          "seed": 6,
-          "region": "Midwest",
-          "pick": 48,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 36,
-          "round_scores": {
-            "R64": 0,
-            "R32": 16,
-            "S16": 18,
-            "E8": 2
-          },
-          "ppg_season": 17.5
-        },
-        {
-          "name": "David Mirkovic",
-          "team": "Illinois",
-          "seed": 3,
-          "region": "South",
-          "pick": 53,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 36,
-          "round_scores": {
-            "R64": 29,
-            "R32": 7
-          },
-          "ppg_season": 13.4
-        },
-        {
-          "name": "Billy Richmond III",
-          "team": "Arkansas",
-          "seed": 4,
-          "region": "West",
-          "pick": 73,
-          "draft_round": 8,
-          "status": "active",
-          "total_points": 25,
-          "round_scores": {
-            "R64": 10,
-            "R32": 15
-          },
-          "ppg_season": 10.8
-        },
-        {
-          "name": "Boogie Fland",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 33,
-          "draft_round": 4,
-          "status": "eliminated",
-          "total_points": 23,
-          "round_scores": {
-            "R64": 16,
-            "R32": 7
-          },
-          "ppg_season": 11.6
-        }
-      ],
-      "avg_per_active": 40.3,
-      "projected_finish": 869,
-      "current_round_delta": 4
     },
     {
       "rank": 3,
@@ -1145,14 +1145,14 @@
     {
       "rank": 9,
       "manager": "Josh Ehrlich",
-      "total_points": 208,
+      "total_points": 210,
       "active_players": 5,
       "total_players": 8,
       "round_totals": {
         "R64": 96,
         "R32": 89,
         "S16": 23,
-        "E8": 0,
+        "E8": 2,
         "F4": 0,
         "Championship": 0
       },
@@ -1165,11 +1165,12 @@
           "pick": 1,
           "draft_round": 1,
           "status": "active",
-          "total_points": 57,
+          "total_points": 59,
           "round_scores": {
             "R64": 9,
             "R32": 25,
-            "S16": 23
+            "S16": 23,
+            "E8": 2
           },
           "ppg_season": 14.4
         },
@@ -1279,9 +1280,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 35.4,
-      "projected_finish": 562,
-      "current_round_delta": 0
+      "avg_per_active": 35.8,
+      "projected_finish": 568,
+      "current_round_delta": 2
     },
     {
       "rank": 10,
