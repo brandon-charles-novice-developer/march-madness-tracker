@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T23:23:48.688967+00:00",
+  "last_updated": "2026-03-29T23:28:53.488961+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -355,6 +355,7 @@
     "BYU",
     "California Baptist",
     "Clemson",
+    "Duke",
     "Florida",
     "Furman",
     "Georgia",
@@ -465,14 +466,8 @@
     "6534650",
     "6534645",
     "6534651",
-    "6534655"
+    "6534655",
+    "6534652"
   ],
-  "live_scores": {
-    "6534652:Cayden Boozer": 15,
-    "6534652:Isaiah Evans": 7,
-    "6534652:Tarris Reed Jr": 26,
-    "6534652:Solo Ball": 10,
-    "6534652:Patrick Ngongba II": 6,
-    "6534652:Alex Karaban": 5
-  }
+  "live_scores": {}
 }
