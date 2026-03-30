@@ -221,15 +221,21 @@ def write_feeds(
 def _normalize_team(name: str) -> str:
     """Normalize team name for fuzzy elimination matching.
 
-    Handles: 'Ohio St.' vs 'Ohio St', 'Saint Mary's (CA)' vs 'Saint Mary's',
-    'South Fla.' vs 'South Florida', 'St. John's (NY)' vs 'St Johns'.
+    Handles: 'Ohio St.' vs 'Ohio State', 'Saint Mary's (CA)' vs 'Saint Mary's',
+    'South Fla.' vs 'South Florida', 'St. John's (NY)' vs 'St Johns',
+    'Iowa St.' vs 'Iowa State', 'Miami (FL)' vs 'Miami FL'.
     """
-    import re
     n = name.lower().strip()
     n = re.sub(r"\s*\(.*?\)", "", n)  # strip parentheticals: (CA), (NY), (OH), (FL)
     n = n.rstrip(".")                  # trailing period
     n = n.replace("'", "")            # apostrophes
     n = n.replace(".", "")            # remaining dots
+    # Expand common abbreviations for consistent matching
+    # "st" at end of name = "state" (Iowa St → Iowa State)
+    n = re.sub(r"\bst$", "state", n)
+    # "fla" or "fl" as standalone = "florida" (South Fla → South Florida, Miami FL → Miami Florida)
+    n = re.sub(r"\bfla\b", "florida", n)
+    n = re.sub(r"\bfl\b", "florida", n)
     n = re.sub(r"\s+", " ", n)        # collapse whitespace
     return n
 
@@ -259,13 +265,27 @@ def _group_picks_by_manager(draft_picks: list[dict]) -> dict[str, list[dict]]:
 
 
 def _detect_current_round(player_scores: dict) -> str:
-    """Determine the latest round that has any scores."""
+    """Determine the current/next round based on scores and dates.
+
+    If the latest scored round's dates have all passed, advance to the next round.
+    """
+    from datetime import date
+
     latest = "R64"
     for round_name in ROUND_ORDER:
         for p_scores in player_scores.values():
             if isinstance(p_scores, dict) and round_name in p_scores:
                 latest = round_name
                 break
+
+    # If all dates for the latest scored round have passed, advance to next round
+    today = date.today().isoformat()
+    round_dates = ROUND_DATES.get(latest, [])
+    if round_dates and all(d <= today for d in round_dates):
+        idx = ROUND_ORDER.index(latest)
+        if idx + 1 < len(ROUND_ORDER):
+            return ROUND_ORDER[idx + 1]
+
     return latest
 
 
