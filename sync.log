@@ -1,45 +1,41 @@
-  Saved 41 games to tournament_games.json
-
-Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/games.json
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — E8
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      4/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            166      6/8
-4     Mark Weiner             152      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            115      8/8
-9     Nick Reskin             106      7/8
-10    Schaf Chulay            104      7/8
+1     Alex Magged             408      2/8
+2     Josh Ehrlich            329      3/8
+3     AJ Spile                326      0/8
+4     Nick Reskin             323      1/8
+5     Brandon Nye             320      1/8
+6     Mark Weiner             315      3/8
+7     Jordan Mackler          307      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (38): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 16:36:54 PDT 2026: Pushed (R32)
-Sat Mar 21 16:41:54 PDT 2026: Syncing...
+Eliminated teams (64): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 18:45:43 PDT 2026: Pushed (E8)
+Sun Mar 29 18:50:43 PDT 2026: Syncing...
 
-=== Syncing R32 ===
-  Fetching scoreboard for 2026-03-21...
-    Found 8 R32 games
-    [FINAL] Saint Louis vs Michigan...
-    [FINAL] Louisville vs Michigan St....
-    [FINAL] TCU vs Duke...
-    [LIVE] Texas A&M vs Houston...
-    [LIVE] Texas vs Gonzaga...
-  Fetching scoreboard for 2026-03-22...
-    Found 8 R32 games
-    Eliminated: TCU
-    FINAL: TCU vs Duke
-  Processed 3 final games
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Fetching scoreboard for 2026-03-30...
+    Found 0 E8 games
+  Processed 4 final games
   Saved scores to tournament_scores.json
-  Saved 41 games to tournament_games.json
+  Saved 64 games to tournament_games.json
 
 Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
@@ -47,38 +43,39 @@ Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — E8
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      3/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            166      6/8
-4     Mark Weiner             154      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            117      8/8
-9     Nick Reskin             106      7/8
-10    Schaf Chulay            104      7/8
+1     Alex Magged             408      2/8
+2     Josh Ehrlich            329      3/8
+3     AJ Spile                326      0/8
+4     Nick Reskin             323      1/8
+5     Brandon Nye             320      1/8
+6     Mark Weiner             315      3/8
+7     Jordan Mackler          307      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (39): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., TCU, Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 16:42:00 PDT 2026: Pushed (R32)
-Sat Mar 21 16:47:00 PDT 2026: Syncing...
+Eliminated teams (64): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 18:50:49 PDT 2026: Pushed (E8)
+Sun Mar 29 18:55:49 PDT 2026: Syncing...
 
-=== Syncing R32 ===
-  Fetching scoreboard for 2026-03-21...
-    Found 8 R32 games
-    [FINAL] Saint Louis vs Michigan...
-    [FINAL] Louisville vs Michigan St....
-    [FINAL] TCU vs Duke...
-    [LIVE] Texas A&M vs Houston...
-    [LIVE] Texas vs Gonzaga...
-  Fetching scoreboard for 2026-03-22...
-    Found 8 R32 games
-  Processed 3 final games
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Fetching scoreboard for 2026-03-30...
+    Found 0 E8 games
+  Processed 4 final games
   Saved scores to tournament_scores.json
-  Saved 41 games to tournament_games.json
+  Saved 64 games to tournament_games.json
 
 Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
@@ -86,38 +83,39 @@ Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — E8
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      3/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            166      6/8
-4     Mark Weiner             154      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            117      8/8
-9     Schaf Chulay            107      7/8
-10    Nick Reskin             106      7/8
+1     Alex Magged             408      2/8
+2     Josh Ehrlich            329      3/8
+3     AJ Spile                326      0/8
+4     Nick Reskin             323      1/8
+5     Brandon Nye             320      1/8
+6     Mark Weiner             315      3/8
+7     Jordan Mackler          307      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (39): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., TCU, Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 16:47:05 PDT 2026: Pushed (R32)
-Sat Mar 21 16:52:05 PDT 2026: Syncing...
+Eliminated teams (64): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 18:55:53 PDT 2026: Pushed (E8)
+Sun Mar 29 19:00:54 PDT 2026: Syncing...
 
-=== Syncing R32 ===
-  Fetching scoreboard for 2026-03-21...
-    Found 8 R32 games
-    [FINAL] Saint Louis vs Michigan...
-    [FINAL] Louisville vs Michigan St....
-    [FINAL] TCU vs Duke...
-    [LIVE] Texas A&M vs Houston...
-    [LIVE] Texas vs Gonzaga...
-  Fetching scoreboard for 2026-03-22...
-    Found 8 R32 games
-  Processed 3 final games
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Fetching scoreboard for 2026-03-30...
+    Found 0 E8 games
+  Processed 4 final games
   Saved scores to tournament_scores.json
-  Saved 41 games to tournament_games.json
+  Saved 64 games to tournament_games.json
 
 Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
@@ -125,38 +123,39 @@ Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — E8
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      3/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            166      6/8
-4     Mark Weiner             154      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            117      8/8
-9     Schaf Chulay            107      7/8
-10    Nick Reskin             106      7/8
+1     Alex Magged             408      2/8
+2     Josh Ehrlich            329      3/8
+3     AJ Spile                326      0/8
+4     Nick Reskin             323      1/8
+5     Brandon Nye             320      1/8
+6     Mark Weiner             315      3/8
+7     Jordan Mackler          307      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (39): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., TCU, Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 16:52:10 PDT 2026: Pushed (R32)
-Sat Mar 21 16:57:10 PDT 2026: Syncing...
+Eliminated teams (64): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:00:59 PDT 2026: Pushed (E8)
+Sun Mar 29 19:05:59 PDT 2026: Syncing...
 
-=== Syncing R32 ===
-  Fetching scoreboard for 2026-03-21...
-    Found 8 R32 games
-    [FINAL] Saint Louis vs Michigan...
-    [FINAL] Louisville vs Michigan St....
-    [FINAL] TCU vs Duke...
-    [LIVE] Texas A&M vs Houston...
-    [LIVE] Texas vs Gonzaga...
-  Fetching scoreboard for 2026-03-22...
-    Found 8 R32 games
-  Processed 3 final games
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Fetching scoreboard for 2026-03-30...
+    Found 0 E8 games
+  Processed 4 final games
   Saved scores to tournament_scores.json
-  Saved 41 games to tournament_games.json
+  Saved 64 games to tournament_games.json
 
 Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
@@ -164,38 +163,39 @@ Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — E8
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      3/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            166      6/8
-4     Mark Weiner             154      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            117      8/8
-9     Schaf Chulay            110      7/8
-10    Nick Reskin             106      7/8
+1     Alex Magged             408      2/8
+2     Josh Ehrlich            329      3/8
+3     AJ Spile                326      0/8
+4     Nick Reskin             323      1/8
+5     Brandon Nye             320      1/8
+6     Mark Weiner             315      3/8
+7     Jordan Mackler          307      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (39): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., TCU, Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 16:57:17 PDT 2026: Pushed (R32)
-Sat Mar 21 17:02:17 PDT 2026: Syncing...
+Eliminated teams (64): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:06:04 PDT 2026: Pushed (E8)
+Sun Mar 29 19:11:04 PDT 2026: Syncing...
 
-=== Syncing R32 ===
-  Fetching scoreboard for 2026-03-21...
-    Found 8 R32 games
-    [FINAL] Saint Louis vs Michigan...
-    [FINAL] Louisville vs Michigan St....
-    [FINAL] TCU vs Duke...
-    [LIVE] Texas A&M vs Houston...
-    [LIVE] Texas vs Gonzaga...
-  Fetching scoreboard for 2026-03-22...
-    Found 8 R32 games
-  Processed 3 final games
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Fetching scoreboard for 2026-03-30...
+    Found 0 E8 games
+  Processed 4 final games
   Saved scores to tournament_scores.json
-  Saved 41 games to tournament_games.json
+  Saved 64 games to tournament_games.json
 
 Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
@@ -203,38 +203,39 @@ Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — E8
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      3/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            166      6/8
-4     Mark Weiner             154      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            117      8/8
-9     Schaf Chulay            110      7/8
-10    Nick Reskin             106      7/8
+1     Alex Magged             408      2/8
+2     Josh Ehrlich            329      3/8
+3     AJ Spile                326      0/8
+4     Nick Reskin             323      1/8
+5     Brandon Nye             320      1/8
+6     Mark Weiner             315      2/8
+7     Jordan Mackler          307      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (39): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., TCU, Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 17:02:24 PDT 2026: Pushed (R32)
-Sat Mar 21 17:07:24 PDT 2026: Syncing...
+Eliminated teams (65): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Miami FL, Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:11:09 PDT 2026: Pushed (E8)
+Sun Mar 29 19:16:10 PDT 2026: Syncing...
 
-=== Syncing R32 ===
-  Fetching scoreboard for 2026-03-21...
-    Found 8 R32 games
-    [FINAL] Saint Louis vs Michigan...
-    [FINAL] Louisville vs Michigan St....
-    [FINAL] TCU vs Duke...
-    [LIVE] Texas A&M vs Houston...
-    [LIVE] Texas vs Gonzaga...
-  Fetching scoreboard for 2026-03-22...
-    Found 8 R32 games
-  Processed 3 final games
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Fetching scoreboard for 2026-03-30...
+    Found 0 E8 games
+  Processed 4 final games
   Saved scores to tournament_scores.json
-  Saved 41 games to tournament_games.json
+  Saved 64 games to tournament_games.json
 
 Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
@@ -242,38 +243,37 @@ Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — E8
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      3/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            166      6/8
-4     Mark Weiner             154      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            117      8/8
-9     Schaf Chulay            110      7/8
-10    Nick Reskin             106      7/8
+1     Alex Magged             408      2/8
+2     Jordan Mackler          354      2/8
+3     Josh Ehrlich            329      3/8
+4     AJ Spile                326      0/8
+5     Nick Reskin             323      1/8
+6     Brandon Nye             320      1/8
+7     Mark Weiner             315      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (39): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., TCU, Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 17:07:29 PDT 2026: Pushed (R32)
-Sat Mar 21 17:12:29 PDT 2026: Syncing...
+Eliminated teams (65): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Miami FL, Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:16:15 PDT 2026: Pushed (E8)
+Sun Mar 29 19:21:15 PDT 2026: Syncing...
 
-=== Syncing R32 ===
-  Fetching scoreboard for 2026-03-21...
-    Found 8 R32 games
-    [FINAL] Saint Louis vs Michigan...
-    [FINAL] Louisville vs Michigan St....
-    [FINAL] TCU vs Duke...
-    [LIVE] Texas A&M vs Houston...
-    [LIVE] Texas vs Gonzaga...
-  Fetching scoreboard for 2026-03-22...
-    Found 8 R32 games
-  Processed 3 final games
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Processed 4 final games
   Saved scores to tournament_scores.json
-  Saved 41 games to tournament_games.json
+  Saved 64 games to tournament_games.json
 
 Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
@@ -281,39 +281,37 @@ Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — F4
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      3/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            166      6/8
-4     Mark Weiner             154      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            117      8/8
-9     Schaf Chulay            110      7/8
-10    Nick Reskin             106      7/8
+1     Alex Magged             408      2/8
+2     Jordan Mackler          354      2/8
+3     Josh Ehrlich            329      3/8
+4     AJ Spile                326      0/8
+5     Nick Reskin             323      1/8
+6     Brandon Nye             320      1/8
+7     Mark Weiner             315      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (39): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., TCU, Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 17:12:34 PDT 2026: Pushed (R32)
-Sat Mar 21 17:17:34 PDT 2026: Syncing...
+Eliminated teams (65): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Miami FL, Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:21:20 PDT 2026: Pushed (F4)
+Sun Mar 29 19:26:20 PDT 2026: Syncing...
 
-=== Syncing R32 ===
-  Fetching scoreboard for 2026-03-21...
-    Found 8 R32 games
-    [FINAL] Saint Louis vs Michigan...
-    [FINAL] Louisville vs Michigan St....
-    [FINAL] TCU vs Duke...
-    [LIVE] Texas A&M vs Houston...
-    [LIVE] Texas vs Gonzaga...
-    [LIVE] VCU vs Illinois...
-  Fetching scoreboard for 2026-03-22...
-    Found 8 R32 games
-  Processed 3 final games
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Processed 4 final games
   Saved scores to tournament_scores.json
-  Saved 42 games to tournament_games.json
+  Saved 64 games to tournament_games.json
 
 Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
@@ -321,39 +319,37 @@ Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — F4
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      3/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            167      6/8
-4     Mark Weiner             154      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            117      8/8
-9     Schaf Chulay            110      7/8
-10    Nick Reskin             106      7/8
+1     Alex Magged             408      2/8
+2     Jordan Mackler          354      2/8
+3     Josh Ehrlich            329      3/8
+4     AJ Spile                326      0/8
+5     Nick Reskin             323      1/8
+6     Brandon Nye             320      1/8
+7     Mark Weiner             315      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (39): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., TCU, Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 17:17:40 PDT 2026: Pushed (R32)
-Sat Mar 21 17:22:40 PDT 2026: Syncing...
+Eliminated teams (65): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Miami FL, Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:26:25 PDT 2026: Pushed (F4)
+Sun Mar 29 19:31:25 PDT 2026: Syncing...
 
-=== Syncing R32 ===
-  Fetching scoreboard for 2026-03-21...
-    Found 8 R32 games
-    [FINAL] Saint Louis vs Michigan...
-    [FINAL] Louisville vs Michigan St....
-    [FINAL] TCU vs Duke...
-    [LIVE] Texas A&M vs Houston...
-    [LIVE] Texas vs Gonzaga...
-    [LIVE] VCU vs Illinois...
-  Fetching scoreboard for 2026-03-22...
-    Found 8 R32 games
-  Processed 3 final games
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Processed 4 final games
   Saved scores to tournament_scores.json
-  Saved 42 games to tournament_games.json
+  Saved 64 games to tournament_games.json
 
 Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
@@ -361,20 +357,172 @@ Building feeds...
   Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
 
 ============================================================
-  MARCH MADNESS 2026 — R32
+  MARCH MADNESS 2026 — F4
 ============================================================
 Rank  Manager               Total   Active
 ----- -------------------- ------ --------
-1     AJ Spile                198      3/8
-2     Alex Magged             181      8/8
-3     Jake Pollack            167      6/8
-4     Mark Weiner             154      6/8
-5     Brandon Nye             140      5/8
-6     Josh Ehrlich            121      8/8
-7     Jordan Mackler          121      8/8
-8     Mike Haughey            119      8/8
-9     Schaf Chulay            110      7/8
-10    Nick Reskin             106      7/8
+1     Alex Magged             408      2/8
+2     Jordan Mackler          354      2/8
+3     Josh Ehrlich            329      3/8
+4     AJ Spile                326      0/8
+5     Nick Reskin             323      1/8
+6     Brandon Nye             320      1/8
+7     Mark Weiner             315      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
 
-Eliminated teams (39): Akron, BYU, California Baptist, Clemson, Furman, Georgia, Hawaii, Hofstra, Howard, Idaho, Kennesaw St., LIU, Lehigh, Louisville, McNeese, Miami (OH), Missouri, NC State, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., TCU, Tennessee St., Troy, UCF, UMBC, UNI, Villanova, Wisconsin, Wright St.
-Sat Mar 21 17:22:46 PDT 2026: Pushed (R32)
+Eliminated teams (65): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Miami FL, Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:31:30 PDT 2026: Pushed (F4)
+Sun Mar 29 19:36:30 PDT 2026: Syncing...
+
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Processed 4 final games
+  Saved scores to tournament_scores.json
+  Saved 64 games to tournament_games.json
+
+Building feeds...
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/games.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
+
+============================================================
+  MARCH MADNESS 2026 — F4
+============================================================
+Rank  Manager               Total   Active
+----- -------------------- ------ --------
+1     Alex Magged             408      2/8
+2     Jordan Mackler          354      2/8
+3     Josh Ehrlich            329      3/8
+4     AJ Spile                326      0/8
+5     Nick Reskin             323      1/8
+6     Brandon Nye             320      1/8
+7     Mark Weiner             315      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
+
+Eliminated teams (65): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Miami FL, Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:36:35 PDT 2026: Pushed (F4)
+Sun Mar 29 19:41:36 PDT 2026: Syncing...
+
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Processed 4 final games
+  Saved scores to tournament_scores.json
+  Saved 64 games to tournament_games.json
+
+Building feeds...
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/games.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
+
+============================================================
+  MARCH MADNESS 2026 — F4
+============================================================
+Rank  Manager               Total   Active
+----- -------------------- ------ --------
+1     Alex Magged             408      2/8
+2     Jordan Mackler          354      2/8
+3     Josh Ehrlich            329      3/8
+4     AJ Spile                326      0/8
+5     Nick Reskin             323      1/8
+6     Brandon Nye             320      1/8
+7     Mark Weiner             315      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
+
+Eliminated teams (65): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Miami FL, Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:41:40 PDT 2026: Pushed (F4)
+Sun Mar 29 19:46:40 PDT 2026: Syncing...
+
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Processed 4 final games
+  Saved scores to tournament_scores.json
+  Saved 64 games to tournament_games.json
+
+Building feeds...
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/games.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
+
+============================================================
+  MARCH MADNESS 2026 — F4
+============================================================
+Rank  Manager               Total   Active
+----- -------------------- ------ --------
+1     Alex Magged             408      2/8
+2     Jordan Mackler          354      2/8
+3     Josh Ehrlich            329      3/8
+4     AJ Spile                326      0/8
+5     Nick Reskin             323      1/8
+6     Brandon Nye             320      1/8
+7     Mark Weiner             315      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
+
+Eliminated teams (65): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Miami FL, Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:46:45 PDT 2026: Pushed (F4)
+Sun Mar 29 19:51:45 PDT 2026: Syncing...
+
+=== Syncing E8 ===
+  Fetching scoreboard for 2026-03-28...
+    Found 2 E8 games
+    [FINAL] Iowa vs Illinois...
+    [FINAL] Purdue vs Arizona...
+  Fetching scoreboard for 2026-03-29...
+    Found 2 E8 games
+    [FINAL] Tennessee vs Michigan...
+    [FINAL] UConn vs Duke...
+  Processed 4 final games
+  Saved scores to tournament_scores.json
+  Saved 64 games to tournament_games.json
+
+Building feeds...
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/leaderboard.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/games.json
+  Wrote /Users/barracuda/Development/projects/march-madness-tracker/data/meta.json
+
+============================================================
+  MARCH MADNESS 2026 — F4
+============================================================
+Rank  Manager               Total   Active
+----- -------------------- ------ --------
+1     Alex Magged             408      2/8
+2     Jordan Mackler          354      2/8
+3     Josh Ehrlich            329      3/8
+4     AJ Spile                326      0/8
+5     Nick Reskin             323      1/8
+6     Brandon Nye             320      1/8
+7     Mark Weiner             315      2/8
+8     Mike Haughey            307      3/8
+9     Schaf Chulay            280      2/8
+10    Jake Pollack            251      0/8
+
+Eliminated teams (65): Akron, Alabama, Arkansas, BYU, California Baptist, Clemson, Duke, Florida, Furman, Georgia, Gonzaga, Hawaii, High Point, Hofstra, Houston, Howard, Idaho, Iowa, Iowa St., Kansas, Kennesaw St., Kentucky, LIU, Lehigh, Louisville, McNeese, Miami (FL), Miami (OH), Miami FL, Michigan St., Missouri, NC State, Nebraska, North Carolina, North Dakota St., Ohio St., Penn, Prairie View, Purdue, Queens (NC), SMU, Saint Louis, Saint Mary's (CA), Santa Clara, Siena, South Fla., St. John's (NY), TCU, Tennessee, Tennessee St., Texas, Texas A&M, Texas Tech, Troy, UCF, UCLA, UMBC, UNI, Utah St., VCU, Vanderbilt, Villanova, Virginia, Wisconsin, Wright St.
+Sun Mar 29 19:51:49 PDT 2026: Pushed (F4)
