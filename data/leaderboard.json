@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-30T02:16:14.366253+00:00",
-  "current_round": "E8",
+  "last_updated": "2026-03-30T02:21:19.389081+00:00",
+  "current_round": "F4",
   "tournament_status": "in_progress",
   "payouts": {
     "first": 450,
@@ -165,8 +165,8 @@
         }
       ],
       "avg_per_active": 57.0,
-      "projected_finish": 636,
-      "current_round_delta": 45
+      "projected_finish": 522,
+      "current_round_delta": 0
     },
     {
       "rank": 2,
@@ -312,8 +312,8 @@
         }
       ],
       "avg_per_active": 51.5,
-      "projected_finish": 560,
-      "current_round_delta": 34
+      "projected_finish": 457,
+      "current_round_delta": 0
     },
     {
       "rank": 3,
@@ -461,8 +461,8 @@
         }
       ],
       "avg_per_active": 65.7,
-      "projected_finish": 723,
-      "current_round_delta": 71
+      "projected_finish": 526,
+      "current_round_delta": 0
     },
     {
       "rank": 4,
@@ -603,7 +603,7 @@
       ],
       "avg_per_active": 0.0,
       "projected_finish": 326,
-      "current_round_delta": 21
+      "current_round_delta": 0
     },
     {
       "rank": 5,
@@ -742,8 +742,8 @@
         }
       ],
       "avg_per_active": 87.0,
-      "projected_finish": 497,
-      "current_round_delta": 61
+      "projected_finish": 410,
+      "current_round_delta": 0
     },
     {
       "rank": 6,
@@ -885,8 +885,8 @@
         }
       ],
       "avg_per_active": 70.0,
-      "projected_finish": 460,
-      "current_round_delta": 49
+      "projected_finish": 390,
+      "current_round_delta": 0
     },
     {
       "rank": 7,
@@ -1030,8 +1030,8 @@
         }
       ],
       "avg_per_active": 62.5,
-      "projected_finish": 565,
-      "current_round_delta": 31
+      "projected_finish": 440,
+      "current_round_delta": 0
     },
     {
       "rank": 8,
@@ -1178,8 +1178,8 @@
         }
       ],
       "avg_per_active": 50.7,
-      "projected_finish": 611,
-      "current_round_delta": 34
+      "projected_finish": 459,
+      "current_round_delta": 0
     },
     {
       "rank": 9,
@@ -1323,8 +1323,8 @@
         }
       ],
       "avg_per_active": 51.0,
-      "projected_finish": 484,
-      "current_round_delta": 24
+      "projected_finish": 382,
+      "current_round_delta": 0
     },
     {
       "rank": 10,
