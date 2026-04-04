@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T22:34:00.240353+00:00",
+  "last_updated": "2026-04-04T22:39:03.062495+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -751,7 +751,7 @@
     {
       "rank": 6,
       "manager": "Brandon Nye",
-      "total_points": 323,
+      "total_points": 326,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -759,7 +759,7 @@
         "R32": 81,
         "S16": 59,
         "E8": 49,
-        "F4": 3,
+        "F4": 6,
         "Championship": 0
       },
       "players": [
@@ -771,13 +771,13 @@
           "pick": 12,
           "draft_round": 2,
           "status": "active",
-          "total_points": 73,
+          "total_points": 76,
           "round_scores": {
             "R64": 18,
             "R32": 14,
             "S16": 13,
             "E8": 25,
-            "F4": 3
+            "F4": 6
           },
           "ppg_season": 17.9
         },
@@ -888,8 +888,8 @@
           "ppg_season": 20.1
         }
       ],
-      "avg_per_active": 73.0,
-      "projected_finish": 323,
+      "avg_per_active": 76.0,
+      "projected_finish": 326,
       "current_round_delta": 0
     },
     {
