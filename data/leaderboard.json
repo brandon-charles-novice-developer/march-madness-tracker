@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T23:34:34.250391+00:00",
+  "last_updated": "2026-04-04T23:39:36.860326+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -319,7 +319,7 @@
     {
       "rank": 3,
       "manager": "Josh Ehrlich",
-      "total_points": 334,
+      "total_points": 336,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
@@ -327,7 +327,7 @@
         "R32": 89,
         "S16": 73,
         "E8": 71,
-        "F4": 5,
+        "F4": 7,
         "Championship": 0
       },
       "players": [
@@ -373,13 +373,13 @@
           "pick": 40,
           "draft_round": 4,
           "status": "active",
-          "total_points": 65,
+          "total_points": 67,
           "round_scores": {
             "R64": 9,
             "R32": 21,
             "S16": 13,
             "E8": 17,
-            "F4": 5
+            "F4": 7
           },
           "ppg_season": 13.4
         },
@@ -462,8 +462,8 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 67.3,
-      "projected_finish": 334,
+      "avg_per_active": 68.0,
+      "projected_finish": 336,
       "current_round_delta": 0
     },
     {
@@ -895,7 +895,7 @@
     {
       "rank": 7,
       "manager": "Mark Weiner",
-      "total_points": 322,
+      "total_points": 324,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
@@ -903,7 +903,7 @@
         "R32": 106,
         "S16": 49,
         "E8": 31,
-        "F4": 7,
+        "F4": 9,
         "Championship": 0
       },
       "players": [
@@ -915,13 +915,13 @@
           "pick": 38,
           "draft_round": 4,
           "status": "active",
-          "total_points": 78,
+          "total_points": 80,
           "round_scores": {
             "R64": 22,
             "R32": 27,
             "S16": 17,
             "E8": 5,
-            "F4": 7
+            "F4": 9
           },
           "ppg_season": 12.6
         },
@@ -1034,8 +1034,8 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 66.0,
-      "projected_finish": 322,
+      "avg_per_active": 67.0,
+      "projected_finish": 324,
       "current_round_delta": 0
     },
     {
@@ -1189,7 +1189,7 @@
     {
       "rank": 9,
       "manager": "Schaf Chulay",
-      "total_points": 286,
+      "total_points": 289,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
@@ -1197,7 +1197,7 @@
         "R32": 102,
         "S16": 59,
         "E8": 24,
-        "F4": 6,
+        "F4": 9,
         "Championship": 0
       },
       "players": [
@@ -1257,13 +1257,13 @@
           "pick": 17,
           "draft_round": 2,
           "status": "active",
-          "total_points": 37,
+          "total_points": 40,
           "round_scores": {
             "R64": 9,
             "R32": 0,
             "S16": 12,
             "E8": 10,
-            "F4": 6
+            "F4": 9
           },
           "ppg_season": 13.5
         },
@@ -1328,8 +1328,8 @@
           "ppg_season": 13.3
         }
       ],
-      "avg_per_active": 54.0,
-      "projected_finish": 286,
+      "avg_per_active": 55.5,
+      "projected_finish": 289,
       "current_round_delta": 0
     },
     {
