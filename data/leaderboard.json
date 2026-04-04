@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T22:54:13.195008+00:00",
+  "last_updated": "2026-04-04T22:59:16.292672+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -610,7 +610,7 @@
     {
       "rank": 5,
       "manager": "Brandon Nye",
-      "total_points": 328,
+      "total_points": 330,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -618,7 +618,7 @@
         "R32": 81,
         "S16": 59,
         "E8": 49,
-        "F4": 8,
+        "F4": 10,
         "Championship": 0
       },
       "players": [
@@ -630,13 +630,13 @@
           "pick": 12,
           "draft_round": 2,
           "status": "active",
-          "total_points": 78,
+          "total_points": 80,
           "round_scores": {
             "R64": 18,
             "R32": 14,
             "S16": 13,
             "E8": 25,
-            "F4": 8
+            "F4": 10
           },
           "ppg_season": 17.9
         },
@@ -747,8 +747,8 @@
           "ppg_season": 20.1
         }
       ],
-      "avg_per_active": 78.0,
-      "projected_finish": 328,
+      "avg_per_active": 80.0,
+      "projected_finish": 330,
       "current_round_delta": 0
     },
     {
@@ -895,7 +895,7 @@
     {
       "rank": 7,
       "manager": "Mark Weiner",
-      "total_points": 315,
+      "total_points": 318,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
@@ -903,7 +903,7 @@
         "R32": 106,
         "S16": 49,
         "E8": 31,
-        "F4": 0,
+        "F4": 3,
         "Championship": 0
       },
       "players": [
@@ -915,12 +915,13 @@
           "pick": 38,
           "draft_round": 4,
           "status": "active",
-          "total_points": 71,
+          "total_points": 74,
           "round_scores": {
             "R64": 22,
             "R32": 27,
             "S16": 17,
-            "E8": 5
+            "E8": 5,
+            "F4": 3
           },
           "ppg_season": 12.6
         },
@@ -1033,8 +1034,8 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 62.5,
-      "projected_finish": 315,
+      "avg_per_active": 64.0,
+      "projected_finish": 318,
       "current_round_delta": 0
     },
     {
@@ -1188,7 +1189,7 @@
     {
       "rank": 9,
       "manager": "Schaf Chulay",
-      "total_points": 280,
+      "total_points": 283,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
@@ -1196,7 +1197,7 @@
         "R32": 102,
         "S16": 59,
         "E8": 24,
-        "F4": 0,
+        "F4": 3,
         "Championship": 0
       },
       "players": [
@@ -1249,6 +1250,24 @@
           "ppg_season": 13.3
         },
         {
+          "name": "Solo Ball",
+          "team": "UConn",
+          "seed": 2,
+          "region": "East",
+          "pick": 17,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 34,
+          "round_scores": {
+            "R64": 9,
+            "R32": 0,
+            "S16": 12,
+            "E8": 10,
+            "F4": 3
+          },
+          "ppg_season": 13.5
+        },
+        {
           "name": "Milos Uzan",
           "team": "Houston",
           "seed": 2,
@@ -1263,23 +1282,6 @@
             "S16": 6
           },
           "ppg_season": 11.1
-        },
-        {
-          "name": "Solo Ball",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 17,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 31,
-          "round_scores": {
-            "R64": 9,
-            "R32": 0,
-            "S16": 12,
-            "E8": 10
-          },
-          "ppg_season": 13.5
         },
         {
           "name": "Malik Thomas",
@@ -1326,8 +1328,8 @@
           "ppg_season": 13.3
         }
       ],
-      "avg_per_active": 51.0,
-      "projected_finish": 280,
+      "avg_per_active": 52.5,
+      "projected_finish": 283,
       "current_round_delta": 0
     },
     {
