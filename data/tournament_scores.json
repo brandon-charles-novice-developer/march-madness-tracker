@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T22:18:52.604774+00:00",
+  "last_updated": "2026-04-04T22:23:55.107256+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -157,7 +157,8 @@
       "R64": 9,
       "R32": 21,
       "S16": 13,
-      "E8": 17
+      "E8": 17,
+      "F4": 2
     },
     "Keaton Wagler": {
       "R64": 18,
@@ -377,7 +378,7 @@
       "R32": 10,
       "S16": 20,
       "E8": 26,
-      "F4": 4
+      "F4": 5
     },
     "Patrick Ngongba II": {
       "R32": 4,
@@ -531,8 +532,9 @@
     "6534654"
   ],
   "live_scores": {
-    "6534656:Tarris Reed Jr": 4,
+    "6534656:Tarris Reed Jr": 5,
     "6534656:David Mirkovic": 2,
-    "6534656:Keaton Wagler": 3
+    "6534656:Keaton Wagler": 3,
+    "6534656:Andrej Stojakovic": 2
   }
 }
