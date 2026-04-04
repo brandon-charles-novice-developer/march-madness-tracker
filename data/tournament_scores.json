@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T23:29:31.456784+00:00",
+  "last_updated": "2026-04-04T23:34:34.232039+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -366,7 +366,7 @@
       "R32": 0,
       "S16": 12,
       "E8": 10,
-      "F4": 3
+      "F4": 6
     },
     "Alex Karaban": {
       "R64": 22,
@@ -538,7 +538,7 @@
     "6534656:David Mirkovic": 5,
     "6534656:Keaton Wagler": 14,
     "6534656:Andrej Stojakovic": 5,
-    "6534656:Solo Ball": 3,
+    "6534656:Solo Ball": 6,
     "6534656:Alex Karaban": 7
   }
 }
