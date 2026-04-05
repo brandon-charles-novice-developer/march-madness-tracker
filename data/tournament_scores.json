@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T03:06:43.253584+00:00",
+  "last_updated": "2026-04-05T03:11:46.644561+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -139,7 +139,7 @@
       "R32": 16,
       "S16": 8,
       "E8": 11,
-      "F4": 21
+      "F4": 23
     },
     "Paulius Murauskas": {
       "R64": 4
@@ -212,14 +212,14 @@
       "R32": 18,
       "S16": 14,
       "E8": 14,
-      "F4": 5
+      "F4": 7
     },
     "Brayden Burries": {
       "R64": 18,
       "R32": 16,
       "S16": 23,
       "E8": 14,
-      "F4": 9
+      "F4": 13
     },
     "Ivan Kharchenkov": {
       "R64": 14,
@@ -240,7 +240,7 @@
       "R32": 14,
       "S16": 21,
       "E8": 20,
-      "F4": 11
+      "F4": 14
     },
     "Thijs De Ridder": {
       "R64": 10,
@@ -545,14 +545,14 @@
     "6534656"
   ],
   "live_scores": {
-    "6534657:Jaden Bradley": 5,
+    "6534657:Jaden Bradley": 7,
     "6534657:Elliot Cadeau": 11,
     "6534657:Morez Johnson Jr": 8,
-    "6534657:Aday Mara": 21,
+    "6534657:Aday Mara": 23,
     "6534657:Motiejus Krivas": 6,
     "6534657:Yaxel Lendeborg": 11,
-    "6534657:Koa Peat": 11,
+    "6534657:Koa Peat": 14,
     "6534657:Ivan Kharchenkov": 6,
-    "6534657:Brayden Burries": 9
+    "6534657:Brayden Burries": 13
   }
 }
