@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T01:30:35.416146+00:00",
+  "last_updated": "2026-04-05T01:35:38.888732+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -756,7 +756,7 @@
     {
       "rank": 6,
       "manager": "Mark Weiner",
-      "total_points": 326,
+      "total_points": 330,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
@@ -764,7 +764,7 @@
         "R32": 106,
         "S16": 49,
         "E8": 31,
-        "F4": 11,
+        "F4": 15,
         "Championship": 0
       },
       "players": [
@@ -787,6 +787,24 @@
           "ppg_season": 12.6
         },
         {
+          "name": "Aday Mara",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 18,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 60,
+          "round_scores": {
+            "R64": 19,
+            "R32": 16,
+            "S16": 8,
+            "E8": 11,
+            "F4": 6
+          },
+          "ppg_season": 11.6
+        },
+        {
           "name": "Meleek Thomas",
           "team": "Arkansas",
           "seed": 4,
@@ -801,24 +819,6 @@
             "S16": 17
           },
           "ppg_season": 15.6
-        },
-        {
-          "name": "Aday Mara",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 18,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 56,
-          "round_scores": {
-            "R64": 19,
-            "R32": 16,
-            "S16": 8,
-            "E8": 11,
-            "F4": 2
-          },
-          "ppg_season": 11.6
         },
         {
           "name": "Cayden Boozer",
@@ -896,8 +896,8 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 68.0,
-      "projected_finish": 326,
+      "avg_per_active": 70.0,
+      "projected_finish": 330,
       "current_round_delta": 0
     },
     {
