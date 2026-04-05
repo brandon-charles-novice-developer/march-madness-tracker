@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T01:55:54.859696+00:00",
+  "last_updated": "2026-04-05T02:00:58.005267+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -1046,7 +1046,7 @@
     {
       "rank": 8,
       "manager": "Mike Haughey",
-      "total_points": 322,
+      "total_points": 324,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
@@ -1054,7 +1054,7 @@
         "R32": 105,
         "S16": 74,
         "E8": 34,
-        "F4": 15,
+        "F4": 17,
         "Championship": 0
       },
       "players": [
@@ -1111,6 +1111,24 @@
           "ppg_season": 10.2
         },
         {
+          "name": "Motiejus Krivas",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 54,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 46,
+          "round_scores": {
+            "R64": 9,
+            "R32": 11,
+            "S16": 14,
+            "E8": 6,
+            "F4": 6
+          },
+          "ppg_season": 10.5
+        },
+        {
           "name": "Graham Ike",
           "team": "Gonzaga",
           "seed": 3,
@@ -1124,24 +1142,6 @@
             "R32": 25
           },
           "ppg_season": 19.7
-        },
-        {
-          "name": "Motiejus Krivas",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 54,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 44,
-          "round_scores": {
-            "R64": 9,
-            "R32": 11,
-            "S16": 14,
-            "E8": 6,
-            "F4": 4
-          },
-          "ppg_season": 10.5
         },
         {
           "name": "Xaivian Lee",
@@ -1190,8 +1190,8 @@
           "ppg_season": 9.7
         }
       ],
-      "avg_per_active": 55.7,
-      "projected_finish": 322,
+      "avg_per_active": 56.3,
+      "projected_finish": 324,
       "current_round_delta": 0
     },
     {
