@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T01:45:45.345443+00:00",
+  "last_updated": "2026-04-05T01:50:48.743248+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -125,21 +125,21 @@
       "R32": 15,
       "S16": 7,
       "E8": 12,
-      "F4": 4
+      "F4": 5
     },
     "Yaxel Lendeborg": {
       "R64": 9,
       "R32": 25,
       "S16": 23,
       "E8": 27,
-      "F4": 3
+      "F4": 5
     },
     "Aday Mara": {
       "R64": 19,
       "R32": 16,
       "S16": 8,
       "E8": 11,
-      "F4": 6
+      "F4": 8
     },
     "Paulius Murauskas": {
       "R64": 4
@@ -237,7 +237,8 @@
       "R64": 15,
       "R32": 14,
       "S16": 21,
-      "E8": 20
+      "E8": 20,
+      "F4": 5
     },
     "Thijs De Ridder": {
       "R64": 10,
@@ -544,9 +545,10 @@
   "live_scores": {
     "6534657:Jaden Bradley": 3,
     "6534657:Elliot Cadeau": 5,
-    "6534657:Morez Johnson Jr": 4,
-    "6534657:Aday Mara": 6,
+    "6534657:Morez Johnson Jr": 5,
+    "6534657:Aday Mara": 8,
     "6534657:Motiejus Krivas": 2,
-    "6534657:Yaxel Lendeborg": 3
+    "6534657:Yaxel Lendeborg": 5,
+    "6534657:Koa Peat": 5
   }
 }
