@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T01:40:41.994107+00:00",
+  "last_updated": "2026-04-05T01:45:45.345443+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -125,7 +125,7 @@
       "R32": 15,
       "S16": 7,
       "E8": 12,
-      "F4": 3
+      "F4": 4
     },
     "Yaxel Lendeborg": {
       "R64": 9,
@@ -544,7 +544,7 @@
   "live_scores": {
     "6534657:Jaden Bradley": 3,
     "6534657:Elliot Cadeau": 5,
-    "6534657:Morez Johnson Jr": 3,
+    "6534657:Morez Johnson Jr": 4,
     "6534657:Aday Mara": 6,
     "6534657:Motiejus Krivas": 2,
     "6534657:Yaxel Lendeborg": 3

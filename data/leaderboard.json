@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T01:40:42.012483+00:00",
+  "last_updated": "2026-04-05T01:45:45.363625+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -19,7 +19,7 @@
     {
       "rank": 1,
       "manager": "Alex Magged",
-      "total_points": 417,
+      "total_points": 418,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -27,7 +27,7 @@
         "R32": 107,
         "S16": 112,
         "E8": 45,
-        "F4": 9,
+        "F4": 10,
         "Championship": 0
       },
       "players": [
@@ -91,13 +91,13 @@
           "pick": 13,
           "draft_round": 2,
           "status": "active",
-          "total_points": 58,
+          "total_points": 59,
           "round_scores": {
             "R64": 21,
             "R32": 15,
             "S16": 7,
             "E8": 12,
-            "F4": 3
+            "F4": 4
           },
           "ppg_season": 13.3
         },
@@ -166,8 +166,8 @@
           "ppg_season": 11.6
         }
       ],
-      "avg_per_active": 58.0,
-      "projected_finish": 417,
+      "avg_per_active": 59.0,
+      "projected_finish": 418,
       "current_round_delta": 0
     },
     {
