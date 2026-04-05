@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T02:51:33.569379+00:00",
+  "last_updated": "2026-04-05T02:56:36.774829+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -118,7 +118,7 @@
       "R32": 12,
       "S16": 17,
       "E8": 8,
-      "F4": 5
+      "F4": 11
     },
     "Morez Johnson Jr": {
       "R64": 21,
@@ -139,7 +139,7 @@
       "R32": 16,
       "S16": 8,
       "E8": 11,
-      "F4": 17
+      "F4": 19
     },
     "Paulius Murauskas": {
       "R64": 4
@@ -219,14 +219,14 @@
       "R32": 16,
       "S16": 23,
       "E8": 14,
-      "F4": 4
+      "F4": 7
     },
     "Ivan Kharchenkov": {
       "R64": 14,
       "R32": 9,
       "S16": 15,
       "E8": 18,
-      "F4": 5
+      "F4": 6
     },
     "Motiejus Krivas": {
       "R64": 9,
@@ -546,13 +546,13 @@
   ],
   "live_scores": {
     "6534657:Jaden Bradley": 3,
-    "6534657:Elliot Cadeau": 5,
+    "6534657:Elliot Cadeau": 11,
     "6534657:Morez Johnson Jr": 8,
-    "6534657:Aday Mara": 17,
+    "6534657:Aday Mara": 19,
     "6534657:Motiejus Krivas": 6,
     "6534657:Yaxel Lendeborg": 11,
     "6534657:Koa Peat": 9,
-    "6534657:Ivan Kharchenkov": 5,
-    "6534657:Brayden Burries": 4
+    "6534657:Ivan Kharchenkov": 6,
+    "6534657:Brayden Burries": 7
   }
 }
