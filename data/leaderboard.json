@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T01:50:48.761159+00:00",
+  "last_updated": "2026-04-05T01:55:54.859696+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -173,7 +173,7 @@
     {
       "rank": 2,
       "manager": "Jordan Mackler",
-      "total_points": 354,
+      "total_points": 357,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
@@ -181,7 +181,7 @@
         "R32": 111,
         "S16": 92,
         "E8": 34,
-        "F4": 0,
+        "F4": 3,
         "Championship": 0
       },
       "players": [
@@ -225,12 +225,13 @@
           "pick": 45,
           "draft_round": 5,
           "status": "active",
-          "total_points": 56,
+          "total_points": 59,
           "round_scores": {
             "R64": 14,
             "R32": 9,
             "S16": 15,
-            "E8": 18
+            "E8": 18,
+            "F4": 3
           },
           "ppg_season": 10.1
         },
@@ -313,8 +314,8 @@
           "ppg_season": 16.9
         }
       ],
-      "avg_per_active": 51.5,
-      "projected_finish": 354,
+      "avg_per_active": 53.0,
+      "projected_finish": 357,
       "current_round_delta": 0
     },
     {
@@ -1045,7 +1046,7 @@
     {
       "rank": 8,
       "manager": "Mike Haughey",
-      "total_points": 319,
+      "total_points": 322,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
@@ -1053,7 +1054,7 @@
         "R32": 105,
         "S16": 74,
         "E8": 34,
-        "F4": 12,
+        "F4": 15,
         "Championship": 0
       },
       "players": [
@@ -1065,13 +1066,13 @@
           "pick": 14,
           "draft_round": 2,
           "status": "active",
-          "total_points": 75,
+          "total_points": 76,
           "round_scores": {
             "R64": 15,
             "R32": 14,
             "S16": 21,
             "E8": 20,
-            "F4": 5
+            "F4": 6
           },
           "ppg_season": 13.6
         },
@@ -1132,13 +1133,13 @@
           "pick": 54,
           "draft_round": 6,
           "status": "active",
-          "total_points": 42,
+          "total_points": 44,
           "round_scores": {
             "R64": 9,
             "R32": 11,
             "S16": 14,
             "E8": 6,
-            "F4": 2
+            "F4": 4
           },
           "ppg_season": 10.5
         },
@@ -1189,8 +1190,8 @@
           "ppg_season": 9.7
         }
       ],
-      "avg_per_active": 54.7,
-      "projected_finish": 319,
+      "avg_per_active": 55.7,
+      "projected_finish": 322,
       "current_round_delta": 0
     },
     {
