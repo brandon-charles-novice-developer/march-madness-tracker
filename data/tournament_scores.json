@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T02:06:01.279915+00:00",
+  "last_updated": "2026-04-05T02:11:07.597979+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -218,7 +218,8 @@
       "R64": 18,
       "R32": 16,
       "S16": 23,
-      "E8": 14
+      "E8": 14,
+      "F4": 2
     },
     "Ivan Kharchenkov": {
       "R64": 14,
@@ -551,6 +552,7 @@
     "6534657:Motiejus Krivas": 6,
     "6534657:Yaxel Lendeborg": 5,
     "6534657:Koa Peat": 6,
-    "6534657:Ivan Kharchenkov": 3
+    "6534657:Ivan Kharchenkov": 3,
+    "6534657:Brayden Burries": 2
   }
 }
