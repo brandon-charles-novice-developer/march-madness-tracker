@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T23:59:47.482497+00:00",
+  "last_updated": "2026-04-05T00:04:50.035977+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -319,7 +319,7 @@
     {
       "rank": 3,
       "manager": "Josh Ehrlich",
-      "total_points": 336,
+      "total_points": 338,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
@@ -327,7 +327,7 @@
         "R32": 89,
         "S16": 73,
         "E8": 71,
-        "F4": 7,
+        "F4": 9,
         "Championship": 0
       },
       "players": [
@@ -349,6 +349,24 @@
           "ppg_season": 14.4
         },
         {
+          "name": "Andrej Stojakovic",
+          "team": "Illinois",
+          "seed": 3,
+          "region": "South",
+          "pick": 40,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 69,
+          "round_scores": {
+            "R64": 9,
+            "R32": 21,
+            "S16": 13,
+            "E8": 17,
+            "F4": 9
+          },
+          "ppg_season": 13.4
+        },
+        {
           "name": "Braden Smith",
           "team": "Purdue",
           "seed": 2,
@@ -364,24 +382,6 @@
             "E8": 13
           },
           "ppg_season": 14.0
-        },
-        {
-          "name": "Andrej Stojakovic",
-          "team": "Illinois",
-          "seed": 3,
-          "region": "South",
-          "pick": 40,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 67,
-          "round_scores": {
-            "R64": 9,
-            "R32": 21,
-            "S16": 13,
-            "E8": 17,
-            "F4": 7
-          },
-          "ppg_season": 13.4
         },
         {
           "name": "Jaden Bradley",
@@ -462,8 +462,8 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 68.0,
-      "projected_finish": 336,
+      "avg_per_active": 68.7,
+      "projected_finish": 338,
       "current_round_delta": 0
     },
     {
