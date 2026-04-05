@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T01:25:32.230027+00:00",
+  "last_updated": "2026-04-05T01:30:35.397714+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -211,7 +211,7 @@
       "R32": 18,
       "S16": 14,
       "E8": 14,
-      "F4": 1
+      "F4": 3
     },
     "Brayden Burries": {
       "R64": 18,
@@ -540,7 +540,7 @@
     "6534656"
   ],
   "live_scores": {
-    "6534657:Jaden Bradley": 1,
+    "6534657:Jaden Bradley": 3,
     "6534657:Elliot Cadeau": 2,
     "6534657:Morez Johnson Jr": 3,
     "6534657:Aday Mara": 2
