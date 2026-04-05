@@ -1,6 +1,122 @@
 {
-  "last_updated": "2026-04-05T01:15:25.065777+00:00",
+  "last_updated": "2026-04-05T01:20:29.096924+00:00",
   "games": [
+    {
+      "game_id": "6534657",
+      "round": "F4",
+      "date": "2026-04-04",
+      "status": "live",
+      "away": {
+        "name": "Michigan",
+        "seed": 1,
+        "score": 2,
+        "winner": false
+      },
+      "home": {
+        "name": "Arizona",
+        "seed": 1,
+        "score": 0,
+        "winner": false
+      },
+      "drafted_players": [
+        {
+          "name": "Jaden Bradley",
+          "team": "Arizona",
+          "manager": "Josh Ehrlich",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Brayden Burries",
+          "team": "Arizona",
+          "manager": "Schaf Chulay",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona",
+          "manager": "Jordan Mackler",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Motiejus Krivas",
+          "team": "Arizona",
+          "manager": "Mike Haughey",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Koa Peat",
+          "team": "Arizona",
+          "manager": "Mike Haughey",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Elliot Cadeau",
+          "team": "Michigan",
+          "manager": "Mike Haughey",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan",
+          "manager": "Josh Ehrlich",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        },
+        {
+          "name": "Aday Mara",
+          "team": "Michigan",
+          "manager": "Mark Weiner",
+          "points": 0,
+          "minutes": "0",
+          "fg": "0/0",
+          "three": "0/0",
+          "ft": "0/0",
+          "rebounds": 0,
+          "assists": 0
+        }
+      ]
+    },
     {
       "game_id": "6534656",
       "round": "F4",
