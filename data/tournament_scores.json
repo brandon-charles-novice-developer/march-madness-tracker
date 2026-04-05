@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T00:04:50.020475+00:00",
+  "last_updated": "2026-04-05T00:14:52.746413+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -151,7 +151,7 @@
       "R32": 7,
       "S16": 14,
       "E8": 9,
-      "F4": 5
+      "F4": 6
     },
     "Andrej Stojakovic": {
       "R64": 9,
@@ -366,7 +366,7 @@
       "R32": 0,
       "S16": 12,
       "E8": 10,
-      "F4": 11
+      "F4": 13
     },
     "Alex Karaban": {
       "R64": 22,
@@ -380,7 +380,7 @@
       "R32": 10,
       "S16": 20,
       "E8": 26,
-      "F4": 11
+      "F4": 15
     },
     "Patrick Ngongba II": {
       "R32": 4,
@@ -534,11 +534,11 @@
     "6534654"
   ],
   "live_scores": {
-    "6534656:Tarris Reed Jr": 11,
-    "6534656:David Mirkovic": 5,
+    "6534656:Tarris Reed Jr": 15,
+    "6534656:David Mirkovic": 6,
     "6534656:Keaton Wagler": 15,
     "6534656:Andrej Stojakovic": 9,
-    "6534656:Solo Ball": 11,
+    "6534656:Solo Ball": 13,
     "6534656:Alex Karaban": 9
   }
 }
