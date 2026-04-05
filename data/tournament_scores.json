@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T02:46:30.284663+00:00",
+  "last_updated": "2026-04-05T02:51:33.569379+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -219,7 +219,7 @@
       "R32": 16,
       "S16": 23,
       "E8": 14,
-      "F4": 2
+      "F4": 4
     },
     "Ivan Kharchenkov": {
       "R64": 14,
@@ -240,7 +240,7 @@
       "R32": 14,
       "S16": 21,
       "E8": 20,
-      "F4": 8
+      "F4": 9
     },
     "Thijs De Ridder": {
       "R64": 10,
@@ -551,8 +551,8 @@
     "6534657:Aday Mara": 17,
     "6534657:Motiejus Krivas": 6,
     "6534657:Yaxel Lendeborg": 11,
-    "6534657:Koa Peat": 8,
+    "6534657:Koa Peat": 9,
     "6534657:Ivan Kharchenkov": 5,
-    "6534657:Brayden Burries": 2
+    "6534657:Brayden Burries": 4
   }
 }
