@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T03:21:53.271596+00:00",
+  "last_updated": "2026-04-05T03:26:56.372351+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -118,7 +118,7 @@
       "R32": 12,
       "S16": 17,
       "E8": 8,
-      "F4": 11
+      "F4": 13
     },
     "Morez Johnson Jr": {
       "R64": 21,
@@ -233,7 +233,7 @@
       "R32": 11,
       "S16": 14,
       "E8": 6,
-      "F4": 6
+      "F4": 8
     },
     "Koa Peat": {
       "R64": 15,
@@ -546,10 +546,10 @@
   ],
   "live_scores": {
     "6534657:Jaden Bradley": 13,
-    "6534657:Elliot Cadeau": 11,
+    "6534657:Elliot Cadeau": 13,
     "6534657:Morez Johnson Jr": 10,
     "6534657:Aday Mara": 26,
-    "6534657:Motiejus Krivas": 6,
+    "6534657:Motiejus Krivas": 8,
     "6534657:Yaxel Lendeborg": 11,
     "6534657:Koa Peat": 14,
     "6534657:Ivan Kharchenkov": 6,
