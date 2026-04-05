@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T03:26:56.372351+00:00",
+  "last_updated": "2026-04-05T03:32:00.032160+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -233,14 +233,14 @@
       "R32": 11,
       "S16": 14,
       "E8": 6,
-      "F4": 8
+      "F4": 11
     },
     "Koa Peat": {
       "R64": 15,
       "R32": 14,
       "S16": 21,
       "E8": 20,
-      "F4": 14
+      "F4": 16
     },
     "Thijs De Ridder": {
       "R64": 10,
@@ -549,9 +549,9 @@
     "6534657:Elliot Cadeau": 13,
     "6534657:Morez Johnson Jr": 10,
     "6534657:Aday Mara": 26,
-    "6534657:Motiejus Krivas": 8,
+    "6534657:Motiejus Krivas": 11,
     "6534657:Yaxel Lendeborg": 11,
-    "6534657:Koa Peat": 14,
+    "6534657:Koa Peat": 16,
     "6534657:Ivan Kharchenkov": 6,
     "6534657:Brayden Burries": 13
   }

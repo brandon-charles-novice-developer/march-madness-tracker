@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T03:26:56.391805+00:00",
+  "last_updated": "2026-04-05T03:32:00.050938+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -620,7 +620,7 @@
     {
       "rank": 5,
       "manager": "Mike Haughey",
-      "total_points": 342,
+      "total_points": 347,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
@@ -628,7 +628,7 @@
         "R32": 105,
         "S16": 74,
         "E8": 34,
-        "F4": 35,
+        "F4": 40,
         "Championship": 0
       },
       "players": [
@@ -640,13 +640,13 @@
           "pick": 14,
           "draft_round": 2,
           "status": "active",
-          "total_points": 84,
+          "total_points": 86,
           "round_scores": {
             "R64": 15,
             "R32": 14,
             "S16": 21,
             "E8": 20,
-            "F4": 14
+            "F4": 16
           },
           "ppg_season": 13.6
         },
@@ -669,6 +669,24 @@
           "ppg_season": 10.2
         },
         {
+          "name": "Motiejus Krivas",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 54,
+          "draft_round": 6,
+          "status": "active",
+          "total_points": 51,
+          "round_scores": {
+            "R64": 9,
+            "R32": 11,
+            "S16": 14,
+            "E8": 6,
+            "F4": 11
+          },
+          "ppg_season": 10.5
+        },
+        {
           "name": "Zuby Ejiofor",
           "team": "St Johns",
           "seed": 5,
@@ -683,24 +701,6 @@
             "S16": 17
           },
           "ppg_season": 16.3
-        },
-        {
-          "name": "Motiejus Krivas",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 54,
-          "draft_round": 6,
-          "status": "active",
-          "total_points": 48,
-          "round_scores": {
-            "R64": 9,
-            "R32": 11,
-            "S16": 14,
-            "E8": 6,
-            "F4": 8
-          },
-          "ppg_season": 10.5
         },
         {
           "name": "Graham Ike",
@@ -764,8 +764,8 @@
           "ppg_season": 9.7
         }
       ],
-      "avg_per_active": 62.3,
-      "projected_finish": 342,
+      "avg_per_active": 64.0,
+      "projected_finish": 347,
       "current_round_delta": 0
     },
     {
