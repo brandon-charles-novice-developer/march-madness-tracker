@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T00:14:52.746413+00:00",
+  "last_updated": "2026-04-05T00:19:55.295844+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -165,7 +165,7 @@
       "R32": 14,
       "S16": 13,
       "E8": 25,
-      "F4": 15
+      "F4": 20
     },
     "TJ Power": {
       "R64": 6
@@ -536,7 +536,7 @@
   "live_scores": {
     "6534656:Tarris Reed Jr": 15,
     "6534656:David Mirkovic": 6,
-    "6534656:Keaton Wagler": 15,
+    "6534656:Keaton Wagler": 20,
     "6534656:Andrej Stojakovic": 9,
     "6534656:Solo Ball": 13,
     "6534656:Alex Karaban": 9
