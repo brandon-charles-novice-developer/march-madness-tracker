@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T01:35:38.888732+00:00",
+  "last_updated": "2026-04-05T01:40:42.012483+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -320,7 +320,7 @@
     {
       "rank": 3,
       "manager": "Josh Ehrlich",
-      "total_points": 341,
+      "total_points": 344,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
@@ -328,7 +328,7 @@
         "R32": 89,
         "S16": 73,
         "E8": 71,
-        "F4": 12,
+        "F4": 15,
         "Championship": 0
       },
       "players": [
@@ -340,12 +340,13 @@
           "pick": 1,
           "draft_round": 1,
           "status": "active",
-          "total_points": 84,
+          "total_points": 87,
           "round_scores": {
             "R64": 9,
             "R32": 25,
             "S16": 23,
-            "E8": 27
+            "E8": 27,
+            "F4": 3
           },
           "ppg_season": 14.4
         },
@@ -464,8 +465,8 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 70.0,
-      "projected_finish": 341,
+      "avg_per_active": 71.5,
+      "projected_finish": 344,
       "current_round_delta": 0
     },
     {
@@ -1044,7 +1045,7 @@
     {
       "rank": 8,
       "manager": "Mike Haughey",
-      "total_points": 309,
+      "total_points": 314,
       "active_players": 3,
       "total_players": 8,
       "round_totals": {
@@ -1052,7 +1053,7 @@
         "R32": 105,
         "S16": 74,
         "E8": 34,
-        "F4": 2,
+        "F4": 7,
         "Championship": 0
       },
       "players": [
@@ -1090,6 +1091,24 @@
           "ppg_season": 16.3
         },
         {
+          "name": "Elliot Cadeau",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 47,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 47,
+          "round_scores": {
+            "R64": 5,
+            "R32": 12,
+            "S16": 17,
+            "E8": 8,
+            "F4": 5
+          },
+          "ppg_season": 10.2
+        },
+        {
           "name": "Graham Ike",
           "team": "Gonzaga",
           "seed": 3,
@@ -1105,24 +1124,6 @@
           "ppg_season": 19.7
         },
         {
-          "name": "Elliot Cadeau",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 47,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 44,
-          "round_scores": {
-            "R64": 5,
-            "R32": 12,
-            "S16": 17,
-            "E8": 8,
-            "F4": 2
-          },
-          "ppg_season": 10.2
-        },
-        {
           "name": "Motiejus Krivas",
           "team": "Arizona",
           "seed": 1,
@@ -1130,12 +1131,13 @@
           "pick": 54,
           "draft_round": 6,
           "status": "active",
-          "total_points": 40,
+          "total_points": 42,
           "round_scores": {
             "R64": 9,
             "R32": 11,
             "S16": 14,
-            "E8": 6
+            "E8": 6,
+            "F4": 2
           },
           "ppg_season": 10.5
         },
@@ -1186,8 +1188,8 @@
           "ppg_season": 9.7
         }
       ],
-      "avg_per_active": 51.3,
-      "projected_finish": 309,
+      "avg_per_active": 53.0,
+      "projected_finish": 314,
       "current_round_delta": 0
     },
     {
