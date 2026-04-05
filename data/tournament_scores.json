@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T03:11:46.644561+00:00",
+  "last_updated": "2026-04-05T03:16:50.092954+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -125,7 +125,7 @@
       "R32": 15,
       "S16": 7,
       "E8": 12,
-      "F4": 8
+      "F4": 10
     },
     "Yaxel Lendeborg": {
       "R64": 9,
@@ -212,7 +212,7 @@
       "R32": 18,
       "S16": 14,
       "E8": 14,
-      "F4": 7
+      "F4": 9
     },
     "Brayden Burries": {
       "R64": 18,
@@ -545,9 +545,9 @@
     "6534656"
   ],
   "live_scores": {
-    "6534657:Jaden Bradley": 7,
+    "6534657:Jaden Bradley": 9,
     "6534657:Elliot Cadeau": 11,
-    "6534657:Morez Johnson Jr": 8,
+    "6534657:Morez Johnson Jr": 10,
     "6534657:Aday Mara": 23,
     "6534657:Motiejus Krivas": 6,
     "6534657:Yaxel Lendeborg": 11,
