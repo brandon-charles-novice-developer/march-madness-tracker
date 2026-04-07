@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:37:44.195100+00:00",
+  "last_updated": "2026-04-07T01:42:47.100948+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -127,7 +127,7 @@
       "S16": 7,
       "E8": 12,
       "F4": 10,
-      "Championship": 8
+      "Championship": 10
     },
     "Yaxel Lendeborg": {
       "R64": 9,
@@ -135,7 +135,7 @@
       "S16": 23,
       "E8": 27,
       "F4": 11,
-      "Championship": 2
+      "Championship": 4
     },
     "Aday Mara": {
       "R64": 19,
@@ -143,7 +143,7 @@
       "S16": 8,
       "E8": 11,
       "F4": 26,
-      "Championship": 2
+      "Championship": 4
     },
     "Paulius Murauskas": {
       "R64": 4
@@ -555,11 +555,11 @@
   ],
   "live_scores": {
     "6534658:Elliot Cadeau": 7,
-    "6534658:Morez Johnson Jr": 8,
+    "6534658:Morez Johnson Jr": 10,
     "6534658:Tarris Reed Jr": 4,
     "6534658:Solo Ball": 5,
     "6534658:Alex Karaban": 8,
-    "6534658:Aday Mara": 2,
-    "6534658:Yaxel Lendeborg": 2
+    "6534658:Aday Mara": 4,
+    "6534658:Yaxel Lendeborg": 4
   }
 }
