@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T02:58:26.279729+00:00",
+  "last_updated": "2026-04-07T03:03:29.164943+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -476,7 +476,7 @@
     {
       "rank": 4,
       "manager": "Mike Haughey",
-      "total_points": 362,
+      "total_points": 363,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -485,7 +485,7 @@
         "S16": 74,
         "E8": 34,
         "F4": 40,
-        "Championship": 15
+        "Championship": 16
       },
       "players": [
         {
@@ -514,14 +514,14 @@
           "pick": 47,
           "draft_round": 5,
           "status": "active",
-          "total_points": 70,
+          "total_points": 71,
           "round_scores": {
             "R64": 5,
             "R32": 12,
             "S16": 17,
             "E8": 8,
             "F4": 13,
-            "Championship": 15
+            "Championship": 16
           },
           "ppg_season": 10.2
         },
@@ -621,9 +621,9 @@
           "ppg_season": 9.7
         }
       ],
-      "avg_per_active": 70.0,
-      "projected_finish": 362,
-      "current_round_delta": 15
+      "avg_per_active": 71.0,
+      "projected_finish": 363,
+      "current_round_delta": 16
     },
     {
       "rank": 5,
@@ -776,7 +776,7 @@
     {
       "rank": 6,
       "manager": "Nick Reskin",
-      "total_points": 349,
+      "total_points": 351,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -785,7 +785,7 @@
         "S16": 72,
         "E8": 61,
         "F4": 17,
-        "Championship": 9
+        "Championship": 11
       },
       "players": [
         {
@@ -796,14 +796,14 @@
           "pick": 19,
           "draft_round": 2,
           "status": "active",
-          "total_points": 113,
+          "total_points": 115,
           "round_scores": {
             "R64": 31,
             "R32": 10,
             "S16": 20,
             "E8": 26,
             "F4": 17,
-            "Championship": 9
+            "Championship": 11
           },
           "ppg_season": 13.7
         },
@@ -911,9 +911,9 @@
           "ppg_season": 14.2
         }
       ],
-      "avg_per_active": 113.0,
-      "projected_finish": 349,
-      "current_round_delta": 9
+      "avg_per_active": 115.0,
+      "projected_finish": 351,
+      "current_round_delta": 11
     },
     {
       "rank": 7,

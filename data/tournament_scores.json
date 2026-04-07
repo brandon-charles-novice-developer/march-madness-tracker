@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T02:58:26.263237+00:00",
+  "last_updated": "2026-04-07T03:03:29.147249+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -119,7 +119,7 @@
       "S16": 17,
       "E8": 8,
       "F4": 13,
-      "Championship": 15
+      "Championship": 16
     },
     "Morez Johnson Jr": {
       "R64": 21,
@@ -396,7 +396,7 @@
       "S16": 20,
       "E8": 26,
       "F4": 17,
-      "Championship": 9
+      "Championship": 11
     },
     "Patrick Ngongba II": {
       "R32": 4,
@@ -554,9 +554,9 @@
     "6534657"
   ],
   "live_scores": {
-    "6534658:Elliot Cadeau": 15,
+    "6534658:Elliot Cadeau": 16,
     "6534658:Morez Johnson Jr": 12,
-    "6534658:Tarris Reed Jr": 9,
+    "6534658:Tarris Reed Jr": 11,
     "6534658:Solo Ball": 8,
     "6534658:Alex Karaban": 12,
     "6534658:Aday Mara": 8,
