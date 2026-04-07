@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T02:23:08.444488+00:00",
+  "last_updated": "2026-04-07T02:28:10.886169+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -327,7 +327,7 @@
     {
       "rank": 3,
       "manager": "Mark Weiner",
-      "total_points": 364,
+      "total_points": 366,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
@@ -336,7 +336,7 @@
         "S16": 49,
         "E8": 31,
         "F4": 35,
-        "Championship": 14
+        "Championship": 16
       },
       "players": [
         {
@@ -347,14 +347,14 @@
           "pick": 38,
           "draft_round": 4,
           "status": "active",
-          "total_points": 88,
+          "total_points": 90,
           "round_scores": {
             "R64": 22,
             "R32": 27,
             "S16": 17,
             "E8": 5,
             "F4": 9,
-            "Championship": 8
+            "Championship": 10
           },
           "ppg_season": 12.6
         },
@@ -469,12 +469,164 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 87.0,
-      "projected_finish": 364,
-      "current_round_delta": 14
+      "avg_per_active": 88.0,
+      "projected_finish": 366,
+      "current_round_delta": 16
     },
     {
       "rank": 4,
+      "manager": "Mike Haughey",
+      "total_points": 362,
+      "active_players": 1,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 94,
+        "R32": 105,
+        "S16": 74,
+        "E8": 34,
+        "F4": 40,
+        "Championship": 15
+      },
+      "players": [
+        {
+          "name": "Koa Peat",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 14,
+          "draft_round": 2,
+          "status": "eliminated",
+          "total_points": 86,
+          "round_scores": {
+            "R64": 15,
+            "R32": 14,
+            "S16": 21,
+            "E8": 20,
+            "F4": 16
+          },
+          "ppg_season": 13.6
+        },
+        {
+          "name": "Elliot Cadeau",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 47,
+          "draft_round": 5,
+          "status": "active",
+          "total_points": 70,
+          "round_scores": {
+            "R64": 5,
+            "R32": 12,
+            "S16": 17,
+            "E8": 8,
+            "F4": 13,
+            "Championship": 15
+          },
+          "ppg_season": 10.2
+        },
+        {
+          "name": "Motiejus Krivas",
+          "team": "Arizona",
+          "seed": 1,
+          "region": "West",
+          "pick": 54,
+          "draft_round": 6,
+          "status": "eliminated",
+          "total_points": 51,
+          "round_scores": {
+            "R64": 9,
+            "R32": 11,
+            "S16": 14,
+            "E8": 6,
+            "F4": 11
+          },
+          "ppg_season": 10.5
+        },
+        {
+          "name": "Zuby Ejiofor",
+          "team": "St Johns",
+          "seed": 5,
+          "region": "East",
+          "pick": 27,
+          "draft_round": 3,
+          "status": "eliminated",
+          "total_points": 49,
+          "round_scores": {
+            "R64": 14,
+            "R32": 18,
+            "S16": 17
+          },
+          "ppg_season": 16.3
+        },
+        {
+          "name": "Graham Ike",
+          "team": "Gonzaga",
+          "seed": 3,
+          "region": "West",
+          "pick": 7,
+          "draft_round": 1,
+          "status": "eliminated",
+          "total_points": 44,
+          "round_scores": {
+            "R64": 19,
+            "R32": 25
+          },
+          "ppg_season": 19.7
+        },
+        {
+          "name": "Xaivian Lee",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 34,
+          "draft_round": 4,
+          "status": "eliminated",
+          "total_points": 27,
+          "round_scores": {
+            "R64": 10,
+            "R32": 17
+          },
+          "ppg_season": 11.5
+        },
+        {
+          "name": "Oziyah Sellers",
+          "team": "St Johns",
+          "seed": 5,
+          "region": "East",
+          "pick": 67,
+          "draft_round": 7,
+          "status": "eliminated",
+          "total_points": 19,
+          "round_scores": {
+            "R64": 11,
+            "R32": 3,
+            "S16": 5
+          },
+          "ppg_season": 10.7
+        },
+        {
+          "name": "Urban Klavzar",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 74,
+          "draft_round": 8,
+          "status": "eliminated",
+          "total_points": 16,
+          "round_scores": {
+            "R64": 11,
+            "R32": 5
+          },
+          "ppg_season": 9.7
+        }
+      ],
+      "avg_per_active": 70.0,
+      "projected_finish": 362,
+      "current_round_delta": 15
+    },
+    {
+      "rank": 5,
       "manager": "Jordan Mackler",
       "total_points": 360,
       "active_players": 1,
@@ -620,158 +772,6 @@
       "avg_per_active": 47.0,
       "projected_finish": 360,
       "current_round_delta": 0
-    },
-    {
-      "rank": 5,
-      "manager": "Mike Haughey",
-      "total_points": 357,
-      "active_players": 1,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 94,
-        "R32": 105,
-        "S16": 74,
-        "E8": 34,
-        "F4": 40,
-        "Championship": 10
-      },
-      "players": [
-        {
-          "name": "Koa Peat",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 14,
-          "draft_round": 2,
-          "status": "eliminated",
-          "total_points": 86,
-          "round_scores": {
-            "R64": 15,
-            "R32": 14,
-            "S16": 21,
-            "E8": 20,
-            "F4": 16
-          },
-          "ppg_season": 13.6
-        },
-        {
-          "name": "Elliot Cadeau",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 47,
-          "draft_round": 5,
-          "status": "active",
-          "total_points": 65,
-          "round_scores": {
-            "R64": 5,
-            "R32": 12,
-            "S16": 17,
-            "E8": 8,
-            "F4": 13,
-            "Championship": 10
-          },
-          "ppg_season": 10.2
-        },
-        {
-          "name": "Motiejus Krivas",
-          "team": "Arizona",
-          "seed": 1,
-          "region": "West",
-          "pick": 54,
-          "draft_round": 6,
-          "status": "eliminated",
-          "total_points": 51,
-          "round_scores": {
-            "R64": 9,
-            "R32": 11,
-            "S16": 14,
-            "E8": 6,
-            "F4": 11
-          },
-          "ppg_season": 10.5
-        },
-        {
-          "name": "Zuby Ejiofor",
-          "team": "St Johns",
-          "seed": 5,
-          "region": "East",
-          "pick": 27,
-          "draft_round": 3,
-          "status": "eliminated",
-          "total_points": 49,
-          "round_scores": {
-            "R64": 14,
-            "R32": 18,
-            "S16": 17
-          },
-          "ppg_season": 16.3
-        },
-        {
-          "name": "Graham Ike",
-          "team": "Gonzaga",
-          "seed": 3,
-          "region": "West",
-          "pick": 7,
-          "draft_round": 1,
-          "status": "eliminated",
-          "total_points": 44,
-          "round_scores": {
-            "R64": 19,
-            "R32": 25
-          },
-          "ppg_season": 19.7
-        },
-        {
-          "name": "Xaivian Lee",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 34,
-          "draft_round": 4,
-          "status": "eliminated",
-          "total_points": 27,
-          "round_scores": {
-            "R64": 10,
-            "R32": 17
-          },
-          "ppg_season": 11.5
-        },
-        {
-          "name": "Oziyah Sellers",
-          "team": "St Johns",
-          "seed": 5,
-          "region": "East",
-          "pick": 67,
-          "draft_round": 7,
-          "status": "eliminated",
-          "total_points": 19,
-          "round_scores": {
-            "R64": 11,
-            "R32": 3,
-            "S16": 5
-          },
-          "ppg_season": 10.7
-        },
-        {
-          "name": "Urban Klavzar",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 74,
-          "draft_round": 8,
-          "status": "eliminated",
-          "total_points": 16,
-          "round_scores": {
-            "R64": 11,
-            "R32": 5
-          },
-          "ppg_season": 9.7
-        }
-      ],
-      "avg_per_active": 65.0,
-      "projected_finish": 357,
-      "current_round_delta": 10
     },
     {
       "rank": 6,

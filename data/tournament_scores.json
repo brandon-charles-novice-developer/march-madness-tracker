@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T02:23:08.426513+00:00",
+  "last_updated": "2026-04-07T02:28:10.868877+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -119,7 +119,7 @@
       "S16": 17,
       "E8": 8,
       "F4": 13,
-      "Championship": 10
+      "Championship": 15
     },
     "Morez Johnson Jr": {
       "R64": 21,
@@ -388,7 +388,7 @@
       "S16": 17,
       "E8": 5,
       "F4": 9,
-      "Championship": 8
+      "Championship": 10
     },
     "Tarris Reed Jr": {
       "R64": 31,
@@ -554,11 +554,11 @@
     "6534657"
   ],
   "live_scores": {
-    "6534658:Elliot Cadeau": 10,
+    "6534658:Elliot Cadeau": 15,
     "6534658:Morez Johnson Jr": 10,
     "6534658:Tarris Reed Jr": 7,
     "6534658:Solo Ball": 8,
-    "6534658:Alex Karaban": 8,
+    "6534658:Alex Karaban": 10,
     "6534658:Aday Mara": 6,
     "6534658:Yaxel Lendeborg": 7
   }
