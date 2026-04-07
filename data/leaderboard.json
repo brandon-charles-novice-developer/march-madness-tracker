@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:02:24.855974+00:00",
+  "last_updated": "2026-04-07T01:07:27.494122+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -474,7 +474,7 @@
     {
       "rank": 4,
       "manager": "Mike Haughey",
-      "total_points": 352,
+      "total_points": 354,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -483,7 +483,7 @@
         "S16": 74,
         "E8": 34,
         "F4": 40,
-        "Championship": 5
+        "Championship": 7
       },
       "players": [
         {
@@ -512,14 +512,14 @@
           "pick": 47,
           "draft_round": 5,
           "status": "active",
-          "total_points": 60,
+          "total_points": 62,
           "round_scores": {
             "R64": 5,
             "R32": 12,
             "S16": 17,
             "E8": 8,
             "F4": 13,
-            "Championship": 5
+            "Championship": 7
           },
           "ppg_season": 10.2
         },
@@ -619,9 +619,9 @@
           "ppg_season": 9.7
         }
       ],
-      "avg_per_active": 60.0,
-      "projected_finish": 352,
-      "current_round_delta": 5
+      "avg_per_active": 62.0,
+      "projected_finish": 354,
+      "current_round_delta": 7
     },
     {
       "rank": 5,
@@ -1200,7 +1200,7 @@
     {
       "rank": 9,
       "manager": "Schaf Chulay",
-      "total_points": 308,
+      "total_points": 311,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -1209,7 +1209,7 @@
         "S16": 59,
         "E8": 24,
         "F4": 26,
-        "Championship": 2
+        "Championship": 5
       },
       "players": [
         {
@@ -1229,6 +1229,25 @@
             "F4": 13
           },
           "ppg_season": 15.9
+        },
+        {
+          "name": "Solo Ball",
+          "team": "UConn",
+          "seed": 2,
+          "region": "East",
+          "pick": 17,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 49,
+          "round_scores": {
+            "R64": 9,
+            "R32": 0,
+            "S16": 12,
+            "E8": 10,
+            "F4": 13,
+            "Championship": 5
+          },
+          "ppg_season": 13.5
         },
         {
           "name": "Darryn Peterson",
@@ -1260,25 +1279,6 @@
             "S16": 18
           },
           "ppg_season": 13.3
-        },
-        {
-          "name": "Solo Ball",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 17,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 46,
-          "round_scores": {
-            "R64": 9,
-            "R32": 0,
-            "S16": 12,
-            "E8": 10,
-            "F4": 13,
-            "Championship": 2
-          },
-          "ppg_season": 13.5
         },
         {
           "name": "Milos Uzan",
@@ -1341,9 +1341,9 @@
           "ppg_season": 13.3
         }
       ],
-      "avg_per_active": 46.0,
-      "projected_finish": 308,
-      "current_round_delta": 2
+      "avg_per_active": 49.0,
+      "projected_finish": 311,
+      "current_round_delta": 5
     },
     {
       "rank": 10,

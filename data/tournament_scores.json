@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:02:24.829108+00:00",
+  "last_updated": "2026-04-07T01:07:27.478460+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -119,7 +119,7 @@
       "S16": 17,
       "E8": 8,
       "F4": 13,
-      "Championship": 5
+      "Championship": 7
     },
     "Morez Johnson Jr": {
       "R64": 21,
@@ -378,7 +378,7 @@
       "S16": 12,
       "E8": 10,
       "F4": 13,
-      "Championship": 2
+      "Championship": 5
     },
     "Alex Karaban": {
       "R64": 22,
@@ -551,9 +551,9 @@
     "6534657"
   ],
   "live_scores": {
-    "6534658:Elliot Cadeau": 5,
+    "6534658:Elliot Cadeau": 7,
     "6534658:Morez Johnson Jr": 4,
     "6534658:Tarris Reed Jr": 2,
-    "6534658:Solo Ball": 2
+    "6534658:Solo Ball": 5
   }
 }
