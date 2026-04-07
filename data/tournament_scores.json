@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:17:33.130514+00:00",
+  "last_updated": "2026-04-07T01:22:35.669552+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -141,7 +141,8 @@
       "R32": 16,
       "S16": 8,
       "E8": 11,
-      "F4": 26
+      "F4": 26,
+      "Championship": 2
     },
     "Paulius Murauskas": {
       "R64": 4
@@ -556,6 +557,7 @@
     "6534658:Morez Johnson Jr": 8,
     "6534658:Tarris Reed Jr": 2,
     "6534658:Solo Ball": 5,
-    "6534658:Alex Karaban": 6
+    "6534658:Alex Karaban": 6,
+    "6534658:Aday Mara": 2
   }
 }
