@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T03:13:31.709923+00:00",
+  "last_updated": "2026-04-07T03:18:34.394234+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -380,7 +380,7 @@
       "S16": 12,
       "E8": 10,
       "F4": 13,
-      "Championship": 10
+      "Championship": 11
     },
     "Alex Karaban": {
       "R64": 22,
@@ -557,7 +557,7 @@
     "6534658:Elliot Cadeau": 19,
     "6534658:Morez Johnson Jr": 12,
     "6534658:Tarris Reed Jr": 13,
-    "6534658:Solo Ball": 10,
+    "6534658:Solo Ball": 11,
     "6534658:Alex Karaban": 17,
     "6534658:Aday Mara": 8,
     "6534658:Yaxel Lendeborg": 13
