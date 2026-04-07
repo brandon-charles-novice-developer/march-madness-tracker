@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T00:52:19.146992+00:00",
+  "last_updated": "2026-04-07T00:57:21.930254+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -118,14 +118,16 @@
       "R32": 12,
       "S16": 17,
       "E8": 8,
-      "F4": 13
+      "F4": 13,
+      "Championship": 5
     },
     "Morez Johnson Jr": {
       "R64": 21,
       "R32": 15,
       "S16": 7,
       "E8": 12,
-      "F4": 10
+      "F4": 10,
+      "Championship": 2
     },
     "Yaxel Lendeborg": {
       "R64": 9,
@@ -389,7 +391,8 @@
       "R32": 10,
       "S16": 20,
       "E8": 26,
-      "F4": 17
+      "F4": 17,
+      "Championship": 2
     },
     "Patrick Ngongba II": {
       "R32": 4,
@@ -546,5 +549,9 @@
     "6534656",
     "6534657"
   ],
-  "live_scores": {}
+  "live_scores": {
+    "6534658:Elliot Cadeau": 5,
+    "6534658:Morez Johnson Jr": 2,
+    "6534658:Tarris Reed Jr": 2
+  }
 }
