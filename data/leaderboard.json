@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:07:27.494122+00:00",
+  "last_updated": "2026-04-07T01:12:30.335959+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -626,7 +626,7 @@
     {
       "rank": 5,
       "manager": "Mark Weiner",
-      "total_points": 350,
+      "total_points": 353,
       "active_players": 2,
       "total_players": 8,
       "round_totals": {
@@ -635,9 +635,28 @@
         "S16": 49,
         "E8": 31,
         "F4": 35,
-        "Championship": 0
+        "Championship": 3
       },
       "players": [
+        {
+          "name": "Alex Karaban",
+          "team": "UConn",
+          "seed": 2,
+          "region": "East",
+          "pick": 38,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 83,
+          "round_scores": {
+            "R64": 22,
+            "R32": 27,
+            "S16": 17,
+            "E8": 5,
+            "F4": 9,
+            "Championship": 3
+          },
+          "ppg_season": 12.6
+        },
         {
           "name": "Aday Mara",
           "team": "Michigan",
@@ -655,24 +674,6 @@
             "F4": 26
           },
           "ppg_season": 11.6
-        },
-        {
-          "name": "Alex Karaban",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 38,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 80,
-          "round_scores": {
-            "R64": 22,
-            "R32": 27,
-            "S16": 17,
-            "E8": 5,
-            "F4": 9
-          },
-          "ppg_season": 12.6
         },
         {
           "name": "Meleek Thomas",
@@ -766,9 +767,9 @@
           "ppg_season": 18.8
         }
       ],
-      "avg_per_active": 80.0,
-      "projected_finish": 350,
-      "current_round_delta": 0
+      "avg_per_active": 81.5,
+      "projected_finish": 353,
+      "current_round_delta": 3
     },
     {
       "rank": 6,

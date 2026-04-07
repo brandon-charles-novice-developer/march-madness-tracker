@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:07:27.478460+00:00",
+  "last_updated": "2026-04-07T01:12:30.315558+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -385,7 +385,8 @@
       "R32": 27,
       "S16": 17,
       "E8": 5,
-      "F4": 9
+      "F4": 9,
+      "Championship": 3
     },
     "Tarris Reed Jr": {
       "R64": 31,
@@ -554,6 +555,7 @@
     "6534658:Elliot Cadeau": 7,
     "6534658:Morez Johnson Jr": 4,
     "6534658:Tarris Reed Jr": 2,
-    "6534658:Solo Ball": 5
+    "6534658:Solo Ball": 5,
+    "6534658:Alex Karaban": 3
   }
 }
