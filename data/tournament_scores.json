@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T02:18:05.855942+00:00",
+  "last_updated": "2026-04-07T02:23:08.426513+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -135,7 +135,7 @@
       "S16": 23,
       "E8": 27,
       "F4": 11,
-      "Championship": 4
+      "Championship": 7
     },
     "Aday Mara": {
       "R64": 19,
@@ -560,6 +560,6 @@
     "6534658:Solo Ball": 8,
     "6534658:Alex Karaban": 8,
     "6534658:Aday Mara": 6,
-    "6534658:Yaxel Lendeborg": 4
+    "6534658:Yaxel Lendeborg": 7
   }
 }
