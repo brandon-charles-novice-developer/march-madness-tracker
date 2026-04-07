@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:22:35.687017+00:00",
+  "last_updated": "2026-04-07T01:27:38.613848+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -174,7 +174,7 @@
     {
       "rank": 2,
       "manager": "Josh Ehrlich",
-      "total_points": 362,
+      "total_points": 364,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -183,7 +183,7 @@
         "S16": 73,
         "E8": 71,
         "F4": 33,
-        "Championship": 0
+        "Championship": 2
       },
       "players": [
         {
@@ -194,13 +194,14 @@
           "pick": 1,
           "draft_round": 1,
           "status": "active",
-          "total_points": 95,
+          "total_points": 97,
           "round_scores": {
             "R64": 9,
             "R32": 25,
             "S16": 23,
             "E8": 27,
-            "F4": 11
+            "F4": 11,
+            "Championship": 2
           },
           "ppg_season": 14.4
         },
@@ -319,12 +320,161 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 95.0,
-      "projected_finish": 362,
-      "current_round_delta": 0
+      "avg_per_active": 97.0,
+      "projected_finish": 364,
+      "current_round_delta": 2
     },
     {
       "rank": 3,
+      "manager": "Mark Weiner",
+      "total_points": 360,
+      "active_players": 2,
+      "total_players": 8,
+      "round_totals": {
+        "R64": 129,
+        "R32": 106,
+        "S16": 49,
+        "E8": 31,
+        "F4": 35,
+        "Championship": 10
+      },
+      "players": [
+        {
+          "name": "Alex Karaban",
+          "team": "UConn",
+          "seed": 2,
+          "region": "East",
+          "pick": 38,
+          "draft_round": 4,
+          "status": "active",
+          "total_points": 88,
+          "round_scores": {
+            "R64": 22,
+            "R32": 27,
+            "S16": 17,
+            "E8": 5,
+            "F4": 9,
+            "Championship": 8
+          },
+          "ppg_season": 12.6
+        },
+        {
+          "name": "Aday Mara",
+          "team": "Michigan",
+          "seed": 1,
+          "region": "Midwest",
+          "pick": 18,
+          "draft_round": 2,
+          "status": "active",
+          "total_points": 82,
+          "round_scores": {
+            "R64": 19,
+            "R32": 16,
+            "S16": 8,
+            "E8": 11,
+            "F4": 26,
+            "Championship": 2
+          },
+          "ppg_season": 11.6
+        },
+        {
+          "name": "Meleek Thomas",
+          "team": "Arkansas",
+          "seed": 4,
+          "region": "West",
+          "pick": 43,
+          "draft_round": 5,
+          "status": "eliminated",
+          "total_points": 57,
+          "round_scores": {
+            "R64": 21,
+            "R32": 19,
+            "S16": 17
+          },
+          "ppg_season": 15.6
+        },
+        {
+          "name": "Cayden Boozer",
+          "team": "Duke",
+          "seed": 1,
+          "region": "East",
+          "pick": 23,
+          "draft_round": 3,
+          "status": "eliminated",
+          "total_points": 50,
+          "round_scores": {
+            "R64": 19,
+            "R32": 9,
+            "S16": 7,
+            "E8": 15
+          },
+          "ppg_season": 7.1
+        },
+        {
+          "name": "Malik Reneau",
+          "team": "Miami FL",
+          "seed": 7,
+          "region": "West",
+          "pick": 58,
+          "draft_round": 6,
+          "status": "eliminated",
+          "total_points": 40,
+          "round_scores": {
+            "R64": 24,
+            "R32": 16
+          },
+          "ppg_season": 18.8
+        },
+        {
+          "name": "Thomas Haugh",
+          "team": "Florida",
+          "seed": 1,
+          "region": "South",
+          "pick": 3,
+          "draft_round": 1,
+          "status": "eliminated",
+          "total_points": 33,
+          "round_scores": {
+            "R64": 14,
+            "R32": 19
+          },
+          "ppg_season": 17.1
+        },
+        {
+          "name": "TJ Power",
+          "team": "Penn",
+          "seed": 14,
+          "region": "South",
+          "pick": 78,
+          "draft_round": 8,
+          "status": "eliminated",
+          "total_points": 6,
+          "round_scores": {
+            "R64": 6
+          },
+          "ppg_season": 15.8
+        },
+        {
+          "name": "Paulius Murauskas",
+          "team": "Saint Mary's",
+          "seed": 7,
+          "region": "South",
+          "pick": 63,
+          "draft_round": 7,
+          "status": "eliminated",
+          "total_points": 4,
+          "round_scores": {
+            "R64": 4
+          },
+          "ppg_season": 18.8
+        }
+      ],
+      "avg_per_active": 85.0,
+      "projected_finish": 360,
+      "current_round_delta": 10
+    },
+    {
+      "rank": 4,
       "manager": "Jordan Mackler",
       "total_points": 360,
       "active_players": 1,
@@ -470,155 +620,6 @@
       "avg_per_active": 47.0,
       "projected_finish": 360,
       "current_round_delta": 0
-    },
-    {
-      "rank": 4,
-      "manager": "Mark Weiner",
-      "total_points": 358,
-      "active_players": 2,
-      "total_players": 8,
-      "round_totals": {
-        "R64": 129,
-        "R32": 106,
-        "S16": 49,
-        "E8": 31,
-        "F4": 35,
-        "Championship": 8
-      },
-      "players": [
-        {
-          "name": "Alex Karaban",
-          "team": "UConn",
-          "seed": 2,
-          "region": "East",
-          "pick": 38,
-          "draft_round": 4,
-          "status": "active",
-          "total_points": 86,
-          "round_scores": {
-            "R64": 22,
-            "R32": 27,
-            "S16": 17,
-            "E8": 5,
-            "F4": 9,
-            "Championship": 6
-          },
-          "ppg_season": 12.6
-        },
-        {
-          "name": "Aday Mara",
-          "team": "Michigan",
-          "seed": 1,
-          "region": "Midwest",
-          "pick": 18,
-          "draft_round": 2,
-          "status": "active",
-          "total_points": 82,
-          "round_scores": {
-            "R64": 19,
-            "R32": 16,
-            "S16": 8,
-            "E8": 11,
-            "F4": 26,
-            "Championship": 2
-          },
-          "ppg_season": 11.6
-        },
-        {
-          "name": "Meleek Thomas",
-          "team": "Arkansas",
-          "seed": 4,
-          "region": "West",
-          "pick": 43,
-          "draft_round": 5,
-          "status": "eliminated",
-          "total_points": 57,
-          "round_scores": {
-            "R64": 21,
-            "R32": 19,
-            "S16": 17
-          },
-          "ppg_season": 15.6
-        },
-        {
-          "name": "Cayden Boozer",
-          "team": "Duke",
-          "seed": 1,
-          "region": "East",
-          "pick": 23,
-          "draft_round": 3,
-          "status": "eliminated",
-          "total_points": 50,
-          "round_scores": {
-            "R64": 19,
-            "R32": 9,
-            "S16": 7,
-            "E8": 15
-          },
-          "ppg_season": 7.1
-        },
-        {
-          "name": "Malik Reneau",
-          "team": "Miami FL",
-          "seed": 7,
-          "region": "West",
-          "pick": 58,
-          "draft_round": 6,
-          "status": "eliminated",
-          "total_points": 40,
-          "round_scores": {
-            "R64": 24,
-            "R32": 16
-          },
-          "ppg_season": 18.8
-        },
-        {
-          "name": "Thomas Haugh",
-          "team": "Florida",
-          "seed": 1,
-          "region": "South",
-          "pick": 3,
-          "draft_round": 1,
-          "status": "eliminated",
-          "total_points": 33,
-          "round_scores": {
-            "R64": 14,
-            "R32": 19
-          },
-          "ppg_season": 17.1
-        },
-        {
-          "name": "TJ Power",
-          "team": "Penn",
-          "seed": 14,
-          "region": "South",
-          "pick": 78,
-          "draft_round": 8,
-          "status": "eliminated",
-          "total_points": 6,
-          "round_scores": {
-            "R64": 6
-          },
-          "ppg_season": 15.8
-        },
-        {
-          "name": "Paulius Murauskas",
-          "team": "Saint Mary's",
-          "seed": 7,
-          "region": "South",
-          "pick": 63,
-          "draft_round": 7,
-          "status": "eliminated",
-          "total_points": 4,
-          "round_scores": {
-            "R64": 4
-          },
-          "ppg_season": 18.8
-        }
-      ],
-      "avg_per_active": 84.0,
-      "projected_finish": 358,
-      "current_round_delta": 8
     },
     {
       "rank": 5,
