@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T00:57:21.930254+00:00",
+  "last_updated": "2026-04-07T01:02:24.829108+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -127,7 +127,7 @@
       "S16": 7,
       "E8": 12,
       "F4": 10,
-      "Championship": 2
+      "Championship": 4
     },
     "Yaxel Lendeborg": {
       "R64": 9,
@@ -377,7 +377,8 @@
       "R32": 0,
       "S16": 12,
       "E8": 10,
-      "F4": 13
+      "F4": 13,
+      "Championship": 2
     },
     "Alex Karaban": {
       "R64": 22,
@@ -551,7 +552,8 @@
   ],
   "live_scores": {
     "6534658:Elliot Cadeau": 5,
-    "6534658:Morez Johnson Jr": 2,
-    "6534658:Tarris Reed Jr": 2
+    "6534658:Morez Johnson Jr": 4,
+    "6534658:Tarris Reed Jr": 2,
+    "6534658:Solo Ball": 2
   }
 }
