@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T03:18:34.394234+00:00",
+  "last_updated": "2026-04-07T03:23:37.574286+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -475,6 +475,7 @@
     "Troy",
     "UCF",
     "UCLA",
+    "UConn",
     "UMBC",
     "UNI",
     "Utah St.",
@@ -551,15 +552,8 @@
     "6534653",
     "6534654",
     "6534656",
-    "6534657"
+    "6534657",
+    "6534658"
   ],
-  "live_scores": {
-    "6534658:Elliot Cadeau": 19,
-    "6534658:Morez Johnson Jr": 12,
-    "6534658:Tarris Reed Jr": 13,
-    "6534658:Solo Ball": 11,
-    "6534658:Alex Karaban": 17,
-    "6534658:Aday Mara": 8,
-    "6534658:Yaxel Lendeborg": 13
-  }
+  "live_scores": {}
 }
