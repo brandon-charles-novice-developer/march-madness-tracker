@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T02:13:03.365703+00:00",
+  "last_updated": "2026-04-07T02:18:05.874545+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -624,7 +624,7 @@
     {
       "rank": 5,
       "manager": "Mike Haughey",
-      "total_points": 354,
+      "total_points": 357,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -633,7 +633,7 @@
         "S16": 74,
         "E8": 34,
         "F4": 40,
-        "Championship": 7
+        "Championship": 10
       },
       "players": [
         {
@@ -662,14 +662,14 @@
           "pick": 47,
           "draft_round": 5,
           "status": "active",
-          "total_points": 62,
+          "total_points": 65,
           "round_scores": {
             "R64": 5,
             "R32": 12,
             "S16": 17,
             "E8": 8,
             "F4": 13,
-            "Championship": 7
+            "Championship": 10
           },
           "ppg_season": 10.2
         },
@@ -769,9 +769,9 @@
           "ppg_season": 9.7
         }
       ],
-      "avg_per_active": 62.0,
-      "projected_finish": 354,
-      "current_round_delta": 7
+      "avg_per_active": 65.0,
+      "projected_finish": 357,
+      "current_round_delta": 10
     },
     {
       "rank": 6,
