@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T02:53:23.821655+00:00",
+  "last_updated": "2026-04-07T02:58:26.279729+00:00",
   "current_round": "Championship",
   "tournament_status": "complete",
   "payouts": {
@@ -174,7 +174,7 @@
     {
       "rank": 2,
       "manager": "Josh Ehrlich",
-      "total_points": 371,
+      "total_points": 375,
       "active_players": 1,
       "total_players": 8,
       "round_totals": {
@@ -183,7 +183,7 @@
         "S16": 73,
         "E8": 71,
         "F4": 33,
-        "Championship": 9
+        "Championship": 13
       },
       "players": [
         {
@@ -194,14 +194,14 @@
           "pick": 1,
           "draft_round": 1,
           "status": "active",
-          "total_points": 104,
+          "total_points": 108,
           "round_scores": {
             "R64": 9,
             "R32": 25,
             "S16": 23,
             "E8": 27,
             "F4": 11,
-            "Championship": 9
+            "Championship": 13
           },
           "ppg_season": 14.4
         },
@@ -320,9 +320,9 @@
           "ppg_season": 17.6
         }
       ],
-      "avg_per_active": 104.0,
-      "projected_finish": 371,
-      "current_round_delta": 9
+      "avg_per_active": 108.0,
+      "projected_finish": 375,
+      "current_round_delta": 13
     },
     {
       "rank": 3,
