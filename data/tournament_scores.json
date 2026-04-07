@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:42:47.100948+00:00",
+  "last_updated": "2026-04-07T01:47:49.778692+00:00",
   "round_dates": {
     "R64": [
       "2026-03-19",
@@ -143,7 +143,7 @@
       "S16": 8,
       "E8": 11,
       "F4": 26,
-      "Championship": 4
+      "Championship": 6
     },
     "Paulius Murauskas": {
       "R64": 4
@@ -380,7 +380,7 @@
       "S16": 12,
       "E8": 10,
       "F4": 13,
-      "Championship": 5
+      "Championship": 8
     },
     "Alex Karaban": {
       "R64": 22,
@@ -557,9 +557,9 @@
     "6534658:Elliot Cadeau": 7,
     "6534658:Morez Johnson Jr": 10,
     "6534658:Tarris Reed Jr": 4,
-    "6534658:Solo Ball": 5,
+    "6534658:Solo Ball": 8,
     "6534658:Alex Karaban": 8,
-    "6534658:Aday Mara": 4,
+    "6534658:Aday Mara": 6,
     "6534658:Yaxel Lendeborg": 4
   }
 }
